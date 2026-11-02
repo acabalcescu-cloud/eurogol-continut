@@ -21,6 +21,7 @@ bash mac/instaleaza.sh
 
 - `npm install` și `npx playwright install chromium` – pentru coperți.
 - `pip3 install numpy pillow opencv-python-headless rembg` – pentru portrete (`unelte/fete.py`); dacă rulează deja la povestilestiintei, sunt instalate.
+- Opțional, cheile gratuite pentru fotografii (Unsplash, Pexels, Pixabay), în `~/.config/eurogol/chei.env`, câte una pe rând: `UNSPLASH_ACCESS_KEY=…`, `PEXELS_API_KEY=…`, `PIXABAY_API_KEY=…`. Fără ele, `unelte/fotografii.py` caută doar în Openverse (Flickr + Wikimedia Commons). Fișierul nu intră în depozit.
 - `python3 mac/verifica.py --doar-lista` – arată candidații și scorurile, fără să pornească Claude.
 - `bash mac/instaleaza.sh` – pornește verificarea orară (la minutul 41; povestilestiintei rulează la 17 și 47, deci nu se suprapun).
 

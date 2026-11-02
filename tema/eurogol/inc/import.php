@@ -245,6 +245,14 @@ function eg_import_persoane( $html, $art, $post_id ) {
 		}
 		$html = $poz ? substr( $html, 0, $poz ) . "\n" . $figuri . "\n" . substr( $html, $poz ) : $figuri . $html;
 	}
+	if ( ! empty( $art['fundal'] ) ) {
+		$fo = eg_import_json( 'unelte/fotografii/fotografii.json' );
+		foreach ( is_wp_error( $fo ) ? array() : $fo as $y ) {
+			if ( ( $y['slug'] ?? '' ) === $art['fundal'] && ! empty( $y['credit'] ) ) {
+				$html .= "\n" . '<p class="eg-credit-foto">Fotografie pe copertă: ' . esc_html( $y['credit'] ) . ( ! empty( $y['sursa'] ) ? ' (<a href="' . esc_url( $y['sursa'] ) . '" rel="nofollow">sursa</a>)' : '' ) . '.</p>';
+			}
+		}
+	}
 	$f = $fete[ $art['fata'] ?? '' ] ?? null;
 	if ( $f && ! empty( $f['credit'] ) ) {
 		$html .= "\n" . '<p class="eg-credit-foto">Portret pe copertă: ' . esc_html( $f['nume'] ) . ', prelucrare Eurogol după o fotografie de ' . esc_html( $f['credit'] ) . '.</p>';
@@ -364,7 +372,7 @@ function eg_import_articol( $art, $cale ) {
 		return $id;
 	}
 
-	if ( ! empty( $art['persoane'] ) || ! empty( $art['fata'] ) ) {
+	if ( ! empty( $art['persoane'] ) || ! empty( $art['fata'] ) || ! empty( $art['fundal'] ) ) {
 		wp_update_post( wp_slash( array( 'ID' => $id, 'post_content' => eg_import_persoane( get_post_field( 'post_content', $id ), $art, $id ) ) ) );
 	}
 

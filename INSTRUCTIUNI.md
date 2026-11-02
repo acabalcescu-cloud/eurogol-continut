@@ -38,7 +38,7 @@ Toate urmează `STIL.md` (vocea) și `ACOPERIRE.md` (ce intră și în ce ordine
 ```json
 { "titlu": "…", "data": "AAAA-LL-ZZ hh:mm",
   "rubrica": "Champions League", "subtitlu": "Feyenoord – Inter",
-  "competitie": "champions-league", "cluburi": [2959, 2697], "scor": [0, 2], "fata": "cristi-chivu" }
+  "competitie": "champions-league", "cluburi": [2959, 2697], "scor": [0, 2], "fata": "cristi-chivu", "fundal": "stadion-noaptea" }
 ```
 - `rubrica` – textul de pe bandă și culoarea copertei: competiția („SuperLiga”, „Champions League”) sau departamentul („Transferuri”, „Declarații”, „Povești”).
 - `subtitlu` – un rând scurt, cel mult 25 de caractere: etapa, omul, locul și anul. Nu apare când e scor.
@@ -46,12 +46,16 @@ Toate urmează `STIL.md` (vocea) și `ACOPERIRE.md` (ce intră și în ce ordine
 - `cluburi` – ID-urile Sofascore ale cluburilor (1 sau 2), din `unelte/cluburi.tsv` (`python3 unelte/sigla.py id "FCSB"`). Club nou: `python3 unelte/sigla.py cauta "Nume"`, apoi `python3 unelte/sigla.py adauga <id> "Nume" "alias1,alias2"` și verifică sigla. La cronici: gazdele primele.
 - `scor` – doar la cronici și la știrile despre un rezultat.
 - `fata` – portretul omului din centrul știrii (vezi mai jos). Când e portret, pune cel mult un club.
+- `fundal` – o fotografie de atmosferă (stadion, tribună, gazon, minge) din `unelte/fotografii/fotografii.json`. Refolosește fundalurile existente; adaugă unul nou doar când e potrivit subiectului (stadionul meciului, de exemplu).
 - Apoi `node unelte/coperta-stire.js cronici/<id>.coperta.json cronici/<id>.jpg`. **Uită-te la imagine** înainte de commit.
 
-**Portretele și fotografiile din articol.** Doar fotografii cu licență liberă (Wikimedia Commons: CC BY, CC BY-SA, domeniu public) sau primite cu acord. Nu folosi niciodată fotografii de agenție sau de pe site-urile de știri.
-- Portret nou: `python3 unelte/fete.py wiki "Nume Prenume" "Titlul paginii Wikipedia" [ro|en] ["alias"]`. Scriptul refuză licențele nepotrivite. Rezultatul: `unelte/fete/<slug>.png` plus intrarea din `unelte/fete/fete.json` (credit, sursă, fotografia originală).
+**Portretele și fotografiile.** Doar fotografii cu licență liberă sau primite cu acord. Nu folosi niciodată fotografii de agenție sau de pe site-urile de știri.
+- Căutare în toate sursele (Openverse = Flickr Creative Commons + Wikimedia Commons; Unsplash, Pexels, Pixabay dacă există chei): `python3 unelte/fotografii.py cauta "Cristian Chivu"`. Rezultatele sunt numerotate, cu licența, autorul și adresa.
+- Portret dintr-un rezultat: `python3 unelte/fotografii.py portret <nr> "Nume Prenume" ["alias"]`. Sau direct din Wikipedia: `python3 unelte/fete.py wiki "Nume Prenume" "Titlul paginii" [ro|en] ["alias"]`. Rezultatul: `unelte/fete/<slug>.png` plus intrarea din `unelte/fete/fete.json` (credit, sursă, fotografia originală).
+- Fundal de copertă: `python3 unelte/fotografii.py cauta "football stadium night" --surse unsplash,pexels,pixabay,openverse`, apoi `python3 unelte/fotografii.py fundal <nr> "nume-scurt"` → `unelte/fotografii/`.
+- Verifică fotografia: omul trebuie să fie chiar cel căutat (pe Unsplash, Pexels și Pixabay aproape niciodată nu e), iar fundalul să nu arate sigle de sponsori sau oameni prezentați drept altcineva.
 - Verifică `unelte/fete/fete.json` înainte: dacă omul are deja portret, folosește-l.
-- În articol: `"fata": "<slug>"` (portretul de pe copertă) și, opțional, `"persoane": ["<slug>", …]` (cel mult 2). Site-ul pune singur fotografia în articol, după al doilea paragraf, cu autorul și licența, plus creditul portretului la final. Nu scrie tu creditele.
+- În articol: `"fata": "<slug>"` (portretul de pe copertă), opțional `"persoane": ["<slug>", …]` (cel mult 2) și `"fundal": "<slug>"` (aceleași valori ca în coperta.json). Site-ul pune singur fotografia în articol, după al doilea paragraf, cu autorul și licența, plus creditele copertei la final. Nu scrie tu creditele.
 - Dacă pagina Wikipedia nu are o fotografie liberă, coperta rămâne fără portret: sigle și emblemă.
 
 **Semnătura:** nu pune câmpul `autor`. Site-ul alege singur redactorul după subiect (`tema/eurogol/inc/redactori.php`): SuperLiga – Andrei Toma, Naționala și stranierii – Răzvan Petrescu, Cupele europene – Mihai Georgescu, Marile campionate – Vlad Ene, Transferuri – Cătălin Dumitru, America de Sud – Raul Neagu, Povești – Sorin Avram, Declarații și opinii – Cristian Manolache. Câmpul `autor: { login, nume }` se folosește doar pentru texte trimise de oameni reali, care semnează cu numele lor.

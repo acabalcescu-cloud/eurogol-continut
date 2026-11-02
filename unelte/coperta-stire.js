@@ -10,6 +10,7 @@
 //   cluburi:    [sofa_id, sofa_id] din unelte/cluburi.tsv – siglele cluburilor (1 sau 2, opțional),
 //   scor:       [gazde, oaspeti] – scorul dintre cele două sigle (opțional),
 //   fata:       slug din unelte/fete/fete.json – portretul din stânga (opțional),
+//   fundal:     slug din unelte/fotografii/fotografii.json – fotografie de fundal (stadion, tribună), întunecată (opțional),
 //   cu_titlu:   true = vechea copertă, cu titlul scris pe ea
 // }
 // Coperta e un AFIȘ: site-ul pune titlul peste partea de jos a imaginii, deci tot ce contează stă în jumătatea de sus.
@@ -84,6 +85,18 @@ const fata = (() => {
 	return { ...x, src: uri(path.join('fete', x.fisier)) };
 })();
 
+// Fotografia de fundal (unelte/fotografii/<slug>.jpg, făcută cu fotografii.py).
+const fundal = (() => {
+	if (!d.fundal) return '';
+	const idx = path.join(dir, 'fotografii', 'fotografii.json');
+	const x = fs.existsSync(idx) ? JSON.parse(fs.readFileSync(idx, 'utf8')).find((p) => p.slug === d.fundal) : null;
+	if (!x) {
+		console.error(`Atenție: nu există fundalul „${d.fundal}” (python3 unelte/fotografii.py fundal ...).`);
+		return '';
+	}
+	return uri(path.join('fotografii', x.fisier), 'image/jpeg');
+})();
+
 const afis = `<!doctype html><html><head><meta charset="utf-8"><style>
 @font-face { font-family: Sofia; font-weight: 800; src: url(${uri('fonturi/sofia-sans-extra-condensed-latin-800-normal.woff2', 'font/woff2')}); }
 @font-face { font-family: Sofia; font-weight: 800; src: url(${uri('fonturi/sofia-sans-extra-condensed-latin-ext-800-normal.woff2', 'font/woff2')}); unicode-range: U+0100-024F, U+0218-021B; }
@@ -91,6 +104,8 @@ const afis = `<!doctype html><html><head><meta charset="utf-8"><style>
 body { width: 1200px; height: 630px; overflow: hidden; color: #fff; font-family: Sofia;
 	background: radial-gradient(ellipse 55% 75% at 70% 30%, rgba(255,255,255,.20), transparent 62%), linear-gradient(125deg, ${c1} 0%, ${c2} 100%); }
 .teren { position: absolute; inset: 0; width: 1200px; height: 630px; opacity: .13; }
+.fundal { position: absolute; inset: 0; background-size: cover; background-position: center; filter: saturate(.85); }
+.fundal::after { content: ''; position: absolute; inset: 0; background: linear-gradient(125deg, ${c1}e6 0%, ${c2}cc 55%, ${c2}99 100%); }
 .marca { position: absolute; left: 48px; top: 40px; height: 74px; z-index: 3; filter: drop-shadow(0 6px 16px rgba(0,0,0,.35)); }
 .fata { position: absolute; left: -10px; bottom: 0; width: 600px; height: 600px; z-index: 1; }
 .dreapta { position: absolute; right: 60px; top: 70px; z-index: 2; display: flex; flex-direction: column; align-items: flex-end; gap: 18px; max-width: ${fata ? 640 : 900}px; }
@@ -112,6 +127,7 @@ body { width: 1200px; height: 630px; overflow: hidden; color: #fff; font-family:
 .cu-cluburi .banda { font-size: 84px; padding: 10px 34px 14px; }
 .cu-cluburi .emblema { width: 92px; height: 92px; }
 </style></head><body class="${cluburi.length ? 'cu-cluburi' : ''}">
+${fundal ? `<div class="fundal" style="background-image:url(${fundal})"></div>` : ''}
 <svg class="teren" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#fff" stroke-width="4">
 	<rect x="30" y="30" width="1140" height="570"/><line x1="600" y1="30" x2="600" y2="600"/>
 	<circle cx="600" cy="315" r="95"/><circle cx="600" cy="315" r="6" fill="#fff"/>

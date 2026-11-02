@@ -23,9 +23,9 @@ function eg_sectiuni() {
 	return $out;
 }
 
-/** Nota implicită despre felul în care lucrăm (transparență pentru cititori și pentru Google). */
+/** Nota de la finalul articolelor: implicit nu există; se poate scrie una în Personalizează → Eurogol. */
 function eg_nota_implicita() {
-	return 'Articolele Eurogol sunt redactate cu ajutorul instrumentelor de inteligență artificială, pe baza surselor citate, și verificate de redacție. Ai găsit o greșeală? Scrie-ne.';
+	return '';
 }
 
 add_action( 'customize_register', 'eg_personalizare' );
