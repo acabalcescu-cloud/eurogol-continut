@@ -1,7 +1,7 @@
 <?php
 /**
  * Semnăturile pe departamente: importul alege autorul după subiectul articolului (dacă JSON-ul nu are câmpul „autor”).
- * Conturile se creează singure la prima folosire, cu rolul Autor și descrierea departamentului.
+ * Conturile se creează singure la prima folosire, fără email (ca la povestilestiintei), cu rolul Autor și descrierea departamentului.
  *
  * Ordinea regulilor contează: prima potrivire câștigă.
  */
@@ -85,6 +85,10 @@ function eg_redactor_id( $login ) {
 	}
 	$u = get_user_by( 'login', $login );
 	if ( $u ) {
+		// Conturile create de versiunea 1.3.0 aveau o adresă de rezervă; acum rămân fără email.
+		if ( str_ends_with( (string) $u->user_email, '@redactori.eurogol.invalid' ) ) {
+			wp_update_user( array( 'ID' => $u->ID, 'user_email' => '' ) );
+		}
 		return (int) $u->ID;
 	}
 	list( $nume, $departament, $descriere ) = $r[ $login ];
@@ -93,7 +97,6 @@ function eg_redactor_id( $login ) {
 		array(
 			'user_login'    => $login,
 			'user_pass'     => wp_generate_password( 40 ),
-			'user_email'    => $login . '@redactori.eurogol.invalid',
 			'display_name'  => $nume,
 			'nickname'      => $nume,
 			'first_name'    => $parti[0],
