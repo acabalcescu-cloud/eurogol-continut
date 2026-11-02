@@ -1,0 +1,8 @@
+{
+  "name": "eurogol-continut",
+  "private": true,
+  "description": "Uneltele depozitului de conținut eurogol.ro (coperțile se fac cu Playwright).",
+  "dependencies": {
+    "playwright": "^1.48.0"
+  }
+}

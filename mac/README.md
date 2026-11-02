@@ -7,14 +7,26 @@
 **Reglaje** (toate în `mac/config.json`): cuvintele-cheie pe niveluri (stranierii și antrenorii români din străinătate se țin la zi de mână), căutările Google News, fluxurile românești și străine, cuvintele de ignorat.
 
 ## Instalare (o singură dată)
-1. `brew install git node gh python`, apoi `npm install -g @anthropic-ai/claude-code` și o rulare `claude` pentru login.
-2. `gh auth login`, cu un cont care are drept de scriere în depozitul de conținut.
-3. `git clone https://github.com/<cont>/eurogol-continut.git && cd eurogol-continut`
-4. `npm install playwright && npx playwright install chromium` (pentru coperți).
-5. `python3 mac/verifica.py --doar-lista` – arată candidații și scorurile, fără să pornească Claude.
-6. `bash mac/instaleaza.sh` – pornește verificarea orară.
+Dacă pe Mac rulează deja rutinele de la povestilestiintei.ro, programele necesare (git, node, gh, python3, Claude Code) sunt instalate. În Terminal:
+
+```
+cd ~
+git clone https://github.com/acabalcescu-cloud/eurogol-continut.git
+cd eurogol-continut
+npm install
+npx playwright install chromium
+python3 mac/verifica.py --doar-lista
+bash mac/instaleaza.sh
+```
+
+- `npm install` și `npx playwright install chromium` – pentru coperți.
+- `python3 mac/verifica.py --doar-lista` – arată candidații și scorurile, fără să pornească Claude.
+- `bash mac/instaleaza.sh` – pornește verificarea orară (la minutul 41; povestilestiintei rulează la 17 și 47, deci nu se suprapun).
+
+Pe un Mac nou: `brew install git node gh python`, `npm install -g @anthropic-ai/claude-code` (apoi o rulare `claude` pentru login) și `gh auth login` cu un cont care are drept de scriere în depozit.
 
 Jurnalul: `.stare-mac/jurnal.log`. Ultimul raport al lui Claude: `.stare-mac/ultimul-raport.txt`.
+Oprire: `launchctl bootout gui/$(id -u) ~/Library/LaunchAgents/ro.eurogol.stiri.plist`.
 
 ## Rutinele de noapte și de povești
 Cronicile (01:13) și poveștile (luni, miercuri, vineri la 10:23) rulează ca sesiuni programate Claude Code, cu pașii din `INSTRUCTIUNI.md`.
