@@ -6,7 +6,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'EG_VERSIUNE', '1.4.0' );
+define( 'EG_VERSIUNE', '1.5.0' );
 define( 'EG_DIR', get_template_directory() );
 define( 'EG_URI', get_template_directory_uri() );
 
@@ -151,6 +151,19 @@ function eg_retele() {
 		}
 	}
 	return $out ? '<div class="eg-retele">' . $out . '</div>' : '';
+}
+
+/** Iconița site-ului (mingea din logo), cât timp nu e aleasă alta în Personalizează → Identitatea site-ului. */
+add_action( 'wp_head', 'eg_iconite', 2 );
+add_action( 'admin_head', 'eg_iconite', 2 );
+function eg_iconite() {
+	if ( has_site_icon() ) {
+		return;
+	}
+	$u = EG_URI . '/assets/img/';
+	printf( '<link rel="icon" href="%s" sizes="32x32">' . "\n", esc_url( $u . 'icon-32.png' ) );
+	printf( '<link rel="icon" href="%s" sizes="192x192">' . "\n", esc_url( $u . 'icon-192.png' ) );
+	printf( '<link rel="apple-touch-icon" href="%s">' . "\n", esc_url( $u . 'icon-180.png' ) );
 }
 
 /** Etichete Open Graph minime, ca știrile să arate bine pe Facebook și WhatsApp (dacă nu e instalat un modul SEO). */

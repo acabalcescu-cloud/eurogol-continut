@@ -54,8 +54,7 @@ const afis = `<!doctype html><html><head><meta charset="utf-8"><style>
 body { width: 1200px; height: 630px; overflow: hidden; color: #fff; font-family: Sofia;
 	background: radial-gradient(ellipse 55% 75% at 70% 30%, rgba(255,255,255,.20), transparent 62%), linear-gradient(125deg, ${c1} 0%, ${c2} 100%); }
 .teren { position: absolute; inset: 0; width: 1200px; height: 630px; opacity: .13; }
-.marca { position: absolute; left: 56px; top: 44px; font-weight: 800; font-size: 40px; letter-spacing: 1px; text-transform: uppercase; }
-.marca span { color: ${accent}; }
+.marca { position: absolute; left: 48px; top: 40px; height: 74px; filter: drop-shadow(0 6px 16px rgba(0,0,0,.35)); }
 .bloc { position: absolute; right: 60px; top: 70px; display: flex; flex-direction: column; align-items: flex-end; gap: 18px; max-width: 900px; }
 .banda { font-weight: 800; font-size: 130px; line-height: .95; text-transform: uppercase; text-align: right;
 	padding: 16px 44px 20px; background: ${accent}; color: ${c2}; transform: skewX(-12deg); box-shadow: 0 18px 50px rgba(0,0,0,.35); }
@@ -71,7 +70,7 @@ body { width: 1200px; height: 630px; overflow: hidden; color: #fff; font-family:
 	<rect x="1000" y="150" width="170" height="330"/><rect x="1110" y="230" width="60" height="170"/>
 	<path d="M200 255 A 95 95 0 0 1 200 375"/><path d="M1000 255 A 95 95 0 0 0 1000 375"/>
 </svg>
-<div class="marca">Euro<span>gol</span></div>
+<img class="marca" src="${uri('logo.png', 'image/png')}">
 <div class="bloc">
 	<div class="banda"><span>${esc(rubrica)}</span></div>
 	${d.subtitlu ? `<div class="sub"><span>${esc(d.subtitlu)}</span></div>` : ''}

@@ -19,7 +19,12 @@
 				if ( has_custom_logo() ) {
 					echo wp_get_attachment_image( get_theme_mod( 'custom_logo' ), 'full', false, array( 'alt' => get_bloginfo( 'name' ) ) );
 				} else {
-					echo '<span class="eg-logo-minge" aria-hidden="true"></span><span class="eg-logo-text">euro<b>gol</b></span>';
+					printf(
+						'<picture><source srcset="%1$s" type="image/webp"><img src="%2$s" width="171" height="56" alt="%3$s" fetchpriority="high"></picture>',
+						esc_url( EG_URI . '/assets/img/logo.webp?v=' . EG_VERSIUNE ),
+						esc_url( EG_URI . '/assets/img/logo.png?v=' . EG_VERSIUNE ),
+						esc_attr( get_bloginfo( 'name' ) )
+					);
 				}
 				?>
 			</a>

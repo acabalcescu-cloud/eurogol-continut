@@ -3,7 +3,7 @@ Theme Name: Eurogol
 Theme URI: https://eurogol.ro
 Author: Eurogol
 Description: Tema site-ului eurogol.ro – fotbal românesc, european și sud-american. Prima pagină cu un articol mare și patru mai mici, secțiuni pe competiții, coloana „Pe scurt” și importul automat al articolelor din GitHub.
-Version: 1.4.0
+Version: 1.5.0
 Requires at least: 6.4
 Requires PHP: 7.4
 License: GNU General Public License v2 or later
@@ -55,7 +55,8 @@ button { font: inherit; cursor: pointer; }
 .eg-antet-sus .eg-antet-rand { height: 70px; }
 .eg-logo { display: flex; align-items: center; gap: 8px; color: #fff; flex: none; }
 .eg-logo:hover { color: #fff; }
-.eg-logo img { max-height: 46px; width: auto; }
+.eg-logo img { height: 56px; width: auto; max-height: none; }
+.eg-logo picture { display: block; line-height: 0; }
 .eg-logo-text { font-family: var(--eg-font-logo); font-weight: 800; font-size: 40px; line-height: 1; letter-spacing: .5px; text-transform: uppercase; }
 .eg-logo-text b { font-weight: 800; color: #ffd23f; }
 .eg-logo-minge {
@@ -252,6 +253,7 @@ a.eg-eticheta:hover { color: #fff; background: var(--eg-inchis); }
 	.eg-deschide-meniu { display: inline-flex; }
 	.eg-logo { margin: 0 auto; }
 	.eg-logo-text { font-size: 34px; }
+	.eg-logo img { height: 44px; }
 	.eg-deschide-cautare { margin-left: 0; }
 	.eg-nav {
 		position: fixed; top: 0; left: 0; bottom: 0; width: min(320px, 86vw); z-index: 50; overflow-y: auto;
