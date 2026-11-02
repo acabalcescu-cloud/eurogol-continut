@@ -56,7 +56,7 @@ body { width: 1200px; height: 630px; overflow: hidden; color: #fff; font-family:
 .teren { position: absolute; inset: 0; width: 1200px; height: 630px; opacity: .13; }
 .marca { position: absolute; left: 56px; top: 44px; font-weight: 800; font-size: 40px; letter-spacing: 1px; text-transform: uppercase; }
 .marca span { color: ${accent}; }
-.bloc { position: absolute; right: 60px; top: 96px; display: flex; flex-direction: column; align-items: flex-end; gap: 18px; max-width: 900px; }
+.bloc { position: absolute; right: 60px; top: 70px; display: flex; flex-direction: column; align-items: flex-end; gap: 18px; max-width: 900px; }
 .banda { font-weight: 800; font-size: 130px; line-height: .95; text-transform: uppercase; text-align: right;
 	padding: 16px 44px 20px; background: ${accent}; color: ${c2}; transform: skewX(-12deg); box-shadow: 0 18px 50px rgba(0,0,0,.35); }
 .banda > span { display: inline-block; transform: skewX(12deg); }

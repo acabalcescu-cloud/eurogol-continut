@@ -6,13 +6,14 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'EG_VERSIUNE', '1.0.0' );
+define( 'EG_VERSIUNE', '1.1.0' );
 define( 'EG_DIR', get_template_directory() );
 define( 'EG_URI', get_template_directory_uri() );
 
 require EG_DIR . '/inc/setari.php';
 require EG_DIR . '/inc/carduri.php';
 require EG_DIR . '/inc/import.php';
+require EG_DIR . '/inc/actualizare.php';
 
 add_action( 'after_setup_theme', 'eg_setup' );
 function eg_setup() {

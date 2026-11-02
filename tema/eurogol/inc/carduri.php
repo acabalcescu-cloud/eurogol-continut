@@ -119,6 +119,17 @@ function eg_sectiune( $slugs, $titlu, $exclude = array() ) {
 			'no_found_rows'       => true,
 		)
 	);
+	if ( ! $q->have_posts() && $exclude ) {
+		// Cât timp site-ul are puține articole, secțiunea le arată și pe cele din blocul de sus, ca să nu rămână goală.
+		$q = new WP_Query(
+			array(
+				'cat'                 => implode( ',', wp_list_pluck( $cats, 'term_id' ) ),
+				'posts_per_page'      => 6,
+				'ignore_sticky_posts' => true,
+				'no_found_rows'       => true,
+			)
+		);
+	}
 	if ( ! $q->have_posts() ) {
 		return array();
 	}
