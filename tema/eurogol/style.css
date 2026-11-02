@@ -3,7 +3,7 @@ Theme Name: Eurogol
 Theme URI: https://eurogol.ro
 Author: Eurogol
 Description: Tema site-ului eurogol.ro – fotbal românesc, european și sud-american. Prima pagină cu un articol mare și patru mai mici, secțiuni pe competiții, coloana „Pe scurt” și importul automat al articolelor din GitHub.
-Version: 1.6.0
+Version: 1.7.0
 Requires at least: 6.4
 Requires PHP: 7.4
 License: GNU General Public License v2 or later
@@ -105,21 +105,26 @@ button { font: inherit; cursor: pointer; }
 .eg-doua-coloane { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: 20px; margin-top: 20px; }
 .eg-doua-coloane:first-child { margin-top: 10px; }
 
-/* ---------- Blocul de sus: 1 mare + 4 ---------- */
-.eg-sus { display: grid; grid-template-columns: 2fr 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 10px; }
-.eg-coperta { position: relative; border-radius: var(--eg-raza); overflow: hidden; background: #111; aspect-ratio: 1200 / 630; }
-.eg-coperta-mare { grid-row: span 2; aspect-ratio: auto; min-height: 350px; }
-.eg-coperta > a { display: block; height: 100%; color: #fff; }
-.eg-coperta .eg-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transition: transform .4s; }
+/* ---------- Blocul de sus: 1 mare + 4 ----------
+   Coperțile au text pe ele (rubrica, sigle, scor), deci imaginea apare întreagă, nedecupată,
+   iar titlul stă dedesubt, pe o bandă închisă – nu peste imagine. */
+.eg-sus { display: grid; grid-template-columns: 2fr 1fr 1fr; grid-template-rows: auto auto; gap: 10px; }
+.eg-coperta { position: relative; border-radius: var(--eg-raza); overflow: hidden; background: #0a1838; }
+.eg-coperta-mare { grid-row: span 2; }
+.eg-coperta > a { display: flex; flex-direction: column; height: 100%; color: #fff; }
+.eg-coperta-img { display: block; overflow: hidden; flex: none; }
+.eg-coperta .eg-img { display: block; width: 100%; height: auto; aspect-ratio: 1200 / 630; object-fit: cover; transition: transform .4s; }
 .eg-coperta:hover .eg-img { transform: scale(1.04); }
-.eg-coperta > a::after { content: ""; position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,.88) 0%, rgba(0,0,0,.45) 42%, rgba(0,0,0,0) 70%); }
-.eg-coperta-text { position: absolute; left: 0; right: 0; bottom: 0; z-index: 1; padding: 10px 12px 12px; display: flex; flex-direction: column; align-items: flex-start; gap: 4px; }
-.eg-coperta-titlu { font-weight: 600; font-size: 15px; line-height: 1.25; text-shadow: 0 1px 3px rgba(0,0,0,.6); display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; line-clamp: 2; overflow: hidden; }
-.eg-coperta-mare .eg-coperta-titlu { -webkit-line-clamp: 4; line-clamp: 4; }
-.eg-coperta-mare .eg-coperta-text { padding: 16px 18px 20px; gap: 8px; }
-.eg-coperta-mare .eg-coperta-titlu { font-size: 26px; }
+.eg-coperta-text { flex: 1; display: flex; flex-direction: column; align-items: flex-start; gap: 5px; padding: 10px 12px 12px;
+	background: linear-gradient(180deg, #0f2250 0%, #0a1838 100%); border-top: 3px solid var(--eg-culoare); }
+.eg-coperta-titlu { font-weight: 600; font-size: 15px; line-height: 1.28;
+	display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; line-clamp: 3; overflow: hidden; }
+.eg-coperta-mare .eg-coperta-text { padding: 14px 18px 18px; gap: 8px; justify-content: center; }
+.eg-coperta-mare .eg-coperta-titlu { font-size: 30px; line-height: 1.2; -webkit-line-clamp: 4; line-clamp: 4; }
 .eg-coperta .eg-meta, .eg-coperta .eg-meta .eg-autor { color: #fff; }
+.eg-coperta .eg-meta { opacity: .85; margin-top: auto; }
 .eg-coperta .eg-eticheta { font-size: 10px; padding: 2px 7px; }
+.eg-coperta a:hover .eg-coperta-titlu { color: #ffd23f; }
 
 /* Imaginea lipsă: fundal în culoarea site-ului cu numele lui. */
 .eg-img-gol { display: flex !important; align-items: center; justify-content: center; background: linear-gradient(135deg, var(--eg-culoare), var(--eg-inchis)); color: rgba(255,255,255,.35); aspect-ratio: 1200 / 630; width: 100%; }
@@ -138,8 +143,9 @@ button { font: inherit; cursor: pointer; }
 .eg-card-titlu { font-weight: 600; }
 .eg-card-mare .eg-card-titlu { font-size: 20px; line-height: 1.33; margin: 4px 0 10px; }
 .eg-card-rezumat { margin: 0 0 6px; font-size: 14px; line-height: 1.4; color: var(--eg-text-2); }
-.eg-card-mic { display: grid; grid-template-columns: 124px minmax(0, 1fr); align-items: start; min-height: 99px; }
-.eg-card-mic .eg-card-img .eg-img { width: 100%; height: 99px; aspect-ratio: auto; object-fit: cover; }
+.eg-card-mic { display: grid; grid-template-columns: 150px minmax(0, 1fr); align-items: start; }
+.eg-card-mic .eg-card-img .eg-img { width: 100%; height: auto; aspect-ratio: 1200 / 630; object-fit: cover; }
+.eg-card-mic .eg-card-img { margin: 10px 0 10px 10px; border-radius: 4px; }
 .eg-card-mic .eg-img-gol span { font-size: 20px; }
 .eg-card-mic .eg-card-titlu { font-size: 14px; line-height: 1.2; margin-bottom: 8px; }
 .eg-meta { font-size: 12px; color: var(--eg-text-2); }
@@ -250,7 +256,7 @@ a.eg-eticheta:hover { color: #fff; background: var(--eg-inchis); }
 @media (max-width: 960px) {
 	.eg-doua-coloane { grid-template-columns: minmax(0, 1fr); }
 	.eg-sus { grid-template-columns: 1fr 1fr; grid-template-rows: auto; }
-	.eg-coperta-mare { grid-column: 1 / -1; grid-row: auto; aspect-ratio: 1200 / 630; min-height: 0; }
+	.eg-coperta-mare { grid-column: 1 / -1; grid-row: auto; }
 	.eg-cutie { margin-top: 0; border-radius: 0; }
 
 	/* Antetul pe mobil: meniu în stânga, logo la mijloc, căutare în dreapta. */
@@ -285,12 +291,13 @@ a.eg-eticheta:hover { color: #fff; background: var(--eg-inchis); }
 @media (max-width: 600px) {
 	.eg-main { padding: 8px 8px 24px; }
 	.eg-sus { gap: 8px; }
-	.eg-coperta-mare .eg-coperta-titlu { font-size: 20px; }
+	.eg-coperta-mare .eg-coperta-titlu { font-size: 21px; }
 	.eg-coperta-mare .eg-coperta-text { padding: 12px 14px 14px; }
-	.eg-coperta:not(.eg-coperta-mare) { aspect-ratio: auto; min-height: 150px; }
-	.eg-coperta:not(.eg-coperta-mare) .eg-coperta-titlu { font-size: 13px; }
+	.eg-coperta:not(.eg-coperta-mare) .eg-coperta-titlu { font-size: 14px; }
 	.eg-coperta:not(.eg-coperta-mare) .eg-eticheta { display: none; }
-	.eg-coperta:not(.eg-coperta-mare) .eg-coperta-text { padding: 8px; }
+	.eg-coperta:not(.eg-coperta-mare) .eg-coperta-text { padding: 8px 10px 10px; }
+	.eg-coperta:not(.eg-coperta-mare) .eg-meta { font-size: 11px; }
+	.eg-card-mic { grid-template-columns: 128px minmax(0, 1fr); }
 	.eg-grila-2 { grid-template-columns: minmax(0, 1fr); gap: 14px; }
 	.eg-card-mare .eg-card-titlu { font-size: 19px; }
 	.eg-titlu-sectiune { font-size: 21px; }

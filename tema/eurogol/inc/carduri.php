@@ -49,7 +49,7 @@ function eg_card_coperta( $post, $mare = false ) {
 	?>
 	<article class="eg-coperta<?php echo $mare ? ' eg-coperta-mare' : ''; ?>">
 		<a href="<?php echo esc_url( get_permalink( $post ) ); ?>">
-			<?php echo eg_imagine( $post, $marime ); // phpcs:ignore ?>
+			<span class="eg-coperta-img"><?php echo eg_imagine( $post, $marime ); // phpcs:ignore ?></span>
 			<span class="eg-coperta-text">
 				<?php echo eg_eticheta( $post ); // phpcs:ignore ?>
 				<span class="eg-coperta-titlu"><?php echo esc_html( get_the_title( $post ) ); ?></span>
