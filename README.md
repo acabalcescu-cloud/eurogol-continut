@@ -11,11 +11,11 @@ Funcționează la fel ca povestilestiintei.ro: site-ul WordPress preia singur, l
 - `INSTRUCTIUNI.md` – pașii rutinelor: știrile orare, cronicile de noapte și poveștile săptămânale.
 - `presa/vazute.json` – sursele deja citite, ca să nu le tratăm de două ori.
 - `mac/` – verificarea orară a știrilor, fără AI. Pornește Claude Code numai când apare ceva important.
+- `tema/` – tema WordPress a site-ului (sursa și arhiva .zip).
 - `unelte/` – generatorul de coperte (`coperta-stire.js`), decodorul Google News (`gndecode.py`) și cititorul de articole (`citeste.py`).
 
 ## Pornire
 
-1. Creează pe GitHub depozitul `eurogol-continut`, public, ca să-l poată citi site-ul prin raw.githubusercontent.com.
-2. Pune în el conținutul acestui folder.
-3. Pe noul WordPress instalează tema părinte (Atleticos, cu licență separată pentru noul domeniu) și tema copil adaptată (vezi `tema/README.md`).
-4. Pe Mac: `mac/README.md`.
+1. Depozitul: `github.com/acabalcescu-cloud/eurogol-continut`. Trebuie să rămână public, ca să-l poată citi site-ul.
+2. Pe WordPress instalează tema Eurogol (`tema/eurogol.zip`), scrisă de la zero. Pașii sunt în `tema/README.md`.
+3. Pe Mac: `mac/README.md`.

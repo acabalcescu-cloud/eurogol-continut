@@ -33,7 +33,10 @@ Toate urmează `STIL.md` (vocea) și `ACOPERIRE.md` (ce intră și în ce ordine
 - **Cronici de etapă:** `<AAAA-LL-ZZ>-etapa-<nr>-<competitie>` (ex. `2026-11-03-etapa-11-serie-a`), fără câmpul `meci`.
 - **Povești:** `<AAAA-LL-ZZ>-poveste-<subiect>`, `"categorie": "Povești"`, plus `"serie": "Legende | Meciuri care n-au murit niciodată | Stadioane | Ce s-a întâmplat cu… | Generația de Aur | Derby-uri"`.
 
-**Coperta:** `cronici/<id>.coperta.json` = `{ "titlu", "rubrica", "data" }`, unde rubrica e competiția sau seria. Apoi `node unelte/coperta-stire.js cronici/<id>.coperta.json cronici/<id>.jpg`. Culoarea copertei se alege după rubrică. Uită-te la imagine înainte de commit.
+**Coperta** e un afiș fără titlu, pentru că site-ul scrie titlul peste imagine: `cronici/<id>.coperta.json` = `{ "titlu", "rubrica", "subtitlu", "data" }`.
+- `rubrica` = competiția sau seria, scrisă mare pe bandă („Champions League”, „SuperLiga”, „Povești”, „Transferuri”). Tot ea alege culoarea.
+- `subtitlu` = un rând scurt și precis, de cel mult 25 de caractere: meciul („Inter – Milan”), etapa („Etapa 14”), omul („Cristi Chivu”), locul și anul („Sevilla, 1986”). Opțional.
+- Apoi `node unelte/coperta-stire.js cronici/<id>.coperta.json cronici/<id>.jpg`. Uită-te la imagine înainte de commit.
 
 **`index.json`:** fiecare articol nou se adaugă la începutul listei `cronici` (cel mult 200). Articolele completate intră în lista `actualizate`.
 

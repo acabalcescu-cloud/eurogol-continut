@@ -1,0 +1,297 @@
+/*
+Theme Name: Eurogol
+Theme URI: https://eurogol.ro
+Author: Eurogol
+Description: Tema site-ului eurogol.ro – fotbal românesc, european și sud-american. Prima pagină cu un articol mare și patru mai mici, secțiuni pe competiții, coloana „Pe scurt” și importul automat al articolelor din GitHub.
+Version: 1.0.0
+Requires at least: 6.4
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: eurogol
+*/
+
+/* ---------- Bază ---------- */
+:root {
+	--eg-culoare: #1546A8;
+	--eg-inchis: #0d2b68;
+	--eg-text: #1d1d1f;
+	--eg-text-2: #4a4a4f;
+	--eg-fundal-cutie: #f4f4f2;
+	--eg-alb: #fff;
+	--eg-linie: #e3e3e0;
+	--eg-raza: 6px;
+	--eg-font: "Noto Sans", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+	--eg-font-logo: "Sofia Sans Extra Condensed", "Arial Narrow", sans-serif;
+}
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; scroll-padding-top: 20px; }
+body {
+	margin: 0;
+	font-family: var(--eg-font);
+	font-size: 16px;
+	line-height: 1.55;
+	color: var(--eg-text);
+	background: var(--eg-culoare);
+}
+img { max-width: 100%; height: auto; display: block; }
+a { color: inherit; text-decoration: none; }
+a:hover { color: var(--eg-culoare); }
+h1, h2, h3 { line-height: 1.25; margin: 0; font-weight: 600; }
+button { font: inherit; cursor: pointer; }
+:focus-visible { outline: 3px solid #ffbf3f; outline-offset: 2px; }
+.eg-ascuns, .screen-reader-text {
+	position: absolute !important; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap;
+}
+.eg-sari { position: absolute; left: -999px; top: 8px; z-index: 100; background: #fff; color: #000; padding: 8px 14px; border-radius: 4px; }
+.eg-sari:focus { left: 8px; }
+.eg-icon { width: 22px; height: 22px; flex: none; }
+.eg-latime { max-width: 1200px; margin: 0 auto; padding: 0 16px; }
+
+/* ---------- Antet ---------- */
+.eg-antet { color: #fff; }
+.eg-antet-sus { background: var(--eg-culoare); position: relative; z-index: 20; }
+.eg-antet-rand { display: flex; align-items: center; gap: 24px; }
+.eg-antet-sus .eg-antet-rand { height: 70px; }
+.eg-logo { display: flex; align-items: center; gap: 8px; color: #fff; flex: none; }
+.eg-logo:hover { color: #fff; }
+.eg-logo img { max-height: 46px; width: auto; }
+.eg-logo-text { font-family: var(--eg-font-logo); font-weight: 800; font-size: 40px; line-height: 1; letter-spacing: .5px; text-transform: uppercase; }
+.eg-logo-text b { font-weight: 800; color: #ffd23f; }
+.eg-logo-minge {
+	width: 30px; height: 30px; border-radius: 50%; flex: none;
+	background: #fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M16 9.5l5.2 3.8-2 6.1h-6.4l-2-6.1z' fill='%23111'/%3E%3Cpath d='M16 9.5V3M21.2 13.3l6.1-2M19.2 19.4l3.8 5.2M12.8 19.4 9 24.6M10.8 13.3l-6.1-2' stroke='%23111' stroke-width='1.6' fill='none'/%3E%3C/svg%3E") center/100% no-repeat;
+	box-shadow: 0 0 0 2px rgba(255,255,255,.35);
+}
+.eg-nav { flex: 1; }
+.eg-meniu { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 4px 26px; }
+.eg-meniu > li { position: relative; display: flex; align-items: center; }
+.eg-meniu a { display: block; color: #fff; font-weight: 600; font-size: 14px; letter-spacing: .3px; text-transform: uppercase; padding: 8px 0; }
+.eg-meniu a:hover, .eg-meniu .current-menu-item > a, .eg-meniu .current-menu-ancestor > a { color: #ffd23f; }
+.eg-sub-buton {
+	width: 22px; height: 22px; border: 0; padding: 0; margin-left: 2px; background: transparent; color: #fff;
+	background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M7 9.6 12 14.6l5-5 1.4 1.4-6.4 6.4L5.6 11z' fill='%23fff'/%3E%3C/svg%3E") center/18px no-repeat;
+}
+.eg-meniu .sub-menu {
+	list-style: none; margin: 0; padding: 8px 0; position: absolute; top: 100%; left: -14px; min-width: 220px;
+	background: var(--eg-inchis); border-radius: 0 0 var(--eg-raza) var(--eg-raza); box-shadow: 0 10px 24px rgba(0,0,0,.25);
+	opacity: 0; visibility: hidden; transform: translateY(6px); transition: opacity .15s, transform .15s, visibility .15s;
+}
+.eg-meniu .sub-menu a { padding: 8px 16px; text-transform: none; font-size: 15px; }
+.eg-meniu li:hover > .sub-menu, .eg-meniu li:focus-within > .sub-menu, .eg-meniu .eg-sub-deschis > .sub-menu { opacity: 1; visibility: visible; transform: none; }
+.eg-buton-icon { display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border: 0; border-radius: 50%; background: transparent; color: #fff; }
+.eg-buton-icon:hover { background: rgba(255,255,255,.12); }
+.eg-deschide-meniu { display: none; }
+.eg-deschide-meniu span { display: inline-flex; }
+.eg-i-inchide, .eg-meniu-deschis .eg-i-meniu { display: none !important; }
+.eg-meniu-deschis .eg-i-inchide { display: inline-flex !important; }
+.eg-deschide-cautare { margin-left: auto; }
+.eg-cautare { background: var(--eg-inchis); padding: 14px 0; }
+.eg-form-cautare { display: flex; gap: 8px; }
+.eg-form-cautare input {
+	flex: 1; min-width: 0; font: inherit; font-size: 16px; padding: 10px 14px; border: 1px solid var(--eg-linie); border-radius: 4px; color: var(--eg-text);
+}
+.eg-form-cautare button { border: 0; border-radius: 4px; padding: 10px 18px; background: #ffd23f; color: #111; font-weight: 700; }
+.eg-banda { background: var(--eg-inchis); }
+.eg-banda .eg-antet-rand { min-height: 52px; justify-content: space-between; }
+.eg-slogan { margin: 0; font-weight: 700; font-size: 16px; letter-spacing: .3px; border-left: 3px solid #ffd23f; padding-left: 12px; }
+.eg-azi { margin: 0; font-size: 14px; opacity: .85; white-space: nowrap; }
+.eg-azi::first-letter { text-transform: uppercase; }
+
+/* ---------- Cutia albă din mijloc ---------- */
+.eg-cutie { max-width: 1200px; margin: 20px auto 0; background: var(--eg-fundal-cutie); border-radius: var(--eg-raza) var(--eg-raza) 0 0; }
+.eg-main { padding: 10px 10px 30px; }
+.eg-doua-coloane { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: 20px; margin-top: 20px; }
+.eg-doua-coloane:first-child { margin-top: 10px; }
+
+/* ---------- Blocul de sus: 1 mare + 4 ---------- */
+.eg-sus { display: grid; grid-template-columns: 2fr 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 10px; }
+.eg-coperta { position: relative; border-radius: var(--eg-raza); overflow: hidden; background: #111; aspect-ratio: 1200 / 630; }
+.eg-coperta-mare { grid-row: span 2; aspect-ratio: auto; min-height: 350px; }
+.eg-coperta > a { display: block; height: 100%; color: #fff; }
+.eg-coperta .eg-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transition: transform .4s; }
+.eg-coperta:hover .eg-img { transform: scale(1.04); }
+.eg-coperta > a::after { content: ""; position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,.88) 0%, rgba(0,0,0,.45) 42%, rgba(0,0,0,0) 70%); }
+.eg-coperta-text { position: absolute; left: 0; right: 0; bottom: 0; z-index: 1; padding: 10px 12px 12px; display: flex; flex-direction: column; align-items: flex-start; gap: 4px; }
+.eg-coperta-titlu { font-weight: 600; font-size: 15px; line-height: 1.25; text-shadow: 0 1px 3px rgba(0,0,0,.6); }
+.eg-coperta-mare .eg-coperta-text { padding: 16px 18px 20px; gap: 8px; }
+.eg-coperta-mare .eg-coperta-titlu { font-size: 26px; }
+.eg-coperta .eg-meta, .eg-coperta .eg-meta .eg-autor { color: #fff; }
+.eg-coperta .eg-eticheta { font-size: 10px; padding: 2px 7px; }
+
+/* Imaginea lipsă: fundal în culoarea site-ului cu numele lui. */
+.eg-img-gol { display: flex !important; align-items: center; justify-content: center; background: linear-gradient(135deg, var(--eg-culoare), var(--eg-inchis)); color: rgba(255,255,255,.35); aspect-ratio: 1200 / 630; width: 100%; }
+.eg-img-gol span { font-family: var(--eg-font-logo); font-weight: 800; font-size: 34px; text-transform: uppercase; letter-spacing: 1px; }
+
+/* ---------- Secțiuni și carduri ---------- */
+.eg-sectiune + .eg-sectiune, .eg-articol + .eg-sectiune { margin-top: 34px; }
+.eg-titlu-sectiune { font-size: 24px; font-weight: 600; padding-bottom: 4px; border-bottom: 4px solid var(--eg-culoare); margin-bottom: 20px; }
+.eg-titlu-sectiune a:hover { color: var(--eg-culoare); }
+.eg-grila-2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+.eg-card { background: var(--eg-alb); border-radius: var(--eg-raza); overflow: hidden; box-shadow: 0 1px 2px rgba(0,0,0,.04); }
+.eg-card-img { display: block; overflow: hidden; background: #ddd; }
+.eg-card-img .eg-img { width: 100%; aspect-ratio: 1200 / 630; object-fit: cover; transition: transform .4s; }
+.eg-card:hover .eg-card-img .eg-img { transform: scale(1.04); }
+.eg-card-corp { padding: 10px; }
+.eg-card-titlu { font-weight: 600; }
+.eg-card-mare .eg-card-titlu { font-size: 20px; line-height: 1.33; margin: 4px 0 10px; }
+.eg-card-rezumat { margin: 0 0 6px; font-size: 14px; line-height: 1.4; color: var(--eg-text-2); }
+.eg-card-mic { display: grid; grid-template-columns: 124px minmax(0, 1fr); align-items: start; min-height: 99px; }
+.eg-card-mic .eg-card-img .eg-img { width: 100%; height: 99px; aspect-ratio: auto; object-fit: cover; }
+.eg-card-mic .eg-img-gol span { font-size: 20px; }
+.eg-card-mic .eg-card-titlu { font-size: 14px; line-height: 1.2; margin-bottom: 8px; }
+.eg-meta { font-size: 12px; color: var(--eg-text-2); }
+.eg-meta .eg-autor { color: var(--eg-text); font-weight: 600; }
+.eg-eticheta {
+	display: inline-block; background: var(--eg-culoare); color: #fff; font-size: 11px; font-weight: 700; letter-spacing: .4px;
+	text-transform: uppercase; padding: 3px 9px; border-radius: 3px;
+}
+a.eg-eticheta:hover { color: #fff; background: var(--eg-inchis); }
+.eg-butoane {
+	display: flex; flex-wrap: wrap; align-items: center; gap: 8px 20px; margin-top: 20px; padding: 10px; background: var(--eg-alb); border-radius: var(--eg-raza);
+	font-size: 11px; font-weight: 600; text-transform: uppercase;
+}
+.eg-butoane a { background: var(--eg-culoare); color: #fff; padding: 2px 15px; border-radius: 3px; }
+.eg-butoane a:hover { background: var(--eg-inchis); color: #fff; }
+
+/* ---------- Coloana din dreapta ---------- */
+.eg-coloana { display: flex; flex-direction: column; gap: 30px; }
+.eg-bloc .eg-titlu-sectiune { margin-bottom: 20px; }
+.eg-pe-scurt { list-style: none; margin: 0; padding: 10px; background: var(--eg-alb); border-radius: var(--eg-raza); }
+.eg-pe-scurt li { display: grid; grid-template-columns: 52px 1fr; gap: 10px; align-items: center; padding: 10px 0; border-bottom: 2px solid var(--eg-linie); }
+.eg-pe-scurt li:last-child { border-bottom: 0; }
+.eg-pe-scurt time { color: var(--eg-culoare); font-weight: 600; font-size: 14px; }
+.eg-pe-scurt a { font-weight: 600; font-size: 15px; line-height: 1.33; }
+.eg-retele { display: flex; gap: 18px; }
+.eg-retele a { display: inline-flex; color: var(--eg-text); }
+.eg-retele .eg-icon { width: 30px; height: 30px; }
+.eg-retele a:hover { color: var(--eg-culoare); }
+.eg-competitii { list-style: none; margin: 0; padding: 0; border-radius: var(--eg-raza); overflow: hidden; }
+.eg-competitii li:nth-child(odd) { background: #e6e6e3; }
+.eg-competitii li:nth-child(even) { background: #efefec; }
+.eg-competitii a { display: flex; align-items: center; gap: 8px; padding: 6px 16px; font-size: 15px; }
+.eg-competitii .eg-icon { width: 16px; height: 16px; }
+.eg-coloana .widget ul { margin: 0; padding: 10px 10px 10px 28px; background: var(--eg-alb); border-radius: var(--eg-raza); }
+
+/* ---------- Articolul ---------- */
+.eg-articol { background: var(--eg-alb); border-radius: var(--eg-raza); padding: 24px 28px 28px; }
+.eg-articol-antet { display: flex; flex-direction: column; align-items: flex-start; gap: 12px; margin-bottom: 20px; }
+.eg-articol-titlu { font-size: 34px; line-height: 1.2; font-weight: 700; }
+.eg-articol-rezumat { margin: 0; font-size: 18px; line-height: 1.5; color: var(--eg-text-2); }
+.eg-articol .eg-meta { font-size: 14px; }
+.eg-articol-coperta { margin: 0 -28px 24px; }
+.eg-articol-coperta img { width: 100%; }
+.eg-text { font-size: 18px; line-height: 1.7; overflow-wrap: break-word; }
+.eg-text > * { margin: 0 0 1.1em; }
+.eg-text h2, .eg-text h3 { font-size: 23px; font-weight: 700; margin: 1.6em 0 .6em; padding-left: 12px; border-left: 4px solid var(--eg-culoare); }
+.eg-text a { color: var(--eg-culoare); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.eg-text a:hover { color: var(--eg-inchis); }
+.eg-text blockquote { margin: 1.4em 0; padding: 4px 0 4px 20px; border-left: 4px solid #ffd23f; font-style: italic; color: var(--eg-text-2); }
+.eg-text ul, .eg-text ol { padding-left: 1.3em; }
+.eg-text li { margin-bottom: .4em; }
+.eg-text strong:first-child:last-child { display: block; }
+.eg-text iframe, .eg-text .wp-block-embed { max-width: 100%; }
+.eg-text .wp-block-embed iframe, .eg-text > iframe { width: 100%; aspect-ratio: 16 / 9; height: auto; }
+.eg-text p:last-child { margin-bottom: 0; }
+.eg-text p em:first-child { color: var(--eg-text-2); }
+.eg-articol-subsol { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 28px; padding-top: 20px; border-top: 1px solid var(--eg-linie); }
+.eg-articol-subsol a { font-size: 14px; background: var(--eg-fundal-cutie); padding: 4px 12px; border-radius: 99px; }
+.eg-articol-subsol a:hover { background: var(--eg-culoare); color: #fff; }
+
+/* ---------- Liste, paginare, goluri ---------- */
+.eg-antet-lista { margin-bottom: 0; }
+.eg-descriere { margin: -8px 0 20px; color: var(--eg-text-2); }
+.pagination { margin-top: 28px; }
+.pagination .nav-links { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; }
+.pagination .page-numbers { min-width: 40px; padding: 8px 12px; text-align: center; background: var(--eg-alb); border-radius: 4px; font-weight: 600; }
+.pagination .page-numbers.current, .pagination a.page-numbers:hover { background: var(--eg-culoare); color: #fff; }
+.eg-gol { background: var(--eg-alb); border-radius: var(--eg-raza); padding: 24px; }
+.eg-gol p { margin-top: 0; }
+.eg-404 { text-align: center; }
+.eg-404-scor { font-family: var(--eg-font-logo); font-weight: 800; font-size: 120px; line-height: 1; margin: 0 0 10px; color: var(--eg-culoare); }
+.eg-404-scor span { color: var(--eg-linie); margin: 0 6px; }
+.eg-404 .eg-articol-titlu { margin-bottom: 12px; }
+.eg-404 .eg-form-cautare { max-width: 520px; margin: 20px auto 0; }
+
+/* ---------- Subsol ---------- */
+.eg-subsol-negru { background: #000; color: #fff; padding: 14px 10px; display: flex; flex-wrap: wrap; align-items: center; gap: 12px 24px; }
+.eg-copyright { margin: 0; }
+.eg-meniu-subsol { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px 24px; }
+.eg-subsol-negru a { color: #fff; }
+.eg-subsol-negru a:hover { color: #ffd23f; }
+.eg-subsol-negru .eg-retele { margin-left: auto; gap: 20px; }
+.eg-subsol-negru .eg-retele .eg-icon { width: 20px; height: 20px; }
+.eg-subsol-alb { background: var(--eg-alb); padding: 16px 10px 20px; }
+.eg-subsol-alb h2 { font-size: 16px; margin-bottom: 10px; }
+.eg-subsol-alb ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 14px; color: var(--eg-text-2); }
+.eg-inapoi-sus {
+	position: fixed; right: 18px; bottom: 18px; z-index: 30; width: 46px; height: 46px; border-radius: 50%;
+	display: flex; align-items: center; justify-content: center; background: var(--eg-text); color: #fff; box-shadow: 0 4px 14px rgba(0,0,0,.3);
+}
+.eg-inapoi-sus[hidden] { display: none; }
+.eg-inapoi-sus:hover { color: #ffd23f; }
+
+/* ---------- Tabletă ---------- */
+@media (max-width: 1100px) {
+	.eg-meniu { gap: 4px 18px; }
+	.eg-meniu a { font-size: 13px; }
+}
+@media (max-width: 960px) {
+	.eg-doua-coloane { grid-template-columns: minmax(0, 1fr); }
+	.eg-sus { grid-template-columns: 1fr 1fr; grid-template-rows: auto; }
+	.eg-coperta-mare { grid-column: 1 / -1; grid-row: auto; aspect-ratio: 1200 / 630; min-height: 0; }
+	.eg-cutie { margin-top: 0; border-radius: 0; }
+
+	/* Antetul pe mobil: meniu în stânga, logo la mijloc, căutare în dreapta. */
+	.eg-antet-sus .eg-antet-rand { height: 60px; gap: 0; }
+	.eg-deschide-meniu { display: inline-flex; }
+	.eg-logo { margin: 0 auto; }
+	.eg-logo-text { font-size: 34px; }
+	.eg-deschide-cautare { margin-left: 0; }
+	.eg-nav {
+		position: fixed; top: 0; left: 0; bottom: 0; width: min(320px, 86vw); z-index: 50; overflow-y: auto;
+		background: var(--eg-inchis); padding: 70px 20px 30px; transform: translateX(-100%); transition: transform .25s; visibility: hidden;
+	}
+	.eg-meniu-deschis .eg-nav { transform: none; visibility: visible; box-shadow: 0 0 0 100vmax rgba(0,0,0,.5); }
+	.eg-meniu-deschis { overflow: hidden; }
+	.eg-meniu-deschis .eg-deschide-meniu { position: fixed; top: 8px; left: 8px; z-index: 60; }
+	.eg-meniu { flex-direction: column; gap: 0; }
+	.eg-meniu > li { flex-wrap: wrap; justify-content: space-between; border-bottom: 1px solid rgba(255,255,255,.12); }
+	.eg-meniu a { font-size: 16px; padding: 12px 0; }
+	.eg-sub-buton { width: 44px; height: 44px; }
+	.eg-meniu .sub-menu { position: static; width: 100%; display: none; opacity: 1; visibility: visible; transform: none; box-shadow: none; padding: 0 0 8px 12px; background: transparent; }
+	.eg-meniu .eg-sub-deschis > .sub-menu { display: block; }
+	.eg-meniu li:hover > .sub-menu, .eg-meniu li:focus-within > .sub-menu { display: none; }
+	.eg-meniu .eg-sub-deschis:hover > .sub-menu, .eg-meniu .eg-sub-deschis:focus-within > .sub-menu { display: block; }
+	.eg-meniu .sub-menu a { padding: 8px 0; }
+	.eg-azi { display: none; }
+	.eg-slogan { font-size: 14px; }
+	.eg-banda .eg-antet-rand { min-height: 44px; padding-top: 8px; padding-bottom: 8px; }
+}
+
+/* ---------- Telefon ---------- */
+@media (max-width: 600px) {
+	.eg-main { padding: 8px 8px 24px; }
+	.eg-sus { gap: 8px; }
+	.eg-coperta-mare .eg-coperta-titlu { font-size: 20px; }
+	.eg-coperta-mare .eg-coperta-text { padding: 12px 14px 14px; }
+	.eg-coperta:not(.eg-coperta-mare) { aspect-ratio: auto; min-height: 150px; }
+	.eg-coperta:not(.eg-coperta-mare) .eg-coperta-titlu { font-size: 13px; }
+	.eg-coperta:not(.eg-coperta-mare) .eg-eticheta { display: none; }
+	.eg-coperta:not(.eg-coperta-mare) .eg-coperta-text { padding: 8px; }
+	.eg-grila-2 { grid-template-columns: minmax(0, 1fr); gap: 14px; }
+	.eg-card-mare .eg-card-titlu { font-size: 19px; }
+	.eg-titlu-sectiune { font-size: 21px; }
+	.eg-articol { padding: 18px 16px 22px; }
+	.eg-articol-coperta { margin: 0 -16px 20px; }
+	.eg-articol-titlu { font-size: 26px; }
+	.eg-articol-rezumat { font-size: 17px; }
+	.eg-text { font-size: 17px; }
+	.eg-text h2, .eg-text h3 { font-size: 20px; }
+	.eg-subsol-negru .eg-retele { margin-left: 0; }
+	.eg-404-scor { font-size: 84px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+	*, *::before, *::after { transition: none !important; scroll-behavior: auto !important; }
+}
