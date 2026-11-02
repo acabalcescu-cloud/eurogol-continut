@@ -178,7 +178,7 @@ def candidati():
 
 def notifica(text):
     text = text.replace('"', "'")[:200]
-    subprocess.run(['osascript', '-e', f'display notification "{text}" with title "Poveștile Fotbalului"'], capture_output=True)
+    subprocess.run(['osascript', '-e', f'display notification "{text}" with title "Eurogol"'], capture_output=True)
 
 
 def main():

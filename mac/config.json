@@ -1,6 +1,6 @@
 {
  "_despre": "Configuratia verificarii orare (mac/verifica.py). Cuvintele-cheie: fara diacritice, litere mici, potrivite ca vorbe intregi. Nivelurile urmeaza ACOPERIRE.md. Listele de stranieri si antrenori se tin la zi de mana.",
- "site": "https://povestilefotbalului.ro",
+ "site": "https://eurogol.ro",
  "ore": 4,
  "max_candidati": 30,
  "cote_nivel": {"1": 15, "2": 10, "3": 5},

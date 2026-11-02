@@ -1,3 +1,5 @@
+# Domeniul ales: **eurogol.ro** (înregistrat pe 2 noiembrie 2026)
+
 # Nume de domenii (verificate pe 2 noiembrie 2026)
 
 Cum am verificat: .com direct în registrul Verisign (RDAP); .ro prin DNS (Google și Cloudflare), pentru că registrul RoTLD nu se poate accesa din sesiunea de lucru. Un .ro fără înregistrare în DNS e aproape sigur liber, dar **confirmă pe rotld.ro înainte de cumpărare**.

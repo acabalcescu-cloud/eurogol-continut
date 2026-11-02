@@ -1,6 +1,6 @@
-# Poveștile Fotbalului – conținut automat
+# Eurogol.ro – conținut automat
 
-Știrile, cronicile și poveștile pentru **Poveștile Fotbalului** (nume de lucru): fotbal românesc, european și sud-american, spus ca o poveste.
+Știrile, cronicile și poveștile pentru **Eurogol** (eurogol.ro): fotbal românesc, european și sud-american, spus ca o poveste.
 
 Funcționează la fel ca povestilestiintei.ro: site-ul WordPress preia singur, la 15 minute, ce apare în acest depozit.
 
@@ -15,7 +15,7 @@ Funcționează la fel ca povestilestiintei.ro: site-ul WordPress preia singur, l
 
 ## Pornire
 
-1. Creează pe GitHub depozitul `povestilefotbalului-continut`, public, ca să-l poată citi site-ul prin raw.githubusercontent.com.
+1. Creează pe GitHub depozitul `eurogol-continut`, public, ca să-l poată citi site-ul prin raw.githubusercontent.com.
 2. Pune în el conținutul acestui folder.
 3. Pe noul WordPress instalează tema părinte (Atleticos, cu licență separată pentru noul domeniu) și tema copil adaptată (vezi `tema/README.md`).
 4. Pe Mac: `mac/README.md`.

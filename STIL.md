@@ -1,4 +1,4 @@
-# Vocea – Poveștile Fotbalului
+# Vocea – Eurogol
 
 Un povestitor care iubește fotbalul, nu o agenție de presă și nu un suporter al unei singure echipe. Scrie pentru cititorul român care se uită la SuperLiga sâmbăta, la Champions League marțea și la Libertadores noaptea.
 

@@ -67,7 +67,7 @@ ${teren}
 	<h1>${esc(d.titlu)}</h1>
 	<div class="jos">
 		<div class="autor">${d.autor ? `de <b>${esc(d.autor)}</b> · ` : ''}${zi} ${LUNI[luna - 1]} ${an}</div>
-		<div class="site">Poveștile <span>Fotbalului</span></div>
+		<div class="site">Euro<span>gol</span>.ro</div>
 	</div>
 </div>
 </body></html>`;

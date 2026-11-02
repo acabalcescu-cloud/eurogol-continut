@@ -9,7 +9,7 @@
 ## Instalare (o singură dată)
 1. `brew install git node gh python`, apoi `npm install -g @anthropic-ai/claude-code` și o rulare `claude` pentru login.
 2. `gh auth login`, cu un cont care are drept de scriere în depozitul de conținut.
-3. `git clone https://github.com/<cont>/povestilefotbalului-continut.git && cd povestilefotbalului-continut`
+3. `git clone https://github.com/<cont>/eurogol-continut.git && cd eurogol-continut`
 4. `npm install playwright && npx playwright install chromium` (pentru coperți).
 5. `python3 mac/verifica.py --doar-lista` – arată candidații și scorurile, fără să pornească Claude.
 6. `bash mac/instaleaza.sh` – pornește verificarea orară.
