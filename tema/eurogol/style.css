@@ -3,7 +3,7 @@ Theme Name: Eurogol
 Theme URI: https://eurogol.ro
 Author: Eurogol
 Description: Tema site-ului eurogol.ro – fotbal românesc, european și sud-american. Prima pagină cu un articol mare și patru mai mici, secțiuni pe competiții, coloana „Pe scurt” și importul automat al articolelor din GitHub.
-Version: 2.0.0
+Version: 2.0.1
 Requires at least: 6.4
 Requires PHP: 7.4
 License: GNU General Public License v2 or later
@@ -123,6 +123,7 @@ button { font: inherit; cursor: pointer; }
 .eg-coperta-mare .eg-coperta-titlu { font-size: 26px; -webkit-line-clamp: 4; line-clamp: 4; }
 .eg-coperta .eg-meta, .eg-coperta .eg-meta .eg-autor { color: #fff; }
 .eg-coperta .eg-eticheta { font-size: 10px; padding: 2px 7px; }
+.eg-coperta:not(.eg-coperta-mare) .eg-eticheta { display: none; } /* ca la sempremilan: pe cardurile mici doar titlul și data */
 
 /* Imaginea lipsă: fundal în culoarea site-ului cu numele lui. */
 .eg-img-gol { display: flex !important; align-items: center; justify-content: center; background: linear-gradient(135deg, var(--eg-culoare), var(--eg-inchis)); color: rgba(255,255,255,.35); aspect-ratio: 1200 / 630; width: 100%; }
