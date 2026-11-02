@@ -106,27 +106,44 @@ body { width: 1200px; height: 630px; overflow: hidden; color: #fff; font-family:
 .teren { position: absolute; inset: 0; width: 1200px; height: 630px; opacity: .13; }
 .fundal { position: absolute; inset: 0; background-size: cover; background-position: center; filter: saturate(.85); }
 .fundal::after { content: ''; position: absolute; inset: 0; background: linear-gradient(125deg, ${c1}e6 0%, ${c2}cc 55%, ${c2}99 100%); }
-.marca { position: absolute; left: 48px; top: 40px; height: 74px; z-index: 3; filter: drop-shadow(0 6px 16px rgba(0,0,0,.35)); }
+.marca { position: absolute; left: 44px; top: 36px; height: 70px; z-index: 3; filter: drop-shadow(0 6px 16px rgba(0,0,0,.35)); }
 .fata { position: absolute; left: -10px; bottom: 0; width: 600px; height: 600px; z-index: 1; }
-.dreapta { position: absolute; right: 60px; top: 70px; z-index: 2; display: flex; flex-direction: column; align-items: flex-end; gap: 18px; max-width: ${fata ? 640 : 900}px; }
+.dreapta { position: absolute; right: 56px; top: 50%; transform: translateY(-46%); z-index: 2; display: flex; flex-direction: column; align-items: flex-end; gap: 22px; max-width: ${fata ? 640 : 1000}px; }
 .rand-banda { display: flex; align-items: center; gap: 22px; }
-.emblema { width: 112px; height: 112px; flex: none; border-radius: 50%; background: #fff; display: flex; align-items: center; justify-content: center; box-shadow: 0 14px 34px rgba(0,0,0,.35); }
+.emblema { width: 132px; height: 132px; flex: none; border-radius: 50%; background: #fff; display: flex; align-items: center; justify-content: center; box-shadow: 0 14px 34px rgba(0,0,0,.35); }
 .emblema img { width: 74%; height: 74%; object-fit: contain; }
-.banda { font-weight: 800; font-size: 130px; line-height: .95; text-transform: uppercase; text-align: right;
+.banda { font-weight: 800; font-size: 160px; line-height: .95; text-transform: uppercase; text-align: right; white-space: nowrap;
 	padding: 16px 44px 20px; background: ${accent}; color: ${c2}; transform: skewX(-12deg); box-shadow: 0 18px 50px rgba(0,0,0,.35); }
 .banda > span, .sub > span { display: inline-block; transform: skewX(12deg); }
-.sub { font-weight: 800; font-size: 54px; text-transform: uppercase; letter-spacing: 1px; text-shadow: 0 4px 18px rgba(0,0,0,.35);
-	border: 3px solid rgba(255,255,255,.85); padding: 6px 26px 8px; transform: skewX(-12deg); }
+.sub { font-weight: 800; font-size: 68px; text-transform: uppercase; letter-spacing: 1px; text-shadow: 0 4px 18px rgba(0,0,0,.35);
+	background: rgba(0,0,0,.35); border: 4px solid rgba(255,255,255,.9); padding: 6px 28px 10px; transform: skewX(-12deg); }
 .cluburi { display: flex; align-items: center; gap: 26px; }
-.sigla { width: 150px; height: 150px; border-radius: 50%; background: rgba(255,255,255,.96); display: flex; align-items: center; justify-content: center; box-shadow: 0 14px 34px rgba(0,0,0,.35); }
+.sigla { width: 196px; height: 196px; border-radius: 50%; background: rgba(255,255,255,.96); display: flex; align-items: center; justify-content: center; box-shadow: 0 14px 34px rgba(0,0,0,.35); }
 .sigla img { width: 74%; height: 74%; object-fit: contain; }
-.scor { display: flex; gap: 8px; font-weight: 800; font-size: 96px; line-height: 1; }
+.scor { display: flex; gap: 10px; font-weight: 800; font-size: 128px; line-height: 1; }
 .scor span { background: rgba(0,0,0,.45); border: 3px solid rgba(255,255,255,.3); padding: 4px 22px 8px; }
-.vs { font-weight: 800; font-size: 60px; opacity: .85; }
+.vs { font-weight: 800; font-size: 80px; opacity: .85; }
 /* Cu sigle, ele vin primele (sus), banda dedesubt, mai mică. */
-.cu-cluburi .banda { font-size: 84px; padding: 10px 34px 14px; }
-.cu-cluburi .emblema { width: 92px; height: 92px; }
-</style></head><body class="${cluburi.length ? 'cu-cluburi' : ''}">
+.cu-cluburi .banda { font-size: 104px; padding: 12px 38px 16px; }
+.cu-cluburi .emblema { width: 108px; height: 108px; }
+.cu-cluburi .sub { font-size: 56px; }
+/* Fără portret: totul la mijloc și mai mare, ca să umple coperta (pe telefon cardurile sunt mici). */
+.centrat .dreapta { right: auto; left: 50%; transform: translate(-50%, -44%); align-items: center; max-width: 1080px; }
+.centrat .banda { font-size: 176px; }
+.centrat .sub { font-size: 76px; }
+.centrat .sigla { width: 230px; height: 230px; }
+.centrat .scor { font-size: 150px; }
+.centrat .emblema { width: 150px; height: 150px; }
+.centrat.cu-cluburi .banda { font-size: 116px; }
+.centrat.cu-cluburi .emblema { width: 118px; height: 118px; }
+.centrat .cluburi { gap: 34px; }
+/* Sigle + subtitlu: siglele se micșorează, ca banda să rămână mare. */
+.centrat.cu-cluburi.cu-sub .sigla { width: 168px; height: 168px; }
+.centrat.cu-cluburi.cu-sub .cluburi { gap: 26px; }
+.centrat.cu-cluburi.cu-sub .vs { font-size: 64px; }
+.centrat.cu-cluburi.cu-sub .banda { font-size: 104px; }
+.centrat.cu-cluburi.cu-sub .dreapta { gap: 16px; }
+</style></head><body class="${[cluburi.length ? 'cu-cluburi' : '', fata ? '' : 'centrat', d.subtitlu && !scor ? 'cu-sub' : ''].join(' ')}">
 ${fundal ? `<div class="fundal" style="background-image:url(${fundal})"></div>` : ''}
 <svg class="teren" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#fff" stroke-width="4">
 	<rect x="30" y="30" width="1140" height="570"/><line x1="600" y1="30" x2="600" y2="600"/>
@@ -189,11 +206,14 @@ ${teren}
 	if (!d.cu_titlu) await page.evaluate(() => {
 		const b = document.querySelector('.banda');
 		const start = parseInt(getComputedStyle(b).fontSize, 10);
-		const stanga = document.querySelector('.fata') ? 560 : 200; // banda nu intră peste portret
-		for (let px = start; px >= 48; px -= 4) {
+		const stanga = document.querySelector('.fata') ? 560 : 50; // banda nu intră peste portret
+		const bloc = document.querySelector('.dreapta');
+		const sub = document.querySelector('.sub');
+		for (let px = start; px >= 56; px -= 4) {
 			b.style.fontSize = px + 'px';
-			const r = b.getBoundingClientRect();
-			if (r.left >= stanga && r.height <= px * 2.2) break;
+			if (sub) sub.style.fontSize = Math.max(50, Math.min(parseInt(getComputedStyle(sub).fontSize, 10), Math.round(px * 0.62))) + 'px';
+			const r = b.getBoundingClientRect(), z = bloc.getBoundingClientRect();
+			if (r.left >= stanga && r.right <= 1160 && z.top >= 110 && z.bottom <= 605) break;
 		}
 	});
 	// Coperta cu titlu: cea mai mare mărime la care titlul încape în cel mult 5 rânduri și nu atinge rândul de jos.

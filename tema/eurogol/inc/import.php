@@ -144,11 +144,23 @@ function eg_import_ruleaza( $limita = 15 ) {
 	// Articolele completate după publicare.
 	foreach ( array_filter( (array) ( $index['actualizate'] ?? array() ), 'is_string' ) as $cale ) {
 		$art = eg_import_json( $cale );
-		if ( is_wp_error( $art ) || empty( $art['id'] ) || empty( $art['actualizat'] ) ) {
+		if ( is_wp_error( $art ) || empty( $art['id'] ) || ( empty( $art['actualizat'] ) && empty( $art['coperta_v'] ) ) ) {
 			continue;
 		}
+		$art['actualizat'] = $art['actualizat'] ?? '';
 		$post_id = eg_import_gaseste( sanitize_title( $art['id'] ) );
-		if ( ! $post_id || get_post_meta( $post_id, '_eg_actualizat', true ) === $art['actualizat'] ) {
+		if ( ! $post_id ) {
+			continue;
+		}
+		// Coperta refăcută: „coperta_v” nou → imaginea se înlocuiește.
+		if ( ! empty( $art['coperta_v'] ) && (string) get_post_meta( $post_id, '_eg_coperta_v', true ) !== (string) $art['coperta_v'] ) {
+			if ( eg_import_coperta( $post_id, $art, $cale ) ) {
+				update_post_meta( $post_id, '_eg_coperta_v', (string) $art['coperta_v'] );
+				eg_import_jurnal( 'Copertă nouă: ' . get_the_title( $post_id ) );
+				$rez['actualizate']++;
+			}
+		}
+		if ( get_post_meta( $post_id, '_eg_actualizat', true ) === $art['actualizat'] ) {
 			continue;
 		}
 		wp_update_post(
@@ -316,6 +328,35 @@ function eg_import_autor( $autor ) {
 	return $admini ? (int) $admini[0] : 1;
 }
 
+/** Descarcă coperta (fișierul de lângă articol sau „imagine_url”) și o pune ca imagine reprezentativă; șterge coperta veche. */
+function eg_import_coperta( $id, $art, $cale ) {
+	$img = '';
+	if ( ! empty( $art['imagine_url'] ) ) {
+		$img = $art['imagine_url'];
+	} elseif ( ! empty( $art['imagine'] ) ) {
+		$dir = trim( dirname( $cale ), './' );
+		$img = add_query_arg( 'v', rawurlencode( (string) ( $art['coperta_v'] ?? '1' ) ), eg_import_url( ( $dir ? $dir . '/' : '' ) . $art['imagine'] ) );
+	}
+	if ( ! $img ) {
+		return false;
+	}
+	require_once ABSPATH . 'wp-admin/includes/media.php';
+	require_once ABSPATH . 'wp-admin/includes/file.php';
+	require_once ABSPATH . 'wp-admin/includes/image.php';
+	$veche = get_post_thumbnail_id( $id );
+	$media = media_sideload_image( esc_url_raw( $img ), $id, wp_strip_all_tags( $art['titlu'] ?? '' ), 'id' );
+	if ( is_wp_error( $media ) ) {
+		eg_import_jurnal( 'Coperta n-a putut fi descărcată pentru ' . ( $art['id'] ?? $id ) . ': ' . $media->get_error_message() );
+		return false;
+	}
+	set_post_thumbnail( $id, $media );
+	update_post_meta( $media, '_wp_attachment_image_alt', wp_strip_all_tags( $art['titlu'] ?? '' ) );
+	if ( $veche && (int) $veche !== (int) $media ) {
+		wp_delete_attachment( $veche, true );
+	}
+	return true;
+}
+
 /** Creează articolul. Întoarce ID-ul, 0 dacă exista deja, sau WP_Error. */
 function eg_import_articol( $art, $cale ) {
 	if ( empty( $art['id'] ) || empty( $art['titlu'] ) ) {
@@ -376,25 +417,9 @@ function eg_import_articol( $art, $cale ) {
 		wp_update_post( wp_slash( array( 'ID' => $id, 'post_content' => eg_import_persoane( get_post_field( 'post_content', $id ), $art, $id ) ) ) );
 	}
 
-	// Coperta: fișierul din același folder cu articolul sau o adresă completă.
-	$img = '';
-	if ( ! empty( $art['imagine_url'] ) ) {
-		$img = $art['imagine_url'];
-	} elseif ( ! empty( $art['imagine'] ) ) {
-		$dir = trim( dirname( $cale ), './' );
-		$img = eg_import_url( ( $dir ? $dir . '/' : '' ) . $art['imagine'] );
-	}
-	if ( $img ) {
-		require_once ABSPATH . 'wp-admin/includes/media.php';
-		require_once ABSPATH . 'wp-admin/includes/file.php';
-		require_once ABSPATH . 'wp-admin/includes/image.php';
-		$media = media_sideload_image( esc_url_raw( $img ), $id, wp_strip_all_tags( $art['titlu'] ), 'id' );
-		if ( is_wp_error( $media ) ) {
-			eg_import_jurnal( "Coperta n-a putut fi descărcată pentru {$eg_id}: " . $media->get_error_message() );
-		} else {
-			set_post_thumbnail( $id, $media );
-			update_post_meta( $media, '_wp_attachment_image_alt', wp_strip_all_tags( $art['titlu'] ) );
-		}
+	eg_import_coperta( $id, $art, $cale );
+	if ( ! empty( $art['coperta_v'] ) ) {
+		update_post_meta( $id, '_eg_coperta_v', (string) $art['coperta_v'] );
 	}
 
 	eg_import_jurnal( ( 'draft' === $status ? 'Ciornă: ' : ( 'future' === $status ? 'Programat: ' : 'Publicat: ' ) ) . $art['titlu'] );
