@@ -158,7 +158,7 @@ function eg_sectiune( $slugs, $titlu, $exclude = array() ) {
 }
 
 /** Lista „Pe scurt”: ultimele articole, cu ora (azi) sau ziua. */
-function eg_pe_scurt( $numar = 8 ) {
+function eg_pe_scurt( $numar = 8, $clasa = 'eg-pe-scurt-bloc' ) {
 	$q = new WP_Query(
 		array(
 			'posts_per_page'      => $numar,
@@ -169,7 +169,7 @@ function eg_pe_scurt( $numar = 8 ) {
 	if ( ! $q->have_posts() ) {
 		return;
 	}
-	echo '<section class="eg-bloc"><h2 class="eg-titlu-sectiune">Pe scurt</h2><ol class="eg-pe-scurt">';
+	echo '<section class="eg-bloc ' . esc_attr( $clasa ) . '"><h2 class="eg-titlu-sectiune">Pe scurt</h2><ol class="eg-pe-scurt">';
 	foreach ( $q->posts as $p ) {
 		echo '<li><time datetime="' . esc_attr( get_the_date( 'c', $p ) ) . '">' . esc_html( eg_ora_sau_zi( $p ) ) . '</time><a href="' . esc_url( get_permalink( $p ) ) . '">' . esc_html( get_the_title( $p ) ) . '</a></li>';
 	}

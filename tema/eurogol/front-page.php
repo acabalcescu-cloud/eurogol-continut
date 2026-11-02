@@ -29,8 +29,11 @@ $vazute = wp_list_pluck( $sus->posts, 'ID' );
 <div class="eg-doua-coloane">
 	<div class="eg-continut">
 		<?php
-		foreach ( eg_sectiuni() as $s ) {
+		foreach ( eg_sectiuni() as $k => $s ) {
 			$vazute = array_merge( $vazute, eg_sectiune( $s[0], $s[1], $vazute ) );
+			if ( 0 === $k ) {
+				eg_pe_scurt( 6, 'eg-doar-mobil' ); // pe telefon, după prima secțiune
+			}
 		}
 
 		// La final, tot ce n-a apărut încă: cele mai noi articole, din toate categoriile.
