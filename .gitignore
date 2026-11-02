@@ -1,0 +1,4 @@
+node_modules/
+.DS_Store
+.stare-mac/
+__pycache__/
