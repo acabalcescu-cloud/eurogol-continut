@@ -3,7 +3,7 @@ Theme Name: Eurogol
 Theme URI: https://eurogol.ro
 Author: Eurogol
 Description: Tema site-ului eurogol.ro – fotbal românesc, european și sud-american. Prima pagină cu un articol mare și patru mai mici, secțiuni pe competiții, coloana „Pe scurt” și importul automat al articolelor din GitHub.
-Version: 2.0.2
+Version: 2.1.1
 Requires at least: 6.4
 Requires PHP: 7.4
 License: GNU General Public License v2 or later
@@ -209,6 +209,30 @@ a.eg-eticheta:hover { color: #fff; background: var(--eg-inchis); }
 .eg-text .eg-foto figcaption { margin-top: 8px; font-size: 13px; line-height: 1.45; color: var(--eg-text-2); }
 .eg-text .eg-foto figcaption a { color: inherit; }
 .eg-text .eg-credit-foto { font-size: 13px; color: var(--eg-text-2); }
+.eg-clasament { margin-top: 30px; }
+.eg-clasament .eg-titlu-sectiune { font-size: 22px; margin-bottom: 12px; }
+.eg-cl-grupa { font-size: 15px; margin: 14px 0 6px; }
+.eg-cl-tabel { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.eg-clasament table { width: 100%; border-collapse: collapse; font-size: 14px; font-variant-numeric: tabular-nums; }
+.eg-clasament th { font-size: 11px; font-weight: 700; text-transform: uppercase; color: var(--eg-text-2); text-align: center; padding: 6px 4px; border-bottom: 2px solid var(--eg-culoare); }
+.eg-clasament td { text-align: center; padding: 7px 4px; border-bottom: 1px solid var(--eg-linie); }
+.eg-clasament .eg-cl-echipa { text-align: left; }
+.eg-cl-n { display: flex; align-items: center; gap: 8px; }
+.eg-cl-n span { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 52vw; }
+.eg-cl-n img { width: 20px; height: 20px; object-fit: contain; flex: none; }
+.eg-clasament .eg-cl-loc { width: 34px; font-weight: 700; }
+.eg-clasament .eg-cl-pct { font-weight: 800; }
+.eg-clasament tr.eg-cl-noi td { background: #fff4c2; font-weight: 700; }
+.eg-clasament .eg-cl-pauza td { color: var(--eg-text-2); padding: 2px; border-bottom: 0; }
+.eg-cl-tot { margin-top: 8px; }
+.eg-cl-tot summary { cursor: pointer; font-weight: 700; color: var(--eg-culoare); font-size: 14px; padding: 6px 0; }
+.eg-cl-legenda { list-style: none; margin: 10px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 12px; color: var(--eg-text-2); }
+.eg-cl-legenda i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
+.eg-cl-sursa { margin: 8px 0 0; font-size: 12px; color: var(--eg-text-2); }
+@media (max-width: 600px) {
+	.eg-clasament .eg-cl-det { display: none; }
+	.eg-clasament table { font-size: 13px; }
+}
 .eg-articol-subsol { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 28px; padding-top: 20px; border-top: 1px solid var(--eg-linie); }
 .eg-articol-subsol a { font-size: 14px; background: var(--eg-fundal-cutie); padding: 4px 12px; border-radius: 99px; }
 .eg-articol-subsol a:hover { background: var(--eg-culoare); color: #fff; }

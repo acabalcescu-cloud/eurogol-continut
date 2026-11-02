@@ -58,6 +58,8 @@ Toate urmează `STIL.md` (vocea) și `ACOPERIRE.md` (ce intră și în ce ordine
 - În articol: `"fata": "<slug>"` (portretul de pe copertă), opțional `"persoane": ["<slug>", …]` (cel mult 2) și `"fundal": "<slug>"` (aceleași valori ca în coperta.json). Site-ul pune singur fotografia în articol, după al doilea paragraf, cu autorul și licența, plus creditele copertei la final. Nu scrie tu creditele.
 - Dacă pagina Wikipedia nu are o fotografie liberă, coperta rămâne fără portret: sigle și emblemă.
 
+**Clasamentul** apare singur la finalul articolului (date LiveScore): site-ul găsește competiția după categorie, etichete sau echipele din titlu și evidențiază echipele pomenite. Când competiția nu reiese clar (ex. o știre despre un jucător, cu categoria „Știri”), pune `"clasament": "<slug>"` – unul dintre `superliga`, `premier-league`, `laliga`, `serie-a`, `bundesliga`, `ligue-1`, `champions-league`, `europa-league`, `conference-league`, `brasileirao`, `liga-profesional`. `"clasament": false` = fără clasament (ex. o știre despre echipa națională). Poveștile nu au clasament.
+
 **Semnătura:** nu pune câmpul `autor`. Site-ul alege singur redactorul după subiect (`tema/eurogol/inc/redactori.php`): SuperLiga – Andrei Toma, Naționala și stranierii – Răzvan Petrescu, Cupele europene – Mihai Georgescu, Marile campionate – Vlad Ene, Transferuri – Cătălin Dumitru, America de Sud – Raul Neagu, Povești – Sorin Avram, Declarații și opinii – Cristian Manolache. Câmpul `autor: { login, nume }` se folosește doar pentru texte trimise de oameni reali, care semnează cu numele lor.
 
 **`index.json`:** fiecare articol nou se adaugă la începutul listei `cronici` (cel mult 200). Articolele completate intră în lista `actualizate`.

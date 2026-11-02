@@ -174,6 +174,9 @@ function eg_import_ruleaza( $limita = 15 ) {
 			)
 		);
 		update_post_meta( $post_id, '_eg_actualizat', $art['actualizat'] );
+		if ( array_key_exists( 'clasament', $art ) ) {
+			update_post_meta( $post_id, '_eg_clasament', $art['clasament'] ? sanitize_title( $art['clasament'] ) : 'nu' );
+		}
 		eg_import_jurnal( 'Actualizat: ' . get_the_title( $post_id ) );
 		$rez['actualizate']++;
 	}
@@ -398,6 +401,7 @@ function eg_import_articol( $art, $cale ) {
 			'_eg_actualizat' => (string) ( $art['actualizat'] ?? '' ),
 			'_eg_cronica'    => empty( $art['meci'] ) ? '' : '1',
 			'_eg_autor_explicit' => empty( $art['autor'] ) ? '' : '1',
+			'_eg_clasament'  => array_key_exists( 'clasament', $art ) ? ( $art['clasament'] ? sanitize_title( $art['clasament'] ) : 'nu' ) : '',
 		),
 	);
 	if ( $data ) {

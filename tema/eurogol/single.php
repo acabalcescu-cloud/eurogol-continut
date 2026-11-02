@@ -32,6 +32,8 @@ get_header();
 					<?php the_content(); ?>
 				</div>
 
+				<?php echo eg_clasament_html( get_post() ); // phpcs:ignore -- clasamentul competiției, la finalul articolului ?>
+
 				<?php $nota = get_theme_mod( 'eg_nota_articol', eg_nota_implicita() ); ?>
 				<?php if ( $nota ) : ?>
 					<p class="eg-nota"><?php echo esc_html( $nota ); ?></p>

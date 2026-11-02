@@ -6,7 +6,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'EG_VERSIUNE', '2.0.2' );
+define( 'EG_VERSIUNE', '2.1.1' );
 define( 'EG_DIR', get_template_directory() );
 define( 'EG_URI', get_template_directory_uri() );
 
@@ -15,6 +15,7 @@ require EG_DIR . '/inc/carduri.php';
 require EG_DIR . '/inc/redactori.php';
 require EG_DIR . '/inc/import.php';
 require EG_DIR . '/inc/actualizare.php';
+require EG_DIR . '/inc/clasament.php';
 
 add_action( 'after_setup_theme', 'eg_setup' );
 function eg_setup() {
