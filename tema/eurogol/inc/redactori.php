@@ -87,7 +87,9 @@ function eg_redactor_id( $login ) {
 	if ( $u ) {
 		// Conturile create de versiunea 1.3.0 aveau o adresă de rezervă; acum rămân fără email.
 		if ( str_ends_with( (string) $u->user_email, '@redactori.eurogol.invalid' ) ) {
+			add_filter( 'send_email_change_email', '__return_false' );
 			wp_update_user( array( 'ID' => $u->ID, 'user_email' => '' ) );
+			remove_filter( 'send_email_change_email', '__return_false' );
 		}
 		return (int) $u->ID;
 	}
