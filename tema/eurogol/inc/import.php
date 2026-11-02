@@ -350,6 +350,7 @@ function eg_import_pagina() {
 			update_option( 'eg_import_depozit', sanitize_text_field( wp_unslash( $_POST['eg_depozit'] ?? '' ) ) );
 			update_option( 'eg_import_ramura', sanitize_text_field( wp_unslash( $_POST['eg_ramura'] ?? 'main' ) ) );
 			update_option( 'eg_import_autor', absint( $_POST['eg_autor'] ?? 0 ) );
+			update_option( 'eg_tema_auto', empty( $_POST['eg_tema_auto'] ) ? 0 : 1 );
 			wp_clear_scheduled_hook( EG_IMPORT_HOOK );
 			eg_import_programeaza();
 			$mesaj = 'Setările au fost salvate.';
@@ -379,6 +380,9 @@ function eg_import_pagina() {
 					<td><input class="regular-text" id="eg_ramura" name="eg_ramura" value="<?php echo esc_attr( get_option( 'eg_import_ramura', 'main' ) ); ?>"></td></tr>
 				<tr><th><label for="eg_autor">Autorul implicit</label></th>
 					<td><?php wp_dropdown_users( array( 'name' => 'eg_autor', 'id' => 'eg_autor', 'selected' => (int) get_option( 'eg_import_autor', 0 ), 'show_option_none' => 'Primul administrator', 'option_none_value' => 0 ) ); ?></td></tr>
+				<tr><th>Tema</th>
+					<td><label><input type="checkbox" name="eg_tema_auto" value="1" <?php checked( get_option( 'eg_tema_auto', 1 ) ); ?>> Instalează singură versiunile noi ale temei din GitHub (verificate cu SHA-256)</label>
+					<p class="description">Versiunea instalată: <?php echo esc_html( wp_get_theme( 'eurogol' )->get( 'Version' ) ); ?>.</p></td></tr>
 			</table>
 			<p>
 				<button class="button" name="eg_actiune" value="salveaza">Salvează setările</button>

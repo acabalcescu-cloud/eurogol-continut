@@ -5,6 +5,7 @@
  * 1. POST /wp-json/eg/v1/tema – ca la povestilestiintei.ro (/ps/v1/tema): doar administratori (update_themes).
  *    Descarcă arhiva, o verifică cu amprenta SHA-256 din tema/sha256.txt, o instalează peste tema actuală,
  *    apoi golește OPcache și cache-ul LiteSpeed. Întoarce { inainte, acum }.
+ * 3. Singură: la fiecare import (15 minute), dacă versiune.txt e mai nouă, se instalează automat.
  * 2. Panou → Actualizări: când tema/versiune.txt are o versiune mai nouă, WordPress arată actualizarea ca la orice temă.
  *    Pachetul trece prin aceeași verificare SHA-256 înainte de instalare.
  */
@@ -91,6 +92,37 @@ function eg_actualizeaza_tema() {
 	wp_clean_themes_cache();
 	eg_goleste_cache();
 	return array( 'inainte' => $inainte, 'acum' => wp_get_theme( 'eurogol' )->get( 'Version' ) );
+}
+
+/* ---------- 3. Instalarea automată, la fiecare import (15 minute) ---------- */
+
+/**
+ * Dacă tema/versiune.txt din depozit e mai nouă decât tema instalată, o instalează singură
+ * (aceeași verificare SHA-256 ca mai sus). Se oprește din Instrumente → Import Eurogol.
+ */
+add_action( 'eg_import', 'eg_auto_actualizare', 20 );
+function eg_auto_actualizare() {
+	if ( ! get_option( 'eg_tema_auto', 1 ) || ! eg_tema_baza() ) {
+		return;
+	}
+	$r = wp_remote_get( eg_tema_baza() . 'versiune.txt?nocache=' . time(), array( 'timeout' => 10 ) );
+	if ( is_wp_error( $r ) || 200 !== wp_remote_retrieve_response_code( $r ) ) {
+		return;
+	}
+	$noua    = trim( wp_remote_retrieve_body( $r ) );
+	$inainte = wp_get_theme( 'eurogol' )->get( 'Version' );
+	if ( ! preg_match( '/^\d+\.\d+\.\d+$/', $noua ) || ! version_compare( $noua, $inainte, '>' ) ) {
+		return;
+	}
+	// O singură încercare pe versiune la 30 de minute (GitHub poate servi câteva minute arhiva veche).
+	if ( get_transient( 'eg_tema_incercare_' . md5( $noua ) ) ) {
+		return;
+	}
+	set_transient( 'eg_tema_incercare_' . md5( $noua ), 1, 30 * MINUTE_IN_SECONDS );
+	$rez = eg_actualizeaza_tema();
+	if ( function_exists( 'eg_import_jurnal' ) ) {
+		eg_import_jurnal( is_wp_error( $rez ) ? "Tema {$noua} nu s-a instalat: " . $rez->get_error_message() : "Tema actualizată: {$rez['inainte']} → {$rez['acum']}." );
+	}
 }
 
 /* ---------- 2. Panou → Actualizări ---------- */
