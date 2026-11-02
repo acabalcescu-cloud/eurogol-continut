@@ -132,9 +132,14 @@ body { width: 1200px; height: 630px; overflow: hidden; color: #fff; font-family:
 .cu-cluburi.cu-sub .sigla { width: 120px; height: 120px; }
 .cu-cluburi.cu-sub .banda { font-size: 72px; }
 .cu-fata .sigla { width: 110px; height: 110px; }
+/* Un singur club: sigla stă pe rândul benzii, nu deasupra – încape totul mai mare în jumătatea de sus. */
+.un-club .dreapta { top: 40px; gap: 18px; }
+.un-club .sigla-rand { width: 150px; height: 150px; flex: none; }
+.un-club .banda { font-size: 104px; }
+.un-club .sub { font-size: 56px; }
 /* jos: doar fundalul, peste care site-ul pune titlul; o umbră discretă ca textul alb să se citească */
 .umbra { position: absolute; left: 0; right: 0; bottom: 0; height: 52%; z-index: 1; background: linear-gradient(to top, rgba(0,0,0,.35), transparent); }
-</style></head><body class="${[cluburi.length ? 'cu-cluburi' : '', fata ? 'cu-fata' : '', d.subtitlu && !scor ? 'cu-sub' : ''].join(' ')}">
+</style></head><body class="${[cluburi.length === 2 ? 'cu-cluburi' : (cluburi.length === 1 ? 'un-club' : ''), fata ? 'cu-fata' : '', d.subtitlu && !scor ? 'cu-sub' : ''].join(' ')}">
 <div class="umbra"></div>
 ${fundal ? `<div class="fundal" style="background-image:url(${fundal})"></div>` : ''}
 <svg class="teren" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#fff" stroke-width="4">
@@ -147,8 +152,8 @@ ${fundal ? `<div class="fundal" style="background-image:url(${fundal})"></div>` 
 ${fs.existsSync(path.join(dir, 'logo.png')) ? `<img class="marca" src="${uri('logo.png')}">` : ''}
 ${fata ? `<img class="fata" src="${fata.src}">` : ''}
 <div class="dreapta">
-	${cluburi.length ? `<div class="cluburi">${cluburi.map((c, k) => `<div class="sigla"><img src="${c}"></div>${k === 0 && cluburi.length === 2 ? (scor ? `<div class="scor"><span>${esc(scor[0])}</span><span>${esc(scor[1])}</span></div>` : '<div class="vs">–</div>') : ''}`).join('')}</div>` : ''}
-	<div class="rand-banda">${emblema ? `<div class="emblema"><img src="${emblema}"></div>` : ''}<div class="banda"><span>${esc(rubrica)}</span></div></div>
+	${cluburi.length === 2 ? `<div class="cluburi">${cluburi.map((c, k) => `<div class="sigla"><img src="${c}"></div>${k === 0 && cluburi.length === 2 ? (scor ? `<div class="scor"><span>${esc(scor[0])}</span><span>${esc(scor[1])}</span></div>` : '<div class="vs">–</div>') : ''}`).join('')}</div>` : ''}
+	<div class="rand-banda">${cluburi.length === 1 ? `<div class="sigla sigla-rand"><img src="${cluburi[0]}"></div>` : ''}${emblema ? `<div class="emblema"><img src="${emblema}"></div>` : ''}<div class="banda"><span>${esc(rubrica)}</span></div></div>
 	${d.subtitlu && !scor ? `<div class="sub"><span>${esc(d.subtitlu)}</span></div>` : ''}
 </div>
 </body></html>`;
