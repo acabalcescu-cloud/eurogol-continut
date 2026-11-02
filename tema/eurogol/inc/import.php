@@ -163,6 +163,10 @@ function eg_import_ruleaza( $limita = 15 ) {
 		$rez['actualizate']++;
 	}
 
+	if ( $rez['noi'] || $rez['actualizate'] ) {
+		// Prima pagină și listele trebuie să arate imediat articolele noi, nu versiunea din cache.
+		do_action( 'litespeed_purge_all' );
+	}
 	update_option( 'eg_import_ultima', time(), false );
 	if ( $rez['noi'] || $rez['actualizate'] || $rez['erori'] ) {
 		eg_import_jurnal( sprintf( 'Rulare: %d noi, %d actualizate, %d erori.', $rez['noi'], $rez['actualizate'], $rez['erori'] ) );
