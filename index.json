@@ -1,4 +1,9 @@
 {
-  "cronici": [],
+  "cronici": [
+    "cronici/2026-11-02-poveste-sevilla-1986.json",
+    "cronici/2026-11-02-stire-chivu-dupa-derby-feyenoord.json",
+    "cronici/2026-11-02-etapa-14-superliga.json",
+    "cronici/2026-11-02-u-cluj-fcsb.json"
+  ],
   "actualizate": []
 }
