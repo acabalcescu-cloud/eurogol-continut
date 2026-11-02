@@ -1,7 +1,7 @@
 {
  "_despre": "Configuratia verificarii orare (mac/verifica.py). Cuvintele-cheie: fara diacritice, litere mici, potrivite ca vorbe intregi. Nivelurile urmeaza ACOPERIRE.md. Listele de stranieri si antrenori se tin la zi de mana.",
  "site": "https://eurogol.ro",
- "ore": 4,
+ "ore": 6,
  "max_candidati": 45,
  "cote_nivel": {
   "1": 22,
@@ -25,7 +25,27 @@
   "Copa Libertadores",
   "Brasileirao",
   "River Plate Boca Juniors",
-  "transfer fotbal"
+  "transfer fotbal",
+  "FCSB",
+  "Dinamo Bucuresti",
+  "Rapid Bucuresti",
+  "CFR Cluj",
+  "Universitatea Craiova",
+  "U Cluj fotbal",
+  "Farul Constanta",
+  "Petrolul Ploiesti",
+  "nationala Romaniei Lucescu",
+  "Cristi Chivu",
+  "Radu Dragusin",
+  "Ianis Hagi",
+  "stranieri romani gol",
+  "transfer SuperLiga",
+  "Liga Campionilor seara",
+  "Real Madrid",
+  "Barcelona fotbal",
+  "Manchester City",
+  "Bayern Munchen",
+  "Boca Juniors"
  ],
  "fluxuri": {
   "ro": [
@@ -35,14 +55,20 @@
    "https://www.fanatik.ro/feed",
    "https://www.digisport.ro/rss",
    "https://www.digi24.ro/rss/stiri/sport",
-   "https://www.gandul.ro/sport/feed"
+   "https://www.gandul.ro/sport/feed",
+   "https://www.iamsport.ro/rss",
+   "https://www.digisport.ro/rss/fotbal"
   ],
   "strain": [
    "https://feeds.bbci.co.uk/sport/football/rss.xml",
    "https://e00-marca.uecdn.es/rss/futbol/primera-division.xml",
    "https://www.gazzetta.it/rss/calcio.xml",
    "https://ge.globo.com/rss/ge/futebol/",
-   "https://www.ole.com.ar/rss/ultimas-noticias/"
+   "https://www.ole.com.ar/rss/ultimas-noticias/",
+   "https://www.skysports.com/rss/12040",
+   "https://www.football-italia.net/feed",
+   "https://as.com/rss/futbol/portada.xml",
+   "https://www.theguardian.com/football/rss"
   ]
  },
  "niveluri": {
