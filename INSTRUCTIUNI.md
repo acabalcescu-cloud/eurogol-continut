@@ -38,6 +38,8 @@ Toate urmează `STIL.md` (vocea) și `ACOPERIRE.md` (ce intră și în ce ordine
 - `subtitlu` = un rând scurt și precis, de cel mult 25 de caractere: meciul („Inter – Milan”), etapa („Etapa 14”), omul („Cristi Chivu”), locul și anul („Sevilla, 1986”). Opțional.
 - Apoi `node unelte/coperta-stire.js cronici/<id>.coperta.json cronici/<id>.jpg`. Uită-te la imagine înainte de commit.
 
+**Semnătura:** nu pune câmpul `autor`. Site-ul alege singur redactorul după subiect (`tema/eurogol/inc/redactori.php`): SuperLiga – Andrei Toma, Naționala și stranierii – Răzvan Petrescu, Cupele europene – Mihai Georgescu, Marile campionate – Vlad Ene, Transferuri – Cătălin Dumitru, America de Sud – Raul Neagu, Povești – Sorin Avram, Declarații și opinii – Cristian Manolache. Câmpul `autor: { login, nume }` se folosește doar pentru texte trimise de oameni reali, care semnează cu numele lor.
+
 **`index.json`:** fiecare articol nou se adaugă la începutul listei `cronici` (cel mult 200). Articolele completate intră în lista `actualizate`.
 
 ## Rutina orară de știri

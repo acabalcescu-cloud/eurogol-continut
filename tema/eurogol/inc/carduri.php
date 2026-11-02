@@ -26,6 +26,10 @@ function eg_imagine( $post, $marime, $clasa = '' ) {
 function eg_meta( $post, $cu_autor = true ) {
 	$post  = get_post( $post );
 	$autor = $cu_autor ? '<b class="eg-autor">' . esc_html( get_the_author_meta( 'display_name', $post->post_author ) ) . '</b> - ' : '';
+	if ( $cu_autor && is_singular() && get_queried_object_id() === $post->ID ) {
+		$dep   = get_user_meta( $post->post_author, 'eg_departament', true );
+		$autor = '<a class="eg-autor" href="' . esc_url( get_author_posts_url( $post->post_author ) ) . '">' . esc_html( get_the_author_meta( 'display_name', $post->post_author ) ) . '</a>' . ( $dep ? ' <span class="eg-departament">· ' . esc_html( $dep ) . '</span>' : '' ) . ' - ';
+	}
 	return '<div class="eg-meta">' . $autor . '<time datetime="' . esc_attr( get_the_date( 'c', $post ) ) . '">' . esc_html( eg_data( $post ) ) . '</time></div>';
 }
 

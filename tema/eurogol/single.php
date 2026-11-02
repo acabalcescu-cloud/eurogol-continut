@@ -32,6 +32,11 @@ get_header();
 					<?php the_content(); ?>
 				</div>
 
+				<?php $nota = get_theme_mod( 'eg_nota_articol', eg_nota_implicita() ); ?>
+				<?php if ( $nota ) : ?>
+					<p class="eg-nota"><?php echo esc_html( $nota ); ?></p>
+				<?php endif; ?>
+
 				<?php
 				$etichete = get_the_tags();
 				if ( $etichete ) :

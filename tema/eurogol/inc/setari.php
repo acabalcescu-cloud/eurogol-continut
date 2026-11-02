@@ -23,6 +23,11 @@ function eg_sectiuni() {
 	return $out;
 }
 
+/** Nota implicită despre felul în care lucrăm (transparență pentru cititori și pentru Google). */
+function eg_nota_implicita() {
+	return 'Articolele Eurogol sunt redactate cu ajutorul instrumentelor de inteligență artificială, pe baza surselor citate, și verificate de redacție. Ai găsit o greșeală? Scrie-ne.';
+}
+
 add_action( 'customize_register', 'eg_personalizare' );
 function eg_personalizare( $wp_customize ) {
 	$wp_customize->add_section( 'eg', array( 'title' => 'Eurogol', 'priority' => 30 ) );
@@ -46,6 +51,17 @@ function eg_personalizare( $wp_customize ) {
 
 	$wp_customize->add_setting( 'eg_competitii', array( 'default' => 'superliga,nationala,champions-league,europa-league,conference-league,premier-league,laliga,serie-a,bundesliga,ligue-1,copa-libertadores,brasileirao', 'sanitize_callback' => 'sanitize_text_field' ) );
 	$wp_customize->add_control( 'eg_competitii', array( 'label' => 'Lista „Competiții” din coloana dreaptă și din subsol (slug-uri, separate prin virgulă)', 'section' => 'eg' ) );
+
+	$wp_customize->add_setting( 'eg_nota_articol', array( 'default' => eg_nota_implicita(), 'sanitize_callback' => 'sanitize_textarea_field' ) );
+	$wp_customize->add_control(
+		'eg_nota_articol',
+		array(
+			'label'       => 'Nota de la finalul articolelor',
+			'description' => 'Apare sub fiecare articol. Gol = nu apare.',
+			'section'     => 'eg',
+			'type'        => 'textarea',
+		)
+	);
 
 	foreach ( array( 'facebook' => 'Facebook', 'instagram' => 'Instagram', 'x' => 'X (Twitter)', 'tiktok' => 'TikTok', 'youtube' => 'YouTube' ) as $cheie => $nume ) {
 		$wp_customize->add_setting( 'eg_' . $cheie, array( 'default' => '', 'sanitize_callback' => 'esc_url_raw' ) );

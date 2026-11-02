@@ -8,6 +8,14 @@ get_header();
 if ( is_search() ) {
 	$titlu = 'Rezultate pentru „' . get_search_query() . '”';
 	$desc  = '';
+} elseif ( is_author() ) {
+	$titlu = get_the_author_meta( 'display_name', get_queried_object_id() );
+	$dep   = get_user_meta( get_queried_object_id(), 'eg_departament', true );
+	$desc  = get_the_author_meta( 'description', get_queried_object_id() );
+	if ( $dep ) {
+		$titlu .= ' · ' . $dep;
+		$desc   = preg_replace( '/^' . preg_quote( $dep, '/' ) . '\.\s*/u', '', $desc );
+	}
 } elseif ( is_archive() ) {
 	$titlu = wp_strip_all_tags( get_the_archive_title() );
 	$desc  = get_the_archive_description();

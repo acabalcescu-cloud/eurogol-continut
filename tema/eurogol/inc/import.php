@@ -102,6 +102,7 @@ function eg_import_ruleaza( $limita = 15 ) {
 		return $rez;
 	}
 	set_transient( 'eg_import_blocare', 1, 10 * MINUTE_IN_SECONDS );
+	eg_realoca_redactori();
 
 	$index = eg_import_json( 'index.json' );
 	if ( is_wp_error( $index ) ) {
@@ -163,7 +164,7 @@ function eg_import_ruleaza( $limita = 15 ) {
 		$rez['actualizate']++;
 	}
 
-	if ( $rez['noi'] || $rez['actualizate'] ) {
+	if ( $rez['noi'] || $rez['actualizate'] || did_action( 'eg_redactori_realocati' ) ) {
 		// Prima pagină și listele trebuie să arate imediat articolele noi, nu versiunea din cache.
 		do_action( 'litespeed_purge_all' );
 	}
@@ -263,13 +264,15 @@ function eg_import_articol( $art, $cale ) {
 		'post_title'    => wp_strip_all_tags( $art['titlu'] ),
 		'post_excerpt'  => wp_strip_all_tags( $art['rezumat'] ?? '' ),
 		'post_content'  => eg_import_continut( $art ),
-		'post_author'   => eg_import_autor( $art['autor'] ?? null ),
+		'post_author'   => ! empty( $art['autor'] ) ? eg_import_autor( $art['autor'] ) : ( eg_redactor_id( eg_alege_redactor( $eg_id, $art['titlu'], (array) ( $art['etichete'] ?? array() ), $art['categorie'] ?? '', ! empty( $art['meci'] ) ) ) ?: eg_import_autor( null ) ),
 		'post_category' => array_filter( array( eg_import_categorie( $art['categorie'] ?? 'Știri' ) ) ),
 		'tags_input'    => array_map( 'sanitize_text_field', (array) ( $art['etichete'] ?? array() ) ),
 		'meta_input'    => array(
 			'_eg_id'         => $eg_id,
 			'_eg_cale'       => $cale,
 			'_eg_actualizat' => (string) ( $art['actualizat'] ?? '' ),
+			'_eg_cronica'    => empty( $art['meci'] ) ? '' : '1',
+			'_eg_autor_explicit' => empty( $art['autor'] ) ? '' : '1',
 		),
 	);
 	if ( $data ) {
