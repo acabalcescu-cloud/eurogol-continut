@@ -1,6 +1,6 @@
 # Știrile pe Mac
 
-`mac/verifica.py` rulează la fiecare oră, la minutul 41, fără AI. Citește Google News și fluxurile RSS din `mac/config.json`, dă fiecărui titlu un scor și pornește Claude Code (`claude -p` cu `mac/prompt.md`) numai dacă apare ceva important. Claude scrie cel mult 3 știri, le salvează în depozit și le trimite pe GitHub. Site-ul le preia în cel mult 15 minute.
+`mac/verifica.py` rulează de două ori pe oră, la minutele 11 și 41, fără AI. Citește Google News și fluxurile RSS din `mac/config.json`, dă fiecărui titlu un scor și pornește Claude Code (`claude -p` cu `mac/prompt.md`) numai dacă apare ceva important. Claude scrie cel mult 3 știri, le salvează în depozit și le trimite pe GitHub. Site-ul le preia în cel mult 15 minute.
 
 **Scorul** = ponderea nivelului (România 3, Europa 2, America de Sud 1) + câte publicații diferite scriu despre același lucru (maximum 6). Claude pornește doar dacă cel mai bun scor e cel puțin `prag_pornire`. Candidații sunt împărțiți pe niveluri (`cote_nivel`), ca România să nu ocupe toate locurile.
 

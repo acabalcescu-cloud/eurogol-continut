@@ -1,5 +1,5 @@
 #!/bin/bash
-# Instalează verificarea orară a știrilor pe Mac (launchd, la minutul 41 al fiecărei ore).
+# Instalează verificarea știrilor pe Mac (launchd, de două ori pe oră: la minutele 11 și 41).
 # Rulare, din folderul depozitului:  bash mac/instaleaza.sh
 set -e
 DEPOZIT="$(cd "$(dirname "$0")/.." && pwd)"
@@ -11,7 +11,7 @@ cat > "$PLIST" <<PL
 <plist version="1.0"><dict>
  <key>Label</key><string>ro.eurogol.stiri</string>
  <key>ProgramArguments</key><array><string>/usr/bin/python3</string><string>$DEPOZIT/mac/verifica.py</string></array>
- <key>StartCalendarInterval</key><dict><key>Minute</key><integer>41</integer></dict>
+ <key>StartCalendarInterval</key><array><dict><key>Minute</key><integer>11</integer></dict><dict><key>Minute</key><integer>41</integer></dict></array>
  <key>EnvironmentVariables</key><dict><key>PATH</key><string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string></dict>
  <key>StandardOutPath</key><string>$DEPOZIT/.stare-mac/launchd.log</string>
  <key>StandardErrorPath</key><string>$DEPOZIT/.stare-mac/launchd.log</string>

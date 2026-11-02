@@ -30,11 +30,11 @@ Nu putem scrie despre tot. Prioritățile de mai jos hotărăsc ce intră, ce se
 ## Limite pe zi
 | | Țintă | Maximum |
 |---|---|---|
-| Știri | 8–12 | 20 |
+| Știri | 20–30 | 45 |
 | Cronici + cronici de etapă | după calendar | 10 |
 | Povești | 2–3 pe săptămână | 1 pe zi |
 
-O rutină orară scrie **cel mult 3 articole**. Când sunt mai multe subiecte, întâi nivelul 1, apoi 2, apoi 3. Restul se lasă pentru ora următoare sau se grupează („Transferurile zilei în Europa”).
+Rutina de știri rulează de două ori pe oră (la minutele 11 și 41) și scrie **până la 6 articole** la o rulare: întâi nivelul 1, apoi 2, apoi 3. Fiecare declarație, interviu sau unghi propriu e o știre separată (ca la povestilestiintei); doar informațiile identice nu se repetă.
 
 ## Ce nu intră
 Fotbalul feminin, futsalul, ligile inferioare și restul lumii, **doar până când hotărâm altfel**. Nu intră nici: pariurile și cotele, bârfele despre viața personală, disputele juridice în detaliu.
