@@ -31,3 +31,20 @@ minutul90.ro/.com, prelungiri.ro, repriza.ro, tribuna.ro, careul.ro, peluzanord.
 
 ## Slogan
 „De la Ghencea la Maracanã” (și ghencealamaracana.ro e liber, ca redirecționare sau pentru o rubrică).
+
+## Cu „fotbal” în nume (libere și .ro, și .com)
+
+| Domeniu | De ce |
+|---|---|
+| **povestilefotbalului.ro** | Frate cu povestilestiintei.ro. Prima alegere. |
+| **fotbalcupoveste.ro** | Spune exact ce face site-ul. |
+| **fotbalfaragranite.ro** | România, Europa și America de Sud într-un singur nume. |
+| **fotbal360.ro** | Scurt, modern: fotbalul văzut din toate părțile. |
+| **fotbal90.ro** | Scurt, cele 90 de minute. |
+| **fotbalviu.ro** / **fotbalpur.ro** | Foarte scurte, ușor de spus și de ținut minte. |
+| **lumeadefotbal.ro** | Acoperirea internațională. (lumeafotbalului.ro e ocupat) |
+| **noptidefotbal.ro** / **seradefotbal.ro** | Serile de Champions League și nopțile de Libertadores. |
+| **memoriafotbalului.ro** | Dacă poveștile și istoria devin centrul site-ului. |
+| **jurnaldefotbal.ro** | Ton de jurnal personal, cald. |
+
+Ocupate cu „fotbal”: fotbal.ro, fotbalist.ro, fotbalul.ro, lumeafotbalului.ro, fotbaltotal.ro, fotbalmagazin.ro, fotbaleuropean.ro.
