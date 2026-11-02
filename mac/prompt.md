@@ -8,7 +8,7 @@ Ești redactorul de serviciu al site-ului Eurogol: fotbal românesc, european ș
    - citește sursele cu `python3 -I unelte/citeste.py <url>`. Faptele (transferuri, accidentări, scoruri, sume, decizii) se confirmă în două surse; declarațiile și interviurile pot veni dintr-una, cu citate scurte și atribuite;
    - verifică în `cronici/*-stire-*.json` din ultimele 7 zile să nu fi scris deja subiectul. Dacă există, dar sursa aduce ceva nou, completează știrea existentă (`"actualizat"` + lista `"actualizate"` din `index.json`);
    - scrie știrea după STIL.md (500–900 de cuvinte, de la zero, cu unghiul nostru și puntea românească, dacă există);
-   - fișierele: `cronici/<AAAA-LL-ZZ>-stire-<subiect>.json` și coperta `node unelte/coperta-stire.js cronici/<id>.coperta.json cronici/<id>.jpg`. Uită-te la copertă.
+   - fișierele: `cronici/<AAAA-LL-ZZ>-stire-<subiect>.json` și coperta `node unelte/coperta-stire.js cronici/<id>.coperta.json cronici/<id>.jpg`, cu `competitie`, `cluburi` (ID-uri Sofascore) și `fata` (portret), după INSTRUCTIUNI.md. Pentru omul din centrul știrii, fă portretul cu `unelte/fete.py` dacă are o fotografie liberă pe Wikipedia și pune în articol `"fata"`. Uită-te la copertă.
 5. Adaugă în `presa/vazute.json` URL-urile folosite (cu id-ul știrii) și pe cele respinse (`"ignorat"`).
 6. Adaugă știrile noi în capul listei `cronici` din `index.json`, apoi commit și push pe main. Site-ul le publică direct, deci verifică încă o dată numele, cifrele, datele și zilele săptămânii.
 7. Dacă nu e nimic de publicat, fă commit doar pentru `presa/vazute.json`.

@@ -3,7 +3,7 @@ Theme Name: Eurogol
 Theme URI: https://eurogol.ro
 Author: Eurogol
 Description: Tema site-ului eurogol.ro – fotbal românesc, european și sud-american. Prima pagină cu un articol mare și patru mai mici, secțiuni pe competiții, coloana „Pe scurt” și importul automat al articolelor din GitHub.
-Version: 1.5.0
+Version: 1.6.0
 Requires at least: 6.4
 Requires PHP: 7.4
 License: GNU General Public License v2 or later
@@ -200,6 +200,11 @@ a.eg-eticheta:hover { color: #fff; background: var(--eg-inchis); }
 .eg-text .wp-block-embed iframe, .eg-text > iframe { width: 100%; aspect-ratio: 16 / 9; height: auto; }
 .eg-text p:last-child { margin-bottom: 0; }
 .eg-text p em:first-child { color: var(--eg-text-2); }
+.eg-text .eg-foto { margin: 1.6em 0; }
+.eg-text .eg-foto img { width: 100%; max-height: 520px; object-fit: cover; object-position: center 8%; border-radius: var(--eg-raza); }
+.eg-text .eg-foto figcaption { margin-top: 8px; font-size: 13px; line-height: 1.45; color: var(--eg-text-2); }
+.eg-text .eg-foto figcaption a { color: inherit; }
+.eg-text .eg-credit-foto { font-size: 13px; color: var(--eg-text-2); }
 .eg-articol-subsol { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 28px; padding-top: 20px; border-top: 1px solid var(--eg-linie); }
 .eg-articol-subsol a { font-size: 14px; background: var(--eg-fundal-cutie); padding: 4px 12px; border-radius: 99px; }
 .eg-articol-subsol a:hover { background: var(--eg-culoare); color: #fff; }

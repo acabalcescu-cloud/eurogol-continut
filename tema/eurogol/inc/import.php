@@ -152,11 +152,13 @@ function eg_import_ruleaza( $limita = 15 ) {
 			continue;
 		}
 		wp_update_post(
+			wp_slash(
 			array(
 				'ID'           => $post_id,
 				'post_title'   => wp_strip_all_tags( $art['titlu'] ?? get_the_title( $post_id ) ),
 				'post_excerpt' => wp_strip_all_tags( $art['rezumat'] ?? '' ),
-				'post_content' => eg_import_continut( $art ),
+				'post_content' => eg_import_persoane( eg_import_continut( $art ), $art, $post_id ),
+			)
 			)
 		);
 		update_post_meta( $post_id, '_eg_actualizat', $art['actualizat'] );
@@ -176,8 +178,82 @@ function eg_import_ruleaza( $limita = 15 ) {
 	return $rez;
 }
 
+/** Portretele din depozit (unelte/fete/fete.json), citite o dată pe rulare. */
+function eg_import_fete() {
+	static $fete = null;
+	if ( null === $fete ) {
+		$j    = eg_import_json( 'unelte/fete/fete.json' );
+		$fete = array();
+		foreach ( is_wp_error( $j ) ? array() : $j as $x ) {
+			if ( ! empty( $x['slug'] ) ) {
+				$fete[ $x['slug'] ] = $x;
+			}
+		}
+	}
+	return $fete;
+}
+
+/** Fotografia unei persoane, în biblioteca media (o singură dată pe fotografie); altfel adresa originală. */
+function eg_import_foto( $x, $post_id ) {
+	$url = $x['foto'] ?? '';
+	if ( ! $url ) {
+		return '';
+	}
+	$atasate = (array) get_option( 'eg_foto_atasamente', array() );
+	if ( ! empty( $atasate[ $url ] ) && wp_get_attachment_url( $atasate[ $url ] ) ) {
+		return wp_get_attachment_image_url( $atasate[ $url ], 'large' );
+	}
+	require_once ABSPATH . 'wp-admin/includes/media.php';
+	require_once ABSPATH . 'wp-admin/includes/file.php';
+	require_once ABSPATH . 'wp-admin/includes/image.php';
+	$id = media_sideload_image( esc_url_raw( $url ), $post_id, $x['nume'], 'id' );
+	if ( is_wp_error( $id ) ) {
+		return $url; // Wikimedia permite afișarea directă a fișierelor
+	}
+	update_post_meta( $id, '_wp_attachment_image_alt', $x['nume'] );
+	wp_update_post( array( 'ID' => $id, 'post_excerpt' => 'Foto: ' . $x['credit'] ) );
+	$atasate[ $url ] = $id;
+	update_option( 'eg_foto_atasamente', $atasate, false );
+	return wp_get_attachment_image_url( $id, 'large' );
+}
+
+/**
+ * Persoanele articolului: „persoane” (fotografii în text) și „fata” (portretul de pe copertă).
+ * Fotografia intră după al doilea paragraf, cu autorul și licența; creditul portretului, la final.
+ */
+function eg_import_persoane( $html, $art, $post_id ) {
+	$fete     = eg_import_fete();
+	$persoane = array_values( array_unique( array_filter( array_merge( (array) ( $art['persoane'] ?? array() ), array( $art['fata'] ?? '' ) ) ) ) );
+	$figuri   = '';
+	foreach ( array_slice( $persoane, 0, 2 ) as $s ) {
+		$x = $fete[ $s ] ?? null;
+		if ( ! $x || empty( $x['foto'] ) ) {
+			continue;
+		}
+		$src     = eg_import_foto( $x, $post_id );
+		$licenta = ! empty( $x['sursa'] ) ? ' (<a href="' . esc_url( $x['sursa'] ) . '" rel="nofollow">sursa</a>)' : '';
+		$figuri .= '<figure class="eg-foto"><img src="' . esc_url( $src ) . '" alt="' . esc_attr( $x['nume'] ) . '" loading="lazy"><figcaption>' . esc_html( $x['nume'] ) . '. Foto: ' . esc_html( $x['credit'] ) . $licenta . '</figcaption></figure>';
+	}
+	if ( $figuri ) {
+		$poz = 0;
+		for ( $k = 0; $k < 2; $k++ ) {
+			$p = strpos( $html, '</p>', $poz );
+			if ( false === $p ) {
+				break;
+			}
+			$poz = $p + 4;
+		}
+		$html = $poz ? substr( $html, 0, $poz ) . "\n" . $figuri . "\n" . substr( $html, $poz ) : $figuri . $html;
+	}
+	$f = $fete[ $art['fata'] ?? '' ] ?? null;
+	if ( $f && ! empty( $f['credit'] ) ) {
+		$html .= "\n" . '<p class="eg-credit-foto">Portret pe copertă: ' . esc_html( $f['nume'] ) . ', prelucrare Eurogol după o fotografie de ' . esc_html( $f['credit'] ) . '.</p>';
+	}
+	return $html;
+}
+
 /** HTML-ul articolului, cu legăturile interne pregătite pentru afișare. */
-function eg_import_continut( $art ) {
+function eg_import_continut( $art, $post_id = 0 ) {
 	$html = (string) ( $art['continut'] ?? '' );
 	if ( 'video' === ( $art['tip'] ?? '' ) && ! empty( $art['video_url'] ) ) {
 		// URL-ul pe rând separat devine player (oEmbed).
@@ -286,6 +362,10 @@ function eg_import_articol( $art, $cale ) {
 	$id = wp_insert_post( wp_slash( $post ), true );
 	if ( is_wp_error( $id ) ) {
 		return $id;
+	}
+
+	if ( ! empty( $art['persoane'] ) || ! empty( $art['fata'] ) ) {
+		wp_update_post( wp_slash( array( 'ID' => $id, 'post_content' => eg_import_persoane( get_post_field( 'post_content', $id ), $art, $id ) ) ) );
 	}
 
 	// Coperta: fișierul din același folder cu articolul sau o adresă completă.

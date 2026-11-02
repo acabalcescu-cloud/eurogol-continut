@@ -1,0 +1,97 @@
+{
+ "superliga": {
+  "nume": "SuperLiga",
+  "sofa_id": 152,
+  "fisier": "competitii/superliga.png"
+ },
+ "cupa-romaniei": {
+  "nume": "Cupa României",
+  "sofa_id": null,
+  "fisier": "competitii/cupa-romaniei.png"
+ },
+ "champions-league": {
+  "nume": "Champions League",
+  "sofa_id": 7,
+  "fisier": "competitii/champions-league.png"
+ },
+ "europa-league": {
+  "nume": "Europa League",
+  "sofa_id": 679,
+  "fisier": "competitii/europa-league.png"
+ },
+ "conference-league": {
+  "nume": "Conference League",
+  "sofa_id": 17015,
+  "fisier": "competitii/conference-league.png"
+ },
+ "premier-league": {
+  "nume": "Premier League",
+  "sofa_id": 17,
+  "fisier": "competitii/premier-league.png"
+ },
+ "laliga": {
+  "nume": "LaLiga",
+  "sofa_id": 8,
+  "fisier": "competitii/laliga.png"
+ },
+ "serie-a": {
+  "nume": "Serie A",
+  "sofa_id": 23,
+  "fisier": "competitii/serie-a.png"
+ },
+ "bundesliga": {
+  "nume": "Bundesliga",
+  "sofa_id": 35,
+  "fisier": "competitii/bundesliga.png"
+ },
+ "ligue-1": {
+  "nume": "Ligue 1",
+  "sofa_id": 34,
+  "fisier": "competitii/ligue-1.png"
+ },
+ "copa-libertadores": {
+  "nume": "Copa Libertadores",
+  "sofa_id": 384,
+  "fisier": "competitii/copa-libertadores.png"
+ },
+ "copa-sudamericana": {
+  "nume": "Copa Sudamericana",
+  "sofa_id": 480,
+  "fisier": "competitii/copa-sudamericana.png"
+ },
+ "brasileirao": {
+  "nume": "Brasileirão",
+  "sofa_id": 325,
+  "fisier": "competitii/brasileirao.png"
+ },
+ "liga-profesional": {
+  "nume": "Liga Profesional (Argentina)",
+  "sofa_id": 155,
+  "fisier": "competitii/liga-profesional.png"
+ },
+ "copa-america": {
+  "nume": "Copa América",
+  "sofa_id": 133,
+  "fisier": "competitii/copa-america.png"
+ },
+ "campionatul-mondial": {
+  "nume": "Campionatul Mondial",
+  "sofa_id": 16,
+  "fisier": "competitii/campionatul-mondial.png"
+ },
+ "campionatul-european": {
+  "nume": "Campionatul European",
+  "sofa_id": 1,
+  "fisier": "competitii/campionatul-european.png"
+ },
+ "nations-league": {
+  "nume": "Nations League",
+  "sofa_id": 10783,
+  "fisier": "competitii/nations-league.png"
+ },
+ "mondialul-cluburilor": {
+  "nume": "Mondialul Cluburilor",
+  "sofa_id": 357,
+  "fisier": "competitii/mondialul-cluburilor.png"
+ }
+}

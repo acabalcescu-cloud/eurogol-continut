@@ -20,6 +20,7 @@ bash mac/instaleaza.sh
 ```
 
 - `npm install` și `npx playwright install chromium` – pentru coperți.
+- `pip3 install numpy pillow opencv-python-headless rembg` – pentru portrete (`unelte/fete.py`); dacă rulează deja la povestilestiintei, sunt instalate.
 - `python3 mac/verifica.py --doar-lista` – arată candidații și scorurile, fără să pornească Claude.
 - `bash mac/instaleaza.sh` – pornește verificarea orară (la minutul 41; povestilestiintei rulează la 17 și 47, deci nu se suprapun).
 

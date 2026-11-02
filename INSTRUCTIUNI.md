@@ -33,10 +33,26 @@ Toate urmează `STIL.md` (vocea) și `ACOPERIRE.md` (ce intră și în ce ordine
 - **Cronici de etapă:** `<AAAA-LL-ZZ>-etapa-<nr>-<competitie>` (ex. `2026-11-03-etapa-11-serie-a`), fără câmpul `meci`.
 - **Povești:** `<AAAA-LL-ZZ>-poveste-<subiect>`, `"categorie": "Povești"`, plus `"serie": "Legende | Meciuri care n-au murit niciodată | Stadioane | Ce s-a întâmplat cu… | Generația de Aur | Derby-uri"`.
 
-**Coperta** e un afiș fără titlu, pentru că site-ul scrie titlul peste imagine: `cronici/<id>.coperta.json` = `{ "titlu", "rubrica", "subtitlu", "data" }`.
-- `rubrica` = competiția sau seria, scrisă mare pe bandă („Champions League”, „SuperLiga”, „Povești”, „Transferuri”). Tot ea alege culoarea.
-- `subtitlu` = un rând scurt și precis, de cel mult 25 de caractere: meciul („Inter – Milan”), etapa („Etapa 14”), omul („Cristi Chivu”), locul și anul („Sevilla, 1986”). Opțional.
-- Apoi `node unelte/coperta-stire.js cronici/<id>.coperta.json cronici/<id>.jpg`. Uită-te la imagine înainte de commit.
+**Coperta** e un afiș fără titlu (site-ul scrie titlul peste partea de jos a imaginii). `cronici/<id>.coperta.json`:
+
+```json
+{ "titlu": "…", "data": "AAAA-LL-ZZ hh:mm",
+  "rubrica": "Champions League", "subtitlu": "Feyenoord – Inter",
+  "competitie": "champions-league", "cluburi": [2959, 2697], "scor": [0, 2], "fata": "cristi-chivu" }
+```
+- `rubrica` – textul de pe bandă și culoarea copertei: competiția („SuperLiga”, „Champions League”) sau departamentul („Transferuri”, „Declarații”, „Povești”).
+- `subtitlu` – un rând scurt, cel mult 25 de caractere: etapa, omul, locul și anul. Nu apare când e scor.
+- `competitie` – slug din `unelte/competitii.json` (emblema competiției). Pune-l mereu când știrea ține de o competiție.
+- `cluburi` – ID-urile Sofascore ale cluburilor (1 sau 2), din `unelte/cluburi.tsv` (`python3 unelte/sigla.py id "FCSB"`). Club nou: `python3 unelte/sigla.py cauta "Nume"`, apoi `python3 unelte/sigla.py adauga <id> "Nume" "alias1,alias2"` și verifică sigla. La cronici: gazdele primele.
+- `scor` – doar la cronici și la știrile despre un rezultat.
+- `fata` – portretul omului din centrul știrii (vezi mai jos). Când e portret, pune cel mult un club.
+- Apoi `node unelte/coperta-stire.js cronici/<id>.coperta.json cronici/<id>.jpg`. **Uită-te la imagine** înainte de commit.
+
+**Portretele și fotografiile din articol.** Doar fotografii cu licență liberă (Wikimedia Commons: CC BY, CC BY-SA, domeniu public) sau primite cu acord. Nu folosi niciodată fotografii de agenție sau de pe site-urile de știri.
+- Portret nou: `python3 unelte/fete.py wiki "Nume Prenume" "Titlul paginii Wikipedia" [ro|en] ["alias"]`. Scriptul refuză licențele nepotrivite. Rezultatul: `unelte/fete/<slug>.png` plus intrarea din `unelte/fete/fete.json` (credit, sursă, fotografia originală).
+- Verifică `unelte/fete/fete.json` înainte: dacă omul are deja portret, folosește-l.
+- În articol: `"fata": "<slug>"` (portretul de pe copertă) și, opțional, `"persoane": ["<slug>", …]` (cel mult 2). Site-ul pune singur fotografia în articol, după al doilea paragraf, cu autorul și licența, plus creditul portretului la final. Nu scrie tu creditele.
+- Dacă pagina Wikipedia nu are o fotografie liberă, coperta rămâne fără portret: sigle și emblemă.
 
 **Semnătura:** nu pune câmpul `autor`. Site-ul alege singur redactorul după subiect (`tema/eurogol/inc/redactori.php`): SuperLiga – Andrei Toma, Naționala și stranierii – Răzvan Petrescu, Cupele europene – Mihai Georgescu, Marile campionate – Vlad Ene, Transferuri – Cătălin Dumitru, America de Sud – Raul Neagu, Povești – Sorin Avram, Declarații și opinii – Cristian Manolache. Câmpul `autor: { login, nume }` se folosește doar pentru texte trimise de oameni reali, care semnează cu numele lor.
 
