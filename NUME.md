@@ -61,3 +61,12 @@ Ocupate cu „fotbal”: fotbal.ro, fotbalist.ro, fotbalul.ro, lumeafotbalului.r
 - **Zilnic:** fotbalzilnic.ro, fotbaldazi.ro, fotbalacum.ro, fotbalnonstop.ro
 
 Doar .ro liber: fotbal24.ro, fotbalsimplu.ro. Ocupate .ro: fotbalazi, fotbaladevarat, fotbaldestrada, fotbalenglez, fotbalinfo, fotbalplus, fotbaltv, scoaladefotbal.
+
+## Scurte, ușor de tastat (runda a treia)
+
+Atenție: un cuvânt comun de 4–7 litere care apare liber la .ro poate fi totuși înregistrat, doar fără site. Verifică neapărat pe rotld.ro.
+
+- **.ro liber (un singur cuvânt):** stadion.ro, penalti.ro, portar.ro, etapa.ro, pauza.ro, pasa.ro, fault.ro, fundas.ro, sutul.ro, golgeter.ro, presing.ro, eurogol.ro, supergol.ro, contraatac.ro, catenaccio.ro, jogabonito.ro, dubla.ro, golaso.ro
+- **Libere și .ro, și .com:** golbun.ro, golnou.ro, golmare.ro, balonul.ro, atacant.ro, mijlocas.ro, tusier.ro, vinclul.ro, cornerul.ro, dubleta.ro, sutfinal.ro, fotbaltic.ro, crampoane.ro, lovituri.ro, pasadegol.ro
+- **Foarte scurte:** f11.ro, ftbl.ro, fotb.ro, gol11.ro, golaj.ro (doar .ro)
+- **Ocupate:** gol, golul, meci, minge, balon, derby, poarta, corner, fluier, ofsaid, gazon, galerie, careu, voleu, vestiar, joc, sut, ole, hattrick.
