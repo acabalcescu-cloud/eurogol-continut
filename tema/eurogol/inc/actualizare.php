@@ -32,7 +32,22 @@ function eg_goleste_cache() {
 	if ( function_exists( 'opcache_reset' ) ) {
 		@opcache_reset(); // phpcs:ignore
 	}
-	do_action( 'litespeed_purge_all' );
+	do_action( 'litespeed_purge_all' ); // dacă e instalat modulul LiteSpeed Cache
+	// Fără modul: serverul LiteSpeed golește cache-ul când primește acest antet în orice răspuns PHP (și în wp-cron.php).
+	if ( ! headers_sent() ) {
+		header( 'X-LiteSpeed-Purge: *', false );
+	}
+	update_option( 'eg_cache_golit', time(), false );
+}
+
+/** Paginile care se schimbă des (prima pagină, liste, „Pe scurt”) stau în cache cel mult 5 minute. */
+add_action( 'template_redirect', 'eg_cache_scurt' );
+function eg_cache_scurt() {
+	if ( is_user_logged_in() || headers_sent() ) {
+		return;
+	}
+	$ttl = ( is_front_page() || is_home() || is_archive() || is_search() ) ? 300 : 3600;
+	header( 'X-LiteSpeed-Cache-Control: public, max-age=' . $ttl );
 }
 
 /* ---------- 1. Ruta REST, ca la povestilestiintei ---------- */

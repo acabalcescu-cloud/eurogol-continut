@@ -180,7 +180,9 @@ function eg_import_ruleaza( $limita = 15 ) {
 
 	if ( $rez['noi'] || $rez['actualizate'] || did_action( 'eg_redactori_realocati' ) ) {
 		// Prima pagină și listele trebuie să arate imediat articolele noi, nu versiunea din cache.
-		do_action( 'litespeed_purge_all' );
+		if ( function_exists( 'eg_goleste_cache' ) ) {
+			eg_goleste_cache();
+		}
 	}
 	update_option( 'eg_import_ultima', time(), false );
 	if ( $rez['noi'] || $rez['actualizate'] || $rez['erori'] ) {
@@ -351,9 +353,7 @@ function eg_import_coperta( $id, $art, $cale ) {
 	}
 	set_post_thumbnail( $id, $media );
 	update_post_meta( $media, '_wp_attachment_image_alt', wp_strip_all_tags( $art['titlu'] ?? '' ) );
-	if ( $veche && (int) $veche !== (int) $media ) {
-		wp_delete_attachment( $veche, true );
-	}
+	// Coperta veche rămâne în biblioteca media: paginile din cache, Google și rețelele sociale o pot încă cere.
 	return true;
 }
 
