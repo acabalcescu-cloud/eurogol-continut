@@ -48,3 +48,16 @@ minutul90.ro/.com, prelungiri.ro, repriza.ro, tribuna.ro, careul.ro, peluzanord.
 | **jurnaldefotbal.ro** | Ton de jurnal personal, cald. |
 
 Ocupate cu „fotbal”: fotbal.ro, fotbalist.ro, fotbalul.ro, lumeafotbalului.ro, fotbaltotal.ro, fotbalmagazin.ro, fotbaleuropean.ro.
+
+## Runda a doua cu „fotbal” (libere și .ro, și .com; .ro confirmat la Google și la Cloudflare)
+
+- **Scurte:** fotbal11.ro, fotbalx.ro, fotbalhub.ro, fotbalpuls.ro, pulsfotbal.ro, fotbalbun.ro, fotbalpro.ro, fotbalnet.ro, fotbalzone.ro
+- **Enciclopedie / arhivă:** fotbalpedia.ro, arhivafotbal.ro, muzeuldefotbal.ro, carteafotbalului.ro, paginidefotbal.ro, filedefotbal.ro, bibliotecadefotbal.ro
+- **Emoție:** magiafotbalului.ro, farmeculfotbalului.ro, inimafotbalului.ro, sufletulfotbalului.ro, artafotbalului.ro, fotbalfrumos.ro, fotbalcustil.ro
+- **Oameni și povești:** oamenidefotbal.ro, eroidefotbal.ro, legendedefotbal.ro, fotbalsioameni.ro, fotbalsiviata.ro, romanuldefotbal.ro
+- **Mai mult decât fotbal:** nudoarfotbal.ro, maimultdecatfotbal.ro, dincolodefotbal.ro
+- **Drum prin lume:** fotbalcalator.ro, calatoriedefotbal.ro, fotbalpedrum.ro, fotbalsitango.ro, fotbalsamba.ro
+- **Tribuna:** fotbaldintribuna.ro, fotbaldinpeluza.ro, fotbalpeteren.ro, fotbaldecartier.ro
+- **Zilnic:** fotbalzilnic.ro, fotbaldazi.ro, fotbalacum.ro, fotbalnonstop.ro
+
+Doar .ro liber: fotbal24.ro, fotbalsimplu.ro. Ocupate .ro: fotbalazi, fotbaladevarat, fotbaldestrada, fotbalenglez, fotbalinfo, fotbalplus, fotbaltv, scoaladefotbal.
