@@ -9,6 +9,7 @@ get_header();
 $sus  = new WP_Query(
 	array(
 		'posts_per_page'      => 5,
+		'category__not_in'    => eg_povesti_cat() ? array( eg_povesti_cat() ) : array(), // poveștile au rubrica lor
 		'ignore_sticky_posts' => false,
 		'no_found_rows'       => true,
 	)
@@ -29,7 +30,14 @@ $vazute = wp_list_pluck( $sus->posts, 'ID' );
 <div class="eg-doua-coloane">
 	<div class="eg-continut">
 		<?php
+		$povesti = null;
 		foreach ( eg_sectiuni() as $k => $s ) {
+			if ( 'povesti' === trim( $s[0] ) ) {
+				// O singură poveste pe prima pagină; restul în coloana laterală. Pe telefon, jos de tot (vezi mai jos).
+				$povesti = $s;
+				$vazute  = array_merge( $vazute, eg_sectiune( $s[0], $s[1], $vazute, 1, 'eg-ascuns-mobil' ) );
+				continue;
+			}
 			$vazute = array_merge( $vazute, eg_sectiune( $s[0], $s[1], $vazute ) );
 			if ( 0 === $k ) {
 				eg_pe_scurt( 6, 'eg-doar-mobil' ); // pe telefon, după prima secțiune
@@ -41,6 +49,7 @@ $vazute = wp_list_pluck( $sus->posts, 'ID' );
 			array(
 				'posts_per_page'      => 6,
 				'post__not_in'        => $vazute,
+				'category__not_in'    => eg_povesti_cat() ? array( eg_povesti_cat() ) : array(),
 				'ignore_sticky_posts' => true,
 				'no_found_rows'       => true,
 			)
@@ -63,6 +72,14 @@ $vazute = wp_list_pluck( $sus->posts, 'ID' );
 		<?php endif; ?>
 	</div>
 	<?php get_sidebar(); ?>
+	<?php if ( $povesti ) : ?>
+		<div class="eg-doar-mobil eg-povesti-jos">
+			<?php
+			eg_sectiune( $povesti[0], $povesti[1], array(), 1 );
+			eg_povesti_lista( 8, 'eg-povesti-bloc-mobil' );
+			?>
+		</div>
+	<?php endif; ?>
 </div>
 
 <?php

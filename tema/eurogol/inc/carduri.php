@@ -103,7 +103,7 @@ function eg_butoane_categorii( $cats ) {
 }
 
 /** O secțiune a primei pagini: titlu, 2 carduri mari, 4 mici, butoane. Nu apare dacă nu are articole. */
-function eg_sectiune( $slugs, $titlu, $exclude = array() ) {
+function eg_sectiune( $slugs, $titlu, $exclude = array(), $numar = 6, $clasa = '' ) {
 	$cats = array();
 	foreach ( array_map( 'trim', explode( ',', $slugs ) ) as $s ) {
 		$c = get_category_by_slug( $s );
@@ -117,7 +117,7 @@ function eg_sectiune( $slugs, $titlu, $exclude = array() ) {
 	$q = new WP_Query(
 		array(
 			'cat'                 => implode( ',', wp_list_pluck( $cats, 'term_id' ) ),
-			'posts_per_page'      => 6,
+			'posts_per_page'      => $numar,
 			'post__not_in'        => $exclude,
 			'ignore_sticky_posts' => true,
 			'no_found_rows'       => true,
@@ -128,7 +128,7 @@ function eg_sectiune( $slugs, $titlu, $exclude = array() ) {
 		$q = new WP_Query(
 			array(
 				'cat'                 => implode( ',', wp_list_pluck( $cats, 'term_id' ) ),
-				'posts_per_page'      => 6,
+				'posts_per_page'      => $numar,
 				'ignore_sticky_posts' => true,
 				'no_found_rows'       => true,
 			)
@@ -139,9 +139,9 @@ function eg_sectiune( $slugs, $titlu, $exclude = array() ) {
 	}
 	$ids = wp_list_pluck( $q->posts, 'ID' );
 	?>
-	<section class="eg-sectiune">
+	<section class="eg-sectiune <?php echo esc_attr( $clasa ); ?>">
 		<h2 class="eg-titlu-sectiune"><a href="<?php echo esc_url( get_category_link( $cats[0] ) ); ?>"><?php echo esc_html( $titlu ); ?></a></h2>
-		<div class="eg-grila-2">
+		<div class="<?php echo 1 === $numar ? 'eg-grila-1' : 'eg-grila-2'; ?>">
 			<?php
 			foreach ( array_slice( $q->posts, 0, 2 ) as $p ) {
 				eg_card_mare( $p );
@@ -162,6 +162,7 @@ function eg_pe_scurt( $numar = 8, $clasa = 'eg-pe-scurt-bloc' ) {
 	$q = new WP_Query(
 		array(
 			'posts_per_page'      => $numar,
+			'category__not_in'    => eg_povesti_cat() ? array( eg_povesti_cat() ) : array(), // poveștile au lista lor
 			'ignore_sticky_posts' => true,
 			'no_found_rows'       => true,
 		)
@@ -187,4 +188,35 @@ function eg_lista_competitii() {
 		echo '<li><a href="' . esc_url( get_category_link( $c ) ) . '">' . eg_icon( 'sageata' ) . esc_html( $c->name ) . '</a></li>'; // phpcs:ignore
 	}
 	echo '</ul></section>';
+}
+
+/** ID-ul categoriei „Povești” (0 dacă nu există). */
+function eg_povesti_cat() {
+	$c = get_category_by_slug( 'povesti' );
+	return $c ? (int) $c->term_id : 0;
+}
+
+/** Lista „Povești” din coloana laterală: ultimele povești, fără cea aflată deja pe prima pagină. */
+function eg_povesti_lista( $numar = 8, $clasa = 'eg-povesti-bloc' ) {
+	$cat = eg_povesti_cat();
+	if ( ! $cat ) {
+		return;
+	}
+	$q = new WP_Query(
+		array(
+			'cat'                 => $cat,
+			'posts_per_page'      => $numar,
+			'offset'              => is_front_page() ? 1 : 0,
+			'ignore_sticky_posts' => true,
+			'no_found_rows'       => true,
+		)
+	);
+	if ( ! $q->have_posts() ) {
+		return;
+	}
+	echo '<section class="eg-bloc ' . esc_attr( $clasa ) . '"><h2 class="eg-titlu-sectiune"><a href="' . esc_url( get_category_link( $cat ) ) . '">Povești</a></h2><ol class="eg-pe-scurt">';
+	foreach ( $q->posts as $p ) {
+		echo '<li><time datetime="' . esc_attr( get_the_date( 'c', $p ) ) . '">' . esc_html( eg_ora_sau_zi( $p ) ) . '</time><a href="' . esc_url( get_permalink( $p ) ) . '">' . esc_html( get_the_title( $p ) ) . '</a></li>';
+	}
+	echo '</ol><a class="eg-povesti-toate" href="' . esc_url( get_category_link( $cat ) ) . '">Toate poveștile</a></section>';
 }
