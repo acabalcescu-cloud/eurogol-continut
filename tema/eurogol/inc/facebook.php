@@ -69,6 +69,84 @@ function eg_fb_conecteaza( $app_id, $secret, $user_token, $pagina ) {
 	return new WP_Error( 'eg_fb', 'Contul nu administrează pagina „' . $pagina . '” (sau tokenul nu are permisiunea pages_show_list).' );
 }
 
+/* ---------- Hashtag-uri ---------- */
+
+/** „Cristi Chivu” → „CristiChivu”, „Brasileirão” → „Brasileirao”; gol dacă nu rămâne nimic folositor. */
+function eg_fb_hashtag( $text ) {
+	$t = remove_accents( html_entity_decode( (string) $text, ENT_QUOTES, 'UTF-8' ) );
+	$t = preg_replace( '/[^A-Za-z0-9 ]+/', ' ', $t );
+	$w = array_filter( explode( ' ', $t ), 'strlen' );
+	if ( ! $w ) {
+		return '';
+	}
+	$h = implode( '', array_map( fn( $x ) => ctype_upper( $x ) ? $x : ucfirst( $x ), $w ) );
+	// Fără sezoane și ani singuri („2026/2027”, „1986”) și fără cuvinte de o literă.
+	if ( preg_match( '/^\d+$/', $h ) || strlen( $h ) < 2 ) {
+		return '';
+	}
+	return '#' . $h;
+}
+
+/** Hashtag-urile postării: fixe, competiția, categoriile, etichetele, oamenii din text, plus cele după subiect. */
+function eg_fb_hashtaguri( $post, $max = 12 ) {
+	$post  = get_post( $post );
+	$lista = array( '#eurogol', '#fotbal' );
+	$comp  = function_exists( 'eg_clasament_pentru' ) ? eg_clasament_pentru( $post ) : null;
+	$slug  = $comp ? $comp[0] : '';
+	if ( $slug ) {
+		$lista[] = eg_fb_hashtag( eg_clasament_competitii()[ $slug ][1] ?? $slug );
+	}
+	$cats = get_the_category( $post->ID );
+	foreach ( $cats as $c ) {
+		$lista[] = eg_fb_hashtag( $c->name );
+	}
+	$slugs_cat = wp_list_pluck( $cats, 'slug' );
+	$titlu     = remove_accents( strtolower( $post->post_title . ' ' . $post->post_excerpt ) );
+
+	// După subiect.
+	if ( in_array( $slug, array( 'superliga' ), true ) || array_intersect( $slugs_cat, array( 'superliga', 'cupa-romaniei', 'nationala' ) ) ) {
+		$lista[] = '#fotbalromanesc';
+	}
+	if ( array_intersect( $slugs_cat, array( 'nationala' ) ) || preg_match( '/\b(nationala|tricolor|stranier|romanul|un roman)\b/', $titlu ) ) {
+		$lista[] = '#tricolorii';
+	}
+	if ( preg_match( '/transfer|semneaz|a semnat|imprumut|mercato/', $titlu ) ) {
+		$lista[] = '#transferuri';
+	}
+	if ( in_array( 'povesti', $slugs_cat, true ) ) {
+		$lista[] = '#istoriafotbalului';
+	}
+	if ( in_array( $slug, array( 'premier-league', 'laliga', 'serie-a', 'bundesliga', 'ligue-1', 'champions-league', 'europa-league', 'conference-league' ), true ) ) {
+		$lista[] = '#fotbaleuropean';
+	}
+	if ( in_array( $slug, array( 'brasileirao', 'liga-profesional' ), true ) || array_intersect( $slugs_cat, array( 'copa-libertadores', 'brasileirao', 'liga-profesional' ) ) ) {
+		$lista[] = '#futbol';
+	}
+
+	// Oamenii din text (bulinele), apoi etichetele (cluburi, oameni, competiții).
+	if ( function_exists( 'eg_persoane_pe_pagina' ) ) {
+		foreach ( eg_persoane_pe_pagina( $post ) as $x ) {
+			$lista[] = eg_fb_hashtag( $x['nume'] );
+		}
+	}
+	foreach ( (array) get_the_tags( $post->ID ) as $t ) {
+		if ( $t ) {
+			$lista[] = eg_fb_hashtag( $t->name );
+		}
+	}
+
+	$out  = array();
+	$vazt = array();
+	foreach ( $lista as $h ) {
+		$k = strtolower( (string) $h );
+		if ( $h && ! isset( $vazt[ $k ] ) ) {
+			$vazt[ $k ] = true;
+			$out[]      = $h;
+		}
+	}
+	return array_slice( $out, 0, $max );
+}
+
 /* ---------- Coada ---------- */
 
 add_action( 'transition_post_status', 'eg_fb_in_coada', 20, 3 );
@@ -106,6 +184,7 @@ function eg_fb_trimite() {
 	if ( has_excerpt( $p ) ) {
 		$mesaj .= "\n\n" . html_entity_decode( wp_strip_all_tags( $p->post_excerpt ), ENT_QUOTES, 'UTF-8' );
 	}
+	$mesaj .= "\n\n" . implode( ' ', eg_fb_hashtaguri( $p ) );
 	$r = eg_fb_cerere( 'POST', $s['pagina_id'] . '/feed', array( 'message' => $mesaj, 'link' => get_permalink( $p ), 'access_token' => $s['token'] ) );
 	if ( is_wp_error( $r ) ) {
 		eg_fb_jurnal( 'eroare la „' . get_the_title( $p ) . '”: ' . $r->get_error_message() );
