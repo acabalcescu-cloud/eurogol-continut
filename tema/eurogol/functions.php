@@ -6,7 +6,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'EG_VERSIUNE', '2.5.1' );
+define( 'EG_VERSIUNE', '2.5.2' );
 define( 'EG_DIR', get_template_directory() );
 define( 'EG_URI', get_template_directory_uri() );
 
@@ -73,6 +73,43 @@ function eg_pagina_home() {
 			eg_goleste_cache();
 		}
 	}
+}
+
+/**
+ * O singură dată: paginile cerute de Facebook (și de lege) – Politica de confidențialitate și Ștergerea datelor.
+ * Dacă există deja (după adresă), nu se ating.
+ */
+add_action( 'init', 'eg_pagini_legale', 21 );
+function eg_pagini_legale() {
+	if ( get_option( 'eg_pagini_legale' ) ) {
+		return;
+	}
+	$email   = get_option( 'admin_email' );
+	$pagini  = array(
+		'politica-de-confidentialitate' => array(
+			'Politica de confidențialitate',
+			'<p>Această politică explică ce date prelucrează eurogol.ro („Eurogol”) și cum.</p>'
+			. '<h2>Ce date colectăm</h2><p>Eurogol nu cere cont și nu colectează date personale de la cititori prin formulare. Serverul înregistrează, ca orice site, date tehnice (adresa IP, tipul de browser, paginile vizitate), folosite pentru securitate și statistici agregate. Dacă ne scrii pe email, folosim adresa ta doar ca să-ți răspundem.</p>'
+			. '<h2>Cookie-uri și servicii terțe</h2><p>Site-ul poate folosi cookie-uri tehnice și servicii de statistică (Google Analytics / Google Site Kit). Rezumatele video se încarcă de pe YouTube în modul fără cookie-uri, doar când apeși pe ele.</p>'
+			. '<h2>Facebook</h2><p>Eurogol folosește o aplicație Meta doar pentru a publica automat articolele site-ului pe pagina noastră de Facebook (EuroGol.ro). Aplicația nu citește și nu stochează date despre utilizatorii Facebook și nu se autentifică în numele cititorilor.</p>'
+			. '<h2>Drepturile tale</h2><p>Conform GDPR, ai dreptul de acces, rectificare, ștergere și opoziție. Pentru orice cerere, scrie-ne la <a href="mailto:' . esc_attr( $email ) . '">' . esc_html( $email ) . '</a>.</p>',
+		),
+		'stergerea-datelor'             => array(
+			'Ștergerea datelor',
+			'<p>Aplicația Eurogol pentru Facebook nu stochează date despre utilizatorii Facebook: ea doar publică articolele site-ului pe pagina noastră.</p>'
+			. '<p>Dacă dorești totuși ștergerea oricăror date care te privesc, trimite o cerere la <a href="mailto:' . esc_attr( $email ) . '">' . esc_html( $email ) . '</a>, cu subiectul „Ștergerea datelor”. Răspundem și confirmăm ștergerea în cel mult 30 de zile.</p>'
+			. '<p>Poți elimina oricând accesul aplicației din Facebook: Setări → Securitate și autentificare → Aplicații și site-uri web.</p>',
+		),
+	);
+	foreach ( $pagini as $slug => $x ) {
+		if ( ! get_page_by_path( $slug ) ) {
+			$id = wp_insert_post( array( 'post_type' => 'page', 'post_status' => 'publish', 'post_title' => $x[0], 'post_name' => $slug, 'post_content' => $x[1] ) );
+			if ( $id && ! is_wp_error( $id ) && 'politica-de-confidentialitate' === $slug ) {
+				update_option( 'wp_page_for_privacy_policy', (int) $id );
+			}
+		}
+	}
+	update_option( 'eg_pagini_legale', 1 );
 }
 
 add_action( 'widgets_init', 'eg_widgets' );
