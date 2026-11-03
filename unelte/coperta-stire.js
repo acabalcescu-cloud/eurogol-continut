@@ -106,7 +106,8 @@ body { width: 1200px; height: 630px; overflow: hidden; color: #fff; font-family:
 .teren { position: absolute; inset: 0; width: 1200px; height: 630px; opacity: .13; }
 .fundal { position: absolute; inset: 0; background-size: cover; background-position: center; filter: saturate(.85); }
 .fundal::after { content: ''; position: absolute; inset: 0; background: linear-gradient(125deg, ${c1}e6 0%, ${c2}cc 55%, ${c2}99 100%); }
-.marca { position: absolute; left: 44px; top: 36px; height: 70px; z-index: 3; filter: drop-shadow(0 6px 16px rgba(0,0,0,.35)); }
+/* Logo-ul: jos, la mijloc – pe site stă sub titlu, iar la distribuire (Facebook, WhatsApp) imaginea apare întreagă. */
+.marca { position: absolute; left: 50%; bottom: 26px; transform: translateX(-50%); height: 58px; z-index: 3; filter: drop-shadow(0 6px 16px rgba(0,0,0,.45)); }
 .fata { position: absolute; left: 150px; top: 10px; width: 540px; height: 540px; z-index: 1; }
 /* ZONA SIGURĂ (după sempremilan.com pe mobil): titlul site-ului stă peste jumătatea de jos a imaginii,
    iar miniaturile din liste (5:4) arată doar mijlocul (x 210–990). Tot conținutul stă sus, în mijloc: x 210–990, y 30–310. */
