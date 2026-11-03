@@ -316,3 +316,32 @@ function eg_fb_pagina() {
 	</div>
 	<?php
 }
+
+/* ---------- Stare publică (fără token): GET /wp-json/eg/v1/fb-stare ---------- */
+add_action( 'rest_api_init', function () {
+	register_rest_route(
+		'eg/v1',
+		'/fb-stare',
+		array(
+			'methods'             => 'GET',
+			'permission_callback' => '__return_true',
+			'callback'            => function () {
+				$s = eg_fb_setari();
+				$j = array_values( array_filter( (array) get_option( 'eg_import_jurnal', array() ), fn( $l ) => false !== strpos( $l, 'Facebook:' ) ) );
+				$c = (array) get_option( 'eg_fb_coada', array() );
+				return array(
+					'activ'      => (bool) $s['activ'],
+					'conectat'   => '' !== (string) $s['token'],
+					'interval'   => (int) $s['interval'],
+					'ultima'     => $s['ultima'] ? wp_date( 'Y-m-d H:i', (int) $s['ultima'] ) : '',
+					'de_la'      => $s['de_la'] ? wp_date( 'Y-m-d H:i', (int) $s['de_la'] ) : '',
+					'coada'      => count( $c ),
+					'import'     => wp_date( 'Y-m-d H:i', (int) get_option( 'eg_import_ultima', 0 ) ),
+					'urmatorul'  => wp_next_scheduled( 'eg_import' ) ? wp_date( 'Y-m-d H:i', wp_next_scheduled( 'eg_import' ) ) : '',
+					'acum'       => wp_date( 'Y-m-d H:i' ),
+					'jurnal'     => array_slice( $j, -15 ),
+				);
+			},
+		)
+	);
+} );
