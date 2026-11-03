@@ -28,7 +28,7 @@ Toate urmează `STIL.md` (vocea) și `ACOPERIRE.md` (ce intră și în ce ordine
 }
 ```
 
-- **Știri:** `<AAAA-LL-ZZ>-stire-<subiect>`. `data_publicare` e ora evenimentului sau a primei surse, niciodată în viitor.
+- **Știri:** `<AAAA-LL-ZZ>-stire-<subiect>`. `categorie` = competiția despre care e știrea („SuperLiga”, „Serie A”, „Champions League”…), ca să apară în secțiunea ei; „Știri” doar când nu ține de nicio competiție (ex. un român în Qatar). Site-ul adaugă oricum și categoria competiției, după echipele din text. `data_publicare` e ora evenimentului sau a primei surse, niciodată în viitor.
 - **Cronici:** `<AAAA-LL-ZZ>-<gazde>-<oaspeti>`, plus câmpul `meci`: `{ "data", "scor": [gazde, oaspeti], "marcatori": { "gazde": [{"nume","minut"}], "oaspeti": [...] } }`. Numărul de goluri trebuie să dea exact scorul.
 - **Cronici de etapă:** `<AAAA-LL-ZZ>-etapa-<nr>-<competitie>` (ex. `2026-11-03-etapa-11-serie-a`), fără câmpul `meci`.
 - **Povești:** `<AAAA-LL-ZZ>-poveste-<subiect>`, `"categorie": "Povești"`, plus `"serie": "Legende | Meciuri care n-au murit niciodată | Stadioane | Ce s-a întâmplat cu… | Generația de Aur | Derby-uri"`.

@@ -310,6 +310,40 @@ function eg_import_continut( $art, $post_id = 0 ) {
 	return $html;
 }
 
+/**
+ * Știrile primesc și categoria competiției (SuperLiga, Serie A…), ca să apară în secțiunile ei,
+ * după câmpul „clasament” sau după echipele pomenite (aceeași regulă ca tabelul de la final).
+ */
+function eg_import_categoria_competitiei( $post_id ) {
+	if ( ! function_exists( 'eg_clasament_pentru' ) ) {
+		return;
+	}
+	$x = eg_clasament_pentru( $post_id );
+	if ( ! $x ) {
+		return;
+	}
+	$nume = eg_clasament_competitii()[ $x[0] ][1] ?? '';
+	$cat  = $nume ? eg_import_categorie( $nume ) : 0;
+	if ( $cat && ! has_category( $cat, $post_id ) ) {
+		wp_set_post_categories( $post_id, array( $cat ), true );
+	}
+}
+
+/** O singură dată: categoria competiției pentru articolele deja publicate. */
+add_action( 'eg_import', 'eg_import_categorii_vechi', 40 );
+function eg_import_categorii_vechi() {
+	if ( (int) get_option( 'eg_categorii_v', 0 ) >= 1 ) {
+		return;
+	}
+	foreach ( get_posts( array( 'post_type' => 'post', 'post_status' => array( 'publish', 'future' ), 'posts_per_page' => 500, 'fields' => 'ids', 'meta_key' => '_eg_id' ) ) as $id ) {
+		eg_import_categoria_competitiei( $id );
+	}
+	update_option( 'eg_categorii_v', 1 );
+	if ( function_exists( 'eg_goleste_cache' ) ) {
+		eg_goleste_cache();
+	}
+}
+
 /** Categoria după nume (o creează dacă lipsește). */
 function eg_import_categorie( $nume ) {
 	$nume = trim( (string) $nume );
@@ -444,6 +478,7 @@ function eg_import_articol( $art, $cale ) {
 	}
 
 	eg_import_coperta( $id, $art, $cale );
+	eg_import_categoria_competitiei( $id );
 	if ( function_exists( 'eg_persoane_eticheteaza' ) ) {
 		eg_persoane_eticheteaza( $id );
 	}
