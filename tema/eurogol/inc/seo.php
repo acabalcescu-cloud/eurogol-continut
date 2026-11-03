@@ -8,7 +8,8 @@
 defined( 'ABSPATH' ) || exit;
 
 function eg_seo_modul_activ() {
-	return defined( 'WPSEO_VERSION' ) || defined( 'RANK_MATH_VERSION' ) || defined( 'AIOSEO_VERSION' ) || defined( 'SEOPRESS_VERSION' );
+	// Rank Math contează doar dacă chiar scrie etichetele în pagină (neconfigurat, nu scrie nimic).
+	return defined( 'WPSEO_VERSION' ) || defined( 'AIOSEO_VERSION' ) || defined( 'SEOPRESS_VERSION' ) || did_action( 'rank_math/head' );
 }
 
 function eg_seo_nume() {
