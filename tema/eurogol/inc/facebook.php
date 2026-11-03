@@ -62,7 +62,9 @@ function eg_fb_conecteaza( $app_id, $secret, $user_token, $pagina ) {
 			$s['pagina_id']   = $p['id'];
 			$s['pagina_nume'] = $p['name'];
 			$s['token']       = $p['access_token'];
+			$s['ultima']      = 0; // după reconectare, prima postare pleacă la următorul import.
 			eg_fb_salveaza( $s );
+			delete_option( 'eg_fb_token_cazut' );
 			return $p['name'];
 		}
 	}
@@ -197,7 +199,13 @@ function eg_fb_trimite() {
 	$id = array_shift( $c );
 	update_option( 'eg_fb_coada', $c, false );
 	$p = get_post( $id );
-	if ( ! $p || 'publish' !== $p->post_status || get_post_meta( $id, '_eg_fb_post', true ) ) {
+	// Articolele rămase prea mult în coadă (de ex. cât conexiunea a fost căzută) nu mai sunt știri: le sărim.
+	while ( $p && ( 'publish' !== $p->post_status || get_post_meta( $id, '_eg_fb_post', true ) || get_post_time( 'U', true, $p ) < time() - 8 * HOUR_IN_SECONDS ) ) {
+		$id = array_shift( $c );
+		$p  = $id ? get_post( $id ) : null;
+	}
+	update_option( 'eg_fb_coada', $c, false );
+	if ( ! $p ) {
 		return;
 	}
 	$mesaj = html_entity_decode( get_the_title( $p ), ENT_QUOTES, 'UTF-8' );
@@ -208,12 +216,16 @@ function eg_fb_trimite() {
 	$r = eg_fb_cerere( 'POST', $s['pagina_id'] . '/feed', array( 'message' => $mesaj, 'link' => get_permalink( $p ), 'access_token' => $s['token'] ) );
 	if ( is_wp_error( $r ) ) {
 		eg_fb_jurnal( 'eroare la „' . get_the_title( $p ) . '”: ' . $r->get_error_message() );
+		if ( preg_match( '/access token|session/i', $r->get_error_message() ) ) {
+			update_option( 'eg_fb_token_cazut', time(), false );
+		}
 		array_unshift( $c, $id ); // reîncearcă la următoarea rulare
 		update_option( 'eg_fb_coada', $c, false );
 		$s['ultima'] = time(); // fără rafale de reîncercări
 		eg_fb_salveaza( $s );
 		return;
 	}
+	delete_option( 'eg_fb_token_cazut' );
 	update_post_meta( $id, '_eg_fb_post', $r['id'] ?? 'trimis' );
 	$s['ultima'] = time();
 	eg_fb_salveaza( $s );
@@ -344,4 +356,11 @@ add_action( 'rest_api_init', function () {
 			},
 		)
 	);
+} );
+
+/* Avertisment în panou când Facebook a invalidat conexiunea. */
+add_action( 'admin_notices', function () {
+	if ( get_option( 'eg_fb_token_cazut' ) && current_user_can( 'manage_options' ) ) {
+		echo '<div class="notice notice-error"><p><strong>Facebook Eurogol:</strong> conexiunea cu pagina a expirat (parolă schimbată sau App Secret resetat). Postările sunt oprite. <a href="' . esc_url( admin_url( 'tools.php?page=eg-facebook' ) ) . '">Reconectează pagina</a>.</p></div>';
+	}
 } );
