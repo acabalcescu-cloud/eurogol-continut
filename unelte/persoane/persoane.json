@@ -1,0 +1,89 @@
+[
+ {
+  "slug": "alexandru-chipciu",
+  "nume": "Alexandru Chipciu",
+  "alias": [
+   "Alexandru Chipciu",
+   "Chipciu"
+  ],
+  "rol": "jucator",
+  "club": "U Cluj",
+  "fisier": "alexandru-chipciu.jpg",
+  "credit": "Nuță Lucian, Wikimedia Commons, CC BY-SA 2.0",
+  "sursa": "https://commons.wikimedia.org/w/index.php?curid=195793351",
+  "licenta_url": "https://creativecommons.org/licenses/by-sa/2.0/"
+ },
+ {
+  "slug": "cristi-chivu",
+  "nume": "Cristi Chivu",
+  "alias": [
+   "Chivu",
+   "Cristi Chivu",
+   "Cristian Chivu"
+  ],
+  "rol": "antrenor",
+  "club": "Inter",
+  "fisier": "cristi-chivu.jpg",
+  "credit": "Майоров Владимир, Wikimedia Commons, CC BY-SA 3.0",
+  "sursa": "https://commons.wikimedia.org/w/index.php?curid=16779828",
+  "licenta_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+ },
+ {
+  "slug": "daniel-birligea",
+  "nume": "Daniel Bîrligea",
+  "alias": [
+   "Birligea",
+   "Bîrligea",
+   "Daniel Bîrligea"
+  ],
+  "rol": "jucator",
+  "club": "Frosinone",
+  "fisier": "daniel-birligea.jpg",
+  "credit": "Nuță Lucian from Cluj-Napoca, Romania, Wikimedia Commons, CC BY-SA 2.0",
+  "sursa": "https://commons.wikimedia.org/w/index.php?curid=126861256",
+  "licenta_url": "https://creativecommons.org/licenses/by-sa/2.0/"
+ },
+ {
+  "slug": "emerich-jenei",
+  "nume": "Emerich Jenei",
+  "alias": [
+   "Emerich Jenei",
+   "Ienei",
+   "Jenei"
+  ],
+  "rol": "antrenor",
+  "club": "Steaua 1986",
+  "fisier": "emerich-jenei.jpg",
+  "credit": "dan_avraham2000, Flickr, CC BY 2.0",
+  "sursa": "https://www.flickr.com/photos/33908615@N03/3156995005",
+  "licenta_url": "https://creativecommons.org/licenses/by/2.0/"
+ },
+ {
+  "slug": "hansi-flick",
+  "nume": "Hansi Flick",
+  "alias": [
+   "Flick",
+   "Hansi Flick"
+  ],
+  "rol": "antrenor",
+  "club": "Barcelona",
+  "fisier": "hansi-flick.jpg",
+  "credit": "Steffen Prößdorf, Wikimedia Commons, CC BY-SA 4.0",
+  "sursa": "https://commons.wikimedia.org/w/index.php?curid=137339292",
+  "licenta_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+ },
+ {
+  "slug": "ruben-amorim",
+  "nume": "Ruben Amorim",
+  "alias": [
+   "Amorim",
+   "Ruben Amorim"
+  ],
+  "rol": "antrenor",
+  "club": "AC Milan",
+  "fisier": "ruben-amorim.jpg",
+  "credit": "Agencia LUSA, Wikimedia Commons, CC BY 3.0",
+  "sursa": "https://commons.wikimedia.org/w/index.php?curid=147281123",
+  "licenta_url": "https://creativecommons.org/licenses/by/3.0/"
+ }
+]
