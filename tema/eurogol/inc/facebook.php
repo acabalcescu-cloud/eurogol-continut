@@ -55,9 +55,15 @@ function eg_fb_conecteaza( $app_id, $secret, $user_token, $pagina ) {
 	if ( is_wp_error( $conturi ) ) {
 		return $conturi;
 	}
-	$pagina = strtolower( trim( (string) $pagina ) );
-	foreach ( (array) ( $conturi['data'] ?? array() ) as $p ) {
-		if ( ! $pagina || in_array( $pagina, array( strtolower( $p['id'] ), strtolower( $p['name'] ), strtolower( $p['username'] ?? '' ) ), true ) ) {
+	// „EuroGol.ro”, „eurogol”, „facebook.com/EuroGol.ro” → „eurogol”: comparăm fără punctuație și fără „.ro”.
+	$norm   = fn( $t ) => preg_replace( '/[^a-z0-9]+/', '', preg_replace( '~^.*facebook\.com/|\.ro$~', '', strtolower( trim( (string) $t ) ) ) );
+	$pagina = $norm( $pagina );
+	$lista  = (array) ( $conturi['data'] ?? array() );
+	if ( ! $lista ) {
+		return new WP_Error( 'eg_fb', 'Tokenul nu vede nicio pagină. La „Generate Access Token”, în fereastra Facebook, alege „Editează setările” și bifează pagina EuroGol.ro.' );
+	}
+	foreach ( $lista as $p ) {
+		if ( ! $pagina || 1 === count( $lista ) || in_array( $pagina, array( $norm( $p['id'] ), $norm( $p['name'] ), $norm( $p['username'] ?? '' ) ), true ) ) {
 			$s                = eg_fb_setari();
 			$s['pagina_id']   = $p['id'];
 			$s['pagina_nume'] = $p['name'];
@@ -68,7 +74,7 @@ function eg_fb_conecteaza( $app_id, $secret, $user_token, $pagina ) {
 			return $p['name'];
 		}
 	}
-	return new WP_Error( 'eg_fb', 'Contul nu administrează pagina „' . $pagina . '” (sau tokenul nu are permisiunea pages_show_list).' );
+	return new WP_Error( 'eg_fb', 'Pagina „' . $pagina . '” nu e printre cele văzute de token: ' . implode( ', ', wp_list_pluck( $lista, 'name' ) ) . '. Scrie unul dintre aceste nume la „Pagina”.' );
 }
 
 /* ---------- Hashtag-uri ---------- */
