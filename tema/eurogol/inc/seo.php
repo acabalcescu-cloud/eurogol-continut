@@ -377,7 +377,11 @@ function eg_seo_robots_txt( $txt, $public ) {
 	if ( false === strpos( $txt, 'wp-sitemap.xml' ) && false === strpos( $txt, 'sitemap_index.xml' ) ) {
 		$txt .= 'Sitemap: ' . home_url( '/wp-sitemap.xml' ) . "\n";
 	}
-	return $txt . "Disallow: /?s=\nDisallow: /search/\n";
+	// Paginile de căutare nu se indexează: regulile intră în grupul „User-agent: *”, înaintea sitemap-urilor.
+	if ( false === strpos( $txt, 'Disallow: /?s=' ) ) {
+		$txt = preg_replace( '#(User-agent: \*\R)#', "$1Disallow: /?s=\nDisallow: /search/\n", $txt, 1 );
+	}
+	return $txt;
 }
 
 /* Sitemap-ul WordPress: fără utilizatorii fără articole și fără paginile goale. */
