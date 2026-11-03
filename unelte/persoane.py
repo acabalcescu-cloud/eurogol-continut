@@ -23,7 +23,8 @@ import fotografii  # noqa: E402
 
 # Nume de familie prea comune ca să fie recunoscute singure.
 AMBIGUE = {'popescu', 'ionescu', 'pop', 'marin', 'man', 'radu', 'matei', 'mora', 'stan', 'rus', 'silva', 'santos', 'costa',
-           'martinez', 'garcia', 'rodriguez', 'fernandez', 'gomez', 'lopez', 'gonzalez', 'perez', 'alves', 'ferreira'}
+           'martinez', 'garcia', 'rodriguez', 'fernandez', 'gomez', 'lopez', 'gonzalez', 'perez', 'alves', 'ferreira',
+           'hagi', 'lucescu', 'puscas', 'iordanescu', 'petrescu', 'dumitrescu', 'stanciu', 'coman'}  # tată/fiu, nume des întâlnite
 
 
 def slug(s):

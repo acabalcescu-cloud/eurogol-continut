@@ -14,6 +14,20 @@
   "licenta_url": "https://creativecommons.org/licenses/by-sa/2.0/"
  },
  {
+  "slug": "carlo-ancelotti",
+  "nume": "Carlo Ancelotti",
+  "alias": [
+   "Ancelotti",
+   "Carlo Ancelotti"
+  ],
+  "rol": "antrenor",
+  "club": "Brazilia",
+  "fisier": "carlo-ancelotti.jpg",
+  "credit": "Светлана Бекетова, Wikimedia Commons, CC BY-SA 3.0",
+  "sursa": "https://commons.wikimedia.org/w/index.php?curid=68823009",
+  "licenta_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+ },
+ {
   "slug": "cristi-chivu",
   "nume": "Cristi Chivu",
   "alias": [
@@ -44,6 +58,21 @@
   "licenta_url": "https://creativecommons.org/licenses/by-sa/2.0/"
  },
  {
+  "slug": "diego-maradona",
+  "nume": "Diego Maradona",
+  "alias": [
+   "Diego Armando Maradona",
+   "Diego Maradona",
+   "Maradona"
+  ],
+  "rol": "jucator",
+  "club": "Argentina",
+  "fisier": "diego-maradona.jpg",
+  "credit": "Doha Stadium Plus, Flickr, CC BY 2.0",
+  "sursa": "https://www.flickr.com/photos/66463488@N06/7448907672",
+  "licenta_url": "https://creativecommons.org/licenses/by/2.0/"
+ },
+ {
   "slug": "emerich-jenei",
   "nume": "Emerich Jenei",
   "alias": [
@@ -71,6 +100,62 @@
   "credit": "Steffen Prößdorf, Wikimedia Commons, CC BY-SA 4.0",
   "sursa": "https://commons.wikimedia.org/w/index.php?curid=137339292",
   "licenta_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+ },
+ {
+  "slug": "ianis-hagi",
+  "nume": "Ianis Hagi",
+  "alias": [
+   "Ianis Hagi"
+  ],
+  "rol": "jucator",
+  "club": "România",
+  "fisier": "ianis-hagi.jpg",
+  "credit": "Rolandhino1, Wikimedia Commons, CC BY-SA 4.0",
+  "sursa": "https://commons.wikimedia.org/w/index.php?curid=78366844",
+  "licenta_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+ },
+ {
+  "slug": "lamine-yamal",
+  "nume": "Lamine Yamal",
+  "alias": [
+   "Lamine Yamal",
+   "Yamal"
+  ],
+  "rol": "jucator",
+  "club": "Barcelona",
+  "fisier": "lamine-yamal.jpg",
+  "credit": "Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
+  "sursa": "https://commons.wikimedia.org/w/index.php?curid=195780204",
+  "licenta_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+ },
+ {
+  "slug": "paolo-maldini",
+  "nume": "Paolo Maldini",
+  "alias": [
+   "Maldini",
+   "Paolo Maldini"
+  ],
+  "rol": "jucator",
+  "club": "AC Milan",
+  "fisier": "paolo-maldini.jpg",
+  "credit": "GOAL TV, Wikimedia Commons, CC BY 3.0",
+  "sursa": "https://commons.wikimedia.org/w/index.php?curid=123683950",
+  "licenta_url": "https://creativecommons.org/licenses/by/3.0/"
+ },
+ {
+  "slug": "rafael-benitez",
+  "nume": "Rafael Benítez",
+  "alias": [
+   "Benítez",
+   "Rafa Benítez",
+   "Rafael Benítez"
+  ],
+  "rol": "antrenor",
+  "club": "",
+  "fisier": "rafael-benitez.jpg",
+  "credit": "Doha Stadium Plus, Flickr, CC BY 2.0",
+  "sursa": "https://www.flickr.com/photos/66463488@N06/8424509598",
+  "licenta_url": "https://creativecommons.org/licenses/by/2.0/"
  },
  {
   "slug": "ruben-amorim",

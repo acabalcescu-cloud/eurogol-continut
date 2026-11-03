@@ -6,7 +6,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'EG_VERSIUNE', '2.5.3' );
+define( 'EG_VERSIUNE', '2.5.4' );
 define( 'EG_DIR', get_template_directory() );
 define( 'EG_URI', get_template_directory_uri() );
 

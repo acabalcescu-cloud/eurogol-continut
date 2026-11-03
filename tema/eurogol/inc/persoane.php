@@ -32,22 +32,35 @@ function eg_persoane_sincronizeaza() {
 	require_once ABSPATH . 'wp-admin/includes/media.php';
 	require_once ABSPATH . 'wp-admin/includes/file.php';
 	require_once ABSPATH . 'wp-admin/includes/image.php';
-	$out = array();
+	$out        = array();
+	$descarcari = 0;
 	foreach ( $j as $x ) {
-		if ( empty( $x['slug'] ) || empty( $x['nume'] ) || empty( $x['fisier'] ) ) {
+		if ( empty( $x['slug'] ) || empty( $x['nume'] ) || ( empty( $x['fisier'] ) && empty( $x['url'] ) ) ) {
 			continue;
 		}
-		$cheie = $x['slug'] . '|' . ( $x['sursa'] ?? '' ) . '|' . ( $x['fisier'] ?? '' );
+		$cheie = $x['slug'] . '|' . ( $x['sursa'] ?? '' ) . '|' . ( $x['fisier'] ?? '' ) . ( $x['url'] ?? '' );
 		if ( empty( $foto[ $cheie ] ) || ! wp_get_attachment_url( $foto[ $cheie ] ) ) {
-			$id = media_sideload_image( eg_import_url( 'unelte/persoane/' . $x['fisier'] ), 0, $x['nume'], 'id' );
+			if ( ! empty( $x['fisier'] ) ) {
+				$id = media_sideload_image( eg_import_url( 'unelte/persoane/' . $x['fisier'] ), 0, $x['nume'], 'id' );
+			} elseif ( $descarcari++ < 8 ) { // câte 8 pe rulare, ca importul să nu dureze prea mult.
+				$id = eg_persoana_descarca( $x );
+			} else {
+				$id = new WP_Error( 'eg_amanat', 'Data viitoare.' );
+			}
 			if ( ! is_wp_error( $id ) ) {
 				update_post_meta( $id, '_wp_attachment_image_alt', $x['nume'] );
 				wp_update_post( array( 'ID' => $id, 'post_excerpt' => 'Foto: ' . ( $x['credit'] ?? '' ) ) );
 				$foto[ $cheie ] = $id;
 			}
 		}
-		$x['poza'] = ! empty( $foto[ $cheie ] ) ? wp_get_attachment_image_url( $foto[ $cheie ], 'medium' ) : eg_import_url( 'unelte/persoane/' . $x['fisier'] );
-		$out[]     = $x;
+		if ( ! empty( $foto[ $cheie ] ) ) {
+			$x['poza'] = wp_get_attachment_image_url( $foto[ $cheie ], 'medium' );
+		} elseif ( ! empty( $x['fisier'] ) ) {
+			$x['poza'] = eg_import_url( 'unelte/persoane/' . $x['fisier'] );
+		} else {
+			continue; // fotografia de pe Wikimedia n-a putut fi descărcată acum; se reîncearcă la următorul import.
+		}
+		$out[] = $x;
 	}
 	update_option( 'eg_persoane_foto', $foto, false );
 	update_option( 'eg_persoane', $out, false );
@@ -55,6 +68,42 @@ function eg_persoane_sincronizeaza() {
 		update_option( 'eg_persoane_hash', $hash, false );
 		eg_persoane_eticheteaza_tot();
 	}
+}
+
+/**
+ * Fotografia unei persoane descărcată direct de pe Wikimedia Commons (câmpul „url” din registru),
+ * decupată pătrat din partea de sus a imaginii, unde e fața. Întoarce ID-ul atașamentului sau WP_Error.
+ */
+function eg_persoana_descarca( $x ) {
+	$url = (string) $x['url'];
+	if ( ! preg_match( '~^https://upload\.wikimedia\.org/~', $url ) ) {
+		return new WP_Error( 'eg_url', 'Doar Wikimedia Commons.' );
+	}
+	$tmp = download_url( $url, 60 );
+	if ( is_wp_error( $tmp ) && preg_match( '~^(https://upload\.wikimedia\.org/wikipedia/commons)/thumb/(.+)/[^/]+$~', $url, $m ) ) {
+		$tmp = download_url( $m[1] . '/' . $m[2], 90 ); // miniatura nu există: fișierul original.
+	}
+	if ( is_wp_error( $tmp ) ) {
+		return $tmp;
+	}
+	$ed = wp_get_image_editor( $tmp );
+	if ( ! is_wp_error( $ed ) ) {
+		$d = $ed->get_size();
+		$l = min( $d['width'], $d['height'] );
+		$y = $d['height'] > $d['width'] ? (int) round( min( ( $d['height'] - $l ) * 0.12, $d['height'] - $l ) ) : 0;
+		$ed->crop( (int) round( ( $d['width'] - $l ) / 2 ), $y, $l, $l, min( 480, $l ), min( 480, $l ) );
+		$ed->set_quality( 86 );
+		$r = $ed->save( $tmp . '.jpg', 'image/jpeg' );
+		if ( ! is_wp_error( $r ) && ! empty( $r['path'] ) ) {
+			@unlink( $tmp );
+			$tmp = $r['path'];
+		}
+	}
+	$id = media_handle_sideload( array( 'name' => $x['slug'] . '.jpg', 'tmp_name' => $tmp ), 0, $x['nume'] );
+	if ( is_wp_error( $id ) ) {
+		@unlink( $tmp );
+	}
+	return $id;
 }
 
 /** Persoanele pomenite într-un text: în ordinea primei apariții. */
