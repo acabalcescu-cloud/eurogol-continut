@@ -146,7 +146,7 @@ function eg_seo_head() {
 				printf( '<meta %s="%s" content="%s">' . "\n", $x[0], esc_attr( $x[1] ), esc_attr( $x[2] ) );
 			}
 		}
-		$v = get_theme_mod( 'eg_google_verificare' );
+		$v = get_theme_mod( 'eg_google_verificare', 'V5iCD7crqirHUqCiKvwpm5FRzG9z4pAZMeZu6dibauk' );
 		if ( $v ) {
 			printf( '<meta name="google-site-verification" content="%s">' . "\n", esc_attr( $v ) );
 		}
