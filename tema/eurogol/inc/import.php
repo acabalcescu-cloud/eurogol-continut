@@ -174,6 +174,13 @@ function eg_import_ruleaza( $limita = 15 ) {
 			)
 		);
 		update_post_meta( $post_id, '_eg_actualizat', $art['actualizat'] );
+		if ( ! empty( $art['video'] ) ) {
+			update_post_meta( $post_id, '_eg_video_rezumat', esc_url_raw( $art['video'] ) );
+			update_post_meta( $post_id, '_eg_video_sursa', sanitize_text_field( (string) ( $art['video_sursa'] ?? '' ) ) );
+		}
+		if ( function_exists( 'eg_persoane_eticheteaza' ) ) {
+			eg_persoane_eticheteaza( $post_id );
+		}
 		if ( array_key_exists( 'clasament', $art ) ) {
 			update_post_meta( $post_id, '_eg_clasament', $art['clasament'] ? sanitize_title( $art['clasament'] ) : 'nu' );
 		}
@@ -401,6 +408,8 @@ function eg_import_articol( $art, $cale ) {
 			'_eg_actualizat' => (string) ( $art['actualizat'] ?? '' ),
 			'_eg_cronica'    => empty( $art['meci'] ) ? '' : '1',
 			'_eg_autor_explicit' => empty( $art['autor'] ) ? '' : '1',
+			'_eg_video_rezumat' => esc_url_raw( (string) ( $art['video'] ?? '' ) ),
+			'_eg_video_sursa'   => sanitize_text_field( (string) ( $art['video_sursa'] ?? '' ) ),
 			'_eg_clasament'  => array_key_exists( 'clasament', $art ) ? ( $art['clasament'] ? sanitize_title( $art['clasament'] ) : 'nu' ) : '',
 		),
 	);
@@ -422,6 +431,9 @@ function eg_import_articol( $art, $cale ) {
 	}
 
 	eg_import_coperta( $id, $art, $cale );
+	if ( function_exists( 'eg_persoane_eticheteaza' ) ) {
+		eg_persoane_eticheteaza( $id );
+	}
 	if ( ! empty( $art['coperta_v'] ) ) {
 		update_post_meta( $id, '_eg_coperta_v', (string) $art['coperta_v'] );
 	}

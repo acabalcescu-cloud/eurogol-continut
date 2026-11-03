@@ -25,12 +25,14 @@ get_header();
 				</header>
 
 				<?php if ( has_post_thumbnail() ) : ?>
-					<figure class="eg-articol-coperta"><?php the_post_thumbnail( 'eg-mare', array( 'loading' => 'eager', 'fetchpriority' => 'high' ) ); ?></figure>
+					<figure class="eg-articol-coperta"><?php the_post_thumbnail( 'eg-mare', array( 'loading' => 'eager', 'fetchpriority' => 'high' ) ); ?><?php echo eg_persoane_bulinele_copertii( get_post() ); // phpcs:ignore ?></figure>
 				<?php endif; ?>
 
 				<div class="eg-text">
 					<?php the_content(); ?>
 				</div>
+
+				<?php echo eg_video_html( get_post() ); // phpcs:ignore -- rezumatul video al meciului ?>
 
 				<?php echo eg_clasament_html( get_post() ); // phpcs:ignore -- clasamentul competiției, la finalul articolului ?>
 

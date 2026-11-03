@@ -62,6 +62,19 @@
 		}
 	});
 
+	// Rezumatul video: playerul YouTube (fără cookie-uri) se încarcă doar la apăsare.
+	document.querySelectorAll('.eg-video-play').forEach(function (b) {
+		b.addEventListener('click', function () {
+			var f = document.createElement('iframe');
+			f.src = 'https://www.youtube-nocookie.com/embed/' + b.dataset.id + '?autoplay=1&rel=0';
+			f.title = 'Rezumatul meciului';
+			f.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen';
+			f.allowFullscreen = true;
+			f.className = 'eg-video-frame';
+			b.replaceWith(f);
+		});
+	});
+
 	// „Înapoi sus”, după primul ecran.
 	var sus = document.querySelector('.eg-inapoi-sus');
 	if (sus) {
