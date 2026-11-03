@@ -14,6 +14,7 @@ get_header();
 			?>
 			<article <?php post_class( 'eg-articol' ); ?>>
 				<header class="eg-articol-antet">
+					<?php echo eg_seo_firimituri_html(); // phpcs:ignore ?>
 					<?php if ( $cats ) : ?>
 						<a class="eg-eticheta" href="<?php echo esc_url( get_category_link( $cats[0] ) ); ?>"><?php echo esc_html( $cats[0]->name ); ?></a>
 					<?php endif; ?>

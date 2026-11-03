@@ -6,7 +6,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'EG_VERSIUNE', '2.3.0' );
+define( 'EG_VERSIUNE', '2.4.0' );
 define( 'EG_DIR', get_template_directory() );
 define( 'EG_URI', get_template_directory_uri() );
 
@@ -17,6 +17,7 @@ require EG_DIR . '/inc/import.php';
 require EG_DIR . '/inc/actualizare.php';
 require EG_DIR . '/inc/clasament.php';
 require EG_DIR . '/inc/persoane.php';
+require EG_DIR . '/inc/seo.php';
 
 add_action( 'after_setup_theme', 'eg_setup' );
 function eg_setup() {
@@ -201,26 +202,3 @@ function eg_iconite() {
 	printf( '<link rel="apple-touch-icon" href="%s">' . "\n", esc_url( $u . 'icon-180.png' ) );
 }
 
-/** Etichete Open Graph minime, ca știrile să arate bine pe Facebook și WhatsApp (dacă nu e instalat un modul SEO). */
-add_action( 'wp_head', 'eg_open_graph', 5 );
-function eg_open_graph() {
-	if ( defined( 'WPSEO_VERSION' ) || defined( 'RANK_MATH_VERSION' ) || defined( 'AIOSEO_VERSION' ) || ! is_singular() ) {
-		return;
-	}
-	$id    = get_queried_object_id();
-	$titlu = get_the_title( $id );
-	$desc  = wp_strip_all_tags( get_the_excerpt( $id ) );
-	$img   = get_the_post_thumbnail_url( $id, 'eg-mare' );
-	printf( '<meta property="og:type" content="article">' . "\n" );
-	printf( '<meta property="og:site_name" content="%s">' . "\n", esc_attr( get_bloginfo( 'name' ) ) );
-	printf( '<meta property="og:title" content="%s">' . "\n", esc_attr( $titlu ) );
-	printf( '<meta property="og:url" content="%s">' . "\n", esc_url( get_permalink( $id ) ) );
-	if ( $desc ) {
-		printf( '<meta name="description" content="%s">' . "\n", esc_attr( $desc ) );
-		printf( '<meta property="og:description" content="%s">' . "\n", esc_attr( $desc ) );
-	}
-	if ( $img ) {
-		printf( '<meta property="og:image" content="%s">' . "\n", esc_url( $img ) );
-		echo '<meta name="twitter:card" content="summary_large_image">' . "\n";
-	}
-}

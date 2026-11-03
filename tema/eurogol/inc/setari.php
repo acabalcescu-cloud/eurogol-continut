@@ -67,6 +67,11 @@ function eg_personalizare( $wp_customize ) {
 		)
 	);
 
+	$wp_customize->add_setting( 'eg_google_verificare', array( 'default' => '', 'sanitize_callback' => 'sanitize_text_field' ) );
+	$wp_customize->add_control( 'eg_google_verificare', array( 'label' => 'Google Search Console: codul de verificare (meta)', 'description' => 'Doar codul din content="…". Nu e nevoie dacă site-ul e verificat prin Site Kit.', 'section' => 'eg' ) );
+	$wp_customize->add_setting( 'eg_bing_verificare', array( 'default' => '', 'sanitize_callback' => 'sanitize_text_field' ) );
+	$wp_customize->add_control( 'eg_bing_verificare', array( 'label' => 'Bing Webmaster: codul de verificare (msvalidate.01)', 'section' => 'eg' ) );
+
 	foreach ( array( 'facebook' => 'Facebook', 'instagram' => 'Instagram', 'x' => 'X (Twitter)', 'tiktok' => 'TikTok', 'youtube' => 'YouTube' ) as $cheie => $nume ) {
 		$wp_customize->add_setting( 'eg_' . $cheie, array( 'default' => '', 'sanitize_callback' => 'esc_url_raw' ) );
 		$wp_customize->add_control( 'eg_' . $cheie, array( 'label' => 'Adresa ' . $nume, 'section' => 'eg', 'type' => 'url' ) );
