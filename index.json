@@ -1,5 +1,9 @@
 {
   "cronici": [
+    "cronici/2026-11-03-stire-lukic-presa-bosnia-barbarez.json",
+    "cronici/2026-11-03-stire-gloria-bistrita-masa-verde.json",
+    "cronici/2026-11-03-stire-cassano-inter-groaznica-chivu.json",
+    "cronici/2026-11-03-stire-padurariu-puteam-primi-penalty.json",
     "cronici/2026-11-03-stire-szoboszlai-plonjon-isak.json",
     "cronici/2026-11-03-poveste-superclasico-boca-river.json",
     "cronici/2026-11-03-poveste-gheorghe-hagi-regele.json",
@@ -45,12 +49,12 @@
     "cronici/2026-11-02-u-cluj-fcsb.json"
   ],
   "actualizate": [
+    "cronici/2026-11-02-stire-dragus-revenire.json",
     "cronici/2026-11-02-etapa-14-superliga.json",
     "cronici/2026-11-02-poveste-sevilla-1986.json",
     "cronici/2026-11-02-stire-becali-lukic.json",
     "cronici/2026-11-02-stire-birligea-sansa-frosinone.json",
     "cronici/2026-11-02-stire-chivu-dupa-derby-feyenoord.json",
-    "cronici/2026-11-02-stire-dragus-revenire.json",
     "cronici/2026-11-02-stire-fcsb-dupa-cluj.json",
     "cronici/2026-11-02-stire-ilie-dumitrescu-fcsb-padurariu.json",
     "cronici/2026-11-02-stire-reghecampf-arbitraj.json",
