@@ -180,7 +180,7 @@ function eg_persoane_banda( $content ) {
 		$b .= '<a class="eg-in-articol-om" href="' . esc_url( eg_persoana_link( $x ) ) . '" title="Toate articolele despre ' . esc_attr( $x['nume'] ) . '">'
 			. '<span class="eg-bulina"><img src="' . esc_url( $x['poza'] ) . '" alt="' . esc_attr( $x['nume'] ) . '" loading="lazy" width="84" height="84"></span>'
 			. '<span class="eg-in-articol-nume">' . esc_html( $x['nume'] ) . '</span>'
-			. '<span class="eg-in-articol-rol">' . esc_html( ( 'antrenor' === ( $x['rol'] ?? '' ) ? 'Antrenor' : 'Jucător' ) . ( ! empty( $x['club'] ) ? ' · ' . $x['club'] : '' ) ) . '</span></a>';
+			. '<span class="eg-in-articol-rol">' . esc_html( ( array( 'antrenor' => 'Antrenor', 'patron' => 'Patron', 'fost' => 'Fost jucător', 'arbitru' => 'Arbitru' )[ $x['rol'] ?? '' ] ?? 'Jucător' ) . ( ! empty( $x['club'] ) ? ' · ' . $x['club'] : '' ) ) . '</span></a>';
 	}
 	$b  .= '</div></aside>';
 	$poz = strpos( $content, '</p>' );

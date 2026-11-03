@@ -1,5 +1,20 @@
 [
  {
+  "slug": "adrian-mutu",
+  "nume": "Adrian Mutu",
+  "alias": [
+   "Adrian Mutu",
+   "Mutu"
+  ],
+  "rol": "fost",
+  "club": "",
+  "fisier": "",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Adrian_Mutu_2.jpg",
+  "credit": "Roberto Vicario, Wikimedia Commons, CC BY-SA 3.0",
+  "sursa": "https://commons.wikimedia.org/w/index.php?curid=2885035",
+  "licenta_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+ },
+ {
   "slug": "alexandru-chipciu",
   "nume": "Alexandru Chipciu",
   "alias": [
@@ -14,6 +29,21 @@
   "licenta_url": "https://creativecommons.org/licenses/by-sa/2.0/"
  },
  {
+  "slug": "alexandru-cicaldau",
+  "nume": "Alexandru Cicâldău",
+  "alias": [
+   "Alexandru Cicâldău",
+   "Cicâldău"
+  ],
+  "rol": "jucator",
+  "club": "Universitatea Craiova",
+  "fisier": "",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Alexandru_Cic%C3%A2ld%C4%83u_portrait%2C_Universitatea_Craiova_%28cropped%29.jpg/960px-Alexandru_Cic%C3%A2ld%C4%83u_portrait%2C_Universitatea_Craiova_%28cropped%29.jpg",
+  "credit": "Zafer, Wikimedia Commons, CC BY 4.0",
+  "sursa": "https://commons.wikimedia.org/w/index.php?curid=186569341",
+  "licenta_url": "https://creativecommons.org/licenses/by/4.0/"
+ },
+ {
   "slug": "carlo-ancelotti",
   "nume": "Carlo Ancelotti",
   "alias": [
@@ -26,6 +56,21 @@
   "credit": "Светлана Бекетова, Wikimedia Commons, CC BY-SA 3.0",
   "sursa": "https://commons.wikimedia.org/w/index.php?curid=68823009",
   "licenta_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+ },
+ {
+  "slug": "cornel-dinu",
+  "nume": "Cornel Dinu",
+  "alias": [
+   "Cornel Dinu",
+   "Dinu"
+  ],
+  "rol": "fost",
+  "club": "",
+  "fisier": "",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Cornel_Dinu.jpg",
+  "credit": "dan_avraham2000, Wikimedia Commons, CC BY 2.0",
+  "sursa": "https://commons.wikimedia.org/w/index.php?curid=15518307",
+  "licenta_url": "https://creativecommons.org/licenses/by/2.0/"
  },
  {
   "slug": "cristi-chivu",
@@ -43,6 +88,20 @@
   "licenta_url": "https://creativecommons.org/licenses/by-sa/3.0/"
  },
  {
+  "slug": "dan-petrescu",
+  "nume": "Dan Petrescu",
+  "alias": [
+   "Dan Petrescu"
+  ],
+  "rol": "antrenor",
+  "club": "",
+  "fisier": "",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Dan_Petrescu_cropped.jpg",
+  "credit": "Dan_Petrescu.jpg: John_Dobbo derivative work: thumperward (talk), Wikimedia Commons, CC BY-SA 2.0",
+  "sursa": "https://commons.wikimedia.org/w/index.php?curid=8668145",
+  "licenta_url": "https://creativecommons.org/licenses/by-sa/2.0/"
+ },
+ {
   "slug": "daniel-birligea",
   "nume": "Daniel Bîrligea",
   "alias": [
@@ -58,6 +117,21 @@
   "licenta_url": "https://creativecommons.org/licenses/by-sa/2.0/"
  },
  {
+  "slug": "denis-dragus",
+  "nume": "Denis Drăguș",
+  "alias": [
+   "Denis Drăguș",
+   "Drăguș"
+  ],
+  "rol": "jucator",
+  "club": "FCSB",
+  "fisier": "",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Denis_Dragus_-_FC_Salzburg_vs_Viitorul_Constan%C8%9Ba%2C_24_August_2017%29_48_%28cropped%29.jpg",
+  "credit": "Werner100359, Wikimedia Commons, CC BY-SA 4.0",
+  "sursa": "https://commons.wikimedia.org/w/index.php?curid=123152555",
+  "licenta_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+ },
+ {
   "slug": "diego-maradona",
   "nume": "Diego Maradona",
   "alias": [
@@ -70,6 +144,21 @@
   "fisier": "diego-maradona.jpg",
   "credit": "Doha Stadium Plus, Flickr, CC BY 2.0",
   "sursa": "https://www.flickr.com/photos/66463488@N06/7448907672",
+  "licenta_url": "https://creativecommons.org/licenses/by/2.0/"
+ },
+ {
+  "slug": "elias-charalambous",
+  "nume": "Elias Charalambous",
+  "alias": [
+   "Charalambous",
+   "Elias Charalambous"
+  ],
+  "rol": "antrenor",
+  "club": "",
+  "fisier": "",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Elias_Charalambous_-_3_July_2023_%28cropped%29.jpg/960px-Elias_Charalambous_-_3_July_2023_%28cropped%29.jpg",
+  "credit": "Carlo Bruil Fotografie, Wikimedia Commons, CC BY 2.0",
+  "sursa": "https://commons.wikimedia.org/w/index.php?curid=151534197",
   "licenta_url": "https://creativecommons.org/licenses/by/2.0/"
  },
  {
@@ -88,6 +177,80 @@
   "licenta_url": "https://creativecommons.org/licenses/by/2.0/"
  },
  {
+  "slug": "fabian-hurzeler",
+  "nume": "Fabian Hürzeler",
+  "alias": [
+   "Fabian Hürzeler",
+   "Hurzeler",
+   "Hürzeler"
+  ],
+  "rol": "antrenor",
+  "club": "Brighton",
+  "fisier": "",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Fabian_H%C3%BCrzeler_24012026_%281%29.jpg/960px-Fabian_H%C3%BCrzeler_24012026_%281%29.jpg",
+  "credit": "Timmy96, Wikimedia Commons, CC0",
+  "sursa": "https://commons.wikimedia.org/w/index.php?curid=182524206",
+  "licenta_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en/"
+ },
+ {
+  "slug": "florin-bratu",
+  "nume": "Florin Bratu",
+  "alias": [
+   "Bratu",
+   "Florin Bratu"
+  ],
+  "rol": "antrenor",
+  "club": "",
+  "fisier": "",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Florin_Bratu_4.jpg/960px-Florin_Bratu_4.jpg",
+  "credit": "The original uploader was Ela60 at Romanian Wikipedia., Wikimedia Commons, CC BY-SA 3.0",
+  "sursa": "https://commons.wikimedia.org/w/index.php?curid=23658265",
+  "licenta_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+ },
+ {
+  "slug": "florinel-coman",
+  "nume": "Florinel Coman",
+  "alias": [
+   "Florinel Coman"
+  ],
+  "rol": "jucator",
+  "club": "Al-Gharafa",
+  "fisier": "",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Florinel_Coman_-_3_July_2023_%28cropped%29.jpg",
+  "credit": "Carlo Bruil Fotografie, Wikimedia Commons, CC BY 2.0",
+  "sursa": "https://commons.wikimedia.org/w/index.php?curid=147833348",
+  "licenta_url": "https://creativecommons.org/licenses/by/2.0/"
+ },
+ {
+  "slug": "gheorghe-hagi",
+  "nume": "Gheorghe Hagi",
+  "alias": [
+   "Gheorghe Hagi"
+  ],
+  "rol": "antrenor",
+  "club": "România",
+  "fisier": "",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Gheorghe_Hagi3_cropped.jpg/960px-Gheorghe_Hagi3_cropped.jpg",
+  "credit": "Gheorghe_Hagi3.jpg: User:Dan avraham2000 derivative work: Ionutzmovie (talk), Wikimedia Commons, CC BY-SA 3.0",
+  "sursa": "https://commons.wikimedia.org/w/index.php?curid=15607559",
+  "licenta_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+ },
+ {
+  "slug": "gigi-becali",
+  "nume": "Gigi Becali",
+  "alias": [
+   "Becali",
+   "Gigi Becali"
+  ],
+  "rol": "patron",
+  "club": "FCSB",
+  "fisier": "",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Gigi_Becali_21.12.2024_%283%29_%28cropped%29.jpg",
+  "credit": "AUR Alianța pentru Unirea Românilor, Wikimedia Commons, CC0",
+  "sursa": "https://commons.wikimedia.org/w/index.php?curid=173625885",
+  "licenta_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en/"
+ },
+ {
   "slug": "hansi-flick",
   "nume": "Hansi Flick",
   "alias": [
@@ -102,6 +265,21 @@
   "licenta_url": "https://creativecommons.org/licenses/by-sa/4.0/"
  },
  {
+  "slug": "harry-kane",
+  "nume": "Harry Kane",
+  "alias": [
+   "Harry Kane",
+   "Kane"
+  ],
+  "rol": "jucator",
+  "club": "Bayern",
+  "fisier": "",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Harry_Kane_England_v_Ghana_23_June_2026-219_%28cropped%29.jpg/960px-Harry_Kane_England_v_Ghana_23_June_2026-219_%28cropped%29.jpg",
+  "credit": "Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
+  "sursa": "https://commons.wikimedia.org/w/index.php?curid=194950984",
+  "licenta_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+ },
+ {
   "slug": "ianis-hagi",
   "nume": "Ianis Hagi",
   "alias": [
@@ -112,6 +290,66 @@
   "fisier": "ianis-hagi.jpg",
   "credit": "Rolandhino1, Wikimedia Commons, CC BY-SA 4.0",
   "sursa": "https://commons.wikimedia.org/w/index.php?curid=78366844",
+  "licenta_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+ },
+ {
+  "slug": "ilie-dumitrescu",
+  "nume": "Ilie Dumitrescu",
+  "alias": [
+   "Ilie Dumitrescu"
+  ],
+  "rol": "fost",
+  "club": "",
+  "fisier": "",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Ilie_Dumitrescu_-_16_June_2018_%28cropped%29.jpg",
+  "credit": "Nuță Lucian from Cluj-Napoca, Romania, Wikimedia Commons, CC BY-SA 2.0",
+  "sursa": "https://commons.wikimedia.org/w/index.php?curid=151534875",
+  "licenta_url": "https://creativecommons.org/licenses/by-sa/2.0/"
+ },
+ {
+  "slug": "jerzy-dudek",
+  "nume": "Jerzy Dudek",
+  "alias": [
+   "Dudek",
+   "Jerzy Dudek"
+  ],
+  "rol": "fost",
+  "club": "Liverpool",
+  "fisier": "",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Jerzy_Dudek_%28cropped%29.jpg",
+  "credit": "Zureks, Wikimedia Commons, CC BY-SA 3.0",
+  "sursa": "https://commons.wikimedia.org/w/index.php?curid=110713876",
+  "licenta_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+ },
+ {
+  "slug": "joyskim-dawa",
+  "nume": "Joyskim Dawa",
+  "alias": [
+   "Dawa",
+   "Joyskim Dawa"
+  ],
+  "rol": "jucator",
+  "club": "FCSB",
+  "fisier": "",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Joyskim_Dawa_-_3_July_2023_%28cropped%29.jpg/960px-Joyskim_Dawa_-_3_July_2023_%28cropped%29.jpg",
+  "credit": "Carlo Bruil Fotografie, Wikimedia Commons, CC BY 2.0",
+  "sursa": "https://commons.wikimedia.org/w/index.php?curid=147831977",
+  "licenta_url": "https://creativecommons.org/licenses/by/2.0/"
+ },
+ {
+  "slug": "kosta-runjaic",
+  "nume": "Kosta Runjaić",
+  "alias": [
+   "Kosta Runjaić",
+   "Runjaic",
+   "Runjaić"
+  ],
+  "rol": "antrenor",
+  "club": "",
+  "fisier": "",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Kosta_Runjai%C4%87_2021_%28cropped%29.jpg",
+  "credit": "Doktor.opi, Wikimedia Commons, CC BY-SA 4.0",
+  "sursa": "https://commons.wikimedia.org/w/index.php?curid=131476268",
   "licenta_url": "https://creativecommons.org/licenses/by-sa/4.0/"
  },
  {
@@ -129,6 +367,81 @@
   "licenta_url": "https://creativecommons.org/licenses/by-sa/4.0/"
  },
  {
+  "slug": "laurentiu-reghecampf",
+  "nume": "Laurențiu Reghecampf",
+  "alias": [
+   "Laurențiu Reghecampf",
+   "Reghe",
+   "Reghecampf"
+  ],
+  "rol": "antrenor",
+  "club": "FCSB",
+  "fisier": "",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Lauren%C8%9Biu_Reghecampf_en_2025_%28cropped%29.jpg",
+  "credit": "Bahbouhe, Wikimedia Commons, CC BY 4.0",
+  "sursa": "https://commons.wikimedia.org/w/index.php?curid=176758577",
+  "licenta_url": "https://creativecommons.org/licenses/by/4.0/"
+ },
+ {
+  "slug": "marius-sumudica",
+  "nume": "Marius Șumudică",
+  "alias": [
+   "Marius Șumudică",
+   "Șumudică"
+  ],
+  "rol": "antrenor",
+  "club": "",
+  "fisier": "",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Marius_Sumudica_2016.png/960px-Marius_Sumudica_2016.png",
+  "credit": "tv giurgiu, cropped by 8Dodo8, Wikimedia Commons, CC BY 3.0",
+  "sursa": "https://commons.wikimedia.org/w/index.php?curid=57321440",
+  "licenta_url": "https://creativecommons.org/licenses/by/3.0/"
+ },
+ {
+  "slug": "mircea-lucescu",
+  "nume": "Mircea Lucescu",
+  "alias": [
+   "Il Luce",
+   "Mircea Lucescu"
+  ],
+  "rol": "antrenor",
+  "club": "",
+  "fisier": "",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Mircea_Lucescu_%28cropped%29.jpg",
+  "credit": "Давиденко Валерий, Wikimedia Commons, CC BY-SA 3.0",
+  "sursa": "https://commons.wikimedia.org/w/index.php?curid=115325025",
+  "licenta_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+ },
+ {
+  "slug": "mirel-radoi",
+  "nume": "Mirel Rădoi",
+  "alias": [
+   "Mirel Rădoi",
+   "Rădoi"
+  ],
+  "rol": "antrenor",
+  "club": "",
+  "fisier": "",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Mirel_Radoi_%28cropped%29.PNG",
+  "credit": "Mirel_Radoi.PNG: Rami ™ derivative work: Ionutzmovie (talk), Wikimedia Commons, CC BY 2.0",
+  "sursa": "https://commons.wikimedia.org/w/index.php?curid=11589936",
+  "licenta_url": "https://creativecommons.org/licenses/by/2.0/"
+ },
+ {
+  "slug": "nicolae-stanciu",
+  "nume": "Nicolae Stanciu",
+  "alias": [
+   "Nicolae Stanciu"
+  ],
+  "rol": "jucator",
+  "club": "",
+  "fisier": "",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Nicolae_Stanciu_-_Sweden_vs_Romaina_23_March_2019_%28cropped%29.jpg",
+  "credit": "Rolandhino1, Wikimedia Commons, CC BY-SA 4.0",
+  "sursa": "https://commons.wikimedia.org/w/index.php?curid=78366576",
+  "licenta_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+ },
+ {
   "slug": "paolo-maldini",
   "nume": "Paolo Maldini",
   "alias": [
@@ -141,6 +454,21 @@
   "credit": "GOAL TV, Wikimedia Commons, CC BY 3.0",
   "sursa": "https://commons.wikimedia.org/w/index.php?curid=123683950",
   "licenta_url": "https://creativecommons.org/licenses/by/3.0/"
+ },
+ {
+  "slug": "radu-dragusin",
+  "nume": "Radu Drăgușin",
+  "alias": [
+   "Drăgușin",
+   "Radu Drăgușin"
+  ],
+  "rol": "jucator",
+  "club": "",
+  "fisier": "",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Radu_Dragusin_-_Frosinone_vs_Genoa_14_May_2023.jpg",
+  "credit": "Original: Antonio Fraioli Derivative work: 8Dodo8, Wikimedia Commons, CC BY-SA 4.0",
+  "sursa": "https://commons.wikimedia.org/w/index.php?curid=144424794",
+  "licenta_url": "https://creativecommons.org/licenses/by-sa/4.0/"
  },
  {
   "slug": "rafael-benitez",
@@ -158,6 +486,50 @@
   "licenta_url": "https://creativecommons.org/licenses/by/2.0/"
  },
  {
+  "slug": "razvan-lucescu",
+  "nume": "Răzvan Lucescu",
+  "alias": [
+   "Răzvan Lucescu"
+  ],
+  "rol": "antrenor",
+  "club": "Al-Sadd",
+  "fisier": "",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/RO_B_ROMAUT_Razvan_Lucescu_1.jpg/960px-RO_B_ROMAUT_Razvan_Lucescu_1.jpg",
+  "credit": "Andrei Stroe, Wikimedia Commons, CC BY-SA 3.0",
+  "sursa": "https://commons.wikimedia.org/w/index.php?curid=7777532",
+  "licenta_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+ },
+ {
+  "slug": "razvan-marin",
+  "nume": "Răzvan Marin",
+  "alias": [
+   "Răzvan Marin"
+  ],
+  "rol": "jucator",
+  "club": "AEK Atena",
+  "fisier": "",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Cagliari2425_%28R%C4%83zvan_Marin%29.png",
+  "credit": "Sandrino 14, Wikimedia Commons, CC BY-SA 4.0",
+  "sursa": "https://commons.wikimedia.org/w/index.php?curid=192660435",
+  "licenta_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+ },
+ {
+  "slug": "risto-radunovic",
+  "nume": "Risto Radunović",
+  "alias": [
+   "Radunovic",
+   "Radunović",
+   "Risto Radunović"
+  ],
+  "rol": "jucator",
+  "club": "FCSB",
+  "fisier": "",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Risto_Radunovi%C4%87_-_CFR_Cluj_-_FCSB_0-1_%2852012765402%29_%28cropped%29.jpg",
+  "credit": "Nuță Lucian from Cluj-Napoca, Romania, Wikimedia Commons, CC BY-SA 2.0",
+  "sursa": "https://commons.wikimedia.org/w/index.php?curid=134410961",
+  "licenta_url": "https://creativecommons.org/licenses/by-sa/2.0/"
+ },
+ {
   "slug": "ruben-amorim",
   "nume": "Ruben Amorim",
   "alias": [
@@ -170,5 +542,20 @@
   "credit": "Agencia LUSA, Wikimedia Commons, CC BY 3.0",
   "sursa": "https://commons.wikimedia.org/w/index.php?curid=147281123",
   "licenta_url": "https://creativecommons.org/licenses/by/3.0/"
+ },
+ {
+  "slug": "steven-gerrard",
+  "nume": "Steven Gerrard",
+  "alias": [
+   "Gerrard",
+   "Steven Gerrard"
+  ],
+  "rol": "fost",
+  "club": "Liverpool",
+  "fisier": "",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Steven_Gerrard_2018.jpg",
+  "credit": "Эдгар Брещанов, Wikimedia Commons, CC BY-SA 3.0",
+  "sursa": "https://commons.wikimedia.org/w/index.php?curid=73877396",
+  "licenta_url": "https://creativecommons.org/licenses/by-sa/3.0/"
  }
 ]
