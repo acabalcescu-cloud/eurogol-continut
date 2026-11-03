@@ -194,21 +194,6 @@
   "licenta_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en/"
  },
  {
-  "slug": "florin-bratu",
-  "nume": "Florin Bratu",
-  "alias": [
-   "Bratu",
-   "Florin Bratu"
-  ],
-  "rol": "antrenor",
-  "club": "",
-  "fisier": "",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Florin_Bratu_4.jpg/960px-Florin_Bratu_4.jpg",
-  "credit": "The original uploader was Ela60 at Romanian Wikipedia., Wikimedia Commons, CC BY-SA 3.0",
-  "sursa": "https://commons.wikimedia.org/w/index.php?curid=23658265",
-  "licenta_url": "https://creativecommons.org/licenses/by-sa/3.0/"
- },
- {
   "slug": "florinel-coman",
   "nume": "Florinel Coman",
   "alias": [
@@ -495,24 +480,10 @@
   "rol": "antrenor",
   "club": "Al-Sadd",
   "fisier": "",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/RO_B_ROMAUT_Razvan_Lucescu_1.jpg/960px-RO_B_ROMAUT_Razvan_Lucescu_1.jpg",
-  "credit": "Andrei Stroe, Wikimedia Commons, CC BY-SA 3.0",
-  "sursa": "https://commons.wikimedia.org/w/index.php?curid=7777532",
-  "licenta_url": "https://creativecommons.org/licenses/by-sa/3.0/"
- },
- {
-  "slug": "razvan-marin",
-  "nume": "Răzvan Marin",
-  "alias": [
-   "Răzvan Marin"
-  ],
-  "rol": "jucator",
-  "club": "AEK Atena",
-  "fisier": "",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Cagliari2425_%28R%C4%83zvan_Marin%29.png",
-  "credit": "Sandrino 14, Wikimedia Commons, CC BY-SA 4.0",
-  "sursa": "https://commons.wikimedia.org/w/index.php?curid=192660435",
-  "licenta_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Razvan_Lucescu%2C_press_conference_FC_Basel_-_PAOK_FC%2C_1_August_2018.jpg",
+  "credit": "PAOK FC; cropped by BaboneCar, Wikimedia Commons, CC BY 3.0",
+  "sursa": "https://commons.wikimedia.org/w/index.php?curid=71371905",
+  "licenta_url": "https://creativecommons.org/licenses/by/3.0/"
  },
  {
   "slug": "risto-radunovic",
