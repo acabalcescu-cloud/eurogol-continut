@@ -55,15 +55,32 @@ function eg_fb_conecteaza( $app_id, $secret, $user_token, $pagina ) {
 	if ( is_wp_error( $conturi ) ) {
 		return $conturi;
 	}
+	$brut = trim( preg_replace( '~^.*facebook\.com/|[/?#].*$~i', '', trim( (string) $pagina ) ) );
+	if ( '' === $brut ) {
+		$brut = (string) eg_fb_setari()['pagina_id']; // reconectare: pagina conectată înainte.
+	}
 	// „EuroGol.ro”, „eurogol”, „facebook.com/EuroGol.ro” → „eurogol”: comparăm fără punctuație și fără „.ro”.
 	$norm   = fn( $t ) => preg_replace( '/[^a-z0-9]+/', '', preg_replace( '~^.*facebook\.com/|\.ro$~', '', strtolower( trim( (string) $t ) ) ) );
 	$pagina = $norm( $pagina );
 	$lista  = (array) ( $conturi['data'] ?? array() );
+	// Paginile administrate printr-un portofoliu Business nu apar mereu în me/accounts: le cerem direct, după ID sau nume de utilizator.
+	if ( '' !== $brut ) {
+		$direct = eg_fb_cerere( 'GET', rawurlencode( $brut ), array( 'access_token' => $lung['access_token'], 'fields' => 'id,name,access_token' ) );
+		if ( ! is_wp_error( $direct ) && ! empty( $direct['access_token'] ) ) {
+			$gasit = false;
+			foreach ( $lista as $p ) {
+				$gasit = $gasit || $p['id'] === $direct['id'];
+			}
+			if ( ! $gasit ) {
+				$lista = array( $direct );
+			}
+		}
+	}
 	if ( ! $lista ) {
 		return new WP_Error( 'eg_fb', 'Tokenul nu vede nicio pagină. La „Generate Access Token”, în fereastra Facebook, alege „Editează setările” și bifează pagina EuroGol.ro.' );
 	}
 	foreach ( $lista as $p ) {
-		if ( ! $pagina || 1 === count( $lista ) || in_array( $pagina, array( $norm( $p['id'] ), $norm( $p['name'] ), $norm( $p['username'] ?? '' ) ), true ) ) {
+		if ( 1 === count( $lista ) || in_array( $pagina, array( $norm( $p['id'] ), $norm( $p['name'] ), $norm( $p['username'] ?? '' ) ), true ) ) {
 			$s                = eg_fb_setari();
 			$s['pagina_id']   = $p['id'];
 			$s['pagina_nume'] = $p['name'];
@@ -74,7 +91,7 @@ function eg_fb_conecteaza( $app_id, $secret, $user_token, $pagina ) {
 			return $p['name'];
 		}
 	}
-	return new WP_Error( 'eg_fb', 'Pagina „' . $pagina . '” nu e printre cele văzute de token: ' . implode( ', ', wp_list_pluck( $lista, 'name' ) ) . '. Scrie unul dintre aceste nume la „Pagina”.' );
+	return new WP_Error( 'eg_fb', 'Pagina „' . $pagina . '” nu e printre cele văzute de token: ' . implode( ', ', wp_list_pluck( $lista, 'name' ) ) . '. Scrie la „Pagina” unul dintre aceste nume sau ID-ul numeric al paginii EuroGol (Facebook → pagina → Despre → Transparența paginii).' );
 }
 
 /* ---------- Hashtag-uri ---------- */
