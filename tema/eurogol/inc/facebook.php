@@ -196,17 +196,17 @@ function eg_fb_in_coada( $nou, $vechi, $post ) {
 add_action( 'eg_import', 'eg_fb_recupereaza', 59 );
 function eg_fb_recupereaza() {
 	$s = eg_fb_setari();
-	if ( get_option( 'eg_fb_recuperat' ) || ! $s['activ'] || ! $s['token'] ) {
+	if ( 2 <= (int) get_option( 'eg_fb_recuperat' ) || ! $s['activ'] || ! $s['token'] ) {
 		return;
 	}
 	$c = (array) get_option( 'eg_fb_coada', array() );
-	foreach ( get_posts( array( 'post_type' => 'post', 'post_status' => 'publish', 'posts_per_page' => 40, 'fields' => 'ids', 'date_query' => array( array( 'after' => '6 hours ago', 'column' => 'post_date_gmt' ) ) ) ) as $id ) {
+	foreach ( get_posts( array( 'post_type' => 'post', 'post_status' => 'publish', 'posts_per_page' => 40, 'fields' => 'ids', 'date_query' => array( array( 'after' => '4 hours ago', 'column' => 'post_date_gmt' ) ) ) ) as $id ) {
 		if ( ! get_post_meta( $id, '_eg_fb_post', true ) && ! in_array( $id, $c, true ) ) {
 			$c[] = $id;
 		}
 	}
 	update_option( 'eg_fb_coada', $c, false );
-	update_option( 'eg_fb_recuperat', 1 );
+	update_option( 'eg_fb_recuperat', 2 );
 	eg_fb_jurnal( count( $c ) . ' articole recente puse în coadă.' );
 }
 
