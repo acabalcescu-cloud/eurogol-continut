@@ -33,13 +33,26 @@ function eg_import_url( $cale ) {
 add_filter( 'cron_schedules', 'eg_import_interval' );
 function eg_import_interval( $s ) {
 	$s['eg_15m'] = array( 'interval' => 15 * MINUTE_IN_SECONDS, 'display' => 'La 15 minute' );
+	$s['eg_5m']  = array( 'interval' => 5 * MINUTE_IN_SECONDS, 'display' => 'La 5 minute' );
 	return $s;
 }
 
 add_action( 'init', 'eg_import_programeaza' );
 function eg_import_programeaza() {
-	if ( eg_import_depozit() && ! wp_next_scheduled( EG_IMPORT_HOOK ) ) {
-		wp_schedule_event( time() + 60, 'eg_15m', EG_IMPORT_HOOK );
+	if ( ! eg_import_depozit() ) {
+		return;
+	}
+	// Programarea veche (15 minute) trece la 5 minute.
+	if ( wp_next_scheduled( EG_IMPORT_HOOK ) && 'eg_5m' !== wp_get_schedule( EG_IMPORT_HOOK ) ) {
+		wp_clear_scheduled_hook( EG_IMPORT_HOOK );
+	}
+	if ( ! wp_next_scheduled( EG_IMPORT_HOOK ) ) {
+		wp_schedule_event( time() + 60, 'eg_5m', EG_IMPORT_HOOK );
+	}
+	// Plasă de siguranță: dacă cron-ul găzduirii n-a mai rulat de 20 de minute, orice vizită (necache-uită) îl pornește.
+	if ( ! wp_doing_cron() && time() - (int) get_option( 'eg_import_ultima', 0 ) > 20 * MINUTE_IN_SECONDS && ! get_transient( 'eg_cron_pornit' ) ) {
+		set_transient( 'eg_cron_pornit', 1, 5 * MINUTE_IN_SECONDS );
+		wp_remote_post( site_url( 'wp-cron.php?doing_wp_cron=' . sprintf( '%.22F', microtime( true ) ) ), array( 'timeout' => 0.01, 'blocking' => false, 'sslverify' => false ) );
 	}
 }
 

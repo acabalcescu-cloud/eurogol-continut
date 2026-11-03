@@ -17,7 +17,7 @@ Tema WordPress a site-ului eurogol.ro, scrisă de la zero, fără temă părinte
 1. WordPress → **Aspect → Teme → Adaugă temă → Încarcă tema** → alege `eurogol.zip` → **Instalează** → **Activează**.
 2. **Setări → Legături permanente** → „Nume articol” → Salvează.
 3. **Setări → Generale**: fusul orar „București”, limba „Română”.
-4. **Instrumente → Import Eurogol**: depozitul e deja completat (`acabalcescu-cloud/eurogol-continut`). Apasă **Importă acum** pentru prima rulare; apoi importul rulează singur la 15 minute.
+4. **Instrumente → Import Eurogol**: depozitul e deja completat (`acabalcescu-cloud/eurogol-continut`). Apasă **Importă acum** pentru prima rulare; apoi importul rulează singur la 5 minute.
 5. **Aspect → Personalizează → Eurogol**: culoarea principală, textul benzii, secțiunile primei pagini, lista de competiții și rețelele sociale. Culoarea implicită e albastru `#1546A8`; pentru roșu ca la SempreMilan, pune `#C41529`.
 6. **Aspect → Meniuri**: meniul principal, cu submeniuri (de ex. „Europa” → Champions League, Premier League…), și meniul din subsol (Despre noi, Contact, Confidențialitate).
 

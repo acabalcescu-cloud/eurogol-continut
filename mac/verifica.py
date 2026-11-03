@@ -181,8 +181,14 @@ def notifica(text):
     subprocess.run(['osascript', '-e', f'display notification "{text}" with title "Eurogol"'], capture_output=True)
 
 
+def porneste_importul():
+    """Pornește importul pe site (wp-cron), ca știrile să apară imediat, chiar dacă cron-ul găzduirii întârzie."""
+    curl(CONFIG.get('site', 'https://eurogol.ro').rstrip('/') + '/wp-cron.php?doing_wp_cron')
+
+
 def main():
     os.makedirs(STARE, exist_ok=True)
+    porneste_importul()
     blocare = open(os.path.join(STARE, '.blocare'), 'w')
     try:
         fcntl.flock(blocare, fcntl.LOCK_EX | fcntl.LOCK_NB)
@@ -217,6 +223,8 @@ def main():
     salveaza(VAZUTE_LOCAL, sorted(vazute_local)[-10000:])
     if not prima.lower().startswith('nimic nou'):
         notifica(prima)
+        time.sleep(90)  # GitHub servește fișierele noi după un minut-două
+        porneste_importul()
 
 
 if __name__ == '__main__':

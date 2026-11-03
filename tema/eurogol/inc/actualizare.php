@@ -47,6 +47,7 @@ function eg_cache_scurt() {
 		return;
 	}
 	$ttl = ( is_front_page() || is_home() || is_archive() || is_search() ) ? 300 : 3600;
+	do_action( 'litespeed_control_set_ttl', $ttl ); // modulul LiteSpeed Cache (altfel ține paginile 7 zile)
 	header( 'X-LiteSpeed-Cache-Control: public, max-age=' . $ttl );
 }
 
