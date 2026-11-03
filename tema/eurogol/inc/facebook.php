@@ -155,7 +155,9 @@ function eg_fb_in_coada( $nou, $vechi, $post ) {
 	if ( 'publish' !== $nou || 'publish' === $vechi || 'post' !== $post->post_type || ! $s['activ'] || ! $s['token'] ) {
 		return;
 	}
-	if ( get_post_time( 'U', true, $post ) < (int) $s['de_la'] || get_post_meta( $post->ID, '_eg_fb_post', true ) ) {
+	// Contează momentul în care apare pe site (acum), nu data știrii: importul aduce articole cu ora evenimentului,
+	// adesea cu zeci de minute în urmă. Sărim doar articolele vechi (reimporturi, arhivă).
+	if ( time() < (int) $s['de_la'] || get_post_time( 'U', true, $post ) < time() - 12 * HOUR_IN_SECONDS || get_post_meta( $post->ID, '_eg_fb_post', true ) ) {
 		return;
 	}
 	$c = (array) get_option( 'eg_fb_coada', array() );
@@ -163,6 +165,24 @@ function eg_fb_in_coada( $nou, $vechi, $post ) {
 		$c[] = $post->ID;
 		update_option( 'eg_fb_coada', $c, false );
 	}
+}
+
+/** O singură dată după actualizare: articolele din ultimele 6 ore, nepostate, intră în coadă (au fost sărite de regula veche). */
+add_action( 'eg_import', 'eg_fb_recupereaza', 59 );
+function eg_fb_recupereaza() {
+	$s = eg_fb_setari();
+	if ( get_option( 'eg_fb_recuperat' ) || ! $s['activ'] || ! $s['token'] ) {
+		return;
+	}
+	$c = (array) get_option( 'eg_fb_coada', array() );
+	foreach ( get_posts( array( 'post_type' => 'post', 'post_status' => 'publish', 'posts_per_page' => 40, 'fields' => 'ids', 'date_query' => array( array( 'after' => '6 hours ago', 'column' => 'post_date_gmt' ) ) ) ) as $id ) {
+		if ( ! get_post_meta( $id, '_eg_fb_post', true ) && ! in_array( $id, $c, true ) ) {
+			$c[] = $id;
+		}
+	}
+	update_option( 'eg_fb_coada', $c, false );
+	update_option( 'eg_fb_recuperat', 1 );
+	eg_fb_jurnal( count( $c ) . ' articole recente puse în coadă.' );
 }
 
 add_action( 'eg_import', 'eg_fb_trimite', 60 );
@@ -256,13 +276,16 @@ function eg_fb_pagina() {
 		$s = eg_fb_setari();
 	}
 	$coada = count( (array) get_option( 'eg_fb_coada', array() ) );
+	$urm   = $s['ultima'] ? max( 0, (int) ( ( $s['ultima'] + 60 * $s['interval'] - time() ) / 60 ) ) : 0;
 	?>
 	<div class="wrap">
 		<h1>Facebook Eurogol</h1>
 		<?php if ( $mesaj ) : ?><div class="notice notice-info"><p><?php echo esc_html( $mesaj ); ?></p></div><?php endif; ?>
 		<p>Pagina conectată: <strong><?php echo $s['pagina_nume'] ? esc_html( $s['pagina_nume'] ) : 'niciuna'; ?></strong>
 			· distribuirea automată: <strong><?php echo $s['activ'] ? 'pornită' : 'oprită'; ?></strong>
-			· articole în coadă: <strong><?php echo (int) $coada; ?></strong></p>
+			· articole în coadă: <strong><?php echo (int) $coada; ?></strong>
+			<?php if ( $coada && $s['activ'] ) : ?> · următoarea postare în cel mult <strong><?php echo (int) $urm + 5; ?> minute</strong><?php endif; ?></p>
+		<?php if ( ! $s['activ'] && $s['token'] ) : ?><div class="notice notice-warning inline"><p>Distribuirea automată e <strong>oprită</strong>: bifează „Postează pe pagină fiecare articol nou” și apasă Salvează.</p></div><?php endif; ?>
 
 		<h2>1. Conectarea paginii</h2>
 		<form method="post">
