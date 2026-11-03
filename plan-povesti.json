@@ -1,0 +1,2111 @@
+{
+ "_despre": "Planul povestilor cerute de George (3 nov 2026). Rutina programata ia urmatoarele subiecte 'de_scris' (ordine crescatoare, apoi in lista), le scrie dupa INSTRUCTIUNI.md/STIL.md, pune 'scris' + id. Jucatorii nationalei se adauga in grupul 'Nationala'. 'sarit' = nu se pot confirma faptele.",
+ "povesti": [
+  {
+   "cheie": "craiova-1979-80",
+   "grup": "Craiova",
+   "serie": "Legende",
+   "subiect": "Universitatea Craiova în sezonul de Divizia A 1979–80: parcursul în campionat, în Cupa României și în cupele europene (perioada Craiovei Maxima, până la eventul din 1991)",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 1
+  },
+  {
+   "cheie": "craiova-1980-81",
+   "grup": "Craiova",
+   "serie": "Legende",
+   "subiect": "Universitatea Craiova în sezonul de Divizia A 1980–81: parcursul în campionat, în Cupa României și în cupele europene (perioada Craiovei Maxima, până la eventul din 1991)",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 1
+  },
+  {
+   "cheie": "craiova-1981-82",
+   "grup": "Craiova",
+   "serie": "Legende",
+   "subiect": "Universitatea Craiova în sezonul de Divizia A 1981–82: parcursul în campionat, în Cupa României și în cupele europene (perioada Craiovei Maxima, până la eventul din 1991)",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 1
+  },
+  {
+   "cheie": "craiova-1982-83",
+   "grup": "Craiova",
+   "serie": "Legende",
+   "subiect": "Universitatea Craiova în sezonul de Divizia A 1982–83: parcursul în campionat, în Cupa României și în cupele europene (perioada Craiovei Maxima, până la eventul din 1991)",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 1
+  },
+  {
+   "cheie": "craiova-1983-84",
+   "grup": "Craiova",
+   "serie": "Legende",
+   "subiect": "Universitatea Craiova în sezonul de Divizia A 1983–84: parcursul în campionat, în Cupa României și în cupele europene (perioada Craiovei Maxima, până la eventul din 1991)",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 1
+  },
+  {
+   "cheie": "craiova-1984-85",
+   "grup": "Craiova",
+   "serie": "Legende",
+   "subiect": "Universitatea Craiova în sezonul de Divizia A 1984–85: parcursul în campionat, în Cupa României și în cupele europene (perioada Craiovei Maxima, până la eventul din 1991)",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 1
+  },
+  {
+   "cheie": "craiova-1985-86",
+   "grup": "Craiova",
+   "serie": "Legende",
+   "subiect": "Universitatea Craiova în sezonul de Divizia A 1985–86: parcursul în campionat, în Cupa României și în cupele europene (perioada Craiovei Maxima, până la eventul din 1991)",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 1
+  },
+  {
+   "cheie": "craiova-1986-87",
+   "grup": "Craiova",
+   "serie": "Legende",
+   "subiect": "Universitatea Craiova în sezonul de Divizia A 1986–87: parcursul în campionat, în Cupa României și în cupele europene (perioada Craiovei Maxima, până la eventul din 1991)",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 1
+  },
+  {
+   "cheie": "craiova-1987-88",
+   "grup": "Craiova",
+   "serie": "Legende",
+   "subiect": "Universitatea Craiova în sezonul de Divizia A 1987–88: parcursul în campionat, în Cupa României și în cupele europene (perioada Craiovei Maxima, până la eventul din 1991)",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 1
+  },
+  {
+   "cheie": "craiova-1988-89",
+   "grup": "Craiova",
+   "serie": "Legende",
+   "subiect": "Universitatea Craiova în sezonul de Divizia A 1988–89: parcursul în campionat, în Cupa României și în cupele europene (perioada Craiovei Maxima, până la eventul din 1991)",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 1
+  },
+  {
+   "cheie": "craiova-1989-90",
+   "grup": "Craiova",
+   "serie": "Legende",
+   "subiect": "Universitatea Craiova în sezonul de Divizia A 1989–90: parcursul în campionat, în Cupa României și în cupele europene (perioada Craiovei Maxima, până la eventul din 1991)",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 1
+  },
+  {
+   "cheie": "craiova-1990-91",
+   "grup": "Craiova",
+   "serie": "Legende",
+   "subiect": "Universitatea Craiova în sezonul de Divizia A 1990–91: parcursul în campionat, în Cupa României și în cupele europene (perioada Craiovei Maxima, până la eventul din 1991)",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 1
+  },
+  {
+   "cheie": "steaua-1947-48",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 1947–48 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-1948-49",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 1948–49 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-1949-50",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 1949–50 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-1950-51",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 1950–51 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-1951-52",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 1951–52 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-1952-53",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 1952–53 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-1953-54",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 1953–54 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-1954-55",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 1954–55 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-1955-56",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 1955–56 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-1956-57",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 1956–57 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-1957-58",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 1957–58 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-1958-59",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 1958–59 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-1959-60",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 1959–60 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-1960-61",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 1960–61 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-1961-62",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 1961–62 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-1962-63",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 1962–63 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-1963-64",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 1963–64 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-1964-65",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 1964–65 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-1965-66",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 1965–66 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-1966-67",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 1966–67 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-1967-68",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 1967–68 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-1968-69",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 1968–69 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-1969-70",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 1969–70 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-1970-71",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 1970–71 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-1971-72",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 1971–72 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-1972-73",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 1972–73 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-1973-74",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 1973–74 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-1974-75",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 1974–75 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-1975-76",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 1975–76 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-1976-77",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 1976–77 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-1977-78",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 1977–78 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-1978-79",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 1978–79 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-1979-80",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 1979–80 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-1980-81",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 1980–81 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-1981-82",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 1981–82 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-1982-83",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 1982–83 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-1983-84",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 1983–84 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-1984-85",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 1984–85 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-1985-86",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 1985–86 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-1986-87",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 1986–87 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-1987-88",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 1987–88 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-1988-89",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 1988–89 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-1989-90",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 1989–90 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-1990-91",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 1990–91 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-1991-92",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 1991–92 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-1992-93",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 1992–93 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-1993-94",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 1993–94 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-1994-95",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 1994–95 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-1995-96",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 1995–96 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-1996-97",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 1996–97 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-1997-98",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 1997–98 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-1998-99",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 1998–99 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-1999-00",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 1999–00 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-2000-01",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 2000–01 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-2001-02",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 2001–02 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-2002-03",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 2002–03 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-2003-04",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua / FCSB (echipa care a continuat în Liga 1 după 2003; din 2017 numită FCSB; menționează neutru disputa juridică privind palmaresul) în ediția 2003–04 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-2004-05",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua / FCSB (echipa care a continuat în Liga 1 după 2003; din 2017 numită FCSB; menționează neutru disputa juridică privind palmaresul) în ediția 2004–05 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-2005-06",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua / FCSB (echipa care a continuat în Liga 1 după 2003; din 2017 numită FCSB; menționează neutru disputa juridică privind palmaresul) în ediția 2005–06 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-2006-07",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua / FCSB (echipa care a continuat în Liga 1 după 2003; din 2017 numită FCSB; menționează neutru disputa juridică privind palmaresul) în ediția 2006–07 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-2007-08",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua / FCSB (echipa care a continuat în Liga 1 după 2003; din 2017 numită FCSB; menționează neutru disputa juridică privind palmaresul) în ediția 2007–08 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-2008-09",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua / FCSB (echipa care a continuat în Liga 1 după 2003; din 2017 numită FCSB; menționează neutru disputa juridică privind palmaresul) în ediția 2008–09 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-2009-10",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua / FCSB (echipa care a continuat în Liga 1 după 2003; din 2017 numită FCSB; menționează neutru disputa juridică privind palmaresul) în ediția 2009–10 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-2010-11",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua / FCSB (echipa care a continuat în Liga 1 după 2003; din 2017 numită FCSB; menționează neutru disputa juridică privind palmaresul) în ediția 2010–11 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-2011-12",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua / FCSB (echipa care a continuat în Liga 1 după 2003; din 2017 numită FCSB; menționează neutru disputa juridică privind palmaresul) în ediția 2011–12 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-2012-13",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua / FCSB (echipa care a continuat în Liga 1 după 2003; din 2017 numită FCSB; menționează neutru disputa juridică privind palmaresul) în ediția 2012–13 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-2013-14",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua / FCSB (echipa care a continuat în Liga 1 după 2003; din 2017 numită FCSB; menționează neutru disputa juridică privind palmaresul) în ediția 2013–14 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-2014-15",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua / FCSB (echipa care a continuat în Liga 1 după 2003; din 2017 numită FCSB; menționează neutru disputa juridică privind palmaresul) în ediția 2014–15 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-2015-16",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua / FCSB (echipa care a continuat în Liga 1 după 2003; din 2017 numită FCSB; menționează neutru disputa juridică privind palmaresul) în ediția 2015–16 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-2016-17",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua / FCSB (echipa care a continuat în Liga 1 după 2003; din 2017 numită FCSB; menționează neutru disputa juridică privind palmaresul) în ediția 2016–17 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-2017-18",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua / FCSB (echipa care a continuat în Liga 1 după 2003; din 2017 numită FCSB; menționează neutru disputa juridică privind palmaresul) în ediția 2017–18 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-2018-19",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua / FCSB (echipa care a continuat în Liga 1 după 2003; din 2017 numită FCSB; menționează neutru disputa juridică privind palmaresul) în ediția 2018–19 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-2019-20",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua / FCSB (echipa care a continuat în Liga 1 după 2003; din 2017 numită FCSB; menționează neutru disputa juridică privind palmaresul) în ediția 2019–20 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-2020-21",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua / FCSB (echipa care a continuat în Liga 1 după 2003; din 2017 numită FCSB; menționează neutru disputa juridică privind palmaresul) în ediția 2020–21 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-2021-22",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua / FCSB (echipa care a continuat în Liga 1 după 2003; din 2017 numită FCSB; menționează neutru disputa juridică privind palmaresul) în ediția 2021–22 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-2022-23",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua / FCSB (echipa care a continuat în Liga 1 după 2003; din 2017 numită FCSB; menționează neutru disputa juridică privind palmaresul) în ediția 2022–23 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-2023-24",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua / FCSB (echipa care a continuat în Liga 1 după 2003; din 2017 numită FCSB; menționează neutru disputa juridică privind palmaresul) în ediția 2023–24 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-2024-25",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua / FCSB (echipa care a continuat în Liga 1 după 2003; din 2017 numită FCSB; menționează neutru disputa juridică privind palmaresul) în ediția 2024–25 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "steaua-2025-26",
+   "grup": "Steaua",
+   "serie": "Legende",
+   "subiect": "Steaua / FCSB (echipa care a continuat în Liga 1 după 2003; din 2017 numită FCSB; menționează neutru disputa juridică privind palmaresul) în ediția 2025–26 a campionatului: parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-1948-49",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 1948–49 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-1949-50",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 1949–50 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-1950-51",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 1950–51 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-1951-52",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 1951–52 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-1952-53",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 1952–53 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-1953-54",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 1953–54 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-1954-55",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 1954–55 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-1955-56",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 1955–56 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-1956-57",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 1956–57 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-1957-58",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 1957–58 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-1958-59",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 1958–59 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-1959-60",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 1959–60 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-1960-61",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 1960–61 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-1961-62",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 1961–62 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-1962-63",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 1962–63 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-1963-64",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 1963–64 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-1964-65",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 1964–65 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-1965-66",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 1965–66 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-1966-67",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 1966–67 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-1967-68",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 1967–68 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-1968-69",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 1968–69 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-1969-70",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 1969–70 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-1970-71",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 1970–71 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-1971-72",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 1971–72 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-1972-73",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 1972–73 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-1973-74",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 1973–74 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-1974-75",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 1974–75 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-1975-76",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 1975–76 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-1976-77",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 1976–77 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-1977-78",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 1977–78 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-1978-79",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 1978–79 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-1979-80",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 1979–80 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-1980-81",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 1980–81 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-1981-82",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 1981–82 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-1982-83",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 1982–83 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-1983-84",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 1983–84 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-1984-85",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 1984–85 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-1985-86",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 1985–86 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-1986-87",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 1986–87 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-1987-88",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 1987–88 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-1988-89",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 1988–89 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-1989-90",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 1989–90 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-1990-91",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 1990–91 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-1991-92",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 1991–92 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-1992-93",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 1992–93 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-1993-94",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 1993–94 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-1994-95",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 1994–95 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-1995-96",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 1995–96 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-1996-97",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 1996–97 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-1997-98",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 1997–98 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-1998-99",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 1998–99 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-1999-00",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 1999–00 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-2000-01",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 2000–01 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-2001-02",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 2001–02 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-2002-03",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 2002–03 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-2003-04",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 2003–04 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-2004-05",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 2004–05 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-2005-06",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 2005–06 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-2006-07",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 2006–07 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-2007-08",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 2007–08 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-2008-09",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 2008–09 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-2009-10",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 2009–10 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-2010-11",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 2010–11 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-2011-12",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 2011–12 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-2012-13",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 2012–13 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-2013-14",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 2013–14 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-2014-15",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 2014–15 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-2015-16",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 2015–16 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-2016-17",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 2016–17 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-2017-18",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 2017–18 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-2018-19",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 2018–19 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-2019-20",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 2019–20 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-2020-21",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 2020–21 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-2021-22",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 2021–22 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-2022-23",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 2022–23 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-2023-24",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 2023–24 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-2024-25",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 2024–25 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "dinamo-2025-26",
+   "grup": "Dinamo",
+   "serie": "Legende",
+   "subiect": "Dinamo București în ediția 2025–26 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "sportul-1985-86",
+   "grup": "Alte echipe",
+   "serie": "Legende",
+   "subiect": "Sportul Studențesc, vicecampioana din 1985–86 și anii lui Hagi la Sportul (dacă faptele nu se confirmă, se marchează «sarit» cu motivul)",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 3
+  },
+  {
+   "cheie": "arges-1972",
+   "grup": "Alte echipe",
+   "serie": "Legende",
+   "subiect": "FC Argeș, primul titlu: 1971–72 (dacă faptele nu se confirmă, se marchează «sarit» cu motivul)",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 3
+  },
+  {
+   "cheie": "arges-1979",
+   "grup": "Alte echipe",
+   "serie": "Legende",
+   "subiect": "FC Argeș, campioană în 1978–79 și meciurile europene care au urmat (dacă faptele nu se confirmă, se marchează «sarit» cu motivul)",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 3
+  },
+  {
+   "cheie": "uta-anii-de-aur",
+   "grup": "Alte echipe",
+   "serie": "Legende",
+   "subiect": "UTA Arad, primul campion de după război și anii de aur 1946–1954 (dacă faptele nu se confirmă, se marchează «sarit» cu motivul)",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 3
+  },
+  {
+   "cheie": "uta-1969-70",
+   "grup": "Alte echipe",
+   "serie": "Legende",
+   "subiect": "UTA, titlurile din 1969 și 1970 și eliminarea lui Feyenoord (dacă faptele nu se confirmă, se marchează «sarit» cu motivul)",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 3
+  },
+  {
+   "cheie": "petrolul-titluri",
+   "grup": "Alte echipe",
+   "serie": "Legende",
+   "subiect": "Petrolul Ploiești și cele trei titluri: 1958, 1959, 1966 (dacă faptele nu se confirmă, se marchează «sarit» cu motivul)",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 3
+  },
+  {
+   "cheie": "rapid-1967",
+   "grup": "Alte echipe",
+   "serie": "Legende",
+   "subiect": "Rapid, primul titlu: 1966–67 (dacă faptele nu se confirmă, se marchează «sarit» cu motivul)",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 3
+  },
+  {
+   "cheie": "rapid-1999",
+   "grup": "Alte echipe",
+   "serie": "Legende",
+   "subiect": "Rapid, titlul din 1998–99 (dacă faptele nu se confirmă, se marchează «sarit» cu motivul)",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 3
+  },
+  {
+   "cheie": "rapid-2003",
+   "grup": "Alte echipe",
+   "serie": "Legende",
+   "subiect": "Rapid, titlul din 2002–03 (dacă faptele nu se confirmă, se marchează «sarit» cu motivul)",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 3
+  },
+  {
+   "cheie": "rapid-uefa-2006",
+   "grup": "Alte echipe",
+   "serie": "Legende",
+   "subiect": "Rapid în sferturile Cupei UEFA, 2005–06 (dacă faptele nu se confirmă, se marchează «sarit» cu motivul)",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 3
+  },
+  {
+   "cheie": "u-cluj-cupa-1965",
+   "grup": "Alte echipe",
+   "serie": "Legende",
+   "subiect": "Universitatea Cluj și Cupa României din 1965 (dacă faptele nu se confirmă, se marchează «sarit» cu motivul)",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 3
+  },
+  {
+   "cheie": "cfr-cluj-2008",
+   "grup": "Alte echipe",
+   "serie": "Legende",
+   "subiect": "CFR Cluj, primul titlu (2008) și victoria de la Roma (dacă faptele nu se confirmă, se marchează «sarit» cu motivul)",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 3
+  },
+  {
+   "cheie": "unirea-urziceni-2009",
+   "grup": "Alte echipe",
+   "serie": "Legende",
+   "subiect": "Unirea Urziceni, campioana din 2009 și grupele Ligii Campionilor (dacă faptele nu se confirmă, se marchează «sarit» cu motivul)",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 3
+  },
+  {
+   "cheie": "otelul-2011",
+   "grup": "Alte echipe",
+   "serie": "Legende",
+   "subiect": "Oțelul Galați, campioana din 2011 (dacă faptele nu se confirmă, se marchează «sarit» cu motivul)",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 3
+  },
+  {
+   "cheie": "astra-2016",
+   "grup": "Alte echipe",
+   "serie": "Legende",
+   "subiect": "Astra Giurgiu, campioana din 2016 (dacă faptele nu se confirmă, se marchează «sarit» cu motivul)",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 3
+  },
+  {
+   "cheie": "viitorul-2017",
+   "grup": "Alte echipe",
+   "serie": "Legende",
+   "subiect": "Viitorul Constanța, campioana lui Gheorghe Hagi din 2017 (dacă faptele nu se confirmă, se marchează «sarit» cu motivul)",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 3
+  },
+  {
+   "cheie": "farul-2023",
+   "grup": "Alte echipe",
+   "serie": "Legende",
+   "subiect": "Farul Constanța, campioana din 2023 (dacă faptele nu se confirmă, se marchează «sarit» cu motivul)",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 3
+  },
+  {
+   "cheie": "ripensia-anii-30",
+   "grup": "Alte echipe",
+   "serie": "Legende",
+   "subiect": "Ripensia Timișoara, prima mare echipă profesionistă a anilor '30 (dacă faptele nu se confirmă, se marchează «sarit» cu motivul)",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 3
+  },
+  {
+   "cheie": "venus-bucuresti",
+   "grup": "Alte echipe",
+   "serie": "Legende",
+   "subiect": "Venus București, echipa cu opt titluri din perioada interbelică (dacă faptele nu se confirmă, se marchează «sarit» cu motivul)",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 3
+  },
+  {
+   "cheie": "chinezul-timisoara",
+   "grup": "Alte echipe",
+   "serie": "Legende",
+   "subiect": "Chinezul Timișoara și seria de titluri din anii '20 (dacă faptele nu se confirmă, se marchează «sarit» cu motivul)",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 3
+  },
+  {
+   "cheie": "poli-timisoara-celtic-1980",
+   "grup": "Alte echipe",
+   "serie": "Legende",
+   "subiect": "Politehnica Timișoara, Cupa din 1980 și eliminarea lui Celtic (dacă faptele nu se confirmă, se marchează «sarit» cu motivul)",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 3
+  },
+  {
+   "cheie": "victoria-uefa-1989",
+   "grup": "Alte echipe",
+   "serie": "Legende",
+   "subiect": "Victoria București în sferturile Cupei UEFA, 1988–89 (dacă faptele nu se confirmă, se marchează «sarit» cu motivul)",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 3
+  },
+  {
+   "cheie": "jiul-cupa-1974",
+   "grup": "Alte echipe",
+   "serie": "Legende",
+   "subiect": "Jiul Petroșani și Cupa României din 1974 (dacă faptele nu se confirmă, se marchează «sarit» cu motivul)",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 3
+  },
+  {
+   "cheie": "gloria-bistrita-cupa-1994",
+   "grup": "Alte echipe",
+   "serie": "Legende",
+   "subiect": "Gloria Bistrița și Cupa României din 1994 (dacă faptele nu se confirmă, se marchează «sarit» cu motivul)",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 3
+  },
+  {
+   "cheie": "sepsi-cupa-2022",
+   "grup": "Alte echipe",
+   "serie": "Legende",
+   "subiect": "Sepsi OSK și Cupa României din 2022 (dacă faptele nu se confirmă, se marchează «sarit» cu motivul)",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 3
+  },
+  {
+   "cheie": "corvinul-uefa-1982",
+   "grup": "Alte echipe",
+   "serie": "Legende",
+   "subiect": "Corvinul Hunedoara în Cupa UEFA 1982–83 (dacă faptele nu se confirmă, se marchează «sarit» cu motivul)",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 3
+  },
+  {
+   "cheie": "progresul-cupa",
+   "grup": "Alte echipe",
+   "serie": "Legende",
+   "subiect": "Progresul București și Cupa României din 1960 (dacă faptele nu se confirmă, se marchează «sarit» cu motivul)",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 3
+  },
+  {
+   "cheie": "csu-craiova-cupa-2021",
+   "grup": "Alte echipe",
+   "serie": "Legende",
+   "subiect": "Universitatea Craiova (CSU) și Cupa României din 2021 (dacă faptele nu se confirmă, se marchează «sarit» cu motivul)",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 3
+  },
+  {
+   "cheie": "anul-1990",
+   "grup": "Anii",
+   "serie": "Legende",
+   "subiect": "Anul 1990 în fotbalul românesc: campionatul, Cupa, naționala, echipele în Europa, transferurile și oamenii anului",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "anul-1991",
+   "grup": "Anii",
+   "serie": "Legende",
+   "subiect": "Anul 1991 în fotbalul românesc: campionatul, Cupa, naționala, echipele în Europa, transferurile și oamenii anului",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "anul-1992",
+   "grup": "Anii",
+   "serie": "Legende",
+   "subiect": "Anul 1992 în fotbalul românesc: campionatul, Cupa, naționala, echipele în Europa, transferurile și oamenii anului",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "anul-1993",
+   "grup": "Anii",
+   "serie": "Legende",
+   "subiect": "Anul 1993 în fotbalul românesc: campionatul, Cupa, naționala, echipele în Europa, transferurile și oamenii anului",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "anul-1994",
+   "grup": "Anii",
+   "serie": "Legende",
+   "subiect": "Anul 1994 în fotbalul românesc: campionatul, Cupa, naționala, echipele în Europa, transferurile și oamenii anului",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "anul-1995",
+   "grup": "Anii",
+   "serie": "Legende",
+   "subiect": "Anul 1995 în fotbalul românesc: campionatul, Cupa, naționala, echipele în Europa, transferurile și oamenii anului",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "anul-1996",
+   "grup": "Anii",
+   "serie": "Legende",
+   "subiect": "Anul 1996 în fotbalul românesc: campionatul, Cupa, naționala, echipele în Europa, transferurile și oamenii anului",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "anul-1997",
+   "grup": "Anii",
+   "serie": "Legende",
+   "subiect": "Anul 1997 în fotbalul românesc: campionatul, Cupa, naționala, echipele în Europa, transferurile și oamenii anului",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "anul-1998",
+   "grup": "Anii",
+   "serie": "Legende",
+   "subiect": "Anul 1998 în fotbalul românesc: campionatul, Cupa, naționala, echipele în Europa, transferurile și oamenii anului",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "anul-1999",
+   "grup": "Anii",
+   "serie": "Legende",
+   "subiect": "Anul 1999 în fotbalul românesc: campionatul, Cupa, naționala, echipele în Europa, transferurile și oamenii anului",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "anul-2000",
+   "grup": "Anii",
+   "serie": "Legende",
+   "subiect": "Anul 2000 în fotbalul românesc: campionatul, Cupa, naționala, echipele în Europa, transferurile și oamenii anului",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "anul-2001",
+   "grup": "Anii",
+   "serie": "Legende",
+   "subiect": "Anul 2001 în fotbalul românesc: campionatul, Cupa, naționala, echipele în Europa, transferurile și oamenii anului",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "anul-2002",
+   "grup": "Anii",
+   "serie": "Legende",
+   "subiect": "Anul 2002 în fotbalul românesc: campionatul, Cupa, naționala, echipele în Europa, transferurile și oamenii anului",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "anul-2003",
+   "grup": "Anii",
+   "serie": "Legende",
+   "subiect": "Anul 2003 în fotbalul românesc: campionatul, Cupa, naționala, echipele în Europa, transferurile și oamenii anului",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "anul-2004",
+   "grup": "Anii",
+   "serie": "Legende",
+   "subiect": "Anul 2004 în fotbalul românesc: campionatul, Cupa, naționala, echipele în Europa, transferurile și oamenii anului",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "anul-2005",
+   "grup": "Anii",
+   "serie": "Legende",
+   "subiect": "Anul 2005 în fotbalul românesc: campionatul, Cupa, naționala, echipele în Europa, transferurile și oamenii anului",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "anul-2006",
+   "grup": "Anii",
+   "serie": "Legende",
+   "subiect": "Anul 2006 în fotbalul românesc: campionatul, Cupa, naționala, echipele în Europa, transferurile și oamenii anului",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "anul-2007",
+   "grup": "Anii",
+   "serie": "Legende",
+   "subiect": "Anul 2007 în fotbalul românesc: campionatul, Cupa, naționala, echipele în Europa, transferurile și oamenii anului",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "anul-2008",
+   "grup": "Anii",
+   "serie": "Legende",
+   "subiect": "Anul 2008 în fotbalul românesc: campionatul, Cupa, naționala, echipele în Europa, transferurile și oamenii anului",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "anul-2009",
+   "grup": "Anii",
+   "serie": "Legende",
+   "subiect": "Anul 2009 în fotbalul românesc: campionatul, Cupa, naționala, echipele în Europa, transferurile și oamenii anului",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "anul-2010",
+   "grup": "Anii",
+   "serie": "Legende",
+   "subiect": "Anul 2010 în fotbalul românesc: campionatul, Cupa, naționala, echipele în Europa, transferurile și oamenii anului",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "anul-2011",
+   "grup": "Anii",
+   "serie": "Legende",
+   "subiect": "Anul 2011 în fotbalul românesc: campionatul, Cupa, naționala, echipele în Europa, transferurile și oamenii anului",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "anul-2012",
+   "grup": "Anii",
+   "serie": "Legende",
+   "subiect": "Anul 2012 în fotbalul românesc: campionatul, Cupa, naționala, echipele în Europa, transferurile și oamenii anului",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "anul-2013",
+   "grup": "Anii",
+   "serie": "Legende",
+   "subiect": "Anul 2013 în fotbalul românesc: campionatul, Cupa, naționala, echipele în Europa, transferurile și oamenii anului",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "anul-2014",
+   "grup": "Anii",
+   "serie": "Legende",
+   "subiect": "Anul 2014 în fotbalul românesc: campionatul, Cupa, naționala, echipele în Europa, transferurile și oamenii anului",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "anul-2015",
+   "grup": "Anii",
+   "serie": "Legende",
+   "subiect": "Anul 2015 în fotbalul românesc: campionatul, Cupa, naționala, echipele în Europa, transferurile și oamenii anului",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "anul-2016",
+   "grup": "Anii",
+   "serie": "Legende",
+   "subiect": "Anul 2016 în fotbalul românesc: campionatul, Cupa, naționala, echipele în Europa, transferurile și oamenii anului",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "anul-2017",
+   "grup": "Anii",
+   "serie": "Legende",
+   "subiect": "Anul 2017 în fotbalul românesc: campionatul, Cupa, naționala, echipele în Europa, transferurile și oamenii anului",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "anul-2018",
+   "grup": "Anii",
+   "serie": "Legende",
+   "subiect": "Anul 2018 în fotbalul românesc: campionatul, Cupa, naționala, echipele în Europa, transferurile și oamenii anului",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "anul-2019",
+   "grup": "Anii",
+   "serie": "Legende",
+   "subiect": "Anul 2019 în fotbalul românesc: campionatul, Cupa, naționala, echipele în Europa, transferurile și oamenii anului",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "anul-2020",
+   "grup": "Anii",
+   "serie": "Legende",
+   "subiect": "Anul 2020 în fotbalul românesc: campionatul, Cupa, naționala, echipele în Europa, transferurile și oamenii anului",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "anul-2021",
+   "grup": "Anii",
+   "serie": "Legende",
+   "subiect": "Anul 2021 în fotbalul românesc: campionatul, Cupa, naționala, echipele în Europa, transferurile și oamenii anului",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "anul-2022",
+   "grup": "Anii",
+   "serie": "Legende",
+   "subiect": "Anul 2022 în fotbalul românesc: campionatul, Cupa, naționala, echipele în Europa, transferurile și oamenii anului",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "anul-2023",
+   "grup": "Anii",
+   "serie": "Legende",
+   "subiect": "Anul 2023 în fotbalul românesc: campionatul, Cupa, naționala, echipele în Europa, transferurile și oamenii anului",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "anul-2024",
+   "grup": "Anii",
+   "serie": "Legende",
+   "subiect": "Anul 2024 în fotbalul românesc: campionatul, Cupa, naționala, echipele în Europa, transferurile și oamenii anului",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "anul-2025",
+   "grup": "Anii",
+   "serie": "Legende",
+   "subiect": "Anul 2025 în fotbalul românesc: campionatul, Cupa, naționala, echipele în Europa, transferurile și oamenii anului",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  },
+  {
+   "cheie": "anul-2026",
+   "grup": "Anii",
+   "serie": "Legende",
+   "subiect": "Anul 2026 în fotbalul românesc: campionatul, Cupa, naționala, echipele în Europa, transferurile și oamenii anului (până în noiembrie 2026)",
+   "stare": "de_scris",
+   "id": "",
+   "ordine": 2
+  }
+ ]
+}
