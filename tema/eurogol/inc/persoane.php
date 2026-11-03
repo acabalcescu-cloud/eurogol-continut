@@ -38,7 +38,7 @@ function eg_persoane_sincronizeaza() {
 		if ( empty( $x['slug'] ) || empty( $x['nume'] ) || ( empty( $x['fisier'] ) && empty( $x['url'] ) ) ) {
 			continue;
 		}
-		$cheie = $x['slug'] . '|' . ( $x['sursa'] ?? '' ) . '|' . ( $x['fisier'] ?? '' ) . ( $x['url'] ?? '' );
+		$cheie = $x['slug'] . '|' . ( $x['sursa'] ?? '' ) . '|' . ( $x['fisier'] ?? '' ) . ( $x['url'] ?? '' ) . ( isset( $x['sus'] ) ? '|' . $x['sus'] : '' );
 		if ( empty( $foto[ $cheie ] ) || ! wp_get_attachment_url( $foto[ $cheie ] ) ) {
 			if ( ! empty( $x['fisier'] ) ) {
 				$id = media_sideload_image( eg_import_url( 'unelte/persoane/' . $x['fisier'] ), 0, $x['nume'], 'id' );
@@ -90,7 +90,7 @@ function eg_persoana_descarca( $x ) {
 	if ( ! is_wp_error( $ed ) ) {
 		$d = $ed->get_size();
 		$l = min( $d['width'], $d['height'] );
-		$y = $d['height'] > $d['width'] ? (int) round( min( ( $d['height'] - $l ) * 0.12, $d['height'] - $l ) ) : 0;
+		$y = $d['height'] > $d['width'] ? (int) round( ( $d['height'] - $l ) * max( 0, min( 1, (float) ( $x['sus'] ?? 0.08 ) ) ) ) : 0;
 		$ed->crop( (int) round( ( $d['width'] - $l ) / 2 ), $y, $l, $l, min( 480, $l ), min( 480, $l ) );
 		$ed->set_quality( 86 );
 		$r = $ed->save( $tmp . '.jpg', 'image/jpeg' );
