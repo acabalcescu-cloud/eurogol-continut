@@ -1,7 +1,7 @@
 <?php
 /**
  * Prima pagină: blocul de sus (1 articol mare + 4), apoi secțiunile din Personalizare, cu coloana „Pe scurt” în dreapta.
- * Dacă în Setări → Citire e aleasă o pagină statică, aceasta rămâne totuși prima pagină a site-ului.
+ * Folosită pentru pagina statică „Home” (Setări → Citire), creată de temă: secțiuni pe competiții, nu ultimele articole amestecate.
  */
 defined( 'ABSPATH' ) || exit;
 get_header();

@@ -6,7 +6,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'EG_VERSIUNE', '2.2.2' );
+define( 'EG_VERSIUNE', '2.3.0' );
 define( 'EG_DIR', get_template_directory() );
 define( 'EG_URI', get_template_directory_uri() );
 
@@ -38,6 +38,39 @@ function eg_setup() {
 	add_image_size( 'eg-mare', 1200, 630, true );
 	add_image_size( 'eg-mediu', 760, 400, true );
 	add_image_size( 'eg-mic', 320, 168, true );
+}
+
+/**
+ * O singură dată: pagina statică „Home” ca prima pagină a site-ului (Setări → Citire → O pagină statică).
+ * front-page.php o afișează cu secțiunile Eurogol. Dacă setarea e schimbată ulterior de mână, nu se mai atinge.
+ */
+add_action( 'init', 'eg_pagina_home', 20 );
+function eg_pagina_home() {
+	if ( get_option( 'eg_home_setat' ) ) {
+		return;
+	}
+	$pagina = get_page_by_path( 'home' );
+	if ( ! $pagina ) {
+		$id = wp_insert_post(
+			array(
+				'post_type'    => 'page',
+				'post_status'  => 'publish',
+				'post_title'   => 'Home',
+				'post_name'    => 'home',
+				'post_content' => '',
+			)
+		);
+	} else {
+		$id = $pagina->ID;
+	}
+	if ( $id && ! is_wp_error( $id ) ) {
+		update_option( 'show_on_front', 'page' );
+		update_option( 'page_on_front', (int) $id );
+		update_option( 'eg_home_setat', 1 );
+		if ( function_exists( 'eg_goleste_cache' ) ) {
+			eg_goleste_cache();
+		}
+	}
 }
 
 add_action( 'widgets_init', 'eg_widgets' );

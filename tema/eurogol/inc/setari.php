@@ -7,12 +7,16 @@ defined( 'ABSPATH' ) || exit;
 
 /** Secțiunile implicite ale primei pagini: slug-ul categoriei => titlul afișat. */
 function eg_sectiuni_implicite() {
-	return "povesti | Povești\nstiri | Știri\nsuperliga | SuperLiga\nchampions-league | Champions League\ncopa-libertadores | America de Sud";
+	return "superliga,cupa-romaniei,nationala | Fotbal românesc\nchampions-league,europa-league,conference-league | Champions League și cupele europene\npremier-league,laliga,serie-a,bundesliga,ligue-1 | Fotbal european\ncopa-libertadores,brasileirao,liga-profesional | America de Sud\npovesti | Povești";
 }
 
 /** Secțiunile primei pagini, citite din setări: [ [slug, titlu], ... ]. Slug-uri separate prin virgulă = mai multe categorii. */
 function eg_sectiuni() {
 	$text = get_theme_mod( 'eg_sectiuni', eg_sectiuni_implicite() );
+	// Vechea listă implicită (Povești, Știri, SuperLiga…) trece la noua ordine pe competiții.
+	if ( false !== strpos( (string) $text, 'stiri | Știri' ) && false !== strpos( (string) $text, 'povesti | Povești' ) ) {
+		$text = eg_sectiuni_implicite();
+	}
 	$out  = array();
 	foreach ( preg_split( '/\r?\n/', (string) $text ) as $rand ) {
 		$parti = array_map( 'trim', explode( '|', $rand, 2 ) );
