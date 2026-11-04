@@ -1,5 +1,9 @@
 {
   "cronici": [
+    "cronici/2026-11-04-poveste-jucator-corneliu-robe.json",
+    "cronici/2026-11-04-poveste-anul-1998.json",
+    "cronici/2026-11-04-poveste-dinamo-1956-57.json",
+    "cronici/2026-11-04-poveste-steaua-1955-56.json",
     "cronici/2026-11-04-poveste-jucator-ladislau-raffinsky.json",
     "cronici/2026-11-04-poveste-anul-1997.json",
     "cronici/2026-11-04-poveste-dinamo-1955-56.json",
@@ -195,11 +199,7 @@
     "cronici/2026-11-03-stire-champions-league-marti-etapa-4.json",
     "cronici/2026-11-03-stire-fcsb-planul-de-iarna.json",
     "cronici/2026-11-03-stire-u-cluj-bergodi-chipciu.json",
-    "cronici/2026-11-03-stire-uta-arad-investitor-strain.json",
-    "cronici/2026-11-02-stire-becali-lukic.json",
-    "cronici/2026-11-02-stire-fcsb-dupa-cluj.json",
-    "cronici/2026-11-02-stire-birligea-sansa-frosinone.json",
-    "cronici/2026-11-02-stire-udinese-zanetti.json"
+    "cronici/2026-11-03-stire-uta-arad-investitor-strain.json"
   ],
   "actualizate": [
     "cronici/2026-11-03-stire-hindrich-bobic-legia.json",
