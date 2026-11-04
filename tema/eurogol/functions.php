@@ -6,7 +6,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'EG_VERSIUNE', '2.6.5' );
+define( 'EG_VERSIUNE', '2.6.6' );
 define( 'EG_DIR', get_template_directory() );
 define( 'EG_URI', get_template_directory_uri() );
 
@@ -19,6 +19,7 @@ require EG_DIR . '/inc/clasament.php';
 require EG_DIR . '/inc/persoane.php';
 require EG_DIR . '/inc/seo.php';
 require EG_DIR . '/inc/facebook.php';
+require EG_DIR . '/inc/instagram.php';
 
 add_action( 'after_setup_theme', 'eg_setup' );
 function eg_setup() {

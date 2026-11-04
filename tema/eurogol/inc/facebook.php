@@ -307,23 +307,21 @@ function eg_ig_detecteaza() {
 }
 
 /** Postează coperta articolului pe Instagram, cu titlul, rezumatul și hashtag-urile. O singură dată pe articol. */
-function eg_ig_posteaza( $p ) {
+function eg_ig_posteaza( $p, $din_nou = false ) {
 	$s = eg_fb_setari();
-	if ( ! $s['ig_activ'] || ! $s['ig_id'] || ! $s['token'] || get_post_meta( $p->ID, '_eg_ig_post', true ) ) {
+	if ( ! $s['ig_id'] || ! $s['token'] || ( ! $din_nou && ( ! $s['ig_activ'] || get_post_meta( $p->ID, '_eg_ig_post', true ) ) ) ) {
 		return false;
 	}
-	$img = get_the_post_thumbnail_url( $p, 'full' );
-	if ( ! $img ) {
+	if ( ! function_exists( 'eg_ig_card' ) || ! get_post_thumbnail_id( $p ) ) {
 		eg_fb_jurnal( 'Instagram: „' . get_the_title( $p ) . '” nu are copertă, sărit.' );
 		return false;
 	}
-	$text = html_entity_decode( get_the_title( $p ), ENT_QUOTES, 'UTF-8' );
-	if ( has_excerpt( $p ) ) {
-		$text .= "\n\n" . html_entity_decode( wp_strip_all_tags( $p->post_excerpt ), ENT_QUOTES, 'UTF-8' );
+	$card = eg_ig_card( $p, $din_nou );
+	if ( is_wp_error( $card ) ) {
+		eg_fb_jurnal( 'Instagram: imaginea pentru „' . get_the_title( $p ) . '”: ' . $card->get_error_message() );
+		return false;
 	}
-	$text .= "\n\nArticolul complet pe eurogol.ro (link în bio).\n\n" . implode( ' ', eg_fb_hashtaguri( $p, 20 ) );
-	$text  = mb_substr( $text, 0, 2150 );
-	$c     = eg_fb_cerere( 'POST', $s['ig_id'] . '/media', array( 'image_url' => $img, 'caption' => $text, 'access_token' => $s['token'] ) );
+	$c = eg_fb_cerere( 'POST', $s['ig_id'] . '/media', array( 'image_url' => $card[1] . '?v=' . filemtime( $card[0] ), 'caption' => eg_ig_text( $p ), 'access_token' => $s['token'] ) );
 	if ( is_wp_error( $c ) || empty( $c['id'] ) ) {
 		eg_fb_jurnal( 'Instagram: eroare la „' . get_the_title( $p ) . '”: ' . ( is_wp_error( $c ) ? $c->get_error_message() : 'fără id' ) );
 		return false;
@@ -338,6 +336,7 @@ function eg_ig_posteaza( $p ) {
 		return false;
 	}
 	update_post_meta( $p->ID, '_eg_ig_post', $r['id'] ?? 'trimis' );
+	update_post_meta( $p->ID, '_eg_ig_cand', time() );
 	eg_fb_jurnal( 'Instagram: postat „' . get_the_title( $p ) . '”.' );
 	return true;
 }
@@ -398,6 +397,10 @@ function eg_fb_pagina() {
 				eg_fb_salveaza( $s );
 				$mesaj = get_post_meta( $ult[0]->ID, '_eg_fb_post', true ) ? 'Am postat cel mai nou articol pe pagină.' : 'Nu s-a putut posta; vezi jurnalul din Instrumente → Import Eurogol.';
 			}
+		} elseif ( 'ig_din_nou' === $a && $s['token'] ) {
+			$pid = absint( $_POST['post_id'] ?? 0 );
+			$pp  = $pid ? get_post( $pid ) : null;
+			$mesaj = ( $pp && eg_ig_posteaza( $pp, true ) ) ? 'Am postat din nou pe Instagram: „' . get_the_title( $pp ) . '”.' : 'Nu s-a putut posta pe Instagram; vezi jurnalul din Instrumente → Import Eurogol.';
 		} elseif ( 'deconecteaza' === $a ) {
 			delete_option( 'eg_fb' );
 			delete_option( 'eg_fb_coada' );
@@ -435,7 +438,7 @@ function eg_fb_pagina() {
 			<?php wp_nonce_field( 'eg_fb' ); ?>
 			<table class="form-table" role="presentation">
 				<tr><th>Automat</th><td><label><input type="checkbox" name="activ" value="1" <?php checked( $s['activ'] ); ?>> Postează pe pagină fiecare articol nou (doar cele publicate după activare)</label></td></tr>
-				<tr><th>Instagram</th><td><label><input type="checkbox" name="ig_activ" value="1" <?php checked( $s['ig_activ'] ); ?>> Postează fiecare articol și pe contul de Instagram legat de pagină (coperta + titlu + rezumat + hashtag-uri)</label><p class="description">Contul trebuie să fie profesional (Business sau Creator) și legat de pagina de Facebook. Cont găsit: <strong><?php echo $s['ig_id'] ? '@' . esc_html( $s['ig_nume'] ) : 'niciunul'; ?></strong>.</p></td></tr>
+				<tr><th>Instagram</th><td><label><input type="checkbox" name="ig_activ" value="1" <?php checked( $s['ig_activ'] ); ?>> Postează fiecare articol și pe contul de Instagram legat de pagină (imagine verticală cu titlul + rezumat + hashtag-uri)</label><p class="description">Contul trebuie să fie profesional (Business sau Creator) și legat de pagina de Facebook. Cont găsit: <strong><?php echo $s['ig_id'] ? '@' . esc_html( $s['ig_nume'] ) : 'niciunul'; ?></strong>.</p></td></tr>
 				<tr><th><label for="interval">Interval minim</label></th><td><input type="number" min="0" id="interval" name="interval" value="<?php echo (int) $s['interval']; ?>"> minute între două postări<p class="description">0 = fiecare articol nou pleacă imediat după ce apare pe site (la finalul importului, cel mult <?php echo (int) EG_FB_MAX_RULARE; ?> odată).</p></td></tr>
 			</table>
 			<p>
@@ -445,6 +448,37 @@ function eg_fb_pagina() {
 				<button class="button button-link-delete" name="eg_fb_actiune" value="deconecteaza" <?php disabled( ! $s['token'] ); ?>>Deconectează</button>
 			</p>
 		</form>
+
+		<?php if ( $s['ig_id'] ) : ?>
+		<h2>3. Instagram: ultimele articole</h2>
+		<p class="description">Imaginea și textul care pleacă pe Instagram. Click pe imagine = descarcă.</p>
+		<table class="widefat striped" style="max-width:1200px">
+			<tbody>
+			<?php foreach ( get_posts( array( 'numberposts' => 15 ) ) as $pp ) :
+				$card = function_exists( 'eg_ig_card' ) && get_post_thumbnail_id( $pp ) ? eg_ig_card( $pp ) : null;
+				$cand = (int) get_post_meta( $pp->ID, '_eg_ig_cand', true );
+				$post_ig = get_post_meta( $pp->ID, '_eg_ig_post', true );
+				?>
+				<tr>
+					<td style="width:170px">
+						<?php if ( $card && ! is_wp_error( $card ) ) : ?>
+							<a href="<?php echo esc_url( $card[1] ); ?>" download><img src="<?php echo esc_url( $card[1] . '?v=' . filemtime( $card[0] ) ); ?>" width="160" alt=""></a><br><small>click = descarcă</small>
+						<?php else : ?>—<?php endif; ?>
+					</td>
+					<td><textarea readonly rows="7" style="width:100%"><?php echo esc_textarea( function_exists( 'eg_ig_text' ) ? eg_ig_text( $pp ) : '' ); ?></textarea></td>
+					<td style="width:200px">
+						<?php if ( $post_ig ) : ?><p>✅ postat <?php echo $cand ? esc_html( wp_date( 'Y-m-d H:i', $cand ) ) : ''; ?></p><?php else : ?><p>nepostat</p><?php endif; ?>
+						<form method="post">
+							<?php wp_nonce_field( 'eg_fb' ); ?>
+							<input type="hidden" name="post_id" value="<?php echo (int) $pp->ID; ?>">
+							<button class="button" name="eg_fb_actiune" value="ig_din_nou"><?php echo $post_ig ? 'Postează din nou' : 'Postează acum'; ?></button>
+						</form>
+					</td>
+				</tr>
+			<?php endforeach; ?>
+			</tbody>
+		</table>
+		<?php endif; ?>
 	</div>
 	<?php
 }
