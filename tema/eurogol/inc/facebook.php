@@ -258,8 +258,15 @@ function eg_fb_trimite_unul( $imediat ) {
 	if ( has_excerpt( $p ) ) {
 		$mesaj .= "\n\n" . html_entity_decode( wp_strip_all_tags( $p->post_excerpt ), ENT_QUOTES, 'UTF-8' );
 	}
-	$mesaj .= "\n\n" . implode( ' ', eg_fb_hashtaguri( $p ) );
-	$r = eg_fb_cerere( 'POST', $s['pagina_id'] . '/feed', array( 'message' => $mesaj, 'link' => get_permalink( $p ), 'access_token' => $s['token'] ) );
+	$img = get_the_post_thumbnail_url( $p, 'full' );
+	if ( $img ) {
+		// Postare cu imagine (coperta), cu linkul spre articol în text.
+		$mesaj .= "\n\n👉 Citește articolul: " . get_permalink( $p ) . "\n\n" . implode( ' ', eg_fb_hashtaguri( $p ) );
+		$r      = eg_fb_cerere( 'POST', $s['pagina_id'] . '/photos', array( 'url' => $img, 'caption' => $mesaj, 'access_token' => $s['token'] ) );
+	} else {
+		$mesaj .= "\n\n" . implode( ' ', eg_fb_hashtaguri( $p ) );
+		$r      = eg_fb_cerere( 'POST', $s['pagina_id'] . '/feed', array( 'message' => $mesaj, 'link' => get_permalink( $p ), 'access_token' => $s['token'] ) );
+	}
 	if ( is_wp_error( $r ) ) {
 		eg_fb_jurnal( 'eroare la „' . get_the_title( $p ) . '”: ' . $r->get_error_message() );
 		if ( preg_match( '/access token|session/i', $r->get_error_message() ) ) {
