@@ -1,5 +1,9 @@
 {
   "cronici": [
+    "cronici/2026-11-04-stire-nicolae-grigore-andrei-sucu-liga-2.json",
+    "cronici/2026-11-04-stire-nadal-consiliul-real-madrid.json",
+    "cronici/2026-11-04-stire-sabau-farul-fata-de-play-off.json",
+    "cronici/2026-11-04-stire-bratu-david-matei-dinamo-l-a-pierdut.json",
     "cronici/2026-11-04-poveste-jucator-corneliu-robe.json",
     "cronici/2026-11-04-poveste-anul-1998.json",
     "cronici/2026-11-04-poveste-dinamo-1956-57.json",
@@ -195,13 +199,10 @@
     "cronici/2026-11-03-etapa-9-premier-league.json",
     "cronici/2026-11-03-etapa-10-serie-a.json",
     "cronici/2026-11-03-stire-brighton-adversara-craiovei.json",
-    "cronici/2026-11-03-stire-craiova-egnatia-singura-in-europa.json",
-    "cronici/2026-11-03-stire-champions-league-marti-etapa-4.json",
-    "cronici/2026-11-03-stire-fcsb-planul-de-iarna.json",
-    "cronici/2026-11-03-stire-u-cluj-bergodi-chipciu.json",
-    "cronici/2026-11-03-stire-uta-arad-investitor-strain.json"
+    "cronici/2026-11-03-stire-craiova-egnatia-singura-in-europa.json"
   ],
   "actualizate": [
+    "cronici/2026-11-03-stire-cordea-cfr-china.json",
     "cronici/2026-11-03-stire-hindrich-bobic-legia.json",
     "cronici/2026-11-03-stire-tebas-real-madrid-negreira.json",
     "cronici/2026-11-02-stire-dragus-revenire.json",
@@ -223,7 +224,6 @@
     "cronici/2026-11-03-stire-brighton-adversara-craiovei.json",
     "cronici/2026-11-03-stire-champions-league-marti-etapa-4.json",
     "cronici/2026-11-03-stire-coman-al-gharafa-0-5.json",
-    "cronici/2026-11-03-stire-cordea-cfr-china.json",
     "cronici/2026-11-03-stire-craiova-egnatia-singura-in-europa.json",
     "cronici/2026-11-03-stire-dragusin-note-sassuolo-fiorentina.json",
     "cronici/2026-11-03-stire-fcsb-planul-de-iarna.json",
