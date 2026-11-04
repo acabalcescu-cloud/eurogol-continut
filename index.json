@@ -1,5 +1,9 @@
 {
   "cronici": [
+    "cronici/2026-11-04-poveste-jucator-stefan-barbu.json",
+    "cronici/2026-11-04-poveste-anul-1999.json",
+    "cronici/2026-11-04-poveste-dinamo-1957-58.json",
+    "cronici/2026-11-04-poveste-steaua-1956-57.json",
     "cronici/2026-11-04-stire-nicolae-grigore-andrei-sucu-liga-2.json",
     "cronici/2026-11-04-stire-nadal-consiliul-real-madrid.json",
     "cronici/2026-11-04-stire-sabau-farul-fata-de-play-off.json",
@@ -195,11 +199,7 @@
     "cronici/2026-11-02-stire-stanciu-u-cluj-constantea.json",
     "cronici/2026-11-02-stire-ilie-dumitrescu-fcsb-padurariu.json",
     "cronici/2026-11-02-stire-dragus-revenire.json",
-    "cronici/2026-11-03-etapa-11-laliga.json",
-    "cronici/2026-11-03-etapa-9-premier-league.json",
-    "cronici/2026-11-03-etapa-10-serie-a.json",
-    "cronici/2026-11-03-stire-brighton-adversara-craiovei.json",
-    "cronici/2026-11-03-stire-craiova-egnatia-singura-in-europa.json"
+    "cronici/2026-11-03-etapa-11-laliga.json"
   ],
   "actualizate": [
     "cronici/2026-11-03-stire-cordea-cfr-china.json",
