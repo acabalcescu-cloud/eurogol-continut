@@ -1,5 +1,10 @@
 {
   "cronici": [
+    "cronici/2026-11-04-stire-nicolescu-raducioiu-nu-e-in-ciuda-fanilor.json",
+    "cronici/2026-11-04-stire-dinamo-cumpara-bellaarouch-braga.json",
+    "cronici/2026-11-04-stire-pirvu-ultimatum-voluntari-sepsi.json",
+    "cronici/2026-11-04-stire-nicolescu-anomalie-jucatori-romani-dinamo.json",
+    "cronici/2026-11-04-stire-baluta-favoriti-egnatia-calcule-hartie.json",
     "cronici/2026-11-04-poveste-jucator-adalbert-desu.json",
     "cronici/2026-11-04-poveste-anul-2000.json",
     "cronici/2026-11-04-poveste-dinamo-1958-59.json",
@@ -194,12 +199,7 @@
     "cronici/2026-11-03-poveste-maracanazo-1950.json",
     "cronici/2026-11-03-poveste-maradona-napoli.json",
     "cronici/2026-11-03-poveste-istanbul-2005.json",
-    "cronici/2026-11-03-stire-cfr-contestatii-jucatori-creante.json",
-    "cronici/2026-11-03-stire-chivu-furia-energie-feyenoord.json",
-    "cronici/2026-11-03-stire-birligea-agent-piraino.json",
-    "cronici/2026-11-03-stire-kane-prelungire-bayern-balonul-de-aur.json",
-    "cronici/2026-11-03-stire-flick-balde-gavi-aston-villa.json",
-    "cronici/2026-11-03-stire-cordea-cfr-china.json"
+    "cronici/2026-11-03-stire-cfr-contestatii-jucatori-creante.json"
   ],
   "actualizate": [
     "cronici/2026-11-03-stire-cordea-cfr-china.json",
