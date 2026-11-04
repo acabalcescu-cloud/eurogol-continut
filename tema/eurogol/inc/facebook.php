@@ -9,6 +9,8 @@
  *   articolul are coperta și etichetele), coada se golește: cu intervalul 0 pleacă toate articolele noi (cel mult
  *   EG_FB_MAX_RULARE pe rulare), ca la web2social; cu interval > 0, cel mult unul la „interval” minute.
  *   Fiecare articol se postează o singură dată.
+ * - Instagram: dacă pagina are un cont profesional legat și e bifat, după fiecare postare pe Facebook pleacă și coperta
+ *   articolului pe Instagram (titlu, rezumat, hashtag-uri), prin același token al paginii.
  */
 
 defined( 'ABSPATH' ) || exit;
@@ -19,7 +21,7 @@ const EG_FB_MAX_RULARE = 10;
 function eg_fb_setari() {
 	return wp_parse_args(
 		(array) get_option( 'eg_fb', array() ),
-		array( 'pagina_id' => '', 'pagina_nume' => '', 'token' => '', 'activ' => 0, 'interval' => 20, 'de_la' => 0, 'ultima' => 0 )
+		array( 'pagina_id' => '', 'pagina_nume' => '', 'token' => '', 'activ' => 0, 'interval' => 20, 'de_la' => 0, 'ultima' => 0, 'ig_id' => '', 'ig_nume' => '', 'ig_activ' => 0 )
 	);
 }
 
@@ -91,7 +93,8 @@ function eg_fb_conecteaza( $app_id, $secret, $user_token, $pagina ) {
 			$s['ultima']      = 0; // după reconectare, prima postare pleacă la următorul import.
 			eg_fb_salveaza( $s );
 			delete_option( 'eg_fb_token_cazut' );
-			return $p['name'];
+			$ig = eg_ig_detecteaza();
+			return $p['name'] . ( is_wp_error( $ig ) || ! $ig ? '' : ' (și contul de Instagram @' . $ig . ')' );
 		}
 	}
 	return new WP_Error( 'eg_fb', 'Pagina „' . $pagina . '” nu e printre cele văzute de token: ' . implode( ', ', wp_list_pluck( $lista, 'name' ) ) . '. Scrie la „Pagina” unul dintre aceste nume sau ID-ul numeric al paginii EuroGol (Facebook → pagina → Despre → Transparența paginii).' );
@@ -273,6 +276,62 @@ function eg_fb_trimite_unul( $imediat ) {
 	$s['ultima'] = time();
 	eg_fb_salveaza( $s );
 	eg_fb_jurnal( 'postat „' . get_the_title( $p ) . '”.' );
+	eg_ig_posteaza( $p );
+	return true;
+}
+
+/* ---------- Instagram (prin pagina de Facebook) ---------- */
+
+/** Caută contul de Instagram profesional legat de pagină; întoarce numele de utilizator, '' sau WP_Error. */
+function eg_ig_detecteaza() {
+	$s = eg_fb_setari();
+	if ( ! $s['token'] || ! $s['pagina_id'] ) {
+		return new WP_Error( 'eg_ig', 'pagina de Facebook nu e conectată' );
+	}
+	$r = eg_fb_cerere( 'GET', $s['pagina_id'], array( 'fields' => 'instagram_business_account{id,username}', 'access_token' => $s['token'] ) );
+	if ( is_wp_error( $r ) ) {
+		return $r;
+	}
+	$ig            = $r['instagram_business_account'] ?? array();
+	$s['ig_id']    = (string) ( $ig['id'] ?? '' );
+	$s['ig_nume']  = (string) ( $ig['username'] ?? '' );
+	eg_fb_salveaza( $s );
+	return $s['ig_nume'];
+}
+
+/** Postează coperta articolului pe Instagram, cu titlul, rezumatul și hashtag-urile. O singură dată pe articol. */
+function eg_ig_posteaza( $p ) {
+	$s = eg_fb_setari();
+	if ( ! $s['ig_activ'] || ! $s['ig_id'] || ! $s['token'] || get_post_meta( $p->ID, '_eg_ig_post', true ) ) {
+		return false;
+	}
+	$img = get_the_post_thumbnail_url( $p, 'full' );
+	if ( ! $img ) {
+		eg_fb_jurnal( 'Instagram: „' . get_the_title( $p ) . '” nu are copertă, sărit.' );
+		return false;
+	}
+	$text = html_entity_decode( get_the_title( $p ), ENT_QUOTES, 'UTF-8' );
+	if ( has_excerpt( $p ) ) {
+		$text .= "\n\n" . html_entity_decode( wp_strip_all_tags( $p->post_excerpt ), ENT_QUOTES, 'UTF-8' );
+	}
+	$text .= "\n\nArticolul complet pe eurogol.ro (link în bio).\n\n" . implode( ' ', eg_fb_hashtaguri( $p, 20 ) );
+	$text  = mb_substr( $text, 0, 2150 );
+	$c     = eg_fb_cerere( 'POST', $s['ig_id'] . '/media', array( 'image_url' => $img, 'caption' => $text, 'access_token' => $s['token'] ) );
+	if ( is_wp_error( $c ) || empty( $c['id'] ) ) {
+		eg_fb_jurnal( 'Instagram: eroare la „' . get_the_title( $p ) . '”: ' . ( is_wp_error( $c ) ? $c->get_error_message() : 'fără id' ) );
+		return false;
+	}
+	$r = eg_fb_cerere( 'POST', $s['ig_id'] . '/media_publish', array( 'creation_id' => $c['id'], 'access_token' => $s['token'] ) );
+	if ( is_wp_error( $r ) ) {
+		sleep( 5 ); // imaginea poate fi încă în procesare
+		$r = eg_fb_cerere( 'POST', $s['ig_id'] . '/media_publish', array( 'creation_id' => $c['id'], 'access_token' => $s['token'] ) );
+	}
+	if ( is_wp_error( $r ) ) {
+		eg_fb_jurnal( 'Instagram: eroare la publicarea „' . get_the_title( $p ) . '”: ' . $r->get_error_message() );
+		return false;
+	}
+	update_post_meta( $p->ID, '_eg_ig_post', $r['id'] ?? 'trimis' );
+	eg_fb_jurnal( 'Instagram: postat „' . get_the_title( $p ) . '”.' );
 	return true;
 }
 
@@ -304,11 +363,18 @@ function eg_fb_pagina() {
 			$s['activ']    = $activ;
 			$iv            = absint( $_POST['interval'] ?? 0 );
 			$s['interval'] = 0 === $iv ? 0 : max( 5, $iv );
+			$s['ig_activ'] = empty( $_POST['ig_activ'] ) ? 0 : 1;
 			eg_fb_salveaza( $s );
 			$mesaj = 'Setările au fost salvate.';
+			if ( $s['ig_activ'] && ! $s['ig_id'] ) {
+				$ig    = eg_ig_detecteaza();
+				$mesaj .= is_wp_error( $ig ) ? ' Instagram: ' . $ig->get_error_message() : ( $ig ? ' Instagram: contul @' . $ig . ' a fost găsit.' : ' Instagram: pagina de Facebook nu are un cont de Instagram profesional legat.' );
+			}
 		} elseif ( 'test' === $a && $s['token'] ) {
 			$r     = eg_fb_cerere( 'GET', $s['pagina_id'], array( 'fields' => 'name,followers_count', 'access_token' => $s['token'] ) );
 			$mesaj = is_wp_error( $r ) ? 'Eroare: ' . $r->get_error_message() : 'Conexiunea merge: „' . $r['name'] . '”' . ( isset( $r['followers_count'] ) ? ', ' . (int) $r['followers_count'] . ' urmăritori' : '' ) . '.';
+			$ig     = eg_ig_detecteaza();
+			$mesaj .= is_wp_error( $ig ) ? ' Instagram: ' . $ig->get_error_message() : ( $ig ? ' Instagram: @' . $ig . '.' : ' Instagram: niciun cont profesional legat de pagină.' );
 		} elseif ( 'ultimul' === $a && $s['token'] ) {
 			$ult = get_posts( array( 'numberposts' => 1 ) );
 			if ( $ult ) {
@@ -340,6 +406,7 @@ function eg_fb_pagina() {
 		<?php if ( $mesaj ) : ?><div class="notice notice-info"><p><?php echo esc_html( $mesaj ); ?></p></div><?php endif; ?>
 		<p>Pagina conectată: <strong><?php echo $s['pagina_nume'] ? esc_html( $s['pagina_nume'] ) : 'niciuna'; ?></strong>
 			· distribuirea automată: <strong><?php echo $s['activ'] ? 'pornită' : 'oprită'; ?></strong>
+			· Instagram: <strong><?php echo $s['ig_id'] ? '@' . esc_html( $s['ig_nume'] ) . ( $s['ig_activ'] ? ' (pornit)' : ' (oprit)' ) : 'nelegat'; ?></strong>
 			· articole în coadă: <strong><?php echo (int) $coada; ?></strong>
 			<?php if ( $coada && $s['activ'] ) : ?> · următoarea postare în cel mult <strong><?php echo (int) $urm + 5; ?> minute</strong><?php endif; ?></p>
 		<?php if ( ! $s['activ'] && $s['token'] ) : ?><div class="notice notice-warning inline"><p>Distribuirea automată e <strong>oprită</strong>: bifează „Postează pe pagină fiecare articol nou” și apasă Salvează.</p></div><?php endif; ?>
@@ -350,7 +417,7 @@ function eg_fb_pagina() {
 			<table class="form-table" role="presentation">
 				<tr><th><label for="app_id">App ID</label></th><td><input class="regular-text" id="app_id" name="app_id" autocomplete="off"></td></tr>
 				<tr><th><label for="app_secret">App Secret</label></th><td><input class="regular-text" type="password" id="app_secret" name="app_secret" autocomplete="off"><p class="description">Folosit o singură dată, pentru schimbul de token; nu se salvează.</p></td></tr>
-				<tr><th><label for="user_token">Token de utilizator</label></th><td><input class="large-text" type="password" id="user_token" name="user_token" autocomplete="off"><p class="description">Din Graph API Explorer, cu permisiunile pages_show_list, pages_read_engagement, pages_manage_posts.</p></td></tr>
+				<tr><th><label for="user_token">Token de utilizator</label></th><td><input class="large-text" type="password" id="user_token" name="user_token" autocomplete="off"><p class="description">Din Graph API Explorer, cu permisiunile pages_show_list, pages_read_engagement, pages_manage_posts; pentru Instagram, și business_management, instagram_basic, instagram_content_publish.</p></td></tr>
 				<tr><th><label for="pagina">Pagina</label></th><td><input class="regular-text" id="pagina" name="pagina" value="EuroGol.ro"><p class="description">Numele de utilizator, numele sau ID-ul paginii.</p></td></tr>
 			</table>
 			<p><button class="button button-primary" name="eg_fb_actiune" value="conecteaza">Conectează pagina</button></p>
@@ -361,6 +428,7 @@ function eg_fb_pagina() {
 			<?php wp_nonce_field( 'eg_fb' ); ?>
 			<table class="form-table" role="presentation">
 				<tr><th>Automat</th><td><label><input type="checkbox" name="activ" value="1" <?php checked( $s['activ'] ); ?>> Postează pe pagină fiecare articol nou (doar cele publicate după activare)</label></td></tr>
+				<tr><th>Instagram</th><td><label><input type="checkbox" name="ig_activ" value="1" <?php checked( $s['ig_activ'] ); ?>> Postează fiecare articol și pe contul de Instagram legat de pagină (coperta + titlu + rezumat + hashtag-uri)</label><p class="description">Contul trebuie să fie profesional (Business sau Creator) și legat de pagina de Facebook. Cont găsit: <strong><?php echo $s['ig_id'] ? '@' . esc_html( $s['ig_nume'] ) : 'niciunul'; ?></strong>.</p></td></tr>
 				<tr><th><label for="interval">Interval minim</label></th><td><input type="number" min="0" id="interval" name="interval" value="<?php echo (int) $s['interval']; ?>"> minute între două postări<p class="description">0 = fiecare articol nou pleacă imediat după ce apare pe site (la finalul importului, cel mult <?php echo (int) EG_FB_MAX_RULARE; ?> odată).</p></td></tr>
 			</table>
 			<p>
@@ -393,6 +461,7 @@ add_action( 'rest_api_init', function () {
 					'ultima'     => $s['ultima'] ? wp_date( 'Y-m-d H:i', (int) $s['ultima'] ) : '',
 					'de_la'      => $s['de_la'] ? wp_date( 'Y-m-d H:i', (int) $s['de_la'] ) : '',
 					'coada'      => count( $c ),
+					'instagram'  => $s['ig_id'] ? '@' . $s['ig_nume'] . ( $s['ig_activ'] ? ' (pornit)' : ' (oprit)' ) : 'nelegat',
 					'import'     => wp_date( 'Y-m-d H:i', (int) get_option( 'eg_import_ultima', 0 ) ),
 					'urmatorul'  => wp_next_scheduled( 'eg_import' ) ? wp_date( 'Y-m-d H:i', wp_next_scheduled( 'eg_import' ) ) : '',
 					'acum'       => wp_date( 'Y-m-d H:i' ),
