@@ -1,5 +1,11 @@
 {
   "cronici": [
+    "cronici/2026-11-04-stire-lobont-marica-reghecampf-antrenamente-accidentari.json",
+    "cronici/2026-11-04-stire-lobont-inter-portar-martinez-seimen.json",
+    "cronici/2026-11-04-stire-amenzi-fcsb-rapid-artificii-derby.json",
+    "cronici/2026-11-04-stire-marica-chivu-lautaro-real-madrid.json",
+    "cronici/2026-11-04-stire-rodri-accidentare-barcelona-atletico.json",
+    "cronici/2026-11-04-stire-emre-belozoglu-fenerbahce-antrenor.json",
     "cronici/2026-11-04-stire-cies-superliga-jucatori-crescuti-locul-37.json",
     "cronici/2026-11-04-stire-mihalcea-regula-noua-pospelov-dinamo.json",
     "cronici/2026-11-04-stire-rusescu-ofri-arad-fcsb.json",
@@ -193,13 +199,7 @@
     "cronici/2026-11-03-stire-lucescu-al-sadd-al-ahli.json",
     "cronici/2026-11-03-stire-becali-ii-vom-spulbera.json",
     "cronici/2026-11-03-stire-coman-al-gharafa-0-5.json",
-    "cronici/2026-11-03-stire-puscas-note-u-cluj-fcsb.json",
-    "cronici/2026-11-03-stire-nicolescu-armstrong-buget-dinamo.json",
-    "cronici/2026-11-03-stire-hindrich-bobic-legia.json",
-    "cronici/2026-11-03-stire-dragusin-note-sassuolo-fiorentina.json",
-    "cronici/2026-11-03-stire-ianis-hagi-alanyaspor-0-5.json",
-    "cronici/2026-11-03-stire-tebas-real-madrid-negreira.json",
-    "cronici/2026-11-03-etapa-11-laliga.json"
+    "cronici/2026-11-03-stire-puscas-note-u-cluj-fcsb.json"
   ],
   "actualizate": [
     "cronici/2026-11-03-stire-cordea-cfr-china.json",
