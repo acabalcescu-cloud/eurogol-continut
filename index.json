@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-04-poveste-dinamo-1960-61.json",
     "cronici/2026-11-04-poveste-anul-2002.json",
     "cronici/2026-11-04-poveste-steaua-1959-60.json",
     "cronici/2026-11-04-poveste-jucator-constantin-stanciu.json",
@@ -198,8 +199,7 @@
     "cronici/2026-11-03-stire-bratu-partizani-csm-iasi-pancu.json",
     "cronici/2026-11-03-stire-udrea-editorial-arbitraj-pro-fcsb.json",
     "cronici/2026-11-03-stire-ivanovici-fcsb-atacant-lukic.json",
-    "cronici/2026-11-03-stire-porumboiu-calin-arbitraj.json",
-    "cronici/2026-11-03-stire-ioanitoaia-bergodi-reghecampf.json"
+    "cronici/2026-11-03-stire-porumboiu-calin-arbitraj.json"
   ],
   "actualizate": [
     "2026-11-04-poveste-dinamo-1959-60",
