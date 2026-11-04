@@ -1,5 +1,10 @@
 {
   "cronici": [
+    "cronici/2026-11-04-stire-cies-superliga-jucatori-crescuti-locul-37.json",
+    "cronici/2026-11-04-stire-mihalcea-regula-noua-pospelov-dinamo.json",
+    "cronici/2026-11-04-stire-rusescu-ofri-arad-fcsb.json",
+    "cronici/2026-11-04-stire-moldovan-pleaca-din-turcia-balmos.json",
+    "cronici/2026-11-04-stire-fonseca-lyon-sporting.json",
     "cronici/2026-11-04-poveste-jucator-stefan-barbu.json",
     "cronici/2026-11-04-poveste-anul-1999.json",
     "cronici/2026-11-04-poveste-dinamo-1957-58.json",
@@ -86,7 +91,6 @@
     "cronici/2026-11-04-poveste-anul-1990.json",
     "cronici/2026-11-04-poveste-dinamo-1948-49.json",
     "cronici/2026-11-04-poveste-steaua-1947-48.json",
-    "cronici/2026-11-03-stire-nita-radunovic-profesionist.json",
     "cronici/2026-11-03-stire-bratu-birligea-teramo-tineret.json",
     "cronici/2026-11-03-stire-de-miguel-omagii-messi-ronaldo-mourinho.json",
     "cronici/2026-11-03-stire-u-cluj-fcsb-cifrele-xg.json",
@@ -195,10 +199,6 @@
     "cronici/2026-11-03-stire-dragusin-note-sassuolo-fiorentina.json",
     "cronici/2026-11-03-stire-ianis-hagi-alanyaspor-0-5.json",
     "cronici/2026-11-03-stire-tebas-real-madrid-negreira.json",
-    "cronici/2026-11-02-stire-reghecampf-arbitraj.json",
-    "cronici/2026-11-02-stire-stanciu-u-cluj-constantea.json",
-    "cronici/2026-11-02-stire-ilie-dumitrescu-fcsb-padurariu.json",
-    "cronici/2026-11-02-stire-dragus-revenire.json",
     "cronici/2026-11-03-etapa-11-laliga.json"
   ],
   "actualizate": [
