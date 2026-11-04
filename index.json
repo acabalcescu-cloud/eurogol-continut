@@ -1,5 +1,9 @@
 {
   "cronici": [
+    "cronici/2026-11-04-poveste-jucator-nicolae-kovacs.json",
+    "cronici/2026-11-04-poveste-anul-2001.json",
+    "cronici/2026-11-04-poveste-dinamo-1959-60.json",
+    "cronici/2026-11-04-poveste-steaua-1958-59.json",
     "cronici/2026-11-04-stire-filipe-coelho-antrenorul-craiovei.json",
     "cronici/2026-11-04-stire-baciu-fcsb-identitate-dupa-retur.json",
     "cronici/2026-11-04-stire-prosport-fcsb-niciun-jucator-in-top-5.json",
@@ -195,11 +199,7 @@
     "cronici/2026-11-03-stire-mazilu-imprumut-dinamo-nicolescu.json",
     "cronici/2026-11-03-stire-andone-ramane-fc-arges.json",
     "cronici/2026-11-03-stire-varga-revine-acasa-cfr.json",
-    "cronici/2026-11-03-stire-lukic-presa-bosnia-barbarez.json",
-    "cronici/2026-11-03-stire-gloria-bistrita-masa-verde.json",
-    "cronici/2026-11-03-stire-cassano-inter-groaznica-chivu.json",
-    "cronici/2026-11-03-stire-padurariu-puteam-primi-penalty.json",
-    "cronici/2026-11-03-stire-szoboszlai-plonjon-isak.json"
+    "cronici/2026-11-03-stire-lukic-presa-bosnia-barbarez.json"
   ],
   "actualizate": [
     "cronici/2026-11-03-stire-cordea-cfr-china.json",
