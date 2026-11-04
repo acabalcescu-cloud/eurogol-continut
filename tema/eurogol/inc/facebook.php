@@ -5,13 +5,16 @@
  * - Conectarea: App ID + App Secret ale aplicației Meta + un token de utilizator (Graph API Explorer, cu
  *   pages_show_list, pages_read_engagement, pages_manage_posts). Tema îl schimbă într-un token de lungă durată și
  *   salvează tokenul PAGINII (nu expiră) doar în baza de date a site-ului, niciodată în depozit.
- * - Articolele publicate după activare intră într-o coadă; la fiecare rulare a importului (5 minute) pleacă cel mult
- *   unul, la cel puțin „interval” minute după precedentul. Fiecare articol se postează o singură dată.
+ * - Articolele publicate după activare intră într-o coadă. La finalul fiecărei rulări a importului (după ce
+ *   articolul are coperta și etichetele), coada se golește: cu intervalul 0 pleacă toate articolele noi (cel mult
+ *   EG_FB_MAX_RULARE pe rulare), ca la web2social; cu interval > 0, cel mult unul la „interval” minute.
+ *   Fiecare articol se postează o singură dată.
  */
 
 defined( 'ABSPATH' ) || exit;
 
 const EG_FB_API = 'https://graph.facebook.com/v21.0/';
+const EG_FB_MAX_RULARE = 10;
 
 function eg_fb_setari() {
 	return wp_parse_args(
@@ -213,9 +216,26 @@ function eg_fb_recupereaza() {
 add_action( 'eg_import', 'eg_fb_trimite', 60 );
 function eg_fb_trimite() {
 	$s = eg_fb_setari();
+	// O singură dată: trecerea la postarea fiecărui articol nou (intervalul 0).
+	if ( ! get_option( 'eg_fb_mod_imediat' ) ) {
+		$s['interval'] = 0;
+		eg_fb_salveaza( $s );
+		update_option( 'eg_fb_mod_imediat', 1, false );
+	}
+	$imediat = 0 === (int) $s['interval'];
+	for ( $i = 0; $i < ( $imediat ? EG_FB_MAX_RULARE : 1 ); $i++ ) {
+		if ( ! eg_fb_trimite_unul( $imediat ) ) {
+			break;
+		}
+	}
+}
+
+/** Trimite cel mai vechi articol din coadă. Întoarce true dacă a postat și se poate continua. */
+function eg_fb_trimite_unul( $imediat ) {
+	$s = eg_fb_setari();
 	$c = array_values( array_filter( (array) get_option( 'eg_fb_coada', array() ) ) );
-	if ( ! $s['activ'] || ! $s['token'] || ! $c || time() - (int) $s['ultima'] < 60 * max( 1, (int) $s['interval'] ) ) {
-		return;
+	if ( ! $s['activ'] || ! $s['token'] || ! $c || ( ! $imediat && time() - (int) $s['ultima'] < 60 * max( 1, (int) $s['interval'] ) ) ) {
+		return false;
 	}
 	// Cel mai vechi primul, ca pagina să urmeze ordinea de pe site.
 	usort( $c, fn( $a, $b ) => get_post_time( 'U', true, $a ) <=> get_post_time( 'U', true, $b ) );
@@ -229,7 +249,7 @@ function eg_fb_trimite() {
 	}
 	update_option( 'eg_fb_coada', $c, false );
 	if ( ! $p ) {
-		return;
+		return false;
 	}
 	$mesaj = html_entity_decode( get_the_title( $p ), ENT_QUOTES, 'UTF-8' );
 	if ( has_excerpt( $p ) ) {
@@ -246,13 +266,14 @@ function eg_fb_trimite() {
 		update_option( 'eg_fb_coada', $c, false );
 		$s['ultima'] = time(); // fără rafale de reîncercări
 		eg_fb_salveaza( $s );
-		return;
+		return false;
 	}
 	delete_option( 'eg_fb_token_cazut' );
 	update_post_meta( $id, '_eg_fb_post', $r['id'] ?? 'trimis' );
 	$s['ultima'] = time();
 	eg_fb_salveaza( $s );
 	eg_fb_jurnal( 'postat „' . get_the_title( $p ) . '”.' );
+	return true;
 }
 
 /* ---------- Pagina din administrare ---------- */
@@ -281,7 +302,8 @@ function eg_fb_pagina() {
 				$s['de_la'] = time(); // doar articolele publicate de acum înainte
 			}
 			$s['activ']    = $activ;
-			$s['interval'] = max( 5, absint( $_POST['interval'] ?? 20 ) );
+			$iv            = absint( $_POST['interval'] ?? 0 );
+			$s['interval'] = 0 === $iv ? 0 : max( 5, $iv );
 			eg_fb_salveaza( $s );
 			$mesaj = 'Setările au fost salvate.';
 		} elseif ( 'test' === $a && $s['token'] ) {
@@ -311,7 +333,7 @@ function eg_fb_pagina() {
 		$s = eg_fb_setari();
 	}
 	$coada = count( (array) get_option( 'eg_fb_coada', array() ) );
-	$urm   = $s['ultima'] ? max( 0, (int) ( ( $s['ultima'] + 60 * $s['interval'] - time() ) / 60 ) ) : 0;
+	$urm   = ( $s['ultima'] && $s['interval'] ) ? max( 0, (int) ( ( $s['ultima'] + 60 * $s['interval'] - time() ) / 60 ) ) : 0;
 	?>
 	<div class="wrap">
 		<h1>Facebook Eurogol</h1>
@@ -339,7 +361,7 @@ function eg_fb_pagina() {
 			<?php wp_nonce_field( 'eg_fb' ); ?>
 			<table class="form-table" role="presentation">
 				<tr><th>Automat</th><td><label><input type="checkbox" name="activ" value="1" <?php checked( $s['activ'] ); ?>> Postează pe pagină fiecare articol nou (doar cele publicate după activare)</label></td></tr>
-				<tr><th><label for="interval">Interval minim</label></th><td><input type="number" min="5" id="interval" name="interval" value="<?php echo (int) $s['interval']; ?>"> minute între două postări</td></tr>
+				<tr><th><label for="interval">Interval minim</label></th><td><input type="number" min="0" id="interval" name="interval" value="<?php echo (int) $s['interval']; ?>"> minute între două postări<p class="description">0 = fiecare articol nou pleacă imediat după ce apare pe site (la finalul importului, cel mult <?php echo (int) EG_FB_MAX_RULARE; ?> odată).</p></td></tr>
 			</table>
 			<p>
 				<button class="button button-primary" name="eg_fb_actiune" value="salveaza">Salvează</button>
