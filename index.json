@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-04-stire-cine-e-egnatia-adversara-craiovei.json",
     "cronici/2026-11-04-stire-nicolescu-raducioiu-nu-e-in-ciuda-fanilor.json",
     "cronici/2026-11-04-stire-dinamo-cumpara-bellaarouch-braga.json",
     "cronici/2026-11-04-stire-pirvu-ultimatum-voluntari-sepsi.json",
@@ -198,8 +199,7 @@
     "cronici/2026-11-03-poveste-romania-argentina-1994.json",
     "cronici/2026-11-03-poveste-maracanazo-1950.json",
     "cronici/2026-11-03-poveste-maradona-napoli.json",
-    "cronici/2026-11-03-poveste-istanbul-2005.json",
-    "cronici/2026-11-03-stire-cfr-contestatii-jucatori-creante.json"
+    "cronici/2026-11-03-poveste-istanbul-2005.json"
   ],
   "actualizate": [
     "cronici/2026-11-03-stire-cordea-cfr-china.json",
