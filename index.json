@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-04-poveste-steaua-1959-60.json",
     "cronici/2026-11-04-poveste-jucator-constantin-stanciu.json",
     "2026-11-04-stire-portret-simon-elisor-craiova",
     "cronici/2026-11-04-stire-nita-gardos-andrei-sucu-pancu.json",
@@ -198,10 +199,10 @@
     "cronici/2026-11-03-stire-ivanovici-fcsb-atacant-lukic.json",
     "cronici/2026-11-03-stire-porumboiu-calin-arbitraj.json",
     "cronici/2026-11-03-stire-ioanitoaia-bergodi-reghecampf.json",
-    "cronici/2026-11-03-stire-dani-coman-radunovic-arges.json",
-    "cronici/2026-11-03-stire-compagno-jeonbuk-nimic-decis.json"
+    "cronici/2026-11-03-stire-dani-coman-radunovic-arges.json"
   ],
   "actualizate": [
+    "2026-11-04-poveste-dinamo-1959-60",
     "cronici/2026-11-04-stire-coelho-egnatia-detaliile-fac-diferenta.json",
     "cronici/2026-11-03-stire-cordea-cfr-china.json",
     "cronici/2026-11-03-stire-hindrich-bobic-legia.json",
