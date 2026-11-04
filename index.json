@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-05-poveste-dinamo-1961-62.json",
     "cronici/2026-11-05-poveste-steaua-1960-61.json",
     "cronici/2026-11-05-poveste-anul-2003.json",
     "cronici/2026-11-05-poveste-jucator-ilie-subaseanu.json",
@@ -198,8 +199,7 @@
     "cronici/2026-11-03-stire-raducioiu-revine-dinamo-cornel-dinu.json",
     "cronici/2026-11-03-stire-bergodi-300-meciuri-superliga.json",
     "cronici/2026-11-03-stire-craiova-egnatia-arbitru-robertson-bilete.json",
-    "cronici/2026-11-03-stire-mm-stoica-boutoutaou-becali.json",
-    "cronici/2026-11-03-stire-trevisani-procesul-lui-chivu.json"
+    "cronici/2026-11-03-stire-mm-stoica-boutoutaou-becali.json"
   ],
   "actualizate": [
     "2026-11-04-poveste-dinamo-1959-60",
