@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-05-poveste-jucator-ilie-subaseanu.json",
     "2026-11-05-stire-craiova-getafe-escaldes-ce-a-mers",
     "cronici/2026-11-04-stire-dede-egnatia-venim-sa-castigam.json",
     "cronici/2026-11-04-stire-egnatia-clip-florin-salam-suparare-craiova.json",
@@ -198,8 +199,7 @@
     "cronici/2026-11-03-stire-mm-stoica-boutoutaou-becali.json",
     "cronici/2026-11-03-stire-trevisani-procesul-lui-chivu.json",
     "cronici/2026-11-03-stire-bratu-top-atacanti-superliga.json",
-    "cronici/2026-11-03-stire-afan-legea-insolventei-superliga.json",
-    "cronici/2026-11-03-stire-al-hamlawi-cupa-asiei-amanata.json"
+    "cronici/2026-11-03-stire-afan-legea-insolventei-superliga.json"
   ],
   "actualizate": [
     "2026-11-04-poveste-dinamo-1959-60",
