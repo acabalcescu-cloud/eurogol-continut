@@ -1,5 +1,8 @@
 {
   "cronici": [
+    "cronici/2026-11-05-stire-corbu-ferencvaros-castiga-pe-san-siro.json",
+    "cronici/2026-11-05-stire-danciulescu-plecarea-de-la-steaua.json",
+    "cronici/2026-11-05-stire-prunea-accepta-amenda-uefa.json",
     "cronici/2026-11-05-craiova-egnatia-live.json",
     "cronici/2026-11-05-stire-ropotan-fcsb-2018-accident-dinamo-2.json",
     "cronici/2026-11-05-stire-marius-niculae-ronaldo-retragere.json",
@@ -196,10 +199,7 @@
     "cronici/2026-11-04-poveste-dinamo-1958-59.json",
     "cronici/2026-11-04-poveste-steaua-1957-58.json",
     "cronici/2026-11-04-stire-nicolescu-raducioiu-nu-e-in-ciuda-fanilor.json",
-    "cronici/2026-11-04-stire-dinamo-cumpara-bellaarouch-braga.json",
-    "cronici/2026-11-04-stire-pirvu-ultimatum-voluntari-sepsi.json",
-    "cronici/2026-11-04-stire-nicolescu-anomalie-jucatori-romani-dinamo.json",
-    "cronici/2026-11-04-stire-baluta-favoriti-egnatia-calcule-hartie.json"
+    "cronici/2026-11-04-stire-dinamo-cumpara-bellaarouch-braga.json"
   ],
   "actualizate": [
     "cronici/2026-11-05-stire-nsimba-oferte-china-golf-craiova.json",
