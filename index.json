@@ -1,5 +1,7 @@
 {
   "cronici": [
+    "cronici/2026-11-05-poveste-jucator-rudolf-wetzer.json",
+    "cronici/2026-11-05-poveste-anul-2004.json",
     "cronici/2026-11-05-poveste-dinamo-1962-63.json",
     "cronici/2026-11-05-poveste-steaua-1961-62.json",
     "2026-11-05-stire-portret-assad-al-hamlawi-craiova",
@@ -197,9 +199,7 @@
     "cronici/2026-11-03-stire-mm-stoica-radunovic-rodri.json",
     "cronici/2026-11-03-stire-argentina-prima-lista-fara-messi.json",
     "cronici/2026-11-03-stire-xavi-espart-out-pana-in-2027.json",
-    "cronici/2026-11-03-stire-mm-stoica-calin-pnl-vassaras.json",
-    "cronici/2026-11-03-stire-robert-nita-u-cluj-forta.json",
-    "cronici/2026-11-03-stire-becali-nsimba-balaj-aliev-ilie.json"
+    "cronici/2026-11-03-stire-mm-stoica-calin-pnl-vassaras.json"
   ],
   "actualizate": [
     "2026-11-04-poveste-dinamo-1959-60",
