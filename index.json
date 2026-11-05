@@ -1,5 +1,10 @@
 {
   "cronici": [
+    "cronici/2026-11-05-stire-mm-stoica-miculescu-korenica-cisotti.json",
+    "cronici/2026-11-05-stire-falemi-reghecampf-fcsb-titlu.json",
+    "cronici/2026-11-05-stire-macicasan-lukic-transferul-ratat-fcsb.json",
+    "cronici/2026-11-05-stire-hulubei-fond-fifa-500-litigii.json",
+    "cronici/2026-11-05-stire-felgueiras-boutoutaou-lista-craiova.json",
     "cronici/2026-11-05-stire-craiova-acasa-in-europa-oblemenco.json",
     "cronici/2026-11-05-stire-romania-adversarul-pe-care-ronaldo-nu-l-a-intalnit.json",
     "cronici/2026-11-05-stire-birligea-frosinone-conferinta-nationala.json",
@@ -194,12 +199,7 @@
     "cronici/2026-11-04-poveste-dinamo-1953-54.json",
     "cronici/2026-11-04-poveste-steaua-1952-53.json",
     "cronici/2026-11-04-stire-tarba-dinamo-am-zis-da-100.json",
-    "cronici/2026-11-04-stire-carrick-lucruri-magice-old-trafford.json",
-    "cronici/2026-11-04-stire-henry-raphinha-cel-mai-bun-interviu.json",
-    "cronici/2026-11-04-stire-campeanu-blaturi-cooperativa.json",
-    "cronici/2026-11-04-stire-jurnalul-editorial-fcsb-haosul.json",
-    "cronici/2026-11-04-stire-gardos-dragus-plus-fcsb-corvinul.json",
-    "cronici/2026-11-04-stire-burleanu-fagaras-europa-league.json"
+    "cronici/2026-11-04-stire-carrick-lucruri-magice-old-trafford.json"
   ],
   "actualizate": [
     "cronici/2026-11-05-poveste-jucator-gheorghe-albu.json",
