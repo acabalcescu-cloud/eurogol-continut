@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-05-poveste-steaua-1966-67.json",
     "cronici/2026-11-05-poveste-jucator-lazar-sfera.json",
     "2026-11-05-stire-portret-vladimir-screciu-craiova",
     "2026-11-05-stire-david-creta-alege-romania",
@@ -198,8 +199,7 @@
     "cronici/2026-11-04-stire-sabau-secretul-lui-lukic.json",
     "cronici/2026-11-04-poveste-jucator-rudolf-burger.json",
     "cronici/2026-11-04-poveste-anul-1992.json",
-    "cronici/2026-11-04-poveste-dinamo-1950-51.json",
-    "cronici/2026-11-04-poveste-steaua-1949-50.json"
+    "cronici/2026-11-04-poveste-dinamo-1950-51.json"
   ],
   "actualizate": [
     "2026-11-05-poveste-jucator-gheorghe-albu",
