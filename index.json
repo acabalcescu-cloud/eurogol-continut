@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-05-poveste-anul-2005.json",
     "cronici/2026-11-05-poveste-jucator-adalbert-pullock.json",
     "2026-11-05-stire-portret-nicusor-bancu-craiova",
     "cronici/2026-11-05-stire-jardim-flamengo-opt-jucatori-suspendare.json",
@@ -198,8 +199,7 @@
     "cronici/2026-11-03-poveste-craiova-1986-87.json",
     "cronici/2026-11-03-poveste-craiova-1985-86.json",
     "cronici/2026-11-03-poveste-craiova-1984-85.json",
-    "cronici/2026-11-03-poveste-craiova-1983-84.json",
-    "cronici/2026-11-03-stire-birligea-ales-alvini-accomando.json"
+    "cronici/2026-11-03-poveste-craiova-1983-84.json"
   ],
   "actualizate": [
     "2026-11-04-poveste-dinamo-1959-60",
