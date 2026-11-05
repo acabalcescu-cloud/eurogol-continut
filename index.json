@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-05-stire-portret-david-matei-craiova.json",
     "cronici/2026-11-05-stire-mm-stoica-miculescu-korenica-cisotti.json",
     "cronici/2026-11-05-stire-falemi-reghecampf-fcsb-titlu.json",
     "cronici/2026-11-05-stire-macicasan-lukic-transferul-ratat-fcsb.json",
@@ -198,8 +199,7 @@
     "cronici/2026-11-04-poveste-anul-1995.json",
     "cronici/2026-11-04-poveste-dinamo-1953-54.json",
     "cronici/2026-11-04-poveste-steaua-1952-53.json",
-    "cronici/2026-11-04-stire-tarba-dinamo-am-zis-da-100.json",
-    "cronici/2026-11-04-stire-carrick-lucruri-magice-old-trafford.json"
+    "cronici/2026-11-04-stire-tarba-dinamo-am-zis-da-100.json"
   ],
   "actualizate": [
     "cronici/2026-11-05-poveste-jucator-gheorghe-albu.json",
