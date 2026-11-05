@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-05-universitatea-craiova-egnatia.json",
     "cronici/2026-11-05-stire-medic-torje-de-miguel-lovitura-in-piept.json",
     "cronici/2026-11-05-stire-borbely-ferencvaros-milan-aproape-perfect.json",
     "cronici/2026-11-05-stire-rutjens-lincoln-hajduk-fost-chindia.json",
@@ -198,8 +199,7 @@
     "cronici/2026-11-04-stire-piturca-avertisment-craiova-egnatia.json",
     "cronici/2026-11-04-stire-nita-cretu-de-neinlocuit-fcsb.json",
     "cronici/2026-11-04-stire-sandoi-nsimba-principalul-vinovat.json",
-    "cronici/2026-11-04-stire-mihalcea-uta-ultimatum-petrolul.json",
-    "cronici/2026-11-04-stire-egnatia-clip-florin-salam-suparare-craiova.json"
+    "cronici/2026-11-04-stire-mihalcea-uta-ultimatum-petrolul.json"
   ],
   "actualizate": [
     "cronici/2026-11-05-craiova-egnatia-live.json",
