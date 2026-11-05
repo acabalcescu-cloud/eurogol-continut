@@ -45,7 +45,9 @@ function eg_fb_cerere( $metoda, $cale, $param ) {
 	}
 	$d = json_decode( wp_remote_retrieve_body( $r ), true );
 	if ( ! empty( $d['error'] ) ) {
-		return new WP_Error( 'eg_fb', $d['error']['message'] ?? 'eroare Facebook' );
+		$e   = $d['error'];
+		$det = trim( ( $e['error_user_msg'] ?? '' ) . ' (cod ' . ( $e['code'] ?? '?' ) . ( isset( $e['error_subcode'] ) ? '/' . $e['error_subcode'] : '' ) . ')' );
+		return new WP_Error( 'eg_fb', ( $e['message'] ?? 'eroare Facebook' ) . ' ' . $det );
 	}
 	return is_array( $d ) ? $d : new WP_Error( 'eg_fb', 'răspuns necunoscut' );
 }
@@ -326,10 +328,30 @@ function eg_ig_posteaza( $p, $din_nou = false ) {
 		eg_fb_jurnal( 'Instagram: eroare la „' . get_the_title( $p ) . '”: ' . ( is_wp_error( $c ) ? $c->get_error_message() : 'fără id' ) );
 		return false;
 	}
+	// Instagram procesează imaginea câteva secunde; publicarea înainte de FINISHED dă „Fatal”.
+	$stare = '';
+	for ( $i = 0; $i < 10; $i++ ) {
+		$st    = eg_fb_cerere( 'GET', $c['id'], array( 'fields' => 'status_code,status', 'access_token' => $s['token'] ) );
+		$stare = is_wp_error( $st ) ? '' : (string) ( $st['status_code'] ?? '' );
+		if ( 'FINISHED' === $stare || 'ERROR' === $stare || 'EXPIRED' === $stare ) {
+			break;
+		}
+		sleep( 3 );
+	}
+	if ( 'ERROR' === $stare || 'EXPIRED' === $stare ) {
+		eg_fb_jurnal( 'Instagram: imaginea pentru „' . get_the_title( $p ) . '” a fost respinsă (' . $stare . ( empty( $st['status'] ) ? '' : ': ' . $st['status'] ) . ').' );
+		return false;
+	}
 	$r = eg_fb_cerere( 'POST', $s['ig_id'] . '/media_publish', array( 'creation_id' => $c['id'], 'access_token' => $s['token'] ) );
 	if ( is_wp_error( $r ) ) {
-		sleep( 5 ); // imaginea poate fi încă în procesare
+		sleep( 10 );
 		$r = eg_fb_cerere( 'POST', $s['ig_id'] . '/media_publish', array( 'creation_id' => $c['id'], 'access_token' => $s['token'] ) );
+	}
+	if ( is_wp_error( $r ) ) {
+		$lim = eg_fb_cerere( 'GET', $s['ig_id'] . '/content_publishing_limit', array( 'fields' => 'quota_usage,config', 'access_token' => $s['token'] ) );
+		if ( ! is_wp_error( $lim ) && isset( $lim['data'][0]['quota_usage'] ) ) {
+			$r = new WP_Error( 'eg_fb', $r->get_error_message() . ' — limită zilnică: ' . $lim['data'][0]['quota_usage'] . '/' . ( $lim['data'][0]['config']['quota_total'] ?? '?' ) . ', stare imagine: ' . ( $stare ?: 'necunoscută' ) );
+		}
 	}
 	if ( is_wp_error( $r ) ) {
 		eg_fb_jurnal( 'Instagram: eroare la publicarea „' . get_the_title( $p ) . '”: ' . $r->get_error_message() );
