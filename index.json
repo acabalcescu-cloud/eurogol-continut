@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-05-poveste-dinamo-1963-64.json",
     "cronici/2026-11-05-poveste-steaua-1962-63.json",
     "cronici/2026-11-05-poveste-anul-2005.json",
     "cronici/2026-11-05-poveste-jucator-adalbert-pullock.json",
@@ -198,8 +199,7 @@
     "cronici/2026-11-03-poveste-craiova-1980-81.json",
     "cronici/2026-11-03-poveste-craiova-1979-80.json",
     "cronici/2026-11-03-poveste-craiova-1986-87.json",
-    "cronici/2026-11-03-poveste-craiova-1985-86.json",
-    "cronici/2026-11-03-poveste-craiova-1984-85.json"
+    "cronici/2026-11-03-poveste-craiova-1985-86.json"
   ],
   "actualizate": [
     "2026-11-04-poveste-dinamo-1959-60",
