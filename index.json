@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-05-poveste-steaua-1971-72.json",
     "cronici/2026-11-05-poveste-anul-2014.json",
     "cronici/2026-11-05-stire-corbu-ferencvaros-castiga-pe-san-siro.json",
     "cronici/2026-11-05-stire-danciulescu-plecarea-de-la-steaua.json",
@@ -198,8 +199,7 @@
     "cronici/2026-11-04-poveste-jucator-adalbert-desu.json",
     "cronici/2026-11-04-poveste-anul-2000.json",
     "cronici/2026-11-04-poveste-dinamo-1958-59.json",
-    "cronici/2026-11-04-poveste-steaua-1957-58.json",
-    "cronici/2026-11-04-stire-nicolescu-raducioiu-nu-e-in-ciuda-fanilor.json"
+    "cronici/2026-11-04-poveste-steaua-1957-58.json"
   ],
   "actualizate": [
     "cronici/2026-11-05-craiova-egnatia-live.json",
