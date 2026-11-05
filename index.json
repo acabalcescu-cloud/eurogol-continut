@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-05-poveste-anul-2006.json",
     "cronici/2026-11-05-poveste-dinamo-1964-65.json",
     "cronici/2026-11-05-poveste-steaua-1963-64.json",
     "cronici/2026-11-05-poveste-jucator-vilmos-zombori.json",
@@ -198,8 +199,7 @@
     "cronici/2026-11-03-stire-marotta-icardi-chivu-modern.json",
     "cronici/2026-11-03-stire-iordanescu-wieczysta-cracovia.json",
     "cronici/2026-11-03-stire-claudinho-amenda-record-qatar-lucescu.json",
-    "cronici/2026-11-03-poveste-craiova-1990-91.json",
-    "cronici/2026-11-03-poveste-craiova-1989-90.json"
+    "cronici/2026-11-03-poveste-craiova-1990-91.json"
   ],
   "actualizate": [
     "2026-11-04-poveste-dinamo-1959-60",
