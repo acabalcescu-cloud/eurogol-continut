@@ -1,5 +1,8 @@
 {
   "cronici": [
+    "cronici/2026-11-05-stire-ropotan-fcsb-2018-accident-dinamo-2.json",
+    "cronici/2026-11-05-stire-marius-niculae-ronaldo-retragere.json",
+    "cronici/2026-11-05-stire-mm-stoica-miculescu-armstrong-play-off.json",
     "cronici/2026-11-05-poveste-dinamo-1971-72.json",
     "cronici/2026-11-05-poveste-anul-2013.json",
     "cronici/2026-11-05-poveste-steaua-1970-71.json",
@@ -196,10 +199,7 @@
     "cronici/2026-11-04-stire-pirvu-ultimatum-voluntari-sepsi.json",
     "cronici/2026-11-04-stire-nicolescu-anomalie-jucatori-romani-dinamo.json",
     "cronici/2026-11-04-stire-baluta-favoriti-egnatia-calcule-hartie.json",
-    "cronici/2026-11-04-stire-lobont-marica-reghecampf-antrenamente-accidentari.json",
-    "cronici/2026-11-04-stire-lobont-inter-portar-martinez-seimen.json",
-    "cronici/2026-11-04-stire-amenzi-fcsb-rapid-artificii-derby.json",
-    "cronici/2026-11-04-stire-marica-chivu-lautaro-real-madrid.json"
+    "cronici/2026-11-04-stire-lobont-marica-reghecampf-antrenamente-accidentari.json"
   ],
   "actualizate": [
     "cronici/2026-11-05-stire-nsimba-oferte-china-golf-craiova.json",
