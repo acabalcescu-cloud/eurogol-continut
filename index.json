@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-05-poveste-steaua-1969-70.json",
     "cronici/2026-11-05-poveste-jucator-rudolf-kotormany.json",
     "cronici/2026-11-05-stire-portret-adrian-rus-craiova.json",
     "cronici/2026-11-05-stire-lotul-romaniei-u17-mondial-qatar.json",
@@ -198,8 +199,7 @@
     "cronici/2026-11-04-poveste-dinamo-1955-56.json",
     "cronici/2026-11-04-poveste-steaua-1954-55.json",
     "cronici/2026-11-04-stire-moldovan-pleaca-din-turcia-balmos.json",
-    "cronici/2026-11-04-stire-sabau-farul-fata-de-play-off.json",
-    "cronici/2026-11-04-stire-rodri-accidentare-barcelona-atletico.json"
+    "cronici/2026-11-04-stire-sabau-farul-fata-de-play-off.json"
   ],
   "actualizate": [
     "cronici/2026-11-05-stire-nsimba-oferte-china-golf-craiova.json",
