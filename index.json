@@ -1,5 +1,7 @@
 {
   "cronici": [
+    "cronici/2026-11-05-stire-tite-botafogo-grup-critici.json",
+    "cronici/2026-11-05-stire-corinthians-sao-paulo-angileri-trei-suspendati.json",
     "2026-11-05-stire-portret-portarul-craiovei",
     "cronici/2026-11-05-stire-gabriel-veneno-debut-atletico-mineiro.json",
     "cronici/2026-11-05-poveste-dinamo-1963-64.json",
@@ -197,9 +199,7 @@
     "cronici/2026-11-03-poveste-craiova-1988-89.json",
     "cronici/2026-11-03-poveste-craiova-1987-88.json",
     "cronici/2026-11-03-poveste-craiova-1982-83.json",
-    "cronici/2026-11-03-poveste-craiova-1981-82.json",
-    "cronici/2026-11-03-poveste-craiova-1980-81.json",
-    "cronici/2026-11-03-poveste-craiova-1979-80.json"
+    "cronici/2026-11-03-poveste-craiova-1981-82.json"
   ],
   "actualizate": [
     "2026-11-04-poveste-dinamo-1959-60",
