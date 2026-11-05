@@ -73,6 +73,15 @@ function eg_import_jurnal( $mesaj ) {
 
 /* ---------- Citirea din GitHub ---------- */
 
+/** Calea completă în depozit: acceptă și intrări scrise doar cu id-ul („2026-11-05-stire-x”). */
+function eg_import_cale( $cale ) {
+	$cale = trim( (string) $cale );
+	if ( '' !== $cale && 0 !== strpos( $cale, 'cronici/' ) && false === strpos( $cale, '/' ) ) {
+		$cale = 'cronici/' . preg_replace( '/\.json$/', '', $cale ) . '.json';
+	}
+	return $cale;
+}
+
 function eg_import_json( $cale ) {
 	$r = wp_remote_get( add_query_arg( 't', time(), eg_import_url( $cale ) ), array( 'timeout' => 20 ) );
 	if ( is_wp_error( $r ) ) {
@@ -127,7 +136,7 @@ function eg_import_ruleaza( $limita = 15 ) {
 
 	// Articolele noi: cele mai vechi primele, ca ordinea de pe site să urmeze ordinea din depozit.
 	$vazute = (array) get_option( 'eg_import_vazute', array() );
-	$cai    = array_reverse( array_values( array_filter( (array) ( $index['cronici'] ?? array() ), 'is_string' ) ) );
+	$cai    = array_reverse( array_values( array_map( 'eg_import_cale', array_filter( (array) ( $index['cronici'] ?? array() ), 'is_string' ) ) ) );
 	$citite = 0;
 	foreach ( $cai as $cale ) {
 		if ( isset( $vazute[ $cale ] ) ) {
@@ -155,7 +164,7 @@ function eg_import_ruleaza( $limita = 15 ) {
 	}
 
 	// Articolele completate după publicare.
-	foreach ( array_filter( (array) ( $index['actualizate'] ?? array() ), 'is_string' ) as $cale ) {
+	foreach ( array_map( 'eg_import_cale', array_filter( (array) ( $index['actualizate'] ?? array() ), 'is_string' ) ) as $cale ) {
 		$art = eg_import_json( $cale );
 		if ( is_wp_error( $art ) || empty( $art['id'] ) || ( empty( $art['actualizat'] ) && empty( $art['coperta_v'] ) ) ) {
 			continue;
