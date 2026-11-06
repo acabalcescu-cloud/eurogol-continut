@@ -348,8 +348,8 @@
    "grup": "Steaua",
    "serie": "Legende",
    "subiect": "Steaua (ASA / CCA / Steaua București) în ediția 1973–74 a campionatului: parcursul, oamenii, Cupa și cupele europene",
-   "stare": "de_scris",
-   "id": "",
+   "stare": "scris",
+   "id": "2026-11-06-poveste-steaua-1973-74",
    "ordine": 2
   },
   {
@@ -1059,8 +1059,8 @@
    "grup": "Dinamo",
    "serie": "Legende",
    "subiect": "Dinamo București în ediția 1974–75 a campionatului (Divizia A / Liga 1; la 2022–23, Liga 2 și revenirea): parcursul, oamenii, Cupa și cupele europene",
-   "stare": "de_scris",
-   "id": "",
+   "stare": "scris",
+   "id": "2026-11-06-poveste-dinamo-1974-75",
    "ordine": 2
   },
   {
@@ -2013,8 +2013,8 @@
    "grup": "Anii",
    "serie": "Legende",
    "subiect": "Anul 2016 în fotbalul românesc: campionatul, Cupa, naționala, echipele în Europa, transferurile și oamenii anului",
-   "stare": "de_scris",
-   "id": "",
+   "stare": "scris",
+   "id": "2026-11-06-poveste-anul-2016",
    "ordine": 2
   },
   {
@@ -2339,17 +2339,18 @@
    "grup": "Nationala",
    "serie": "Legende",
    "subiect": "Károly Weichelt (mijlocaș), jucător al naționalei la CM 1934: cariera, naționala, turneele finale",
-   "stare": "de_scris",
+   "stare": "sarit",
    "id": "",
-   "ordine": 2
+   "ordine": 2,
+   "motiv": "Nu apare în lotul României de la CM 1934 (RSSSF roem-players-wc și 34full, RomanianSoccer.ro); subiect neconfirmat."
   },
   {
    "cheie": "jucator-iuliu-baratky",
    "grup": "Nationala",
    "serie": "Legende",
    "subiect": "Iuliu Baratky (atacant), jucător al naționalei la CM 1934, CM 1938: cariera, naționala, turneele finale",
-   "stare": "de_scris",
-   "id": "",
+   "stare": "scris",
+   "id": "2026-11-06-poveste-jucator-iuliu-baratky",
    "ordine": 2
   },
   {
@@ -2393,18 +2394,20 @@
    "grup": "Nationala",
    "serie": "Legende",
    "subiect": "István Klimek (atacant), jucător al naționalei la CM 1934: cariera, naționala, turneele finale",
-   "stare": "de_scris",
+   "stare": "sarit",
    "id": "",
-   "ordine": 2
+   "ordine": 2,
+   "motiv": "Nu apare în lotul României de la CM 1934 (RSSSF roem-players-wc și 34full, RomanianSoccer.ro); subiect neconfirmat."
   },
   {
    "cheie": "jucator-sandor-schwartz",
    "grup": "Nationala",
    "serie": "Legende",
    "subiect": "Sándor Schwartz (atacant), jucător al naționalei la CM 1934: cariera, naționala, turneele finale",
-   "stare": "de_scris",
+   "stare": "sarit",
    "id": "",
-   "ordine": 2
+   "ordine": 2,
+   "motiv": "Nu apare în lotul României de la CM 1934 (RSSSF roem-players-wc și 34full, RomanianSoccer.ro); subiect neconfirmat."
   },
   {
    "cheie": "jucator-gratian-sepi",
