@@ -1,5 +1,9 @@
 {
   "cronici": [
+    "cronici/2026-11-06-poveste-jucator-iacob-felecan.json",
+    "cronici/2026-11-06-poveste-anul-2026.json",
+    "cronici/2026-11-06-poveste-dinamo-1984-85.json",
+    "cronici/2026-11-06-poveste-steaua-1983-84.json",
     "cronici/2026-11-06-stire-jorge-jesus-ronaldo-nu-as-schimba-nimic.json",
     "cronici/2026-11-06-stire-vaiscovici-raducioiu-dinamo-as-refuza.json",
     "cronici/2026-11-06-stire-sabau-rapid-atacanti-din-nou.json",
@@ -195,11 +199,7 @@
     "cronici/2026-11-05-poveste-jucator-vasile-deheleanu.json",
     "cronici/2026-11-05-stire-portret-david-matei-craiova.json",
     "cronici/2026-11-05-stire-mm-stoica-miculescu-korenica-cisotti.json",
-    "cronici/2026-11-05-stire-falemi-reghecampf-fcsb-titlu.json",
-    "cronici/2026-11-05-stire-macicasan-lukic-transferul-ratat-fcsb.json",
-    "cronici/2026-11-05-stire-hulubei-fond-fifa-500-litigii.json",
-    "cronici/2026-11-05-stire-felgueiras-boutoutaou-lista-craiova.json",
-    "cronici/2026-11-05-stire-craiova-acasa-in-europa-oblemenco.json"
+    "cronici/2026-11-05-stire-falemi-reghecampf-fcsb-titlu.json"
   ],
   "actualizate": [
     "cronici/2026-11-06-stire-mihalcea-dupa-petrolul-discutie-meszar.json",
