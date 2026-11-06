@@ -1,5 +1,10 @@
 {
   "cronici": [
+    "cronici/2026-11-06-stire-prunea-ionut-radu-hagi-trebuie-sa-raspunda.json",
+    "cronici/2026-11-06-stire-chitac-stadion-gheorghe-hagi-iarna.json",
+    "cronici/2026-11-06-stire-nuno-campos-dinamo-ce-a-schimbat-fata-de-kopic.json",
+    "cronici/2026-11-06-stire-adi-popa-vintila-tamaie-vestiar-fcsb.json",
+    "cronici/2026-11-06-stire-saka-out-saptamani-arteta-anglia.json",
     "cronici/2026-11-06-stire-pancu-farul-vulturar-sabau-idol.json",
     "cronici/2026-11-06-stire-brighton-craiova-bilete-epuizate.json",
     "cronici/2026-11-06-stire-marica-craiova-egnatia-meci-la-discretie.json",
@@ -194,12 +199,7 @@
     "cronici/2026-11-05-stire-hagi-nu-mai-merge-pe-stadioane-lot-polonia.json",
     "cronici/2026-11-05-stire-luca-stancu-titular-fcsb-corvinul.json",
     "cronici/2026-11-05-stire-camataru-craiova-superioara-egnatia-baiaram.json",
-    "cronici/2026-11-05-stire-gradinescu-baciu-avertisment-craiova-egnatia.json",
-    "cronici/2026-11-05-stire-portret-carlos-mora-craiova.json",
-    "cronici/2026-11-05-stire-presa-franceza-lens-umiliti-ridicoli.json",
-    "cronici/2026-11-05-stire-david-creta-alege-romania.json",
-    "cronici/2026-11-05-poveste-jucator-gheorghe-albu.json",
-    "cronici/2026-11-05-stire-portret-oleksandr-romanchuk-craiova.json"
+    "cronici/2026-11-05-stire-gradinescu-baciu-avertisment-craiova-egnatia.json"
   ],
   "actualizate": [
     "cronici/2026-11-06-poveste-dinamo-1981-82.json",
