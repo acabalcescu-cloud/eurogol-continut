@@ -1,5 +1,9 @@
 {
   "cronici": [
+    "cronici/2026-11-06-poveste-jucator-mircea-david.json",
+    "cronici/2026-11-06-poveste-anul-2022.json",
+    "cronici/2026-11-06-poveste-dinamo-1980-81.json",
+    "cronici/2026-11-06-poveste-steaua-1979-80.json",
     "cronici/2026-11-06-stire-reghecampf-dragus-capitan-corvinul.json",
     "cronici/2026-11-06-stire-giovanni-becali-china-fcsb-reghe.json",
     "cronici/2026-11-06-stire-felgueiras-coelho-contract-2027.json",
@@ -195,11 +199,7 @@
     "cronici/2026-11-05-stire-presa-engleza-liverpool-haos-istanbul.json",
     "cronici/2026-11-05-stire-craiova-egnatia-ghidul-meciului.json",
     "cronici/2026-11-05-stire-burleanu-fifa-infantino-mandat-2030.json",
-    "cronici/2026-11-05-stire-nicolescu-epassy-plecare-iarna.json",
-    "cronici/2026-11-05-stire-cncd-plangeri-discriminare-cluburi-superliga.json",
-    "cronici/2026-11-05-poveste-jucator-vilmos-zombori.json",
-    "cronici/2026-11-05-stire-portret-stefan-baiaram-craiova.json",
-    "cronici/2026-11-05-poveste-anul-2006.json"
+    "cronici/2026-11-05-stire-nicolescu-epassy-plecare-iarna.json"
   ],
   "actualizate": [
     "cronici/2026-11-06-stire-screciu-olympiacos-mesaj-de-la-mama.json",
