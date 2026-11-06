@@ -1,5 +1,9 @@
 {
   "cronici": [
+    "cronici/2026-11-06-stire-coelho-baston-de-amiral-peluza-nord.json",
+    "cronici/2026-11-06-stire-casap-a-refuzat-milan-udinese-academia-hagi.json",
+    "cronici/2026-11-06-stire-sabatini-fabregas-mai-bun-decat-chivu.json",
+    "cronici/2026-11-06-stire-braun-biliboc-ar-fi-bine-sa-plece-cfr.json",
     "cronici/2026-11-06-stire-nevil-dede-craiova-egnatia-cartonas-nejustificat.json",
     "cronici/2026-11-06-stire-raducan-lupta-la-titlu-u-cluj-surpriza.json",
     "cronici/2026-11-06-stire-beldie-editorial-mm-stoica-contestat-online.json",
@@ -195,11 +199,7 @@
     "cronici/2026-11-05-stire-napoli-de-bruyne-lucca-hojlund-allegri.json",
     "cronici/2026-11-05-stire-sumudica-dragus-numar-9-fcsb.json",
     "cronici/2026-11-05-stire-allegri-napoli-limite-porto.json",
-    "cronici/2026-11-05-stire-cahuzac-lens-umilinta-nu-demisionez.json",
-    "cronici/2026-11-05-stire-fabregas-dupa-9-1-modestie-inter.json",
-    "cronici/2026-11-05-stire-nicolescu-nita-a-refuzat-dinamo.json",
-    "cronici/2026-11-05-poveste-jucator-ilie-subaseanu.json",
-    "cronici/2026-11-05-stire-craiova-getafe-escaldes-ce-a-mers.json"
+    "cronici/2026-11-05-stire-cahuzac-lens-umilinta-nu-demisionez.json"
   ],
   "actualizate": [
     "cronici/2026-11-06-stire-screciu-olympiacos-mesaj-de-la-mama.json",
