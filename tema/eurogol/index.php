@@ -36,12 +36,9 @@ if ( is_search() ) {
 		<?php if ( have_posts() ) : ?>
 			<div class="eg-grila-2">
 				<?php
-				$i = 0;
 				while ( have_posts() ) {
 					the_post();
-					// Pe prima pagină a listei, primele două articole au carduri mari.
-					( $i < 2 && ! is_paged() ) ? eg_card_mare( get_post() ) : eg_card_mic( get_post() );
-					$i++;
+					eg_card_mic( get_post() ); // toate articolele listei pe orizontală: imagine în stânga, titlu în dreapta
 				}
 				?>
 			</div>

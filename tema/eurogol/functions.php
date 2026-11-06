@@ -6,7 +6,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'EG_VERSIUNE', '2.6.9' );
+define( 'EG_VERSIUNE', '2.7.0' );
 define( 'EG_DIR', get_template_directory() );
 define( 'EG_URI', get_template_directory_uri() );
 
@@ -241,3 +241,10 @@ function eg_iconite() {
 	printf( '<link rel="apple-touch-icon" href="%s">' . "\n", esc_url( $u . 'icon-180.png' ) );
 }
 
+
+/** Listele (categorii, etichete, autori, arhive, căutare): 20 de articole pe pagină. */
+add_action( 'pre_get_posts', function ( $q ) {
+	if ( ! is_admin() && $q->is_main_query() && ( $q->is_archive() || $q->is_search() || $q->is_home() ) ) {
+		$q->set( 'posts_per_page', 20 );
+	}
+} );
