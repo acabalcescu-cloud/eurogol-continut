@@ -1,5 +1,9 @@
 {
   "cronici": [
+    "cronici/2026-11-06-poveste-jucator-gratian-sepi.json",
+    "cronici/2026-11-06-poveste-anul-2021.json",
+    "cronici/2026-11-06-poveste-dinamo-1979-80.json",
+    "cronici/2026-11-06-poveste-steaua-1978-79.json",
     "cronici/2026-11-06-stire-stojilkovic-biblia-biserica-farul-rapid.json",
     "cronici/2026-11-06-stire-nicolescu-codrut-sandu-revine-dinamo.json",
     "cronici/2026-11-06-stire-ionut-radu-nimeni-nu-iti-da-nimic-gratis.json",
@@ -195,11 +199,7 @@
     "cronici/2026-11-05-stire-tite-botafogo-grup-critici.json",
     "cronici/2026-11-05-stire-corinthians-sao-paulo-angileri-trei-suspendati.json",
     "cronici/2026-11-05-poveste-jucator-adalbert-pullock.json",
-    "cronici/2026-11-05-stire-portret-nicusor-bancu-craiova.json",
-    "cronici/2026-11-05-poveste-anul-2005.json",
-    "cronici/2026-11-05-stire-gabriel-veneno-debut-atletico-mineiro.json",
-    "cronici/2026-11-05-poveste-dinamo-1963-64.json",
-    "cronici/2026-11-05-poveste-steaua-1962-63.json"
+    "cronici/2026-11-05-stire-portret-nicusor-bancu-craiova.json"
   ],
   "actualizate": [
     "cronici/2026-11-06-stire-screciu-olympiacos-mesaj-de-la-mama.json",
