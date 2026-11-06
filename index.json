@@ -1,5 +1,11 @@
 {
   "cronici": [
+    "cronici/2026-11-06-stire-reghecampf-dragus-capitan-corvinul.json",
+    "cronici/2026-11-06-stire-giovanni-becali-china-fcsb-reghe.json",
+    "cronici/2026-11-06-stire-felgueiras-coelho-contract-2027.json",
+    "cronici/2026-11-06-stire-bergodi-300-meciuri-superliga-csikszereda.json",
+    "cronici/2026-11-06-stire-andrich-aleix-garcia-atitudine-marseille.json",
+    "cronici/2026-11-06-stire-mourinho-barcelona-atletico-sa-piarda-amandoua.json",
     "cronici/2026-11-06-stire-mourinho-ronaldo-nu-s-a-terminat.json",
     "cronici/2026-11-06-stire-ionut-radu-umar-rateaza-polonia-bosnia.json",
     "cronici/2026-11-06-stire-felgueiras-nu-suntem-calificati.json",
@@ -193,13 +199,7 @@
     "cronici/2026-11-05-stire-cncd-plangeri-discriminare-cluburi-superliga.json",
     "cronici/2026-11-05-poveste-jucator-vilmos-zombori.json",
     "cronici/2026-11-05-stire-portret-stefan-baiaram-craiova.json",
-    "cronici/2026-11-05-poveste-anul-2006.json",
-    "cronici/2026-11-05-poveste-dinamo-1964-65.json",
-    "cronici/2026-11-05-poveste-steaua-1963-64.json",
-    "cronici/2026-11-05-stire-douvikas-golgheterul-champions-league.json",
-    "cronici/2026-11-05-stire-egnatia-dwamena-hildan.json",
-    "cronici/2026-11-05-stire-seedorf-corinthians-totul-in-mainile-noastre.json",
-    "cronici/2026-11-05-stire-dorival-ploaia-santos-marcos-antonio.json"
+    "cronici/2026-11-05-poveste-anul-2006.json"
   ],
   "actualizate": [
     "cronici/2026-11-06-stire-screciu-olympiacos-mesaj-de-la-mama.json",
