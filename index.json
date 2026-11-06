@@ -1,5 +1,10 @@
 {
   "cronici": [
+    "cronici/2026-11-06-stire-pancu-farul-vulturar-sabau-idol.json",
+    "cronici/2026-11-06-stire-brighton-craiova-bilete-epuizate.json",
+    "cronici/2026-11-06-stire-marica-craiova-egnatia-meci-la-discretie.json",
+    "cronici/2026-11-06-stire-corbu-nemzeti-sport-greu-de-oprit.json",
+    "cronici/2026-11-06-stire-danks-kompany-revenire-pauza-internationala.json",
     "cronici/2026-11-06-poveste-jucator-dumitru-pavlovici.json",
     "cronici/2026-11-06-poveste-anul-2023.json",
     "cronici/2026-11-06-poveste-dinamo-1981-82.json",
@@ -194,12 +199,7 @@
     "cronici/2026-11-05-stire-presa-franceza-lens-umiliti-ridicoli.json",
     "cronici/2026-11-05-stire-david-creta-alege-romania.json",
     "cronici/2026-11-05-poveste-jucator-gheorghe-albu.json",
-    "cronici/2026-11-05-stire-portret-oleksandr-romanchuk-craiova.json",
-    "cronici/2026-11-05-poveste-anul-2008.json",
-    "cronici/2026-11-05-poveste-dinamo-1966-67.json",
-    "cronici/2026-11-05-poveste-steaua-1965-66.json",
-    "cronici/2026-11-05-stire-kane-a-semnat-bayern-2029.json",
-    "cronici/2026-11-05-stire-prunea-amendat-uefa-tiraspol.json"
+    "cronici/2026-11-05-stire-portret-oleksandr-romanchuk-craiova.json"
   ],
   "actualizate": [
     "cronici/2026-11-06-poveste-dinamo-1981-82.json",
