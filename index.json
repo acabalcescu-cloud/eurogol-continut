@@ -1,5 +1,9 @@
 {
   "cronici": [
+    "cronici/2026-11-06-poveste-jucator-robert-sadowski.json",
+    "cronici/2026-11-06-poveste-anul-2024.json",
+    "cronici/2026-11-06-poveste-dinamo-1982-83.json",
+    "cronici/2026-11-06-poveste-steaua-1981-82.json",
     "cronici/2026-11-06-stire-prunea-ionut-radu-hagi-trebuie-sa-raspunda.json",
     "cronici/2026-11-06-stire-chitac-stadion-gheorghe-hagi-iarna.json",
     "cronici/2026-11-06-stire-nuno-campos-dinamo-ce-a-schimbat-fata-de-kopic.json",
@@ -195,11 +199,7 @@
     "cronici/2026-11-05-poveste-anul-2009.json",
     "cronici/2026-11-05-poveste-dinamo-1967-68.json",
     "cronici/2026-11-05-poveste-steaua-1966-67.json",
-    "cronici/2026-11-05-stire-raya-arsenal-finala-pierduta-in-vene.json",
-    "cronici/2026-11-05-stire-hagi-nu-mai-merge-pe-stadioane-lot-polonia.json",
-    "cronici/2026-11-05-stire-luca-stancu-titular-fcsb-corvinul.json",
-    "cronici/2026-11-05-stire-camataru-craiova-superioara-egnatia-baiaram.json",
-    "cronici/2026-11-05-stire-gradinescu-baciu-avertisment-craiova-egnatia.json"
+    "cronici/2026-11-05-stire-raya-arsenal-finala-pierduta-in-vene.json"
   ],
   "actualizate": [
     "cronici/2026-11-06-poveste-jucator-dumitru-pavlovici.json",
