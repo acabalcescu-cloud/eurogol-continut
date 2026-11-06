@@ -1,5 +1,9 @@
 {
   "cronici": [
+    "cronici/2026-11-06-poveste-jucator-dumitru-pavlovici.json",
+    "cronici/2026-11-06-poveste-anul-2023.json",
+    "cronici/2026-11-06-poveste-dinamo-1981-82.json",
+    "cronici/2026-11-06-poveste-steaua-1980-81.json",
     "cronici/2026-11-06-stire-udrea-editorial-coelho-antrenori-romani.json",
     "cronici/2026-11-06-stire-danciulescu-puscas-enigma-atacul-dinamo.json",
     "cronici/2026-11-06-stire-mutu-rotaru-dubai-craiova-brighton.json",
@@ -195,11 +199,7 @@
     "cronici/2026-11-05-poveste-dinamo-1966-67.json",
     "cronici/2026-11-05-poveste-steaua-1965-66.json",
     "cronici/2026-11-05-stire-kane-a-semnat-bayern-2029.json",
-    "cronici/2026-11-05-stire-prunea-amendat-uefa-tiraspol.json",
-    "cronici/2026-11-05-stire-baciu-miculescu-injectii.json",
-    "cronici/2026-11-05-stire-di-canio-inter-anticorpi-napoli-de-bruyne.json",
-    "cronici/2026-11-05-stire-portret-nevil-dede-egnatia.json",
-    "cronici/2026-11-05-stire-ofi-creta-giulesti-lucescu-finala.json"
+    "cronici/2026-11-05-stire-prunea-amendat-uefa-tiraspol.json"
   ],
   "actualizate": [
     "cronici/2026-11-06-poveste-jucator-iuliu-baratky.json",
