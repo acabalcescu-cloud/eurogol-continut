@@ -102,8 +102,28 @@ function eg_butoane_categorii( $cats ) {
 	echo '</nav>';
 }
 
-/** O secțiune a primei pagini: titlu, 2 carduri mari, 4 mici, butoane. Nu apare dacă nu are articole. */
-function eg_sectiune( $slugs, $titlu, $exclude = array(), $numar = 6, $clasa = '' ) {
+/** Articolele unei secțiuni: primele 8 cu titlul peste imagine (2 pe rând), restul orizontale (imagine stânga, titlu dreapta). */
+function eg_grila_sectiune( $posts ) {
+	$sus = array_slice( $posts, 0, 8 );
+	$jos = array_slice( $posts, 8 );
+	if ( $sus ) {
+		echo '<div class="eg-grila-coperte">';
+		foreach ( $sus as $p ) {
+			eg_card_coperta( $p );
+		}
+		echo '</div>';
+	}
+	if ( $jos ) {
+		echo '<div class="eg-grila-2 eg-grila-orizontale">';
+		foreach ( $jos as $p ) {
+			eg_card_mic( $p );
+		}
+		echo '</div>';
+	}
+}
+
+/** O secțiune a primei pagini: titlu, 8 carduri cu titlul pe imagine, 4 orizontale, butoane. Nu apare dacă nu are articole. */
+function eg_sectiune( $slugs, $titlu, $exclude = array(), $numar = 12, $clasa = '' ) {
 	$cats = array();
 	foreach ( array_map( 'trim', explode( ',', $slugs ) ) as $s ) {
 		$c = get_category_by_slug( $s );
@@ -141,16 +161,11 @@ function eg_sectiune( $slugs, $titlu, $exclude = array(), $numar = 6, $clasa = '
 	?>
 	<section class="eg-sectiune <?php echo esc_attr( $clasa ); ?>">
 		<h2 class="eg-titlu-sectiune"><a href="<?php echo esc_url( get_category_link( $cats[0] ) ); ?>"><?php echo esc_html( $titlu ); ?></a></h2>
-		<div class="<?php echo 1 === $numar ? 'eg-grila-1' : 'eg-grila-2'; ?>">
-			<?php
-			foreach ( array_slice( $q->posts, 0, 2 ) as $p ) {
-				eg_card_mare( $p );
-			}
-			foreach ( array_slice( $q->posts, 2 ) as $p ) {
-				eg_card_mic( $p );
-			}
-			?>
-		</div>
+		<?php if ( 1 === $numar ) : ?>
+			<div class="eg-grila-1"><?php eg_card_mare( $q->posts[0] ); ?></div>
+		<?php else : ?>
+			<?php eg_grila_sectiune( $q->posts ); ?>
+		<?php endif; ?>
 		<?php eg_butoane_categorii( $cats ); ?>
 	</section>
 	<?php

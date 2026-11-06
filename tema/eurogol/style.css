@@ -3,7 +3,7 @@ Theme Name: Eurogol
 Theme URI: https://eurogol.ro
 Author: Eurogol
 Description: Tema site-ului eurogol.ro – fotbal românesc, european și sud-american. Prima pagină cu un articol mare și patru mai mici, secțiuni pe competiții, coloana „Pe scurt” și importul automat al articolelor din GitHub.
-Version: 2.6.8
+Version: 2.6.9
 Requires at least: 6.4
 Requires PHP: 7.4
 License: GNU General Public License v2 or later
@@ -109,6 +109,9 @@ button { font: inherit; cursor: pointer; }
    Titlul stă peste imagine, pe un gradient închis. Coperțile au tot conținutul în jumătatea de sus, în mijloc,
    deci nimic nu se acoperă (vezi unelte/coperta-stire.js, „zona sigură”). */
 .eg-sus { display: grid; grid-template-columns: 2fr 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 10px; }
+.eg-sus-extra { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; margin-top: 10px; }
+.eg-grila-coperte { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.eg-grila-orizontale { margin-top: 20px; }
 .eg-coperta { position: relative; border-radius: var(--eg-raza); overflow: hidden; background: #0a1838; aspect-ratio: 5 / 3; }
 .eg-coperta-mare { grid-row: span 2; aspect-ratio: auto; }
 .eg-coperta > a { display: block; height: 100%; color: #fff; }
@@ -307,6 +310,7 @@ a.eg-eticheta:hover { color: #fff; background: var(--eg-inchis); }
 @media (max-width: 960px) {
 	.eg-doua-coloane { grid-template-columns: minmax(0, 1fr); }
 	.eg-sus { grid-template-columns: 1fr 1fr; grid-template-rows: auto; }
+	.eg-sus-extra { grid-template-columns: 1fr 1fr; }
 	.eg-coperta-mare { grid-column: 1 / -1; grid-row: auto; aspect-ratio: 5 / 3; }
 	.eg-cutie { margin-top: 0; border-radius: 0; }
 
@@ -342,6 +346,9 @@ a.eg-eticheta:hover { color: #fff; background: var(--eg-inchis); }
 @media (max-width: 600px) {
 	.eg-main { padding: 10px 10px 24px; }
 	.eg-sus { gap: 4px; }
+	.eg-sus-extra, .eg-grila-coperte { gap: 4px; margin-top: 4px; }
+	.eg-grila-coperte { margin-top: 0; }
+	.eg-grila-orizontale { margin-top: 12px; }
 	.eg-coperta-mare .eg-coperta-titlu { font-size: 20px; line-height: 1.2; -webkit-line-clamp: 3; line-clamp: 3; }
 	.eg-coperta-mare .eg-coperta-text { padding: 10px 14px 12px; gap: 4px; }
 	.eg-coperta-mare .eg-eticheta { display: none; }
