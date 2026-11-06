@@ -1,5 +1,9 @@
 {
   "cronici": [
+    "cronici/2026-11-06-poveste-jucator-vasile-chiroiu.json",
+    "cronici/2026-11-06-poveste-anul-2025.json",
+    "cronici/2026-11-06-poveste-dinamo-1983-84.json",
+    "cronici/2026-11-06-poveste-steaua-1982-83.json",
     "cronici/2026-11-06-stire-craiova-amenda-uefa-pirotehnie-getafe.json",
     "cronici/2026-11-06-stire-marica-craiova-fundasi-transferuri.json",
     "cronici/2026-11-06-stire-mutu-cicaldau-titular-nationala-ianis.json",
@@ -195,11 +199,7 @@
     "cronici/2026-11-05-poveste-dinamo-1968-69.json",
     "cronici/2026-11-05-poveste-jucator-alexandru-cuedan.json",
     "cronici/2026-11-05-stire-presa-albaneza-craiova-egnatia.json",
-    "cronici/2026-11-05-stire-ronaldo-reactii-fpf-omagiu.json",
-    "cronici/2026-11-05-stire-nuno-campos-mazilu-karamoko-arges.json",
-    "cronici/2026-11-05-stire-corbu-milan-povestile-tatalui-van-basten.json",
-    "cronici/2026-11-05-stire-nsimba-oferte-china-golf-craiova.json",
-    "cronici/2026-11-05-stire-portret-tudor-baluta-craiova.json"
+    "cronici/2026-11-05-stire-ronaldo-reactii-fpf-omagiu.json"
   ],
   "actualizate": [
     "cronici/2026-11-06-stire-sumudica-craiova-cordea-ramane-pana-in-ianuarie.json",
