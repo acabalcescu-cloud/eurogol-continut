@@ -1,5 +1,11 @@
 {
   "cronici": [
+    "cronici/2026-11-06-stire-oprut-stoinov-accident-dinamo-deplasare.json",
+    "cronici/2026-11-06-stire-nuno-campos-prima-repriza-ma-ingrijoreaza.json",
+    "cronici/2026-11-06-stire-andone-dupa-dinamo-fcsb-cipru-raman.json",
+    "cronici/2026-11-06-stire-karamoko-dupa-arges-daca-va-trebui-sa-plec.json",
+    "cronici/2026-11-06-stire-sierra-mendy-l-am-citit-de-pe-banca.json",
+    "cronici/2026-11-06-stire-cosmescu-arges-nu-este-fotbal.json",
     "cronici/2026-11-06-poveste-arges-1972.json",
     "cronici/2026-11-06-stire-pizzi-chivu-como-nu-te-retrage.json",
     "cronici/2026-11-06-stire-stoinov-gafa-arges-dinamo-vaiscovici.json",
@@ -193,13 +199,7 @@
     "cronici/2026-11-05-stire-klopp-mohya-17-ani-nationala-germaniei.json",
     "cronici/2026-11-05-stire-portret-steven-nsimba-craiova.json",
     "cronici/2026-11-05-stire-borcea-raducioiu-cea-mai-buna-alegere.json",
-    "cronici/2026-11-05-stire-zandbergen-dinamo-familie-indonezia.json",
-    "cronici/2026-11-05-stire-otelul-amenda-balint-risc-depunctare.json",
-    "cronici/2026-11-05-stire-u-cluj-cfr-amenzi-rasism-cupa.json",
-    "cronici/2026-11-05-stire-le-soir-olaru-union-dezamagire.json",
-    "cronici/2026-11-05-stire-constantea-taiwo-ramane-popesti.json",
-    "cronici/2026-11-05-poveste-anul-2011.json",
-    "cronici/2026-11-05-poveste-dinamo-1969-70.json"
+    "cronici/2026-11-05-stire-zandbergen-dinamo-familie-indonezia.json"
   ],
   "actualizate": [
     "cronici/2026-11-06-stire-mihalcea-dupa-petrolul-discutie-meszar.json",
