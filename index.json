@@ -1,5 +1,10 @@
 {
   "cronici": [
+    "cronici/2026-11-07-stire-birligea-noua-suturi-cagliari-frosinone.json",
+    "cronici/2026-11-07-stire-sadriu-arges-am-luptat-pentru-andone.json",
+    "cronici/2026-11-07-stire-suciu-csikszereda-munca-titanica.json",
+    "cronici/2026-11-07-stire-bergodi-trist-csikszereda-u-cluj-lukic.json",
+    "cronici/2026-11-07-stire-casap-salariu-300-euro-operatie-farul.json",
     "cronici/2026-11-07-stire-eissat-bristol-city-norwich-0-5.json",
     "cronici/2026-11-07-stire-boloni-lot-hagi-nici-nu-i-cunosc.json",
     "cronici/2026-11-07-stire-gica-mihali-curios-stoica-corbu.json",
@@ -194,12 +199,7 @@
     "cronici/2026-11-06-poveste-steaua-1973-74.json",
     "cronici/2026-11-06-stire-coelho-egnatia-am-reprezentat-fotbalul-romanesc.json",
     "cronici/2026-11-06-stire-craioveanu-balint-verdict-craiova-egnatia.json",
-    "cronici/2026-11-06-stire-craiova-calcule-primavara-dupa-egnatia.json",
-    "cronici/2026-11-06-stire-nicolescu-marginean-revine-dupa-pauza.json",
-    "cronici/2026-11-05-stire-amorim-conferinta-nu-sunteti-prosti.json",
-    "cronici/2026-11-06-stire-mastantuono-real-madrid-bellingham-messi.json",
-    "cronici/2026-11-06-stire-cicaldau-cei-care-nu-se-vad-egnatia.json",
-    "cronici/2026-11-06-stire-bancu-gol-egnatia-era-sa-dau-pasa.json"
+    "cronici/2026-11-06-stire-craiova-calcule-primavara-dupa-egnatia.json"
   ],
   "actualizate": [
     "cronici/2026-11-07-stire-ludi-nico-paz-100-la-suta-al-lui-como.json",
