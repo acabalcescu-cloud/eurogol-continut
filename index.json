@@ -1,5 +1,9 @@
 {
   "cronici": [
+    "cronici/2026-11-07-stire-atletico-mg-gremio-renato-dominguez-regii-cupelor.json",
+    "cronici/2026-11-07-stire-craiova-program-bland-partea-grea-brighton-copenhaga.json",
+    "cronici/2026-11-07-stire-cornel-dinu-stoinov-dinamo-s-a-invins-singura.json",
+    "cronici/2026-11-07-stire-fanatik-wyscout-mora-morutan-lukic-fcsb.json",
     "cronici/2026-11-07-poveste-jucator-andrei-barbulescu.json",
     "cronici/2026-11-07-stire-tarnovanu-inlocuitorul-lui-ionut-radu.json",
     "cronici/2026-11-07-stire-adi-popa-telefonul-lui-becali-bendeac.json",
@@ -195,11 +199,7 @@
     "cronici/2026-11-05-stire-conference-league-etapa-3-programul-serii.json",
     "cronici/2026-11-05-stire-suleap-owono-de-miguel-neamtu.json",
     "cronici/2026-11-05-stire-umtiti-vinicius-nu-mai-sperie.json",
-    "cronici/2026-11-05-stire-nicolescu-chirila-echipa-a-doua-dinamo.json",
-    "cronici/2026-11-05-stire-iftime-croitoru-ramane-botosani.json",
-    "cronici/2026-11-05-stire-marcal-botafogo-victorie-dedicata-lui-tite.json",
-    "cronici/2026-11-05-poveste-dinamo-1970-71.json",
-    "cronici/2026-11-05-poveste-anul-2012.json"
+    "cronici/2026-11-05-stire-nicolescu-chirila-echipa-a-doua-dinamo.json"
   ],
   "actualizate": [
     "cronici/2026-11-06-stire-mihalcea-dupa-petrolul-discutie-meszar.json",
