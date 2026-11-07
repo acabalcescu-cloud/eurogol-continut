@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-07-poveste-dinamo-1985-86.json",
     "cronici/2026-11-07-stire-dragusin-mandru-de-drum-inainte-de-juventus.json",
     "cronici/2026-11-07-poveste-steaua-1984-85.json",
     "cronici/2026-11-06-stire-contra-al-arabi-al-ahli-2-2-exposito.json",
@@ -198,10 +199,7 @@
     "cronici/2026-11-05-poveste-jucator-rudolf-kotormany.json",
     "cronici/2026-11-05-stire-portret-adrian-rus-craiova.json",
     "cronici/2026-11-05-stire-lotul-romaniei-u17-mondial-qatar.json",
-    "cronici/2026-11-05-stire-craiova-egnatia-olympiacos-screciu-pyramids-al-hamlawi.json",
-    "cronici/2026-11-05-stire-silviu-lung-sava-ar-trebui-sa-plece.json",
-    "cronici/2026-11-05-stire-silviu-lung-tarnovanu-ultimul-cuvant.json",
-    "cronici/2026-11-05-stire-jorge-jesus-ronaldo-l-am-rugat-sa-ramana.json"
+    "cronici/2026-11-05-stire-craiova-egnatia-olympiacos-screciu-pyramids-al-hamlawi.json"
   ],
   "actualizate": [
     "cronici/2026-11-06-stire-mihalcea-dupa-petrolul-discutie-meszar.json",
