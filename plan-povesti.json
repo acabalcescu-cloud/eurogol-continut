@@ -2477,9 +2477,10 @@
    "grup": "Nationala",
    "serie": "Legende",
    "subiect": "Gheorghe Brandabura (mijlocaș), jucător al naționalei la CM 1938: cariera, naționala, turneele finale",
-   "stare": "de_scris",
+   "stare": "sarit",
    "id": "",
-   "ordine": 2
+   "ordine": 2,
+   "motiv": "Nu apare în lotul României la CM 1938 (RSSSF roem-players-wc, 38full – rezerve Braun, David, Nagy, Sfera; RomanianSoccer.ro 1938). Doar Wikipedia îl trece la rejucarea cu Cuba."
   },
   {
    "cheie": "jucator-vintila-cossini",
