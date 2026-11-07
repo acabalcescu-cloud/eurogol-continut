@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-07-poveste-dinamo-1986-87.json",
     "cronici/2026-11-07-stire-sandoi-lot-hagi-corbu-popescu.json",
     "cronici/2026-11-07-stire-kirita-dinamo-semnal-de-alarma-banca.json",
     "cronici/2026-11-07-stire-felgueiras-nsimba-nu-exista-conflict-coelho.json",
@@ -198,8 +199,7 @@
     "cronici/2026-11-06-stire-mitran-coelho-craiova-echipa-matura.json",
     "cronici/2026-11-06-stire-laurentiu-popescu-brighton-punct-sau-victorie.json",
     "cronici/2026-11-06-stire-craiova-bani-uefa-dupa-egnatia.json",
-    "cronici/2026-11-06-stire-ionut-radu-penalty-olaru-celta-union.json",
-    "cronici/2026-11-06-poveste-sportul-1985-86.json"
+    "cronici/2026-11-06-stire-ionut-radu-penalty-olaru-celta-union.json"
   ],
   "actualizate": [
     "cronici/2026-11-07-stire-ludi-nico-paz-100-la-suta-al-lui-como.json",
