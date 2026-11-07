@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-07-poveste-jucator-vintila-cossini.json",
     "cronici/2026-11-07-stire-ionut-rada-antrenori-licenta-cazul-sucu.json",
     "cronici/2026-11-07-stire-paqueta-penalty-estudiantes-neymar-flamengo.json",
     "cronici/2026-11-07-stire-petrolul-depunctare-plan-reorganizare.json",
@@ -198,8 +199,7 @@
     "cronici/2026-11-06-stire-silviu-lung-nsimba-boutoutaou-cicaldau.json",
     "cronici/2026-11-06-poveste-jucator-iuliu-baratky.json",
     "cronici/2026-11-06-poveste-anul-2016.json",
-    "cronici/2026-11-06-poveste-dinamo-1974-75.json",
-    "cronici/2026-11-06-poveste-steaua-1973-74.json"
+    "cronici/2026-11-06-poveste-dinamo-1974-75.json"
   ],
   "actualizate": [
     "cronici/2026-11-07-stire-ludi-nico-paz-100-la-suta-al-lui-como.json",
