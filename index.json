@@ -1,5 +1,8 @@
 {
   "cronici": [
+    "cronici/2026-11-07-stire-costel-orac-dinamo-arges-raducioiu.json",
+    "cronici/2026-11-07-stire-mm-stoica-radunovic-cretu-decembrie.json",
+    "cronici/2026-11-07-stire-jj-gabriel-marca-balonul-de-aur.json",
     "cronici/2026-11-07-stire-atletico-mg-gremio-renato-dominguez-regii-cupelor.json",
     "cronici/2026-11-07-stire-craiova-program-bland-partea-grea-brighton-copenhaga.json",
     "cronici/2026-11-07-stire-cornel-dinu-stoinov-dinamo-s-a-invins-singura.json",
@@ -196,12 +199,10 @@
     "cronici/2026-11-05-stire-arne-slot-maracana-flamengo.json",
     "cronici/2026-11-05-stire-afe-cere-oprirea-etapei-de-miguel.json",
     "cronici/2026-11-05-stire-cfr-43-contestatii-tabel-creditori.json",
-    "cronici/2026-11-05-stire-conference-league-etapa-3-programul-serii.json",
-    "cronici/2026-11-05-stire-suleap-owono-de-miguel-neamtu.json",
-    "cronici/2026-11-05-stire-umtiti-vinicius-nu-mai-sperie.json",
-    "cronici/2026-11-05-stire-nicolescu-chirila-echipa-a-doua-dinamo.json"
+    "cronici/2026-11-05-stire-conference-league-etapa-3-programul-serii.json"
   ],
   "actualizate": [
+    "cronici/2026-11-04-stire-jj-gabriel-acord-real-madrid.json",
     "cronici/2026-11-06-stire-mihalcea-dupa-petrolul-discutie-meszar.json",
     "cronici/2026-11-06-stire-sumudica-craiova-cordea-ramane-pana-in-ianuarie.json",
     "cronici/2026-11-06-poveste-jucator-dumitru-pavlovici.json",
