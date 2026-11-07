@@ -1,5 +1,10 @@
 {
   "cronici": [
+    "cronici/2026-11-07-stire-kovacs-revine-farul-rapid.json",
+    "cronici/2026-11-07-stire-pintilii-stanciu-e-un-lider.json",
+    "cronici/2026-11-07-stire-sumudica-amenda-u-cluj-suma-infima.json",
+    "cronici/2026-11-07-stire-sumudica-cordea-merita-nationala.json",
+    "cronici/2026-11-07-stire-ricardo-grigore-metaloglobus.json",
     "cronici/2026-11-07-stire-costel-orac-dinamo-arges-raducioiu.json",
     "cronici/2026-11-07-stire-mm-stoica-radunovic-cretu-decembrie.json",
     "cronici/2026-11-07-stire-jj-gabriel-marca-balonul-de-aur.json",
@@ -194,12 +199,7 @@
     "cronici/2026-11-05-poveste-jucator-jozsef-moravetz.json",
     "cronici/2026-11-05-stire-coeficient-uefa-romania-craiova-egnatia.json",
     "cronici/2026-11-05-stire-remus-achim-mutu-florenta-coada.json",
-    "cronici/2026-11-05-stire-infantino-mesaj-ronaldo-retragere.json",
-    "cronici/2026-11-05-stire-ana-maria-paunescu-imnuri-rapid-craiova.json",
-    "cronici/2026-11-05-stire-arne-slot-maracana-flamengo.json",
-    "cronici/2026-11-05-stire-afe-cere-oprirea-etapei-de-miguel.json",
-    "cronici/2026-11-05-stire-cfr-43-contestatii-tabel-creditori.json",
-    "cronici/2026-11-05-stire-conference-league-etapa-3-programul-serii.json"
+    "cronici/2026-11-05-stire-infantino-mesaj-ronaldo-retragere.json"
   ],
   "actualizate": [
     "cronici/2026-11-04-stire-jj-gabriel-acord-real-madrid.json",
