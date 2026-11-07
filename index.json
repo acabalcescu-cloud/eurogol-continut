@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-07-poveste-arges-1979.json",
     "cronici/2026-11-07-stire-kovacs-revine-farul-rapid.json",
     "cronici/2026-11-07-stire-pintilii-stanciu-e-un-lider.json",
     "cronici/2026-11-07-stire-sumudica-amenda-u-cluj-suma-infima.json",
@@ -198,8 +199,7 @@
     "cronici/2026-11-05-poveste-steaua-1970-71.json",
     "cronici/2026-11-05-poveste-jucator-jozsef-moravetz.json",
     "cronici/2026-11-05-stire-coeficient-uefa-romania-craiova-egnatia.json",
-    "cronici/2026-11-05-stire-remus-achim-mutu-florenta-coada.json",
-    "cronici/2026-11-05-stire-infantino-mesaj-ronaldo-retragere.json"
+    "cronici/2026-11-05-stire-remus-achim-mutu-florenta-coada.json"
   ],
   "actualizate": [
     "cronici/2026-11-04-stire-jj-gabriel-acord-real-madrid.json",
