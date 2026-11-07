@@ -1,5 +1,9 @@
 {
   "cronici": [
+    "cronici/2026-11-07-stire-eissat-bristol-city-norwich-0-5.json",
+    "cronici/2026-11-07-stire-boloni-lot-hagi-nici-nu-i-cunosc.json",
+    "cronici/2026-11-07-stire-gica-mihali-curios-stoica-corbu.json",
+    "cronici/2026-11-07-stire-oprut-de-la-scuzele-lui-hagi-la-excludere.json",
     "cronici/2026-11-07-poveste-dinamo-1986-87.json",
     "cronici/2026-11-07-stire-sandoi-lot-hagi-corbu-popescu.json",
     "cronici/2026-11-07-stire-kirita-dinamo-semnal-de-alarma-banca.json",
@@ -195,11 +199,7 @@
     "cronici/2026-11-05-stire-amorim-conferinta-nu-sunteti-prosti.json",
     "cronici/2026-11-06-stire-mastantuono-real-madrid-bellingham-messi.json",
     "cronici/2026-11-06-stire-cicaldau-cei-care-nu-se-vad-egnatia.json",
-    "cronici/2026-11-06-stire-bancu-gol-egnatia-era-sa-dau-pasa.json",
-    "cronici/2026-11-06-stire-mitran-coelho-craiova-echipa-matura.json",
-    "cronici/2026-11-06-stire-laurentiu-popescu-brighton-punct-sau-victorie.json",
-    "cronici/2026-11-06-stire-craiova-bani-uefa-dupa-egnatia.json",
-    "cronici/2026-11-06-stire-ionut-radu-penalty-olaru-celta-union.json"
+    "cronici/2026-11-06-stire-bancu-gol-egnatia-era-sa-dau-pasa.json"
   ],
   "actualizate": [
     "cronici/2026-11-07-stire-ludi-nico-paz-100-la-suta-al-lui-como.json",
