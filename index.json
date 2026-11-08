@@ -1,5 +1,8 @@
 {
   "cronici": [
+    "cronici/2026-11-08-stire-borza-corum-fenerbahce-0-5.json",
+    "cronici/2026-11-08-stire-daniel-stanciu-arges-fcsb-transferuri-haotice.json",
+    "cronici/2026-11-08-stire-mihaila-stanciu-out-rares-ilie-convocat.json",
     "cronici/2026-11-08-stire-ropotan-raportul-benfica-dinamo.json",
     "cronici/2026-11-08-stire-gattuso-vestiar-ca-la-morga-lazio-napoli.json",
     "cronici/2026-11-08-stire-allegri-napoli-nu-suntem-afara-din-nimic.json",
@@ -196,12 +199,10 @@
     "cronici/2026-11-06-stire-sumudica-craiova-cordea-ramane-pana-in-ianuarie.json",
     "cronici/2026-11-06-stire-dragusin-teotino-nu-l-as-fi-transferat.json",
     "cronici/2026-11-06-stire-aguirre-valencia-real-madrid-mbappe-indefendibil.json",
-    "cronici/2026-11-06-stire-bancu-nominalizat-golul-etapei-conference-league.json",
-    "cronici/2026-11-06-stire-giovanni-becali-dennis-man-como-valencia.json",
-    "cronici/2026-11-06-stire-reghecampf-lista-transferuri-patronul-alege.json",
-    "cronici/2026-11-06-stire-florin-bratu-dinamo-trei-transferuri.json"
+    "cronici/2026-11-06-stire-bancu-nominalizat-golul-etapei-conference-league.json"
   ],
   "actualizate": [
+    "cronici/2026-11-08-stire-stanciu-mesaj-titlu-nu-pentru-mine-dalian.json",
     "cronici/2026-11-08-stire-petrolul-cfr-depunctari-decembrie.json",
     "cronici/2026-11-07-stire-reghecampf-dupa-corvinul-n-ai-cum-sa-joci-asa.json",
     "cronici/2026-11-08-stire-corvinul-rapid-proces-lobont-900000-dolari.json",
