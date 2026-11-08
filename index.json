@@ -1,5 +1,11 @@
 {
   "cronici": [
+    "cronici/2026-11-08-stire-coelho-dupa-cfr-craiova-nu-am-realizat-suficient.json",
+    "cronici/2026-11-08-stire-screciu-cfr-cel-mai-incomod-adversar.json",
+    "cronici/2026-11-08-stire-laurentiu-popescu-cinci-la-nationala-craiova.json",
+    "cronici/2026-11-08-stire-presa-italiana-chivu-fabregas-inter-como.json",
+    "cronici/2026-11-08-stire-popovici-san-siro-inter-como-chivu.json",
+    "cronici/2026-11-08-stire-ionut-radu-titular-celta-levante.json",
     "cronici/2026-11-08-stire-manchester-united-aston-villa-4-4-carrick.json",
     "cronici/2026-11-08-stire-presa-engleza-xabi-alonso-tinkerman-chelsea-sunderland.json",
     "cronici/2026-11-08-stire-ianis-hagi-rezerva-alanyaspor-trabzonspor-salah.json",
@@ -193,13 +199,7 @@
     "cronici/2026-11-06-poveste-jucator-robert-sadowski.json",
     "cronici/2026-11-06-poveste-anul-2024.json",
     "cronici/2026-11-06-poveste-dinamo-1982-83.json",
-    "cronici/2026-11-06-poveste-steaua-1981-82.json",
-    "cronici/2026-11-06-stire-prunea-ionut-radu-hagi-trebuie-sa-raspunda.json",
-    "cronici/2026-11-06-stire-chitac-stadion-gheorghe-hagi-iarna.json",
-    "cronici/2026-11-06-stire-nuno-campos-dinamo-ce-a-schimbat-fata-de-kopic.json",
-    "cronici/2026-11-06-stire-adi-popa-vintila-tamaie-vestiar-fcsb.json",
-    "cronici/2026-11-06-stire-saka-out-saptamani-arteta-anglia.json",
-    "cronici/2026-11-06-stire-pancu-farul-vulturar-sabau-idol.json"
+    "cronici/2026-11-06-poveste-steaua-1981-82.json"
   ],
   "actualizate": [
     "cronici/2026-11-08-stire-stanciu-mesaj-titlu-nu-pentru-mine-dalian.json",
