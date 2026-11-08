@@ -1,5 +1,10 @@
 {
   "cronici": [
+    "cronici/2026-11-08-stire-mm-stoica-dragus-capitan-trei-limbi.json",
+    "cronici/2026-11-08-stire-fesnic-penalty-sepsi-voluntari-balaj-birsan.json",
+    "cronici/2026-11-08-stire-mm-stoica-nu-suntem-bine-ciuperca-gazon.json",
+    "cronici/2026-11-08-stire-dan-petrescu-sportul-studentesc-renastere.json",
+    "cronici/2026-11-08-stire-tromso-bodo-glimt-tribuna-prabusita.json",
     "cronici/2026-11-08-stire-burca-sepsi-voluntari-n-ati-fi-vrut-in-pielea-mea.json",
     "cronici/2026-11-08-stire-pirvu-voluntari-sapte-infrangeri-blocaj.json",
     "cronici/2026-11-08-stire-sandu-boc-nationala-s-au-dat-accidentati.json",
@@ -194,12 +199,7 @@
     "cronici/2026-11-06-stire-brighton-craiova-bilete-epuizate.json",
     "cronici/2026-11-06-stire-marica-craiova-egnatia-meci-la-discretie.json",
     "cronici/2026-11-06-stire-corbu-nemzeti-sport-greu-de-oprit.json",
-    "cronici/2026-11-06-stire-danks-kompany-revenire-pauza-internationala.json",
-    "cronici/2026-11-06-poveste-jucator-dumitru-pavlovici.json",
-    "cronici/2026-11-06-poveste-anul-2023.json",
-    "cronici/2026-11-06-poveste-dinamo-1981-82.json",
-    "cronici/2026-11-06-poveste-steaua-1980-81.json",
-    "cronici/2026-11-06-stire-udrea-editorial-coelho-antrenori-romani.json"
+    "cronici/2026-11-06-stire-danks-kompany-revenire-pauza-internationala.json"
   ],
   "actualizate": [
     "cronici/2026-11-08-stire-stanciu-mesaj-titlu-nu-pentru-mine-dalian.json",
