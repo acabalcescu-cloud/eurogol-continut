@@ -424,6 +424,27 @@ function eg_import_coperta( $id, $art, $cale ) {
 }
 
 /** Creează articolul. Întoarce ID-ul, 0 dacă exista deja, sau WP_Error. */
+/** Minutele minime dintre două articole noi publicate (0 = fără limită). */
+if ( ! defined( 'EG_INTERVAL_PUBLICARE' ) ) {
+	define( 'EG_INTERVAL_PUBLICARE', 30 );
+}
+
+/**
+ * Următorul loc liber în programul de publicare: cel puțin EG_INTERVAL_PUBLICARE minute după ultimul articol
+ * publicat sau programat, și nu înainte de data dorită (sau de acum).
+ */
+function eg_import_slot( $data, $tz ) {
+	$pas = (int) apply_filters( 'eg_interval_publicare', EG_INTERVAL_PUBLICARE ) * MINUTE_IN_SECONDS;
+	if ( $pas <= 0 ) {
+		return $data;
+	}
+	$dorit  = $data ? max( $data->getTimestamp(), time() ) : time();
+	$ultimul = (int) get_option( 'eg_ultima_publicare', 0 );
+	$slot   = max( $dorit, $ultimul + $pas );
+	update_option( 'eg_ultima_publicare', $slot, false );
+	return ( new DateTimeImmutable( '@' . $slot ) )->setTimezone( $tz );
+}
+
 function eg_import_articol( $art, $cale ) {
 	if ( empty( $art['id'] ) || empty( $art['titlu'] ) ) {
 		return new WP_Error( 'eg_camp', 'lipsește id sau titlu' );
@@ -445,6 +466,10 @@ function eg_import_articol( $art, $cale ) {
 		}
 	}
 	$status = ( 'draft' === ( $art['status'] ?? '' ) ) ? 'draft' : 'publish';
+	// Cadența: articolele noi apar la cel puțin EG_INTERVAL_PUBLICARE minute unul de altul; cele în plus așteaptă la coadă.
+	if ( 'publish' === $status ) {
+		$data = eg_import_slot( $data, $tz );
+	}
 	if ( 'publish' === $status && $data && $data->getTimestamp() > time() + 60 ) {
 		$status = 'future';
 	}
