@@ -1,5 +1,9 @@
 {
   "cronici": [
+    "cronici/2026-11-08-stire-puscas-editorial-imbuibatii-fcsb-corvinul.json",
+    "cronici/2026-11-08-stire-dragus-tribuna-fcsb-corvinul-rabdare.json",
+    "cronici/2026-11-08-stire-maffeo-interviu-pauza-valencia-real-madrid.json",
+    "cronici/2026-11-08-stire-boca-campioana-anuala-enner-valencia.json",
     "cronici/2026-11-07-stire-reghecampf-dupa-corvinul-n-ai-cum-sa-joci-asa.json",
     "cronici/2026-11-07-stire-politic-usor-nu-e-la-fcsb-bine-mental.json",
     "cronici/2026-11-07-stire-florin-maxim-apararea-incepe-cu-atacantul-fcsb.json",
@@ -195,13 +199,10 @@
     "cronici/2026-11-06-stire-braun-biliboc-ar-fi-bine-sa-plece-cfr.json",
     "cronici/2026-11-06-stire-nevil-dede-craiova-egnatia-cartonas-nejustificat.json",
     "cronici/2026-11-06-stire-raducan-lupta-la-titlu-u-cluj-surpriza.json",
-    "cronici/2026-11-06-stire-beldie-editorial-mm-stoica-contestat-online.json",
-    "cronici/2026-11-06-poveste-jucator-gheorghe-ciolac.json",
-    "cronici/2026-11-06-poveste-anul-2019.json",
-    "cronici/2026-11-06-poveste-dinamo-1977-78.json",
-    "cronici/2026-11-06-poveste-steaua-1976-77.json"
+    "cronici/2026-11-06-stire-beldie-editorial-mm-stoica-contestat-online.json"
   ],
   "actualizate": [
+    "cronici/2026-11-07-stire-accidentari-korenica-labonne-albu-fcsb-corvinul.json",
     "cronici/2026-11-07-stire-ludi-nico-paz-100-la-suta-al-lui-como.json",
     "cronici/2026-11-04-stire-jj-gabriel-acord-real-madrid.json",
     "cronici/2026-11-06-stire-mihalcea-dupa-petrolul-discutie-meszar.json",
