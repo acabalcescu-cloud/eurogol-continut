@@ -1,5 +1,9 @@
 {
   "cronici": [
+    "cronici/2026-11-08-stire-a-murit-prekazi-galatasaray-steaua-1989.json",
+    "cronici/2026-11-09-stire-vanoli-fiorentina-juventus-jucatorii-trebuie-sa-fie-suparati.json",
+    "cronici/2026-11-09-stire-spalletti-juventus-ne-inecam-intr-un-pahar-cu-apa.json",
+    "cronici/2026-11-08-stire-carrick-nu-ma-gandesc-la-demisie-aston-villa.json",
     "cronici/2026-11-08-stire-lucescu-al-sadd-al-rayyan-3-4.json",
     "cronici/2026-11-08-stire-lupu-ilie-criza-fcsb-sase-transferuri-februarie.json",
     "cronici/2026-11-08-stire-pierre-sage-crystal-palace-demis-liverpool.json",
@@ -195,11 +199,7 @@
     "cronici/2026-11-06-poveste-jucator-iacob-felecan.json",
     "cronici/2026-11-06-poveste-anul-2026.json",
     "cronici/2026-11-06-poveste-dinamo-1984-85.json",
-    "cronici/2026-11-06-poveste-steaua-1983-84.json",
-    "cronici/2026-11-06-stire-jorge-jesus-ronaldo-nu-as-schimba-nimic.json",
-    "cronici/2026-11-06-stire-vaiscovici-raducioiu-dinamo-as-refuza.json",
-    "cronici/2026-11-06-stire-sabau-rapid-atacanti-din-nou.json",
-    "cronici/2026-11-06-stire-van-bommel-de-winter-refuza-belgia.json"
+    "cronici/2026-11-06-poveste-steaua-1983-84.json"
   ],
   "actualizate": [
     "cronici/2026-11-08-stire-coelho-dupa-cfr-craiova-nu-am-realizat-suficient.json",
