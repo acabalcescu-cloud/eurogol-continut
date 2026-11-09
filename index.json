@@ -1,5 +1,10 @@
 {
   "cronici": [
+    "cronici/2026-11-09-stire-ionut-radu-record-celta-giraldez-umar.json",
+    "cronici/2026-11-09-stire-gradinescu-mm-stoica-becali-prima-sport.json",
+    "cronici/2026-11-09-stire-dragusin-dupa-juventus-urmeaza-sa-demonstram.json",
+    "cronici/2026-11-09-stire-bergomi-dupa-inter-como-primul-chivu.json",
+    "cronici/2026-11-09-stire-grella-cbs-fabregas-mai-impresionant-decat-chivu.json",
     "cronici/2026-11-09-stire-nicolescu-soro-clauza-un-milion-raspuns-dupa-pauza.json",
     "cronici/2026-11-09-stire-di-canio-inter-como-de-neoprit-thuram.json",
     "cronici/2026-11-08-stire-pintilii-trei-oferte-refuzate-gloria-asa-iasi.json",
@@ -194,12 +199,7 @@
     "cronici/2026-11-06-stire-nuno-campos-prima-repriza-ma-ingrijoreaza.json",
     "cronici/2026-11-06-stire-andone-dupa-dinamo-fcsb-cipru-raman.json",
     "cronici/2026-11-06-stire-karamoko-dupa-arges-daca-va-trebui-sa-plec.json",
-    "cronici/2026-11-06-stire-sierra-mendy-l-am-citit-de-pe-banca.json",
-    "cronici/2026-11-06-stire-cosmescu-arges-nu-este-fotbal.json",
-    "cronici/2026-11-06-poveste-arges-1972.json",
-    "cronici/2026-11-06-stire-pizzi-chivu-como-nu-te-retrage.json",
-    "cronici/2026-11-06-stire-stoinov-gafa-arges-dinamo-vaiscovici.json",
-    "cronici/2026-11-06-stire-adi-popa-becali-galca-rusescu-iasi-2015.json"
+    "cronici/2026-11-06-stire-sierra-mendy-l-am-citit-de-pe-banca.json"
   ],
   "actualizate": [
     "cronici/2026-11-08-stire-popovici-san-siro-inter-como-chivu.json",
