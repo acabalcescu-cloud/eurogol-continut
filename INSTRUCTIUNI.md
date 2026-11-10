@@ -99,3 +99,9 @@ Promptul complet e în `mac/prompt.md`. Pe scurt:
 - Textul e scris de la zero. Nu copiem fraze din surse și nu urmăm structura unui articol-sursă.
 - Înainte de commit verifică încă o dată numele, cifrele, datele și zilele săptămânii.
 - Dacă faptele nu pot fi confirmate, nu face commit și spune asta în raport.
+
+## Aplicația (PWA) și notificările
+
+Din tema 2.8.0, eurogol.ro se instalează ca aplicație (Android: butonul „Instalează aplicația”; iPhone: Partajează → „Adaugă pe ecranul principal”) și merge și fără internet (paginile citite recent). Codul e în `tema/eurogol/inc/pwa.php`, după modelul de la Poveștile Științei; iconițele în `tema/eurogol/assets/pwa/`.
+Notificări automate, la publicare (doar articole din ultimele 24 de ore): cronicile meciurilor (articolele cu câmpul „meci”) și transmisiile live (eticheta „Live”). Știrile obișnuite și poveștile NU trimit notificări.
+Admin: GET /wp-json/eg/v1/push-stare (abonați, ultima notificare), POST /wp-json/eg/v1/push-trimite {post: id} sau {titlu, text, url}. Cheile VAPID sunt generate pe server, în opțiunile WordPress, nu în depozit.

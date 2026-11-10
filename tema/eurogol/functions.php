@@ -6,7 +6,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'EG_VERSIUNE', '2.7.2' );
+define( 'EG_VERSIUNE', '2.8.0' );
 define( 'EG_DIR', get_template_directory() );
 define( 'EG_URI', get_template_directory_uri() );
 
@@ -20,6 +20,7 @@ require EG_DIR . '/inc/persoane.php';
 require EG_DIR . '/inc/seo.php';
 require EG_DIR . '/inc/facebook.php';
 require EG_DIR . '/inc/instagram.php';
+require EG_DIR . '/inc/pwa.php';
 
 add_action( 'after_setup_theme', 'eg_setup' );
 function eg_setup() {
@@ -238,7 +239,7 @@ function eg_iconite() {
 	$u = EG_URI . '/assets/img/';
 	printf( '<link rel="icon" href="%s" sizes="32x32">' . "\n", esc_url( $u . 'icon-32.png' ) );
 	printf( '<link rel="icon" href="%s" sizes="192x192">' . "\n", esc_url( $u . 'icon-192.png' ) );
-	printf( '<link rel="apple-touch-icon" href="%s">' . "\n", esc_url( $u . 'icon-180.png' ) );
+	printf( '<link rel="apple-touch-icon" href="%s">' . "\n", esc_url( EG_URI . '/assets/pwa/apple-touch-icon.png' ) ); // pătrat opac, iOS rotunjește singur
 }
 
 
