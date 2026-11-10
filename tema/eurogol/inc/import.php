@@ -424,20 +424,26 @@ function eg_import_coperta( $id, $art, $cale ) {
 }
 
 /** Creează articolul. Întoarce ID-ul, 0 dacă exista deja, sau WP_Error. */
-/** Minutele minime dintre două articole noi publicate (0 = fără limită). */
-if ( ! defined( 'EG_INTERVAL_PUBLICARE' ) ) {
-	define( 'EG_INTERVAL_PUBLICARE', 30 );
+/** Intervalul dintre două articole noi publicate, în minute: ales la întâmplare între MIN și MAX (media ~26 de minute, cam 55 de articole în 24 de ore). 0 = fără limită. */
+if ( ! defined( 'EG_INTERVAL_MIN' ) ) {
+	define( 'EG_INTERVAL_MIN', 18 );
+}
+if ( ! defined( 'EG_INTERVAL_MAX' ) ) {
+	define( 'EG_INTERVAL_MAX', 34 );
 }
 
 /**
- * Următorul loc liber în programul de publicare: cel puțin EG_INTERVAL_PUBLICARE minute după ultimul articol
+ * Următorul loc liber în programul de publicare: un interval variabil (EG_INTERVAL_MIN–EG_INTERVAL_MAX minute) după ultimul articol
  * publicat sau programat, și nu înainte de data dorită (sau de acum).
  */
 function eg_import_slot( $data, $tz ) {
-	$pas = (int) apply_filters( 'eg_interval_publicare', EG_INTERVAL_PUBLICARE ) * MINUTE_IN_SECONDS;
-	if ( $pas <= 0 ) {
+	$min = (int) apply_filters( 'eg_interval_min', EG_INTERVAL_MIN );
+	$max = max( $min, (int) apply_filters( 'eg_interval_max', EG_INTERVAL_MAX ) );
+	if ( $max <= 0 ) {
 		return $data;
 	}
+	// Minute și secunde neregulate, ca publicările să nu cadă la ore fixe.
+	$pas = wp_rand( $min * MINUTE_IN_SECONDS, $max * MINUTE_IN_SECONDS );
 	$dorit  = $data ? max( $data->getTimestamp(), time() ) : time();
 	$ultimul = (int) get_option( 'eg_ultima_publicare', 0 );
 	$slot   = max( $dorit, $ultimul + $pas );
@@ -466,7 +472,7 @@ function eg_import_articol( $art, $cale ) {
 		}
 	}
 	$status = ( 'draft' === ( $art['status'] ?? '' ) ) ? 'draft' : 'publish';
-	// Cadența: articolele noi apar la cel puțin EG_INTERVAL_PUBLICARE minute unul de altul; cele în plus așteaptă la coadă.
+	// Cadența: articolele noi apar la 18–34 de minute unul de altul (interval variabil); cele în plus așteaptă la coadă.
 	if ( 'publish' === $status ) {
 		$data = eg_import_slot( $data, $tz );
 	}
