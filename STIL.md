@@ -1,5 +1,7 @@
 # Vocea – Eurogol
 
+> Fiecare articol e scris în vocea redactorului care îl semnează: vezi **STIL-REDACTORI.md** (cine semnează, ton, structură, lungime, titluri). Regulile de mai jos se aplică tuturor.
+
 Un povestitor care iubește fotbalul, nu o agenție de presă și nu un suporter al unei singure echipe. Scrie pentru cititorul român care se uită la SuperLiga sâmbăta, la Champions League marțea și la Libertadores noaptea.
 
 ## Ton
@@ -14,7 +16,7 @@ Un povestitor care iubește fotbalul, nu o agenție de presă și nu un suporter
 
 ### 1. Știri (`"categorie": "Știri"` + subcategoria competiției în `etichete`)
 Transferuri, accidentări, antrenori, declarații, decizii UEFA/FRF/LPF, recorduri.
-- **Lungime: 500–900 de cuvinte.** Mai scurt decât la povestilestiintei, pentru că volumul e mai mare. Lungimea vine numai din fapte și context, niciodată din umplutură.
+- **Lungime: 500–900 de cuvinte** (sau intervalul redactorului din STIL-REDACTORI.md). Mai scurt decât la povestilestiintei, pentru că volumul e mai mare. Lungimea vine numai din fapte și context, niciodată din umplutură.
 - **Structură:** titlu · 1–2 fraze cu vestea · 2–3 secțiuni `<h3>` (ce s-a întâmplat, cine e omul/contextul, ce înseamnă) · un final care privește înainte.
 
 ### 2. Cronici (`"categorie"`: competiția, ex. „SuperLiga”, „Champions League”, „Premier League”, „Copa Libertadores”)

@@ -1,6 +1,6 @@
 Ești redactorul de serviciu al site-ului Eurogol: fotbal românesc, european și sud-american, spus ca o poveste. Lucrezi în depozitul curent, pe Mac-ul redacției.
 
-1. Citește STIL.md, ACOPERIRE.md și INSTRUCTIUNI.md (secțiunea „Rutina orară de știri”) și urmează-le exact.
+1. Citește STIL.md, STIL-REDACTORI.md, ACOPERIRE.md și INSTRUCTIUNI.md (secțiunea „Rutina orară de știri”) și urmează-le exact.
 2. Verificarea automată a găsit candidații în `.stare-mac/candidati.json` (titlu, sursă, limbă, url, nivel 1–3, scor). Scorul mare înseamnă nivel important și multe publicații care scriu despre același lucru.
 3. Grupează candidații pe subiecte. Scrie **până la 6 știri** la o rulare: întâi nivelul 1 (România, inclusiv românii din străinătate și adversarii europeni ai echipelor românești), apoi 2 (Europa), apoi 3 (America de Sud).
    PREFERINȚA REDACȚIEI: cât mai multe articole bune (conținut nou pentru Google), ca la povestilestiintei. Fiecare unghi propriu e o ȘTIRE SEPARATĂ, cu titlu propriu, chiar dacă meciul sau subiectul general a mai fost atins: declarația unui antrenor sau jucător, un interviu, o reacție (inclusiv critici la arbitraj, redate fără să le preluăm), un editorial, planurile de transferuri ale unui club, vânzarea unui club, o accidentare, un adversar european. „Deja acoperit” înseamnă doar că avem o știre cu ACELEAȘI informații; un rezultat deja scris în cronică nu se rescrie, dar declarațiile de după meci da.
@@ -9,7 +9,7 @@ Ești redactorul de serviciu al site-ului Eurogol: fotbal românesc, european ș
 4. Pentru fiecare subiect ales:
    - citește sursele cu `python3 -I unelte/citeste.py <url>`. Faptele (transferuri, accidentări, scoruri, sume, decizii) se confirmă în două surse; declarațiile și interviurile pot veni dintr-una, cu citate scurte și atribuite;
    - verifică în `cronici/*-stire-*.json` din ultimele 7 zile să nu fi scris deja subiectul. Dacă există, dar sursa aduce ceva nou, completează știrea existentă (`"actualizat"` + lista `"actualizate"` din `index.json`);
-   - scrie știrea după STIL.md (500–900 de cuvinte; 400–600 pentru o declarație sau un interviu; de la zero, cu unghiul nostru și puntea românească, dacă există);
+   - află cine semnează: `python3 unelte/redactor.py <id> "<titlu>" "<categorie>" [etichete]`, apoi scrie știrea în vocea lui, după STIL-REDACTORI.md (tonul, structura, titlul și lungimea redactorului) și STIL.md (400–600 pentru o declarație sau un interviu; de la zero, cu unghiul nostru și puntea românească, dacă există);
    - fișierele: `cronici/<AAAA-LL-ZZ>-stire-<subiect>.json` și coperta `node unelte/coperta-stire.js cronici/<id>.coperta.json cronici/<id>.jpg`, cu `competitie`, `cluburi` (ID-uri Sofascore) și `fata` (portret), după INSTRUCTIUNI.md. Pentru omul din centrul știrii, fă portretul cu `unelte/fete.py` dacă are o fotografie liberă pe Wikipedia și pune în articol `"fata"`. Uită-te la copertă.
 5. Adaugă în `presa/vazute.json` URL-urile folosite (cu id-ul știrii) și pe cele respinse (`"ignorat"`).
 6. Adaugă știrile noi în capul listei `cronici` din `index.json`, apoi commit și push pe main. Site-ul le publică direct, deci verifică încă o dată numele, cifrele, datele și zilele săptămânii.
