@@ -2514,17 +2514,18 @@
    "grup": "Nationala",
    "serie": "Legende",
    "subiect": "Coloman Braun-Bogdan (atacant), jucător al naționalei la CM 1938: cariera, naționala, turneele finale",
-   "stare": "de_scris",
+   "stare": "sarit",
    "id": "",
-   "ordine": 2
+   "ordine": 2,
+   "motiv": "Nu apare ca jucător în lotul CM 1938 în două surse independente (lipsește din RSSSF roem-players-wc și NFT; doar rezervă în RSSSF 38full; antrenor pe RomanianSoccer.ro). Antrenorii naționalei la CM 1930–1938 nu se numesc."
   },
   {
    "cheie": "jucator-ioachim-moldoveanu",
    "grup": "Nationala",
    "serie": "Legende",
    "subiect": "Ioachim Moldoveanu (atacant), jucător al naționalei la CM 1938: cariera, naționala, turneele finale",
-   "stare": "de_scris",
-   "id": "",
+   "stare": "scris",
+   "id": "2026-11-11-poveste-jucator-ioachim-moldoveanu",
    "ordine": 2
   },
   {
