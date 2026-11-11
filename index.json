@@ -1,5 +1,9 @@
 {
   "cronici": [
+    "cronici/2026-11-11-stire-rapid-baza-stefanesti-sucu-vitrina.json",
+    "cronici/2026-11-10-stire-polonia-zelizko-cetatenie-romania.json",
+    "cronici/2026-11-11-stire-manchester-united-pochettino-clauza-carrick.json",
+    "cronici/2026-11-11-stire-milan-tresoldi-brugge-ianuarie.json",
     "cronici/2026-11-11-poveste-jucator-ion-bogdan.json",
     "cronici/2026-11-11-stire-becali-craioveanu-sistemul-cum-vreau-eu-padurariu.json",
     "cronici/2026-11-11-stire-becali-miculescu-nu-mai-este-valoros.json",
@@ -195,11 +199,7 @@
     "cronici/2026-11-09-stire-reghecampf-presa-tunisia-ultimele-zile-fcsb.json",
     "cronici/2026-11-09-stire-bosz-explica-dennis-man-bajraktarevic-psv.json",
     "cronici/2026-11-09-stire-ionut-radu-record-celta-giraldez-umar.json",
-    "cronici/2026-11-09-stire-gradinescu-mm-stoica-becali-prima-sport.json",
-    "cronici/2026-11-09-stire-dragusin-dupa-juventus-urmeaza-sa-demonstram.json",
-    "cronici/2026-11-09-stire-bergomi-dupa-inter-como-primul-chivu.json",
-    "cronici/2026-11-09-stire-grella-cbs-fabregas-mai-impresionant-decat-chivu.json",
-    "cronici/2026-11-09-stire-nicolescu-soro-clauza-un-milion-raspuns-dupa-pauza.json"
+    "cronici/2026-11-09-stire-gradinescu-mm-stoica-becali-prima-sport.json"
   ],
   "actualizate": [
     "cronici/2026-11-10-stire-mourinho-endrick-sa-astepte-asezati-ancelotti.json",
