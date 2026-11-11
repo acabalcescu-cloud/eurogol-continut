@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-11-poveste-dinamo-1989-90.json",
     "cronici/2026-11-11-stire-balint-reghecampf-mm-stoica-fcsb.json",
     "cronici/2026-11-11-stire-romania-u19-italia-0-2-ancona.json",
     "cronici/2026-11-11-stire-kuyt-plecare-fenerbahce-belozoglu.json",
@@ -198,8 +199,7 @@
     "cronici/2026-11-09-stire-stanciu-rmn-ruptura-gradul-2-raspuns-hagi.json",
     "cronici/2026-11-09-stire-nicolescu-puscas-semnale-pozitive-revenire-petrolul.json",
     "cronici/2026-11-09-stire-real-madrid-salarii-record-707-milioane.json",
-    "cronici/2026-11-09-stire-prunea-laurentiu-popescu-titular-polonia.json",
-    "cronici/2026-11-09-stire-lobont-ionut-radu-il-inteleg-umar-operatie.json"
+    "cronici/2026-11-09-stire-prunea-laurentiu-popescu-titular-polonia.json"
   ],
   "actualizate": [
     "cronici/2026-11-10-stire-mourinho-endrick-sa-astepte-asezati-ancelotti.json",
