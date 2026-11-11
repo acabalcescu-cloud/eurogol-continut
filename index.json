@@ -1,5 +1,10 @@
 {
   "cronici": [
+    "cronici/2026-11-11-stire-becali-mm-stoica-supervizor-eu-comand-strata.json",
+    "cronici/2026-11-11-stire-diaconescu-u17-semifinale-corlat-capitan.json",
+    "cronici/2026-11-11-stire-plesan-hagi-greseala-sa-plece.json",
+    "cronici/2026-11-11-stire-pulhac-rapid-nu-poate-castiga-titlul.json",
+    "cronici/2026-11-11-stire-vitor-pereira-flamengo-erro-tremendo.json",
     "cronici/2026-11-11-poveste-steaua-1988-89.json",
     "cronici/2026-11-11-stire-gardos-fcsb-13-antrenori-rabdare.json",
     "cronici/2026-11-11-stire-kalanyos-stanciu-singurul-care-a-ridicat-mana.json",
@@ -194,12 +199,7 @@
     "cronici/2026-11-09-stire-becali-boutoutaou-plecare-iarna-nu-e-de-mine.json",
     "cronici/2026-11-09-stire-becali-costicea-sef-transferuri-fcsb-radoi.json",
     "cronici/2026-11-09-stire-hagi-am-gresit-cu-12-puncte-nu-exista-99.json",
-    "cronici/2026-11-09-stire-sumudica-dragus-banda-flotari-se-va-irosi.json",
-    "cronici/2026-11-09-stire-udrea-editorial-boutoutaou-becali-meci-personal.json",
-    "cronici/2026-11-09-stire-marica-fcsb-suprasolicitare-nu-sunt-de-acord-cu-becali.json",
-    "cronici/2026-11-09-stire-giovanni-becali-craiova-dinamo-titlu-fcsb-rapid-locul-3.json",
-    "cronici/2026-11-09-stire-gazon-arena-nationala-comunicat-11-evenimente-doua-tone-samanta.json",
-    "cronici/2026-11-09-stire-alisson-vreau-sa-raman-la-liverpool.json"
+    "cronici/2026-11-09-stire-sumudica-dragus-banda-flotari-se-va-irosi.json"
   ],
   "actualizate": [
     "cronici/2026-11-10-stire-mourinho-endrick-sa-astepte-asezati-ancelotti.json",
