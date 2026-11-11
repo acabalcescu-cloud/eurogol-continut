@@ -1,5 +1,10 @@
 {
   "cronici": [
+    "cronici/2026-11-11-stire-torje-ionut-radu-toti-au-o-problema.json",
+    "cronici/2026-11-11-stire-mustata-mm-stoica-relatie-zero-reghe.json",
+    "cronici/2026-11-11-stire-gardos-nationala-umilinta-gazon-dezolant.json",
+    "cronici/2026-11-11-stire-nicolescu-cornel-dinu-functie-onorifica.json",
+    "cronici/2026-11-11-stire-frf-minute-romani-u21-tur-superliga.json",
     "cronici/2026-11-11-stire-becali-mm-stoica-supervizor-eu-comand-strata.json",
     "cronici/2026-11-11-stire-diaconescu-u17-semifinale-corlat-capitan.json",
     "cronici/2026-11-11-stire-plesan-hagi-greseala-sa-plece.json",
@@ -194,12 +199,7 @@
     "cronici/2026-11-09-stire-lobont-ionut-radu-il-inteleg-umar-operatie.json",
     "cronici/2026-11-09-stire-becali-l-a-sunat-pe-coman-zece-transferuri.json",
     "cronici/2026-11-09-stire-raul-antrenor-real-oviedo-isfan.json",
-    "cronici/2026-11-09-stire-sumudica-coelho-doi-atacanti-hamlawi-elisor.json",
-    "cronici/2026-11-09-stire-ganea-se-ofera-hagi-aparare-iovan.json",
-    "cronici/2026-11-09-stire-becali-boutoutaou-plecare-iarna-nu-e-de-mine.json",
-    "cronici/2026-11-09-stire-becali-costicea-sef-transferuri-fcsb-radoi.json",
-    "cronici/2026-11-09-stire-hagi-am-gresit-cu-12-puncte-nu-exista-99.json",
-    "cronici/2026-11-09-stire-sumudica-dragus-banda-flotari-se-va-irosi.json"
+    "cronici/2026-11-09-stire-sumudica-coelho-doi-atacanti-hamlawi-elisor.json"
   ],
   "actualizate": [
     "cronici/2026-11-10-stire-mourinho-endrick-sa-astepte-asezati-ancelotti.json",
