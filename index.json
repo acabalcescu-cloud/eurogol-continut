@@ -1,5 +1,11 @@
 {
   "cronici": [
+    "cronici/2026-11-12-stire-cfr-cluj-comunicat-depunctare-dialog-frf.json",
+    "cronici/2026-11-12-stire-becali-mm-stoica-promis-intoarcere-titlu.json",
+    "cronici/2026-11-12-stire-iftime-mm-stoica-becali-fara-ghid.json",
+    "cronici/2026-11-12-stire-oprut-podium-dinamo-campioana-fcsb-play-off.json",
+    "cronici/2026-11-12-stire-cartu-cicaldau-barometrul-craiovei.json",
+    "cronici/2026-11-12-stire-de-la-fuente-lamine-yamal-fara-privilegii.json",
     "cronici/2026-11-12-stire-mm-stoica-pleaca-de-la-fcsb.json",
     "cronici/2026-11-12-stire-manchester-united-l-a-demis-pe-carrick.json",
     "cronici/2026-11-12-stire-sky-editorial-arteta-arsenal-titlu.json",
@@ -193,13 +199,7 @@
     "cronici/2026-11-10-stire-manchester-united-demitere-carrick-pochettino-deschis.json",
     "cronici/2026-11-10-stire-cucurella-arda-guler-cel-mai-bun-real-madrid-cope.json",
     "cronici/2026-11-10-stire-dragomir-dragus-jucator-de-pluton-craiova-hegemonie.json",
-    "cronici/2026-11-10-stire-marin-barbu-belodedici-stefanescu-80-milioane.json",
-    "cronici/2026-11-10-stire-mourinho-endrick-sa-astepte-asezati-ancelotti.json",
-    "cronici/2026-11-10-stire-razvan-lucescu-al-sadd-critici-televiziune-qatar.json",
-    "cronici/2026-11-10-stire-mircea-sandu-burleanu-sa-vina-urmatorul.json",
-    "cronici/2026-11-10-stire-edi-iordanescu-maccabi-haifa.json",
-    "cronici/2026-11-10-stire-xavi-oufkir-maroc-ca-hagi-akdag.json",
-    "cronici/2026-11-10-stire-lewandowski-adio-nationala-romania-staszewski.json"
+    "cronici/2026-11-10-stire-marin-barbu-belodedici-stefanescu-80-milioane.json"
   ],
   "actualizate": [
     "cronici/2026-11-08-stire-petrolul-cfr-depunctari-decembrie.json",
