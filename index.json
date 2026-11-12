@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-12-poveste-rapid-1999.json",
     "cronici/2026-11-12-stire-cfr-cluj-comunicat-depunctare-dialog-frf.json",
     "cronici/2026-11-12-stire-becali-mm-stoica-promis-intoarcere-titlu.json",
     "cronici/2026-11-12-stire-iftime-mm-stoica-becali-fara-ghid.json",
@@ -198,8 +199,7 @@
     "cronici/2026-11-10-stire-inter-calhanoglu-prelungire-inainte-de-craciun-chivu.json",
     "cronici/2026-11-10-stire-manchester-united-demitere-carrick-pochettino-deschis.json",
     "cronici/2026-11-10-stire-cucurella-arda-guler-cel-mai-bun-real-madrid-cope.json",
-    "cronici/2026-11-10-stire-dragomir-dragus-jucator-de-pluton-craiova-hegemonie.json",
-    "cronici/2026-11-10-stire-marin-barbu-belodedici-stefanescu-80-milioane.json"
+    "cronici/2026-11-10-stire-dragomir-dragus-jucator-de-pluton-craiova-hegemonie.json"
   ],
   "actualizate": [
     "cronici/2026-11-08-stire-petrolul-cfr-depunctari-decembrie.json",
