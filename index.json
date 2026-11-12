@@ -1,5 +1,9 @@
 {
   "cronici": [
+    "cronici/2026-11-12-stire-mm-stoica-pleaca-de-la-fcsb.json",
+    "cronici/2026-11-12-stire-manchester-united-l-a-demis-pe-carrick.json",
+    "cronici/2026-11-12-stire-sky-editorial-arteta-arsenal-titlu.json",
+    "cronici/2026-11-12-stire-douglas-santos-flamengo-zenit.json",
     "cronici/2026-11-12-stire-stanciu-mihaila-mogosoaia-vizita-lot.json",
     "cronici/2026-11-12-stire-reghecampf-szukala-manager-academia-fcsb.json",
     "cronici/2026-11-12-stire-tripon-cosa-silitra-u17-generatia-de-aur.json",
@@ -195,11 +199,7 @@
     "cronici/2026-11-10-stire-mircea-sandu-burleanu-sa-vina-urmatorul.json",
     "cronici/2026-11-10-stire-edi-iordanescu-maccabi-haifa.json",
     "cronici/2026-11-10-stire-xavi-oufkir-maroc-ca-hagi-akdag.json",
-    "cronici/2026-11-10-stire-lewandowski-adio-nationala-romania-staszewski.json",
-    "cronici/2026-11-10-stire-cassano-chivu-mai-bun-decat-inzaghi-bergomi.json",
-    "cronici/2026-11-10-stire-polonia-urna-a-doua-euro-2028-romania.json",
-    "cronici/2026-11-10-stire-becali-nicolescu-oferta-dinamo-boutoutaou.json",
-    "cronici/2026-11-10-stire-chivu-lacrimi-parma-tatal-mircea.json"
+    "cronici/2026-11-10-stire-lewandowski-adio-nationala-romania-staszewski.json"
   ],
   "actualizate": [
     "cronici/2026-11-08-stire-petrolul-cfr-depunctari-decembrie.json",
