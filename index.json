@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-12-poveste-rapid-1967.json",
     "cronici/2026-11-12-stire-oprut-hagi-nationala-ianis-in-locul-lui.json",
     "cronici/2026-11-11-stire-dragomir-achitat-definitiv-dosar-rcs-rds.json",
     "cronici/2026-11-11-stire-maldarasanu-ianis-stoica-egoist-nationala.json",
@@ -198,8 +199,7 @@
     "cronici/2026-11-09-stire-presa-bosniaca-stanciu-haos-in-romania.json",
     "cronici/2026-11-09-stire-craioveanu-dinamo-15000-dolari-craiova-o-mie.json",
     "cronici/2026-11-09-stire-andrei-cristea-dinamo-are-nevoie-de-marcator.json",
-    "cronici/2026-11-09-stire-chivu-parma-premiu-suisuri-coborasuri.json",
-    "cronici/2026-11-09-stire-marius-avram-golul-arges-dinamo-nu-e-fault.json"
+    "cronici/2026-11-09-stire-chivu-parma-premiu-suisuri-coborasuri.json"
   ],
   "actualizate": [
     "cronici/2026-11-10-stire-mourinho-endrick-sa-astepte-asezati-ancelotti.json",
