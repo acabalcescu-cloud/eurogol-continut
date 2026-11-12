@@ -1,5 +1,11 @@
 {
   "cronici": [
+    "cronici/2026-11-12-stire-kovacs-doua-penalty-uri-italia-franta.json",
+    "cronici/2026-11-12-stire-malusci-dragusin-impresia-unui-jucator-obisnuit.json",
+    "cronici/2026-11-12-stire-borcea-dragus-varf-cea-mai-mare-greseala.json",
+    "cronici/2026-11-12-stire-nuno-campos-craiova-favorita-e-evident.json",
+    "cronici/2026-11-12-stire-curelea-craiova-cel-mai-bun-lot.json",
+    "cronici/2026-11-12-stire-fcsb-kilometri-alergati-baciu-reghecampf.json",
     "cronici/2026-11-12-poveste-jucator-necula-raducanu.json",
     "cronici/2026-11-12-stire-sichitiu-contra-radoi-nu-au-carte.json",
     "cronici/2026-11-12-stire-dragomir-rares-ilie-nici-telefon-de-multumire.json",
@@ -193,13 +199,7 @@
     "cronici/2026-11-10-stire-nestor-lorenzo-lucas-gonzalez-montero-nacional.json",
     "cronici/2026-11-10-stire-mihai-pintilii-revine-fcsb-staff-reghecampf.json",
     "cronici/2026-11-10-stire-ianis-hagi-alanyaspor-ugur-ucar-antrenor-nou.json",
-    "cronici/2026-11-10-stire-capatina-ordabasy-event-kazahstan-kairat.json",
-    "cronici/2026-11-10-stire-van-dijk-contract-liverpool-voi-merge-in-alta-parte.json",
-    "cronici/2026-11-10-stire-baluta-sa-crezi-nu-te-costa-nimic-hagi.json",
-    "cronici/2026-11-10-stire-otelul-frunza-galben-vesta-gps-comunicat.json",
-    "cronici/2026-11-10-stire-secosan-rotatia-antrenorilor-meritocratie.json",
-    "cronici/2026-11-10-stire-prunea-soro-prelungire-puscas-enigma.json",
-    "cronici/2026-11-10-stire-robert-nita-coman-sa-ramana-in-strainatate.json"
+    "cronici/2026-11-10-stire-capatina-ordabasy-event-kazahstan-kairat.json"
   ],
   "actualizate": [
     "cronici/2026-11-08-stire-pierre-sage-crystal-palace-demis-liverpool.json",
