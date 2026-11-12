@@ -1,5 +1,9 @@
 {
   "cronici": [
+    "cronici/2026-11-12-stire-becali-cedeaza-alin-stoica-pleaca-de-la-fcsb.json",
+    "cronici/2026-11-12-stire-buzarin-editorial-ferguson-2-reghecampf.json",
+    "cronici/2026-11-12-stire-dragomir-mm-stoica-rapid-dani-coman.json",
+    "cronici/2026-11-12-stire-mm-stoica-dream-job-televiziune.json",
     "cronici/2026-11-12-stire-peluza-nord-boicot-alin-stoica-ramane.json",
     "cronici/2026-11-12-stire-gishamer-arbitru-romania-polonia.json",
     "cronici/2026-11-12-stire-cicaldau-nationala-dorinta-uriasa.json",
@@ -195,13 +199,10 @@
     "cronici/2026-11-10-stire-ionut-stancu-refuza-fcsb-staff-reghecampf.json",
     "cronici/2026-11-10-stire-birligea-mesaj-suporteri-polonia-bosnia.json",
     "cronici/2026-11-10-stire-becali-rotaru-rotarizare-imparat-conference.json",
-    "cronici/2026-11-10-stire-merson-chelsea-fara-champions-league-esec-urias.json",
-    "cronici/2026-11-10-stire-kovacs-italia-franta-san-siro-nations-league.json",
-    "cronici/2026-11-10-stire-alex-dobre-rapid-prelungire-blocata-statut.json",
-    "cronici/2026-11-10-stire-garutti-arges-dinamo-cea-mai-buna-echipa.json",
-    "cronici/2026-11-10-stire-mierzejewski-urban-jucatorii-m-au-sunat-polonia.json"
+    "cronici/2026-11-10-stire-merson-chelsea-fara-champions-league-esec-urias.json"
   ],
   "actualizate": [
+    "cronici/2026-11-08-stire-pierre-sage-crystal-palace-demis-liverpool.json",
     "cronici/2026-11-08-stire-petrolul-cfr-depunctari-decembrie.json",
     "cronici/2026-11-10-stire-mourinho-endrick-sa-astepte-asezati-ancelotti.json",
     "cronici/2026-11-03-stire-sumudica-gaziantep-depunctare-cfr.json",
