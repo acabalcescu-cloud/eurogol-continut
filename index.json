@@ -1,5 +1,7 @@
 {
   "cronici": [
+    "cronici/2026-11-12-stire-romania-polonia-hagi-mijloc-fara-stanciu-marin.json",
+    "cronici/2026-11-12-stire-endrick-real-madrid-peste-60-milioane.json",
     "cronici/2026-11-12-stire-adi-popa-papp-partizan-2015-vina-colectiva.json",
     "cronici/2026-11-12-poveste-steaua-1989-90.json",
     "cronici/2026-11-12-poveste-rapid-1967.json",
@@ -197,9 +199,7 @@
     "cronici/2026-11-09-stire-croitoru-este-vina-mea-de-plecat-nu-plec.json",
     "cronici/2026-11-09-stire-baldini-chivu-fabregas-antrenori-excelenti.json",
     "cronici/2026-11-09-stire-rui-duarte-botosani-otelul-nu-e-corect.json",
-    "cronici/2026-11-09-stire-becali-revolutie-fcsb-doar-mm-ramane-staff-radoi.json",
-    "cronici/2026-11-09-stire-presa-bosniaca-stanciu-haos-in-romania.json",
-    "cronici/2026-11-09-stire-craioveanu-dinamo-15000-dolari-craiova-o-mie.json"
+    "cronici/2026-11-09-stire-becali-revolutie-fcsb-doar-mm-ramane-staff-radoi.json"
   ],
   "actualizate": [
     "cronici/2026-11-10-stire-mourinho-endrick-sa-astepte-asezati-ancelotti.json",
