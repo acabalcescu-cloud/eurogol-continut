@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-12-poveste-jucator-iuliu-prassler.json",
     "cronici/2026-11-12-stire-marica-hagi-idee-clara-de-joc-polonia.json",
     "cronici/2026-11-12-stire-dragusin-brovarone-manea-nu-l-doboara-nimic.json",
     "cronici/2026-11-12-stire-ausilio-chivu-stia-de-fabregas-londra.json",
@@ -198,8 +199,7 @@
     "cronici/2026-11-10-stire-felgueiras-schimb-nsimba-boutoutaou-poate-nici-noi.json",
     "cronici/2026-11-10-stire-berceanu-editorial-uta-umbrele-suporterii.json",
     "cronici/2026-11-10-stire-becali-reghecampf-greseala-corvinul-dragus-da-pasa.json",
-    "cronici/2026-11-10-stire-matthaus-babbel-aogo-hoeness-musiala.json",
-    "cronici/2026-11-10-stire-becali-lista-fcsb-radunovic-contract-muhar-padurariu.json"
+    "cronici/2026-11-10-stire-matthaus-babbel-aogo-hoeness-musiala.json"
   ],
   "actualizate": [
     "cronici/2026-11-08-stire-petrolul-cfr-depunctari-decembrie.json",

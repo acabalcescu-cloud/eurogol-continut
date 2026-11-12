@@ -2533,17 +2533,18 @@
    "grup": "Nationala",
    "serie": "Legende",
    "subiect": "Miklós Nagy (atacant), jucător al naționalei la CM 1938: cariera, naționala, turneele finale",
-   "stare": "de_scris",
+   "stare": "sarit",
    "id": "",
-   "ordine": 2
+   "ordine": 2,
+   "motiv": "Prezent în lotul CM 1938 doar ca rezervă nefolosită (RSSSF 38full, RomanianSoccer.ro), fără prenume/dată de naștere/club confirmate în două surse; material insuficient pentru o poveste."
   },
   {
    "cheie": "jucator-iuliu-prassler",
    "grup": "Nationala",
    "serie": "Legende",
    "subiect": "Iuliu Prassler (atacant), jucător al naționalei la CM 1938: cariera, naționala, turneele finale",
-   "stare": "de_scris",
-   "id": "",
+   "stare": "scris",
+   "id": "2026-11-12-poveste-jucator-iuliu-prassler",
    "ordine": 2
   },
   {
