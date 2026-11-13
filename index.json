@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-13-poveste-rapid-uefa-2006.json",
     "cronici/2026-11-13-stire-mm-stoica-du-te-de-aici-ca-nu-te-las.json",
     "cronici/2026-11-13-stire-hagi-stanciu-radu-nu-plang-dupa-niciun-jucator.json",
     "cronici/2026-11-13-stire-hagi-ianis-divizia-b-man-ambele-meciuri.json",
@@ -198,8 +199,7 @@
     "cronici/2026-11-11-stire-nuno-campos-bar-pe-plaja-portugalia.json",
     "cronici/2026-11-11-stire-marian-iancu-dobre-rapid-obiectiv-european.json",
     "cronici/2026-11-11-stire-rapid-baza-stefanesti-sucu-vitrina.json",
-    "cronici/2026-11-10-stire-polonia-zelizko-cetatenie-romania.json",
-    "cronici/2026-11-11-stire-manchester-united-pochettino-clauza-carrick.json"
+    "cronici/2026-11-10-stire-polonia-zelizko-cetatenie-romania.json"
   ],
   "actualizate": [
     "cronici/2026-11-08-stire-pierre-sage-crystal-palace-demis-liverpool.json",
