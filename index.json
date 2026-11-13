@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-13-poveste-jucator-gheorghe-gornea.json",
     "cronici/2026-11-13-stire-cartu-mm-stoica-avantaj-pentru-craiova.json",
     "cronici/2026-11-13-stire-nicolescu-raspuns-mm-stoica-daca-stiam-boutoutaou.json",
     "cronici/2026-11-13-stire-mm-stoica-succesor-fcsb-nu-la-gratar.json",
@@ -198,8 +199,7 @@
     "cronici/2026-11-11-stire-marica-dragus-calitati-mai-bune-decat-ale-mele.json",
     "cronici/2026-11-11-stire-ilie-dumitrescu-padurariu-50-60-milioane.json",
     "cronici/2026-11-11-stire-lpf-echipa-turului-dinamo-craiova-fara-fcsb.json",
-    "cronici/2026-11-11-poveste-dinamo-1989-90.json",
-    "cronici/2026-11-11-stire-balint-reghecampf-mm-stoica-fcsb.json"
+    "cronici/2026-11-11-poveste-dinamo-1989-90.json"
   ],
   "actualizate": [
     "cronici/2026-11-12-stire-craioveanu-al-hamlawi-getafe-bordalas.json",
