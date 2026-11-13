@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-13-poveste-rapid-2003.json",
     "cronici/2026-11-13-stire-argentina-uruguay-dibu-rulli-capitan.json",
     "cronici/2026-11-13-stire-piturca-hagi-i-a-trecut-prin-minte-demisia.json",
     "cronici/2026-11-13-stire-becali-apostu-manager-general-fcsb.json",
@@ -198,8 +199,7 @@
     "cronici/2026-11-10-stire-cernat-voluntari-usa-deschisa-balanescu.json",
     "cronici/2026-11-10-stire-cartu-padurariu-bancu-brighton-trei-mingi-de-meci.json",
     "cronici/2026-11-10-stire-baciu-pintilii-miscare-buna-rezultatele-te-obliga.json",
-    "cronici/2026-11-10-stire-de-la-fuente-yamal-menajat-cehia-gerrard.json",
-    "cronici/2026-11-10-poveste-jucator-gheorghe-rasinaru.json"
+    "cronici/2026-11-10-stire-de-la-fuente-yamal-menajat-cehia-gerrard.json"
   ],
   "actualizate": [
     "cronici/2026-11-08-stire-pierre-sage-crystal-palace-demis-liverpool.json",
