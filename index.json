@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-13-poveste-dinamo-1993-94.json",
     "cronici/2026-11-13-stire-gardos-becali-transferuri-compagno.json",
     "cronici/2026-11-13-stire-tare-milan-pulisic-allegri-cardinale.json",
     "cronici/2026-11-13-stire-edi-iordanescu-nationala-se-poate-revenire-decembrie.json",
@@ -198,8 +199,7 @@
     "cronici/2026-11-11-stire-vitor-pereira-flamengo-erro-tremendo.json",
     "cronici/2026-11-11-poveste-steaua-1988-89.json",
     "cronici/2026-11-11-stire-gardos-fcsb-13-antrenori-rabdare.json",
-    "cronici/2026-11-11-stire-kalanyos-stanciu-singurul-care-a-ridicat-mana.json",
-    "cronici/2026-11-11-stire-coelho-un-an-craiova-drum-lung.json"
+    "cronici/2026-11-11-stire-kalanyos-stanciu-singurul-care-a-ridicat-mana.json"
   ],
   "actualizate": [
     "cronici/2026-11-12-stire-craioveanu-al-hamlawi-getafe-bordalas.json",
