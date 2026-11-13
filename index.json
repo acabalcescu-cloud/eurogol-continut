@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-13-poveste-jucator-stere-adamache.json",
     "cronici/2026-11-13-stire-pancu-rapid-buton-de-panica-dupa-gol.json",
     "cronici/2026-11-13-stire-corduneanu-u17-fiorentina-sfaturi-dragusin.json",
     "cronici/2026-11-13-stire-lequipe-kovacs-penalty-uri-corecte.json",
@@ -198,8 +199,7 @@
     "cronici/2026-11-11-stire-ioanitoaia-editorial-de-doi-bani-speranta.json",
     "cronici/2026-11-11-stire-ionut-radu-chivu-idol-gazzetta.json",
     "cronici/2026-11-11-stire-cfr-cluj-datorie-cfr-sa-stadion-gruia.json",
-    "cronici/2026-11-11-stire-kroos-barcelona-champions-league-aparare.json",
-    "cronici/2026-11-11-stire-kane-record-selectii-anglia-shilton.json"
+    "cronici/2026-11-11-stire-kroos-barcelona-champions-league-aparare.json"
   ],
   "actualizate": [
     "cronici/2026-11-08-stire-pierre-sage-crystal-palace-demis-liverpool.json",
