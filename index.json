@@ -1,5 +1,9 @@
 {
   "cronici": [
+    "cronici/2026-11-13-stire-kucharski-lewandowski-problema-nationala.json",
+    "cronici/2026-11-13-stire-carrick-mesaj-adio-manchester-united.json",
+    "cronici/2026-11-13-stire-lobont-gardos-mm-stoica-revenire-dupa-iarna.json",
+    "cronici/2026-11-13-stire-edi-iordanescu-mm-stoica-va-reveni-curand.json",
     "cronici/2026-11-13-stire-real-madrid-latif-issman-primul-transfer-2027.json",
     "cronici/2026-11-13-stire-dennis-man-sapte-extreme-psv-lazio-atalanta-valencia.json",
     "cronici/2026-11-13-stire-mm-stoica-reghe-nu-a-contribuit-alin-stoica-filip.json",
@@ -195,11 +199,7 @@
     "cronici/2026-11-11-stire-ionut-radu-greseala-bologna-celta-renastere.json",
     "cronici/2026-11-11-stire-gerrard-lamine-yamal-superior-messi-ronaldo.json",
     "cronici/2026-11-11-poveste-petrolul-titluri.json",
-    "cronici/2026-11-11-stire-dan-nistor-boutoutaou-straini-iau-in-deradere.json",
-    "cronici/2026-11-11-stire-ludi-como-real-madrid-ramon-ramane.json",
-    "cronici/2026-11-11-stire-sosa-hojlund-lucca-varela-napoli.json",
-    "cronici/2026-11-11-stire-kmi-penalty-isak-timber-liverpool-arsenal.json",
-    "cronici/2026-11-11-stire-carlos-espi-real-madrid-48-de-ore.json"
+    "cronici/2026-11-11-stire-dan-nistor-boutoutaou-straini-iau-in-deradere.json"
   ],
   "actualizate": [
     "cronici/2026-11-08-stire-pierre-sage-crystal-palace-demis-liverpool.json",
