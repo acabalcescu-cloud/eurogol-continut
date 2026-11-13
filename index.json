@@ -1,5 +1,9 @@
 {
   "cronici": [
+    "cronici/2026-11-13-stire-conrado-radomiak-romania-polonia-presing.json",
+    "cronici/2026-11-13-stire-borcea-mm-stoica-cel-mai-bun-conducator.json",
+    "cronici/2026-11-13-stire-jurnalul-editorial-hagi-nationala-nu-generatie.json",
+    "cronici/2026-11-13-stire-barcelona-memorial-camp-nou-urne.json",
     "cronici/2026-11-13-stire-uta-meszar-demisie-gutila-investitori.json",
     "cronici/2026-11-13-stire-iftime-becali-nu-mai-e-prieten-play-off-botosani.json",
     "cronici/2026-11-13-poveste-steaua-1991-92.json",
@@ -195,11 +199,7 @@
     "cronici/2026-11-11-stire-palmeiras-raphael-veiga-intoarcere-2027.json",
     "cronici/2026-11-11-poveste-uta-1969-70.json",
     "cronici/2026-11-11-stire-becali-boutoutaou-500000-pret-reghecampf.json",
-    "cronici/2026-11-11-stire-eissat-gsp-lucescu-limba-romana-dorohoi.json",
-    "cronici/2026-11-11-stire-angelescu-pancu-declaratie-la-suparare.json",
-    "cronici/2026-11-11-stire-lobont-coman-intoarcere-sa-ridice-nivelul.json",
-    "cronici/2026-11-11-stire-caetano-raphinha-operatie-ureche-selectia.json",
-    "cronici/2026-11-10-stire-becali-cisotti-prelungire-aproape-de-prapastie.json"
+    "cronici/2026-11-11-stire-eissat-gsp-lucescu-limba-romana-dorohoi.json"
   ],
   "actualizate": [
     "cronici/2026-11-08-stire-pierre-sage-crystal-palace-demis-liverpool.json",
