@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-13-poveste-steaua-1991-92.json",
     "cronici/2026-11-13-stire-estudiantes-supercopa-argentina-alario.json",
     "cronici/2026-11-13-poveste-rapid-2003.json",
     "cronici/2026-11-13-stire-argentina-uruguay-dibu-rulli-capitan.json",
@@ -198,8 +199,7 @@
     "cronici/2026-11-11-stire-caetano-raphinha-operatie-ureche-selectia.json",
     "cronici/2026-11-10-stire-becali-cisotti-prelungire-aproape-de-prapastie.json",
     "cronici/2026-11-10-stire-cernat-voluntari-usa-deschisa-balanescu.json",
-    "cronici/2026-11-10-stire-cartu-padurariu-bancu-brighton-trei-mingi-de-meci.json",
-    "cronici/2026-11-10-stire-baciu-pintilii-miscare-buna-rezultatele-te-obliga.json"
+    "cronici/2026-11-10-stire-cartu-padurariu-bancu-brighton-trei-mingi-de-meci.json"
   ],
   "actualizate": [
     "cronici/2026-11-08-stire-pierre-sage-crystal-palace-demis-liverpool.json",
