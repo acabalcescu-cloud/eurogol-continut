@@ -1,5 +1,9 @@
 {
   "cronici": [
+    "cronici/2026-11-13-stire-gardos-becali-transferuri-compagno.json",
+    "cronici/2026-11-13-stire-tare-milan-pulisic-allegri-cardinale.json",
+    "cronici/2026-11-13-stire-edi-iordanescu-nationala-se-poate-revenire-decembrie.json",
+    "cronici/2026-11-13-stire-stoichita-corbu-ianis-stoica-rares-ilie-fara-emotii.json",
     "cronici/2026-11-13-stire-dragus-leziune-fibrilara-belgrad-kovacevic.json",
     "cronici/2026-11-13-stire-steaua-fcsb-proces-prejudiciu-expertiza-contabila.json",
     "cronici/2026-11-13-stire-mm-stoica-antalya-hajduk-rapid-viena-olaru.json",
@@ -195,13 +199,10 @@
     "cronici/2026-11-11-poveste-steaua-1988-89.json",
     "cronici/2026-11-11-stire-gardos-fcsb-13-antrenori-rabdare.json",
     "cronici/2026-11-11-stire-kalanyos-stanciu-singurul-care-a-ridicat-mana.json",
-    "cronici/2026-11-11-stire-coelho-un-an-craiova-drum-lung.json",
-    "cronici/2026-11-11-stire-carlos-mora-urmatorul-pas-costa-rica.json",
-    "cronici/2026-11-11-stire-selymes-nationala-avem-nevoie-de-goluri.json",
-    "cronici/2026-11-11-stire-lameira-craiova-porto-responsabilitate.json",
-    "cronici/2026-11-11-stire-becali-academia-fcsb-filmulet-investigatii.json"
+    "cronici/2026-11-11-stire-coelho-un-an-craiova-drum-lung.json"
   ],
   "actualizate": [
+    "cronici/2026-11-12-stire-craioveanu-al-hamlawi-getafe-bordalas.json",
     "cronici/2026-11-08-stire-pierre-sage-crystal-palace-demis-liverpool.json",
     "cronici/2026-11-08-stire-petrolul-cfr-depunctari-decembrie.json",
     "cronici/2026-11-10-stire-mourinho-endrick-sa-astepte-asezati-ancelotti.json",
