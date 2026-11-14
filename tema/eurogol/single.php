@@ -25,7 +25,7 @@ get_header();
 					<?php echo eg_meta( get_post() ); // phpcs:ignore ?>
 				</header>
 
-				<?php if ( has_post_thumbnail() ) : ?>
+				<?php if ( has_post_thumbnail() && ! get_post_meta( get_the_ID(), '_eg_video', true ) ) : // la articolele video, playerul de sub titlu ține loc de copertă ?>
 					<figure class="eg-articol-coperta"><?php the_post_thumbnail( 'eg-mare', array( 'loading' => 'eager', 'fetchpriority' => 'high' ) ); ?><?php echo eg_persoane_bulinele_copertii( get_post() ); // phpcs:ignore ?></figure>
 				<?php endif; ?>
 
