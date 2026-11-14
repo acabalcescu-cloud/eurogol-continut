@@ -1,5 +1,11 @@
 {
   "cronici": [
+    "cronici/2026-11-14-stire-sendre-editorial-frf-imn-tribune.json",
+    "cronici/2026-11-14-stire-mustata-geambazi-academia-fcsb.json",
+    "cronici/2026-11-14-stire-rotariu-padurariu-50-milioane-roberto-carlos.json",
+    "cronici/2026-11-14-stire-cfr-cluj-amical-asa-tg-mures-bus-accidentat.json",
+    "cronici/2026-11-14-stire-portugalia-forbs-numarul-7-bernardo-capitan.json",
+    "cronici/2026-11-14-stire-fred-ronaldo-influenta-juniori-fluminense.json",
     "cronici/2026-11-14-poveste-cfr-cluj-2008.json",
     "cronici/2026-11-14-stire-gikiewicz-becali-lasa-tactica-antrenorilor.json",
     "cronici/2026-11-14-stire-meszar-uta-nu-e-vanzare-nici-depunctare.json",
@@ -193,13 +199,7 @@
     "cronici/2026-11-12-stire-sky-editorial-arteta-arsenal-titlu.json",
     "cronici/2026-11-12-stire-douglas-santos-flamengo-zenit.json",
     "cronici/2026-11-12-stire-stanciu-mihaila-mogosoaia-vizita-lot.json",
-    "cronici/2026-11-12-stire-reghecampf-szukala-manager-academia-fcsb.json",
-    "cronici/2026-11-12-stire-tripon-cosa-silitra-u17-generatia-de-aur.json",
-    "cronici/2026-11-12-stire-diaconescu-u17-ne-gandim-la-trofeu-hagi.json",
-    "cronici/2026-11-12-stire-andrei-cristea-echipa-turului-cicaldau-assad.json",
-    "cronici/2026-11-12-poveste-jucator-iuliu-prassler.json",
-    "cronici/2026-11-12-stire-marica-hagi-idee-clara-de-joc-polonia.json",
-    "cronici/2026-11-12-stire-dragusin-brovarone-manea-nu-l-doboara-nimic.json"
+    "cronici/2026-11-12-stire-reghecampf-szukala-manager-academia-fcsb.json"
   ],
   "actualizate": [
     "cronici/2026-11-12-stire-craioveanu-al-hamlawi-getafe-bordalas.json",
