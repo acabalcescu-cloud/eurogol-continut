@@ -32,6 +32,10 @@ OFICIALE = {
     'uefa', 'uefa champions league', 'uefa europa league', 'uefa conference league', 'fifa',
     'premier league', 'laliga', 'laliga easports', 'la liga', 'serie a', 'lega serie a', 'bundesliga', 'ligue 1',
     'ligue 1 mcdonalds', 'ligue 1 uber eats', 'conmebol', 'conmebol libertadores', 'conmebol sudamericana',
+    # Federații naționale (Europa)
+    'federation francaise de football', 'england', 'figc azzurri e azzurre', 'royal belgian football association',
+    'turkiye futbol federasyonu', 'scotland national team', 'dfb-team', 'dfb', 'onsoranje', 'knvb', 'seleccion espanola de futbol (sefutbol)',
+    'sefutbol', 'fpf', 'portugal', 'hns', 'hrvatski nogometni savez', 'faw', 'cymru football', 'fa of ireland', 'laczy nas pilka', 'fudbalski savez srbije',
     'brasileirao', 'liga profesional de futbol', 'liga portugal', 'eredivisie', 'super lig', 'trendyol super lig',
     # Televiziuni cu drepturi
     'dazn', 'dazn italia', 'dazn espana', 'sky sports', 'sky sport', 'bt sport', 'tnt sports', 'cbs sports golazo',
