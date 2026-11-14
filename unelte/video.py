@@ -108,9 +108,15 @@ def cuvinte_echipa(nume):
     return w or [plat(nume)]
 
 
+CUVINTE_REZUMAT = ('highlight', 'rezumat', 'resumen', 'melhores momentos', 'gols', 'goluri', 'golurile', 'goals', 'sintesi',
+                   'all goals', 'extended', 'resume', 'tore', 'samenvatting', 'ozet', 'özet')
+
+
 def potriveste(titlu, a, b, scor):
     t = plat(titlu)
     if '#shorts' in t or 'shorts' in t.split():
+        return False
+    if not any(plat(c) in t for c in CUVINTE_REZUMAT):  # doar rezumate, nu emisiuni de analiză sau reacții
         return False
     for e in (a, b):
         if not any(w in t for w in cuvinte_echipa(e)):
