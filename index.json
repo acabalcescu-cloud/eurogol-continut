@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-14-poveste-cfr-cluj-2008.json",
     "cronici/2026-11-14-stire-gikiewicz-becali-lasa-tactica-antrenorilor.json",
     "cronici/2026-11-14-stire-meszar-uta-nu-e-vanzare-nici-depunctare.json",
     "cronici/2026-11-14-stire-mitran-editorial-hagi-inainte-de-toate.json",
@@ -198,8 +199,7 @@
     "cronici/2026-11-12-stire-andrei-cristea-echipa-turului-cicaldau-assad.json",
     "cronici/2026-11-12-poveste-jucator-iuliu-prassler.json",
     "cronici/2026-11-12-stire-marica-hagi-idee-clara-de-joc-polonia.json",
-    "cronici/2026-11-12-stire-dragusin-brovarone-manea-nu-l-doboara-nimic.json",
-    "cronici/2026-11-12-stire-ausilio-chivu-stia-de-fabregas-londra.json"
+    "cronici/2026-11-12-stire-dragusin-brovarone-manea-nu-l-doboara-nimic.json"
   ],
   "actualizate": [
     "cronici/2026-11-12-stire-craioveanu-al-hamlawi-getafe-bordalas.json",
