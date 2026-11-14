@@ -42,6 +42,17 @@ function eg_eticheta( $post ) {
 	return '<span class="eg-eticheta">' . esc_html( $cats[0]->name ) . '</span>';
 }
 
+/** Articolul are un clip oficial (rezumat sau articol video)? */
+function eg_are_video( $post ) {
+	$id = get_post( $post )->ID;
+	return (bool) ( get_post_meta( $id, '_eg_video_rezumat', true ) || get_post_meta( $id, '_eg_video', true ) );
+}
+
+/** Semnul ▶ peste imaginea cardurilor cu video (coperta rămâne a noastră). */
+function eg_semn_video( $post ) {
+	return eg_are_video( $post ) ? '<span class="eg-semn-video" aria-label="Video"><span aria-hidden="true">▶</span> Video</span>' : '';
+}
+
 /** Cardul cu imaginea în fundal și titlul peste ea (blocul de sus al primei pagini). */
 function eg_card_coperta( $post, $mare = false ) {
 	$post   = get_post( $post );
@@ -49,7 +60,7 @@ function eg_card_coperta( $post, $mare = false ) {
 	?>
 	<article class="eg-coperta<?php echo $mare ? ' eg-coperta-mare' : ''; ?>">
 		<a href="<?php echo esc_url( get_permalink( $post ) ); ?>">
-			<span class="eg-coperta-img"><?php echo eg_imagine( $post, $marime ); // phpcs:ignore ?></span>
+			<span class="eg-coperta-img"><?php echo eg_imagine( $post, $marime ) . eg_semn_video( $post ); // phpcs:ignore ?></span>
 			<span class="eg-coperta-text">
 				<?php echo eg_eticheta( $post ); // phpcs:ignore ?>
 				<span class="eg-coperta-titlu"><?php echo esc_html( get_the_title( $post ) ); ?></span>
@@ -65,7 +76,7 @@ function eg_card_mare( $post ) {
 	$post = get_post( $post );
 	?>
 	<article class="eg-card eg-card-mare">
-		<a class="eg-card-img" href="<?php echo esc_url( get_permalink( $post ) ); ?>" tabindex="-1" aria-hidden="true"><?php echo eg_imagine( $post, 'eg-mediu' ); // phpcs:ignore ?></a>
+		<a class="eg-card-img" href="<?php echo esc_url( get_permalink( $post ) ); ?>" tabindex="-1" aria-hidden="true"><?php echo eg_imagine( $post, 'eg-mediu' ) . eg_semn_video( $post ); // phpcs:ignore ?></a>
 		<div class="eg-card-corp">
 			<h3 class="eg-card-titlu"><a href="<?php echo esc_url( get_permalink( $post ) ); ?>"><?php echo esc_html( get_the_title( $post ) ); ?></a></h3>
 			<p class="eg-card-rezumat"><?php echo esc_html( wp_trim_words( get_the_excerpt( $post ), 26, '…' ) ); ?></p>
@@ -80,7 +91,7 @@ function eg_card_mic( $post ) {
 	$post = get_post( $post );
 	?>
 	<article class="eg-card eg-card-mic">
-		<a class="eg-card-img" href="<?php echo esc_url( get_permalink( $post ) ); ?>" tabindex="-1" aria-hidden="true"><?php echo eg_imagine( $post, 'eg-mic' ); // phpcs:ignore ?></a>
+		<a class="eg-card-img" href="<?php echo esc_url( get_permalink( $post ) ); ?>" tabindex="-1" aria-hidden="true"><?php echo eg_imagine( $post, 'eg-mic' ) . eg_semn_video( $post ); // phpcs:ignore ?></a>
 		<div class="eg-card-corp">
 			<h3 class="eg-card-titlu"><a href="<?php echo esc_url( get_permalink( $post ) ); ?>"><?php echo esc_html( get_the_title( $post ) ); ?></a></h3>
 			<?php echo eg_meta( $post ); // phpcs:ignore ?>
