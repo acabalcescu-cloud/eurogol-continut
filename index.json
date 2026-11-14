@@ -1,5 +1,8 @@
 {
   "cronici": [
+    "cronici/2026-11-14-stire-valentin-badea-baza-alexandria-un-milion.json",
+    "cronici/2026-11-14-stire-prunea-mm-stoica-fortat-boutoutaou.json",
+    "cronici/2026-11-14-stire-cartu-patru-puncte-polonia-bosnia-stare-de-rusine.json",
     "cronici/2026-11-14-stire-rares-ilie-scos-din-lot-romania-polonia.json",
     "cronici/2026-11-14-stire-frf-academia-fcsb-nicio-proba-antrenor.json",
     "cronici/2026-11-14-stire-cassano-allegri-a-ruinat-fotbalul-italian.json",
@@ -196,10 +199,7 @@
     "cronici/2026-11-12-poveste-steaua-1989-90.json",
     "cronici/2026-11-12-poveste-rapid-1967.json",
     "cronici/2026-11-12-stire-oprut-hagi-nationala-ianis-in-locul-lui.json",
-    "cronici/2026-11-11-stire-dragomir-achitat-definitiv-dosar-rcs-rds.json",
-    "cronici/2026-11-11-stire-maldarasanu-ianis-stoica-egoist-nationala.json",
-    "cronici/2026-11-11-stire-becali-regula-1-80-lukic-ilie-dumitrescu.json",
-    "cronici/2026-11-11-stire-nicolescu-kpi-transferuri-actionari-dinamo.json"
+    "cronici/2026-11-11-stire-dragomir-achitat-definitiv-dosar-rcs-rds.json"
   ],
   "actualizate": [
     "cronici/2026-11-12-stire-craioveanu-al-hamlawi-getafe-bordalas.json",
