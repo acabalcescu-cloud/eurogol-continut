@@ -3,7 +3,7 @@ Theme Name: Eurogol
 Theme URI: https://eurogol.ro
 Author: Eurogol
 Description: Tema site-ului eurogol.ro – fotbal românesc, european și sud-american. Prima pagină cu un articol mare și patru mai mici, secțiuni pe competiții, coloana „Pe scurt” și importul automat al articolelor din GitHub.
-Version: 2.8.1
+Version: 2.9.0
 Requires at least: 6.4
 Requires PHP: 7.4
 License: GNU General Public License v2 or later
@@ -401,3 +401,11 @@ a.eg-eticheta:hover { color: #fff; background: var(--eg-inchis); }
 .eg-semn-video span { color: #F5C518; font-size: 10px; }
 .eg-coperta .eg-semn-video { top: 8px; bottom: auto; }
 .eg-card-mic .eg-semn-video { left: 4px; bottom: 4px; padding: 2px 5px; font-size: 10px; }
+
+/* Secțiunea Video de pe prima pagină */
+.eg-sectiune-video { margin: 8px 0 28px; padding: 18px; background: #0B2A6F; border-radius: 6px; }
+.eg-sectiune-video .eg-titlu-sectiune, .eg-sectiune-video .eg-titlu-sectiune a { color: #fff; border-color: #F5C518; }
+.eg-grila-video { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+.eg-grila-video .eg-coperta .eg-semn-video { display: none; } /* coperta din clip are deja butonul ▶ */
+@media (max-width: 960px) { .eg-grila-video { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 560px) { .eg-sectiune-video { padding: 12px; margin-left: -16px; margin-right: -16px; border-radius: 0; } .eg-grila-video { gap: 8px; } }

@@ -246,3 +246,33 @@ function eg_povesti_lista( $numar = 8, $clasa = 'eg-povesti-bloc' ) {
 	}
 	echo '</ol><a class="eg-povesti-toate" href="' . esc_url( get_category_link( $cat ) ) . '">Toate poveștile</a></section>';
 }
+
+
+/** Secțiunea „Video: goluri și rezumate” de pe prima pagină: articolele cu clip oficial (cele mai noi întâi). */
+function eg_sectiune_video( $numar = 8 ) {
+	$q = new WP_Query(
+		array(
+			'posts_per_page'      => $numar,
+			'ignore_sticky_posts' => true,
+			'no_found_rows'       => true,
+			'meta_query'          => array(
+				'relation' => 'OR',
+				array( 'key' => '_eg_video', 'value' => '', 'compare' => '!=' ),
+				array( 'key' => '_eg_video_rezumat', 'value' => '', 'compare' => '!=' ),
+			),
+		)
+	);
+	if ( ! $q->have_posts() ) {
+		return array();
+	}
+	$tag  = get_term_by( 'slug', 'video', 'post_tag' );
+	$link = $tag ? get_term_link( $tag ) : '';
+	echo '<section class="eg-sectiune eg-sectiune-video" aria-label="Video"><h2 class="eg-titlu-sectiune">'
+		. ( $link && ! is_wp_error( $link ) ? '<a href="' . esc_url( $link ) . '">▶ Video: goluri și rezumate</a>' : '▶ Video: goluri și rezumate' )
+		. '</h2><div class="eg-grila-video">';
+	foreach ( $q->posts as $p ) {
+		eg_card_coperta( $p );
+	}
+	echo '</div></section>';
+	return wp_list_pluck( $q->posts, 'ID' );
+}

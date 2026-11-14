@@ -36,6 +36,8 @@ $vazute = wp_list_pluck( $sus->posts, 'ID' );
 	<?php endif; ?>
 <?php endif; ?>
 
+<?php eg_sectiune_video( 8 ); ?>
+
 <div class="eg-doua-coloane">
 	<div class="eg-continut">
 		<?php

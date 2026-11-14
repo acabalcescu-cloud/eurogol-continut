@@ -199,6 +199,7 @@ function eg_import_ruleaza( $limita = 15 ) {
 		if ( ! empty( $art['video'] ) ) {
 			update_post_meta( $post_id, '_eg_video_rezumat', esc_url_raw( $art['video'] ) );
 			update_post_meta( $post_id, '_eg_video_sursa', sanitize_text_field( (string) ( $art['video_sursa'] ?? '' ) ) );
+			wp_set_post_tags( $post_id, 'Video', true );
 		}
 		if ( function_exists( 'eg_persoane_eticheteaza' ) ) {
 			eg_persoane_eticheteaza( $post_id );
@@ -519,6 +520,9 @@ function eg_import_articol( $art, $cale ) {
 
 	eg_import_coperta( $id, $art, $cale );
 	eg_import_categoria_competitiei( $id );
+	if ( ! empty( $art['video'] ) || ( 'video' === ( $art['tip'] ?? '' ) && ! empty( $art['video_url'] ) ) ) {
+		wp_set_post_tags( $id, 'Video', true );
+	}
 	if ( function_exists( 'eg_persoane_eticheteaza' ) ) {
 		eg_persoane_eticheteaza( $id );
 	}
