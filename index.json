@@ -1,5 +1,11 @@
 {
   "cronici": [
+    "cronici/2026-11-14-stire-stanciu-semnat-u-cluj-ianuarie.json",
+    "cronici/2026-11-14-stire-mustata-mm-stoica-respect-zero-baciu.json",
+    "cronici/2026-11-14-stire-giovanni-becali-ionut-radu-piturca.json",
+    "cronici/2026-11-14-stire-rusescu-munteanu-ce-inseamna-romania.json",
+    "cronici/2026-11-14-stire-florentin-petre-polonia-0-6-accident.json",
+    "cronici/2026-11-14-stire-rotariu-dragus-prea-individualist-lacatus.json",
     "cronici/2026-11-14-poveste-steaua-1994-95.json",
     "cronici/2026-11-14-stire-varga-cordea-yunnan-am-semnat-actele.json",
     "cronici/2026-11-14-stire-benzar-ianis-hagi-presiune-padurariu.json",
@@ -193,13 +199,7 @@
     "cronici/2026-11-12-stire-becali-cedeaza-alin-stoica-pleaca-de-la-fcsb.json",
     "cronici/2026-11-12-stire-buzarin-editorial-ferguson-2-reghecampf.json",
     "cronici/2026-11-12-stire-dragomir-mm-stoica-rapid-dani-coman.json",
-    "cronici/2026-11-12-stire-mm-stoica-dream-job-televiziune.json",
-    "cronici/2026-11-12-stire-peluza-nord-boicot-alin-stoica-ramane.json",
-    "cronici/2026-11-12-stire-gishamer-arbitru-romania-polonia.json",
-    "cronici/2026-11-12-stire-cicaldau-nationala-dorinta-uriasa.json",
-    "cronici/2026-11-12-stire-borcea-mm-stoica-cel-mai-bun-conducator.json",
-    "cronici/2026-11-12-stire-gsp-editorial-mm-stoica-becali.json",
-    "cronici/2026-11-12-stire-guardian-carrick-ierarhia-united.json"
+    "cronici/2026-11-12-stire-mm-stoica-dream-job-televiziune.json"
   ],
   "actualizate": [
     "cronici/2026-11-12-stire-craioveanu-al-hamlawi-getafe-bordalas.json",
