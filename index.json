@@ -1,5 +1,11 @@
 {
   "cronici": [
+    "cronici/2026-11-14-stire-amoruso-dragusin-nu-si-a-revenit-fiorentina.json",
+    "cronici/2026-11-14-stire-okunowo-cazinou-barcelona-dinamo.json",
+    "cronici/2026-11-14-stire-lobont-dani-coman-fcsb-greu-de-vazut.json",
+    "cronici/2026-11-14-stire-marin-dragnea-hagi-revizuieste-selectia.json",
+    "cronici/2026-11-14-stire-mm-stoica-nu-merg-la-meciuri-charalambous.json",
+    "cronici/2026-11-14-stire-cristi-mihai-dinamo-ii-imprumut-iarna.json",
     "cronici/2026-11-14-video-vasco-da-gama-palmeiras.json",
     "cronici/2026-11-14-video-premier-league-etapa-10.json",
     "cronici/2026-11-14-video-napoli-lazio.json",
@@ -193,13 +199,7 @@
     "cronici/2026-11-12-stire-mitran-editorial-cartu-coelho-o-viata-un-an.json",
     "cronici/2026-11-12-poveste-dinamo-1991-92.json",
     "cronici/2026-11-12-stire-pastorello-ionut-radu-top-5-ridicol.json",
-    "cronici/2026-11-12-stire-giovanni-becali-mm-stoica-singura-greseala.json",
-    "cronici/2026-11-12-stire-guardian-manchester-united-ce-are-de-reparat-noul-antrenor.json",
-    "cronici/2026-11-12-stire-petrolul-comunicat-nicio-depunctare.json",
-    "cronici/2026-11-12-stire-craioveanu-al-hamlawi-getafe-bordalas.json",
-    "cronici/2026-11-12-stire-craioveanu-coelho-europa-conditia-sa-ramana.json",
-    "cronici/2026-11-12-stire-cirjan-zvonuri-nationala-m-am-simtit-ciudat.json",
-    "cronici/2026-11-12-stire-marius-stan-mm-stoica-nu-il-vad-decat-la-fcsb.json"
+    "cronici/2026-11-12-stire-giovanni-becali-mm-stoica-singura-greseala.json"
   ],
   "actualizate": [
     "cronici/2026-11-12-stire-craioveanu-al-hamlawi-getafe-bordalas.json",
