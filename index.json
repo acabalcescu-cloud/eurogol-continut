@@ -1,5 +1,8 @@
 {
   "cronici": [
+    "cronici/2026-11-14-video-turcia-belgia.json",
+    "cronici/2026-11-14-video-anglia-croatia.json",
+    "cronici/2026-11-14-video-italia-franta.json",
     "cronici/2026-11-14-poveste-dinamo-1995-96.json",
     "cronici/2026-11-14-stire-amoruso-dragusin-nu-si-a-revenit-fiorentina.json",
     "cronici/2026-11-14-stire-okunowo-cazinou-barcelona-dinamo.json",
@@ -196,12 +199,10 @@
     "cronici/2026-11-12-stire-baluta-accidentat-chindia-am-venit-pentru-promovare.json",
     "cronici/2026-11-12-stire-dan-nistor-craiova-favorita-fcsb-pintilii.json",
     "cronici/2026-11-12-stire-marica-mm-stoica-puterea-e-ca-un-drog-farul.json",
-    "cronici/2026-11-12-stire-stoichita-hagi-ca-edi-rana-turcia.json",
-    "cronici/2026-11-12-stire-mitran-editorial-cartu-coelho-o-viata-un-an.json",
-    "cronici/2026-11-12-poveste-dinamo-1991-92.json",
-    "cronici/2026-11-12-stire-pastorello-ionut-radu-top-5-ridicol.json"
+    "cronici/2026-11-12-stire-stoichita-hagi-ca-edi-rana-turcia.json"
   ],
   "actualizate": [
+    "cronici/2026-11-12-stire-kovacs-doua-penalty-uri-italia-franta.json",
     "cronici/2026-11-12-stire-craioveanu-al-hamlawi-getafe-bordalas.json",
     "cronici/2026-11-08-stire-pierre-sage-crystal-palace-demis-liverpool.json",
     "cronici/2026-11-08-stire-petrolul-cfr-depunctari-decembrie.json",
