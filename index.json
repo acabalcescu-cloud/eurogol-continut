@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-14-poveste-steaua-1994-95.json",
     "cronici/2026-11-14-stire-varga-cordea-yunnan-am-semnat-actele.json",
     "cronici/2026-11-14-stire-benzar-ianis-hagi-presiune-padurariu.json",
     "cronici/2026-11-14-stire-onofri-dragusin-beckenbauer-greseli.json",
@@ -198,8 +199,7 @@
     "cronici/2026-11-12-stire-cicaldau-nationala-dorinta-uriasa.json",
     "cronici/2026-11-12-stire-borcea-mm-stoica-cel-mai-bun-conducator.json",
     "cronici/2026-11-12-stire-gsp-editorial-mm-stoica-becali.json",
-    "cronici/2026-11-12-stire-guardian-carrick-ierarhia-united.json",
-    "cronici/2026-11-12-poveste-rapid-1999.json"
+    "cronici/2026-11-12-stire-guardian-carrick-ierarhia-united.json"
   ],
   "actualizate": [
     "cronici/2026-11-12-stire-craioveanu-al-hamlawi-getafe-bordalas.json",
