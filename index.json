@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-14-poveste-steaua-1993-94.json",
     "cronici/2026-11-14-poveste-u-cluj-cupa-1965.json",
     "cronici/2026-11-13-stire-capatina-ordabasy-nationala-visul-meu.json",
     "cronici/2026-11-13-stire-romania-polonia-coman-titular-dupa-doi-ani.json",
@@ -198,8 +199,7 @@
     "cronici/2026-11-11-stire-zidane-juventus-lippi-ii-datorez-tot.json",
     "cronici/2026-11-11-stire-blatter-infantino-dictator-uefa-contracandidat.json",
     "cronici/2026-11-11-stire-dica-mm-stoica-se-pricepe-la-fotbal-boutoutaou.json",
-    "cronici/2026-11-11-stire-nicolescu-tarba-pariul-titular.json",
-    "cronici/2026-11-11-stire-academia-fcsb-protest-parinti-berceni.json"
+    "cronici/2026-11-11-stire-nicolescu-tarba-pariul-titular.json"
   ],
   "actualizate": [
     "cronici/2026-11-12-stire-craioveanu-al-hamlawi-getafe-bordalas.json",
