@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-14-poveste-dinamo-1994-95.json",
     "cronici/2026-11-14-stire-birligea-primul-atacant-top-5-dupa-puscas.json",
     "cronici/2026-11-14-stire-inter-fara-transferuri-ianuarie-chivu-atacanti.json",
     "cronici/2026-11-14-stire-hagi-70-la-suta-posesie-wembley-lucescu.json",
@@ -198,8 +199,7 @@
     "cronici/2026-11-11-stire-nicolescu-kpi-transferuri-actionari-dinamo.json",
     "cronici/2026-11-11-stire-gardos-dragus-nu-e-nouar-reghecampf.json",
     "cronici/2026-11-11-stire-guardian-ronay-pochettino-manchester-united.json",
-    "cronici/2026-11-11-poveste-jucator-ioachim-moldoveanu.json",
-    "cronici/2026-11-11-stire-becali-costicea-persiflat-ordinul-meu.json"
+    "cronici/2026-11-11-poveste-jucator-ioachim-moldoveanu.json"
   ],
   "actualizate": [
     "cronici/2026-11-12-stire-craioveanu-al-hamlawi-getafe-bordalas.json",
