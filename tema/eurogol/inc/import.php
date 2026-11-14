@@ -474,7 +474,8 @@ function eg_import_articol( $art, $cale ) {
 	}
 	$status = ( 'draft' === ( $art['status'] ?? '' ) ) ? 'draft' : 'publish';
 	// Cadența: articolele noi apar la 18–34 de minute unul de altul (interval variabil); cele în plus așteaptă la coadă.
-	if ( 'publish' === $status ) {
+	// Articolele video nu stau la coada știrilor: apar la ora din „data_publicare”.
+	if ( 'publish' === $status && 'video' !== ( $art['tip'] ?? '' ) ) {
 		$data = eg_import_slot( $data, $tz );
 	}
 	if ( 'publish' === $status && $data && $data->getTimestamp() > time() + 60 ) {
