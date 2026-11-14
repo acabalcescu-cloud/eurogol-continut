@@ -36,6 +36,8 @@ def alege(id_, titlu, etichete=(), categorie='', cronica=False):
     are = lambda re_: bool(re.search(re_, t))
     if '-poveste-' in id_ or re.search(r'povest|legend|istori', cat):
         return 'sorin.avram'
+    if 'nationalele europei' in cat:
+        return 'vlad.ene'
     if cronica or re.search(r'-etapa-\d+-', id_):
         if re.search(SUD, cat + t):
             return 'raul.neagu'

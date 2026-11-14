@@ -40,6 +40,10 @@ function eg_alege_redactor( $id, $titlu, $etichete, $categorie, $e_cronica = fal
 	if ( false !== strpos( $id, '-poveste-' ) || preg_match( '/povest|legend|istori/', $cat ) ) {
 		return 'sorin.avram';
 	}
+	// Naționalele Europei (Liga Națiunilor, preliminarii, amicale fără România) – departamentul marilor campionate.
+	if ( false !== strpos( $cat, 'nationalele europei' ) ) {
+		return 'vlad.ene';
+	}
 	// Cronicile de meci și de etapă merg la departamentul competiției.
 	if ( $e_cronica || preg_match( '/-etapa-\d+-/', $id ) ) {
 		if ( preg_match( $sud, $cat . $t ) ) {

@@ -7,7 +7,7 @@ defined( 'ABSPATH' ) || exit;
 
 /** Secțiunile implicite ale primei pagini: slug-ul categoriei => titlul afișat. */
 function eg_sectiuni_implicite() {
-	return "superliga,cupa-romaniei,nationala | Fotbal românesc\nchampions-league,europa-league,conference-league | Champions League și cupele europene\npremier-league,laliga,serie-a,bundesliga,ligue-1 | Fotbal european\ncopa-libertadores,brasileirao,liga-profesional | America de Sud\npovesti | Povești";
+	return "superliga,cupa-romaniei,nationala | Fotbal românesc\nchampions-league,europa-league,conference-league | Champions League și cupele europene\npremier-league,laliga,serie-a,bundesliga,ligue-1 | Fotbal european\nnationalele-europei | Naționalele Europei\ncopa-libertadores,brasileirao,liga-profesional | America de Sud\npovesti | Povești";
 }
 
 /** Secțiunile primei pagini, citite din setări: [ [slug, titlu], ... ]. Slug-uri separate prin virgulă = mai multe categorii. */
@@ -23,6 +23,17 @@ function eg_sectiuni() {
 		if ( '' !== $parti[0] ) {
 			$out[] = array( $parti[0], $parti[1] ?? $parti[0] );
 		}
+	}
+	// Secțiunea „Naționalele Europei” (din 14.11.2026) apare și dacă lista e salvată în Personalizare fără ea: după „Fotbal european”.
+	if ( ! array_filter( $out, fn( $r ) => false !== strpos( $r[0], 'nationalele-europei' ) ) ) {
+		$poz = count( $out );
+		foreach ( $out as $i => $r ) {
+			if ( false !== strpos( $r[0], 'premier-league' ) ) {
+				$poz = $i + 1;
+				break;
+			}
+		}
+		array_splice( $out, $poz, 0, array( array( 'nationalele-europei', 'Naționalele Europei' ) ) );
 	}
 	return $out;
 }
@@ -93,6 +104,10 @@ function eg_css_culori() {
 /** Lista de competiții (categoriile existente, în ordinea din setări). */
 function eg_competitii() {
 	$slugs = array_filter( array_map( 'trim', explode( ',', (string) get_theme_mod( 'eg_competitii', 'superliga,nationala,champions-league,europa-league,conference-league,premier-league,laliga,serie-a,bundesliga,ligue-1,copa-libertadores,brasileirao' ) ) ) );
+	if ( ! in_array( 'nationalele-europei', $slugs, true ) ) {
+		$i = array_search( 'nationala', $slugs, true );
+		array_splice( $slugs, false === $i ? count( $slugs ) : $i + 1, 0, array( 'nationalele-europei' ) );
+	}
 	$out   = array();
 	foreach ( $slugs as $s ) {
 		$cat = get_category_by_slug( $s );
