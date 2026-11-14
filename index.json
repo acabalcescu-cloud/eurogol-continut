@@ -1,5 +1,9 @@
 {
   "cronici": [
+    "cronici/2026-11-14-stire-mm-stoica-regrete-spectator-skopje.json",
+    "cronici/2026-11-14-stire-applefield-boutoutaou-lista-20-fotbalisti.json",
+    "cronici/2026-11-14-stire-mm-stoica-cernat-ofri-arad-gol-baraj.json",
+    "cronici/2026-11-14-stire-lens-didier-digard-antrenor-pana-in-2028.json",
     "cronici/2026-11-14-stire-valentin-badea-baza-alexandria-un-milion.json",
     "cronici/2026-11-14-stire-prunea-mm-stoica-fortat-boutoutaou.json",
     "cronici/2026-11-14-stire-cartu-patru-puncte-polonia-bosnia-stare-de-rusine.json",
@@ -195,11 +199,7 @@
     "cronici/2026-11-12-poveste-dinamo-1990-91.json",
     "cronici/2026-11-12-stire-romania-polonia-hagi-mijloc-fara-stanciu-marin.json",
     "cronici/2026-11-12-stire-endrick-real-madrid-peste-60-milioane.json",
-    "cronici/2026-11-12-stire-adi-popa-papp-partizan-2015-vina-colectiva.json",
-    "cronici/2026-11-12-poveste-steaua-1989-90.json",
-    "cronici/2026-11-12-poveste-rapid-1967.json",
-    "cronici/2026-11-12-stire-oprut-hagi-nationala-ianis-in-locul-lui.json",
-    "cronici/2026-11-11-stire-dragomir-achitat-definitiv-dosar-rcs-rds.json"
+    "cronici/2026-11-12-stire-adi-popa-papp-partizan-2015-vina-colectiva.json"
   ],
   "actualizate": [
     "cronici/2026-11-12-stire-craioveanu-al-hamlawi-getafe-bordalas.json",
