@@ -1,5 +1,10 @@
 {
   "cronici": [
+    "cronici/2026-11-14-stire-romania-polonia-torte-peluza-amenda-uefa.json",
+    "cronici/2026-11-14-stire-gica-popescu-sperante-foarte-putine-polonia.json",
+    "cronici/2026-11-14-stire-raducioiu-clasament-rusinos-san-marino.json",
+    "cronici/2026-11-14-stire-hagi-antena-1-coman-varf-prospetime.json",
+    "cronici/2026-11-14-stire-mm-stoica-dragusin-capitan-van-dijk.json",
     "cronici/2026-11-14-stire-agron-memedi-shkendija-doliu-fcsb.json",
     "cronici/2026-11-14-stire-panduru-man-ianis-titulari-fara-minute.json",
     "cronici/2026-11-14-stire-balint-prunea-bancu-birligea-rezerve-polonia.json",
@@ -194,12 +199,7 @@
     "cronici/2026-11-12-stire-malusci-dragusin-impresia-unui-jucator-obisnuit.json",
     "cronici/2026-11-12-stire-borcea-dragus-varf-cea-mai-mare-greseala.json",
     "cronici/2026-11-12-stire-nuno-campos-craiova-favorita-e-evident.json",
-    "cronici/2026-11-12-stire-curelea-craiova-cel-mai-bun-lot.json",
-    "cronici/2026-11-12-stire-fcsb-kilometri-alergati-baciu-reghecampf.json",
-    "cronici/2026-11-12-poveste-jucator-necula-raducanu.json",
-    "cronici/2026-11-12-stire-sichitiu-contra-radoi-nu-au-carte.json",
-    "cronici/2026-11-12-stire-dragomir-rares-ilie-nici-telefon-de-multumire.json",
-    "cronici/2026-11-12-stire-ferrara-chivu-inter-nimic-garantat.json"
+    "cronici/2026-11-12-stire-curelea-craiova-cel-mai-bun-lot.json"
   ],
   "actualizate": [
     "cronici/2026-11-12-stire-kovacs-doua-penalty-uri-italia-franta.json",
