@@ -1,5 +1,8 @@
 {
   "cronici": [
+    "cronici/2026-11-14-video-dortmund-elversberg.json",
+    "cronici/2026-11-14-video-koln-leverkusen.json",
+    "cronici/2026-11-14-video-mainz-bayern.json",
     "cronici/2026-11-14-video-roma-sassuolo.json",
     "cronici/2026-11-14-video-inter-como.json",
     "cronici/2026-11-14-video-fiorentina-juventus.json",
@@ -196,10 +199,7 @@
     "cronici/2026-11-12-stire-golanski-presa-poloneza-romania-problema-nu-e-portarul.json",
     "cronici/2026-11-12-stire-cirjan-mazilu-a-venit-soarele-pe-strada-mea.json",
     "cronici/2026-11-12-stire-florin-maxim-corvinul-play-off-vis.json",
-    "cronici/2026-11-12-stire-pancu-craioveanu-mm-stoica-pierdere-fcsb.json",
-    "cronici/2026-11-12-stire-pulhac-cernat-mm-stoica-aici-e-toata-chestia.json",
-    "cronici/2026-11-12-poveste-steaua-1990-91.json",
-    "cronici/2026-11-12-stire-polonia-zielinski-frankowski-regula-lipsesc-antrenament.json"
+    "cronici/2026-11-12-stire-pancu-craioveanu-mm-stoica-pierdere-fcsb.json"
   ],
   "actualizate": [
     "cronici/2026-11-12-stire-craioveanu-al-hamlawi-getafe-bordalas.json",
