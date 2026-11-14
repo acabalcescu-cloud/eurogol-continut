@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-14-poveste-jucator-lajos-satmareanu.json",
     "cronici/2026-11-14-stire-mm-stoica-regrete-spectator-skopje.json",
     "cronici/2026-11-14-stire-applefield-boutoutaou-lista-20-fotbalisti.json",
     "cronici/2026-11-14-stire-mm-stoica-cernat-ofri-arad-gol-baraj.json",
@@ -198,8 +199,7 @@
     "cronici/2026-11-12-stire-contra-ratiu-barcelona-faza-defensiva.json",
     "cronici/2026-11-12-poveste-dinamo-1990-91.json",
     "cronici/2026-11-12-stire-romania-polonia-hagi-mijloc-fara-stanciu-marin.json",
-    "cronici/2026-11-12-stire-endrick-real-madrid-peste-60-milioane.json",
-    "cronici/2026-11-12-stire-adi-popa-papp-partizan-2015-vina-colectiva.json"
+    "cronici/2026-11-12-stire-endrick-real-madrid-peste-60-milioane.json"
   ],
   "actualizate": [
     "cronici/2026-11-12-stire-craioveanu-al-hamlawi-getafe-bordalas.json",
