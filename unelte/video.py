@@ -60,18 +60,37 @@ def plat(s):
 
 
 def get(url, timeout=20):
-    req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0', 'Accept-Language': 'ro,en;q=0.8'})
+    req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0', 'Accept-Language': 'en'})
     with urllib.request.urlopen(req, timeout=timeout) as r:
         return r.read().decode('utf-8', 'replace')
 
 
+UNITATI = {'second': 1 / 86400, 'minute': 1 / 1440, 'hour': 1 / 24, 'day': 1, 'week': 7, 'month': 30, 'year': 365,
+           's': 1 / 86400, 'min': 1 / 1440, 'h': 1 / 24, 'd': 1, 'w': 7, 'mo': 30, 'y': 365}
+
+
+def vechime(text):
+    """„11d ago” / „3 weeks ago” → zile (aproximativ); None dacă nu se poate citi."""
+    m = re.match(r'(?:Streamed )?(\d+)\s*([a-z]+?)s?\b', (text or '').strip().lower())
+    if not m:
+        return None
+    u = UNITATI.get(m.group(2)) or UNITATI.get(m.group(2).rstrip('s'))
+    return int(m.group(1)) * u if u is not None else None
+
+
 def cauta(q, n=12):
+    """Lista [(id, vechime_în_zile sau None)] din căutarea YouTube."""
     html = get('https://www.youtube.com/results?search_query=' + urllib.parse.quote(q))
-    ids = []
+    rez, vazute = [], set()
+    for m in re.finditer(r'"videoRenderer":\{"videoId":"([A-Za-z0-9_-]{11})"(.{0,6000}?)"publishedTimeText":\{"simpleText":"([^"]+)"', html):
+        if m.group(1) not in vazute and '"videoRenderer"' not in m.group(2):
+            vazute.add(m.group(1))
+            rez.append((m.group(1), vechime(m.group(3))))
     for m in re.finditer(r'"videoId":"([A-Za-z0-9_-]{11})"', html):
-        if m.group(1) not in ids:
-            ids.append(m.group(1))
-    return ids[:n]
+        if m.group(1) not in vazute:
+            vazute.add(m.group(1))
+            rez.append((m.group(1), None))
+    return rez[:n]
 
 
 def oembed(vid):
@@ -104,6 +123,13 @@ def potriveste(titlu, a, b, scor):
 
 
 def gaseste(a, b, scor=None, data=None):
+    """Clipul trebuie să fie recent: publicat după meci (dacă se dă --data) sau în ultimele 21 de zile."""
+    import datetime
+    if data:
+        zile_meci = (datetime.date.today() - datetime.date.fromisoformat(data)).days
+        lim_min, lim_max = max(zile_meci - 15, -1), zile_meci + 2
+    else:
+        lim_min, lim_max = -1, 21
     cereri = [f'{a} {b} rezumat', f'{a} - {b} {scor or ""} highlights', f'{a} {b} goluri']
     vazute = set()
     for q in cereri:
@@ -111,8 +137,10 @@ def gaseste(a, b, scor=None, data=None):
             ids = cauta(q)
         except Exception:
             continue
-        for vid in ids:
+        for vid, zile in ids:
             if vid in vazute:
+                continue
+            if zile is None or not (lim_min <= zile <= lim_max):
                 continue
             vazute.add(vid)
             o = oembed(vid)
