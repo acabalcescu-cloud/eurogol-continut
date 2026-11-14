@@ -23,7 +23,7 @@ import urllib.request
 OFICIALE = {
     # România
     'digi sport', 'digisport', 'digi sport romania', 'prima sport', 'primasport', 'orange sport',
-    'superliga', 'superliga romania', 'liga profesionista de fotbal', 'lpf', 'frf', 'echipa nationala de fotbal a romaniei',
+    'liga profesionista de fotbal', 'lpf', 'frf', 'echipa nationala de fotbal a romaniei',
     'fcsb', 'fc fcsb', 'cfr 1907 cluj', 'cfr cluj', 'universitatea craiova', 'fc universitatea craiova', 'fc rapid 1923',
     'rapid bucuresti', 'fc dinamo bucuresti', 'dinamo bucuresti', 'fc u craiova 1948', 'farul constanta', 'fc farul constanta',
     'u cluj', 'universitatea cluj', 'petrolul ploiesti', 'sepsi osk', 'fc botosani', 'uta arad', 'otelul galati',
@@ -38,6 +38,20 @@ OFICIALE = {
     'espn', 'espn fc', 'nbc sports', 'beinsports', 'bein sports', 'canal+ sport', 'movistar plus+', 'sport tv',
     'eleven sports', 'ge tv', 'globo esporte', 'tyc sports', 'espn brasil', 'cazetv',
 }
+
+
+# Canale verificate după adresă (numele „Superliga” e folosit și de canale străine sau neoficiale).
+OFICIALE_URL = {
+    '@superligaromaniei',   # Superliga România – canalul oficial al ligii (rezumate „… | REZUMAT”)
+    '@digisportoficial', '@primasporttv',
+}
+
+
+def oficial(o):
+    url = (o.get('author_url') or '').lower().rstrip('/')
+    if url.rsplit('/', 1)[-1] in OFICIALE_URL:
+        return True
+    return plat(o.get('author_name', '')) in OFICIALE
 
 
 def plat(s):
@@ -105,7 +119,7 @@ def gaseste(a, b, scor=None, data=None):
             if not o:
                 continue
             canal = o.get('author_name', '')
-            if plat(canal) not in OFICIALE:
+            if not oficial(o):
                 continue
             if potriveste(o.get('title', ''), a, b, scor):
                 return {'video': 'https://www.youtube.com/watch?v=' + vid, 'video_sursa': canal, 'titlu': o.get('title', '')}
