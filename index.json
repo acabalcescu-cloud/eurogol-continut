@@ -1,5 +1,9 @@
 {
   "cronici": [
+    "cronici/2026-11-15-stire-ivanovici-birligea-trebuia-titular.json",
+    "cronici/2026-11-15-stire-nistor-opt-concluzii-hagi-salvat-de-realitate.json",
+    "cronici/2026-11-15-stire-cornel-dinu-fotbal-flipper-birligea.json",
+    "cronici/2026-11-15-stire-mm-stoica-eissat-coubis-dragusin-tamas-goian.json",
     "cronici/2026-11-15-poveste-unirea-urziceni-2009.json",
     "cronici/2026-11-15-stire-dragusin-capitan-revansa-polonia.json",
     "cronici/2026-11-15-stire-hagi-ianis-exigent-nu-la-infinit.json",
@@ -195,11 +199,7 @@
     "cronici/2026-11-13-stire-guardian-pochettino-chelsea-test-united.json",
     "cronici/2026-11-13-stire-bbc-van-dijk-liverpool-decizie-ianuarie.json",
     "cronici/2026-11-13-stire-mustata-pariuri-mm-scut-reghe.json",
-    "cronici/2026-11-13-stire-baciu-mm-stoica-e-mult-si-pentru-el.json",
-    "cronici/2026-11-13-stire-zidane-dupa-italia-franta-ne-a-lipsit-eficienta.json",
-    "cronici/2026-11-13-stire-raphinha-explicatii-minute-selecao-japonia.json",
-    "cronici/2026-11-13-poveste-dinamo-1992-93.json",
-    "cronici/2026-11-13-stire-conrado-radomiak-romania-polonia-presing.json"
+    "cronici/2026-11-13-stire-baciu-mm-stoica-e-mult-si-pentru-el.json"
   ],
   "actualizate": [
     "cronici/2026-11-12-stire-kovacs-doua-penalty-uri-italia-franta.json",
