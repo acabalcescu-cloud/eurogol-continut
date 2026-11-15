@@ -1,5 +1,8 @@
 {
   "cronici": [
+    "cronici/2026-11-15-stire-stoichita-ionut-radu-echivoca-stanciu-lupu.json",
+    "cronici/2026-11-15-stire-stoichita-arena-nationala-frf-gazon-ciucu.json",
+    "cronici/2026-11-15-stire-moraru-radomiak-jucatori-romani-edi-iordanescu.json",
     "cronici/2026-11-15-poveste-jucator-mihai-mocanu.json",
     "cronici/2026-11-15-video-portugalia-danemarca.json",
     "cronici/2026-11-15-video-olanda-grecia.json",
@@ -196,10 +199,7 @@
     "cronici/2026-11-13-stire-grozav-de-ce-a-plecat-de-la-petrolul.json",
     "cronici/2026-11-13-stire-pochettino-contract-united-debut-anfield.json",
     "cronici/2026-11-13-poveste-jucator-stere-adamache.json",
-    "cronici/2026-11-13-stire-pancu-rapid-buton-de-panica-dupa-gol.json",
-    "cronici/2026-11-13-stire-corduneanu-u17-fiorentina-sfaturi-dragusin.json",
-    "cronici/2026-11-13-stire-lequipe-kovacs-penalty-uri-corecte.json",
-    "cronici/2026-11-13-stire-gutila-uta-suntem-in-negocieri.json"
+    "cronici/2026-11-13-stire-pancu-rapid-buton-de-panica-dupa-gol.json"
   ],
   "actualizate": [
     "cronici/2026-11-14-stire-portugalia-danemarca-1-4-prima-seara-fara-ronaldo.json",
