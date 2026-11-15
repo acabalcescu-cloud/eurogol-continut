@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-15-poveste-jucator-cornel-dinu.json",
     "cronici/2026-11-15-stire-kulesza-urban-nu-decid-la-cald.json",
     "cronici/2026-11-15-stire-edi-iordanescu-birligea-corbu-meritul-lui-hagi.json",
     "cronici/2026-11-15-stire-caparco-ionut-radu-nu-mai-veneam-la-nationala.json",
@@ -198,8 +199,7 @@
     "cronici/2026-11-13-stire-ilie-dumitrescu-patru-puncte-polonia-bosnia.json",
     "cronici/2026-11-13-stire-ilie-dumitrescu-dragus-s-a-gresit-pregatirea.json",
     "cronici/2026-11-13-stire-golanski-hagi-m-a-adus-lotul-romaniei-probleme.json",
-    "cronici/2026-11-13-stire-popovici-inter-tv-chivu-sursa-de-inspiratie.json",
-    "cronici/2026-11-13-stire-ancelotti-raphinha-cluburile-pot-sta-linistite.json"
+    "cronici/2026-11-13-stire-popovici-inter-tv-chivu-sursa-de-inspiratie.json"
   ],
   "actualizate": [
     "cronici/2026-11-04-poveste-anul-1993.json",
