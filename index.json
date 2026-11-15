@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-15-poveste-otelul-2011.json",
     "cronici/2026-11-15-video-scotia-macedonia-de-nord.json",
     "cronici/2026-11-15-stire-stoichita-ionut-radu-echivoca-stanciu-lupu.json",
     "cronici/2026-11-15-stire-stoichita-arena-nationala-frf-gazon-ciucu.json",
@@ -198,10 +199,10 @@
     "cronici/2026-11-13-stire-szukala-candidat-director-sportiv-fcsb.json",
     "cronici/2026-11-13-stire-ianis-hagi-marseille-doar-liber-de-contract.json",
     "cronici/2026-11-13-stire-grozav-de-ce-a-plecat-de-la-petrolul.json",
-    "cronici/2026-11-13-stire-pochettino-contract-united-debut-anfield.json",
-    "cronici/2026-11-13-poveste-jucator-stere-adamache.json"
+    "cronici/2026-11-13-stire-pochettino-contract-united-debut-anfield.json"
   ],
   "actualizate": [
+    "cronici/2026-11-05-poveste-anul-2011.json",
     "cronici/2026-11-14-stire-portugalia-danemarca-1-4-prima-seara-fara-ronaldo.json",
     "cronici/2026-11-04-poveste-anul-1996.json",
     "cronici/2026-11-12-stire-kovacs-doua-penalty-uri-italia-franta.json",
