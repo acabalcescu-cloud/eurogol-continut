@@ -38,7 +38,7 @@ OFICIALE = {
     'sefutbol', 'fpf', 'portugal', 'hns', 'hrvatski nogometni savez', 'faw', 'cymru football', 'fa of ireland', 'laczy nas pilka', 'fudbalski savez srbije',
     'brasileirao', 'liga profesional de futbol', 'liga portugal', 'eredivisie', 'super lig', 'trendyol super lig',
     # Televiziuni cu drepturi
-    'dazn', 'dazn italia', 'dazn espana', 'sky sports', 'sky sport', 'bt sport', 'tnt sports', 'cbs sports golazo',
+    'dazn', 'dazn football', 'dazn italia', 'dazn espana', 'sky sports', 'sky sport', 'bt sport', 'tnt sports', 'cbs sports golazo',
     'espn', 'espn fc', 'nbc sports', 'beinsports', 'bein sports', 'canal+ sport', 'movistar plus+', 'sport tv',
     'eleven sports', 'ge tv', 'globo esporte', 'tyc sports', 'espn brasil', 'cazetv',
 }
