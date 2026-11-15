@@ -1,5 +1,7 @@
 {
   "cronici": [
+    "cronici/2026-11-15-video-portugalia-danemarca.json",
+    "cronici/2026-11-15-video-olanda-grecia.json",
     "cronici/2026-11-15-poveste-dinamo-1996-97.json",
     "cronici/2026-11-15-poveste-steaua-1995-96.json",
     "cronici/2026-11-15-stire-ivanovici-birligea-trebuia-titular.json",
@@ -197,9 +199,7 @@
     "cronici/2026-11-13-stire-corduneanu-u17-fiorentina-sfaturi-dragusin.json",
     "cronici/2026-11-13-stire-lequipe-kovacs-penalty-uri-corecte.json",
     "cronici/2026-11-13-stire-gutila-uta-suntem-in-negocieri.json",
-    "cronici/2026-11-13-stire-stanciu-li-guoxu-conflict-presa-chineza.json",
-    "cronici/2026-11-13-stire-guardian-pochettino-chelsea-test-united.json",
-    "cronici/2026-11-13-stire-bbc-van-dijk-liverpool-decizie-ianuarie.json"
+    "cronici/2026-11-13-stire-stanciu-li-guoxu-conflict-presa-chineza.json"
   ],
   "actualizate": [
     "cronici/2026-11-14-stire-portugalia-danemarca-1-4-prima-seara-fara-ronaldo.json",
