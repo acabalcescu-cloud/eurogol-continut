@@ -1,5 +1,7 @@
 {
   "cronici": [
+    "cronici/2026-11-16-stire-romania-14-goluri-primite-a-treia-cea-mai-slaba-aparare.json",
+    "cronici/2026-11-16-stire-franta-turcia-2-1-kroupi-sferturi.json",
     "cronici/2026-11-16-stire-luca-mihai-radnik-bijeljina-restart-bosnia.json",
     "cronici/2026-11-16-stire-bogdan-mara-fcsb-cauta-jucatori-apostu.json",
     "cronici/2026-11-16-stire-mironica-fcsb-nu-mai-au-proportia-lucrurilor.json",
@@ -197,9 +199,7 @@
     "cronici/2026-11-13-stire-pochettino-lacrimi-despartire-sua.json",
     "cronici/2026-11-13-stire-tepelin-ianis-hagi-de-ce-ne-straduim-loc-nationala.json",
     "cronici/2026-11-13-stire-mazurek-polonia-arena-nationala-niciodata.json",
-    "cronici/2026-11-13-stire-mm-stoica-becali-a-ales-pacea-peluza-nord.json",
-    "cronici/2026-11-13-stire-csa-steaua-danilof-doua-variante-investitori.json",
-    "cronici/2026-11-13-poveste-jucator-gheorghe-gornea.json"
+    "cronici/2026-11-13-stire-mm-stoica-becali-a-ales-pacea-peluza-nord.json"
   ],
   "actualizate": [
     "cronici/2026-11-14-stire-calcule-grupa-zenica-gyokeres-record.json",
