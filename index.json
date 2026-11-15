@@ -1,5 +1,11 @@
 {
   "cronici": [
+    "cronici/2026-11-16-stire-luca-mihai-radnik-bijeljina-restart-bosnia.json",
+    "cronici/2026-11-16-stire-bogdan-mara-fcsb-cauta-jucatori-apostu.json",
+    "cronici/2026-11-16-stire-mironica-fcsb-nu-mai-au-proportia-lucrurilor.json",
+    "cronici/2026-11-16-stire-andone-mm-stoica-revine-la-vara-apostu.json",
+    "cronici/2026-11-16-stire-spania-anglia-2-3-madrid-anderson-trafford.json",
+    "cronici/2026-11-16-stire-belgia-italia-4-1-pio-esposito-mancini.json",
     "cronici/2026-11-15-stire-birligea-tatuaj-mama-palermo-calcio-totale.json",
     "cronici/2026-11-15-stire-dan-petrescu-curelea-fcsb-nu-am-vorbit.json",
     "cronici/2026-11-15-poveste-jucator-cornel-dinu.json",
@@ -193,15 +199,10 @@
     "cronici/2026-11-13-stire-mazurek-polonia-arena-nationala-niciodata.json",
     "cronici/2026-11-13-stire-mm-stoica-becali-a-ales-pacea-peluza-nord.json",
     "cronici/2026-11-13-stire-csa-steaua-danilof-doua-variante-investitori.json",
-    "cronici/2026-11-13-poveste-jucator-gheorghe-gornea.json",
-    "cronici/2026-11-13-stire-cartu-mm-stoica-avantaj-pentru-craiova.json",
-    "cronici/2026-11-13-stire-nicolescu-raspuns-mm-stoica-daca-stiam-boutoutaou.json",
-    "cronici/2026-11-13-stire-mm-stoica-succesor-fcsb-nu-la-gratar.json",
-    "cronici/2026-11-13-stire-u20-elvetia-romania-3-1-basceanu-elite-league.json",
-    "cronici/2026-11-13-stire-ilie-dumitrescu-patru-puncte-polonia-bosnia.json",
-    "cronici/2026-11-13-stire-ilie-dumitrescu-dragus-s-a-gresit-pregatirea.json"
+    "cronici/2026-11-13-poveste-jucator-gheorghe-gornea.json"
   ],
   "actualizate": [
+    "cronici/2026-11-14-stire-calcule-grupa-zenica-gyokeres-record.json",
     "cronici/2026-11-04-poveste-anul-1993.json",
     "cronici/2026-11-03-poveste-craiova-1979-80.json",
     "cronici/2026-11-03-poveste-craiova-1980-81.json",
