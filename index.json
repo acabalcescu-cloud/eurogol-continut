@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-15-poveste-steaua-1995-96.json",
     "cronici/2026-11-15-stire-ivanovici-birligea-trebuia-titular.json",
     "cronici/2026-11-15-stire-nistor-opt-concluzii-hagi-salvat-de-realitate.json",
     "cronici/2026-11-15-stire-cornel-dinu-fotbal-flipper-birligea.json",
@@ -198,10 +199,10 @@
     "cronici/2026-11-13-stire-stanciu-li-guoxu-conflict-presa-chineza.json",
     "cronici/2026-11-13-stire-guardian-pochettino-chelsea-test-united.json",
     "cronici/2026-11-13-stire-bbc-van-dijk-liverpool-decizie-ianuarie.json",
-    "cronici/2026-11-13-stire-mustata-pariuri-mm-scut-reghe.json",
-    "cronici/2026-11-13-stire-baciu-mm-stoica-e-mult-si-pentru-el.json"
+    "cronici/2026-11-13-stire-mustata-pariuri-mm-scut-reghe.json"
   ],
   "actualizate": [
+    "cronici/2026-11-04-poveste-anul-1996.json",
     "cronici/2026-11-12-stire-kovacs-doua-penalty-uri-italia-franta.json",
     "cronici/2026-11-12-stire-craioveanu-al-hamlawi-getafe-bordalas.json",
     "cronici/2026-11-08-stire-pierre-sage-crystal-palace-demis-liverpool.json",
