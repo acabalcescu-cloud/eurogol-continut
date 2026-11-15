@@ -1,5 +1,9 @@
 {
   "cronici": [
+    "cronici/2026-11-15-stire-presa-maghiara-corbu-subiect-transat.json",
+    "cronici/2026-11-15-stire-czachowski-polonia-ne-a-batut-o-echipa-slaba.json",
+    "cronici/2026-11-15-stire-jandarmerie-105-persoane-arena-nationala.json",
+    "cronici/2026-11-15-stire-ioanitoaia-hagi-contestatarii-luminita.json",
     "cronici/2026-11-15-poveste-steaua-1996-97.json",
     "cronici/2026-11-15-stire-reghecampf-boutoutaou-nu-e-afectat-numar-9.json",
     "cronici/2026-11-15-stire-romania-polonia-cifrele-victoriei-21-la-6.json",
@@ -195,11 +199,7 @@
     "cronici/2026-11-13-stire-dinamo-inter-1981-45-de-ani-eroii-reuniti.json",
     "cronici/2026-11-13-stire-cucurella-balonul-de-aur-mbappe-yamal-kane.json",
     "cronici/2026-11-13-stire-kucharski-lewandowski-problema-nationala.json",
-    "cronici/2026-11-13-stire-carrick-mesaj-adio-manchester-united.json",
-    "cronici/2026-11-13-stire-lobont-gardos-mm-stoica-revenire-dupa-iarna.json",
-    "cronici/2026-11-13-stire-edi-iordanescu-mm-stoica-va-reveni-curand.json",
-    "cronici/2026-11-13-stire-real-madrid-latif-issman-primul-transfer-2027.json",
-    "cronici/2026-11-13-stire-dennis-man-sapte-extreme-psv-lazio-atalanta-valencia.json"
+    "cronici/2026-11-13-stire-carrick-mesaj-adio-manchester-united.json"
   ],
   "actualizate": [
     "cronici/2026-11-04-poveste-anul-1993.json",
