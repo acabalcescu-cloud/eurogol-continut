@@ -1,5 +1,10 @@
 {
   "cronici": [
+    "cronici/2026-11-16-stire-andone-craiova-dinamo-favorite-titlu.json",
+    "cronici/2026-11-16-stire-victor-becali-hagi-a-gresit-ca-a-venit.json",
+    "cronici/2026-11-16-stire-hagi-zenica-birligea-titular-nascut-sub-presiune.json",
+    "cronici/2026-11-16-stire-mm-stoica-becali-dialog-in-direct-carpa.json",
+    "cronici/2026-11-16-stire-jan-urban-ce-vrei-sa-auzi-golul-lui-man.json",
     "cronici/2026-11-16-stire-birligea-zenica-cele-sase-goluri-din-tur.json",
     "cronici/2026-11-16-stire-nicolescu-arena-amatorism-targoviste-refuz.json",
     "cronici/2026-11-16-stire-zanetti-chivu-merita-nu-suntem-singurii-favoriti.json",
@@ -194,12 +199,7 @@
     "cronici/2026-11-14-video-napoli-lazio.json",
     "cronici/2026-11-14-video-fcsb-corvinul.json",
     "cronici/2026-11-14-video-fc-botosani-otelul.json",
-    "cronici/2026-11-14-video-argentina-uruguay.json",
-    "cronici/2026-11-14-video-dortmund-elversberg.json",
-    "cronici/2026-11-14-video-koln-leverkusen.json",
-    "cronici/2026-11-14-video-mainz-bayern.json",
-    "cronici/2026-11-14-video-roma-sassuolo.json",
-    "cronici/2026-11-14-video-inter-como.json"
+    "cronici/2026-11-14-video-argentina-uruguay.json"
   ],
   "actualizate": [
     "cronici/2026-11-14-stire-calcule-grupa-zenica-gyokeres-record.json",
