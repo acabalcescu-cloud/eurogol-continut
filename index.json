@@ -1,5 +1,8 @@
 {
   "cronici": [
+    "cronici/2026-11-16-stire-birligea-zenica-cele-sase-goluri-din-tur.json",
+    "cronici/2026-11-16-stire-nicolescu-arena-amatorism-targoviste-refuz.json",
+    "cronici/2026-11-16-stire-zanetti-chivu-merita-nu-suntem-singurii-favoriti.json",
     "cronici/2026-11-16-stire-andone-soro-au-dat-o-la-pace-nuno-campos.json",
     "cronici/2026-11-16-stire-chivu-nu-ma-tem-de-nimeni-etichete-inter.json",
     "cronici/2026-11-16-stire-chivu-nfl-allianz-arena-goodell-patriots-goff.json",
@@ -196,12 +199,10 @@
     "cronici/2026-11-14-video-koln-leverkusen.json",
     "cronici/2026-11-14-video-mainz-bayern.json",
     "cronici/2026-11-14-video-roma-sassuolo.json",
-    "cronici/2026-11-14-video-inter-como.json",
-    "cronici/2026-11-14-video-fiorentina-juventus.json",
-    "cronici/2026-11-14-stire-adi-popa-tricolorii-nu-joaca-la-cluburi.json",
-    "cronici/2026-11-14-stire-pancu-nsimba-cel-mai-bun-la-tinut-mingea.json"
+    "cronici/2026-11-14-video-inter-como.json"
   ],
   "actualizate": [
+    "cronici/2026-11-14-stire-calcule-grupa-zenica-gyokeres-record.json",
     "cronici/2026-11-16-stire-franta-turcia-2-1-kroupi-sferturi.json",
     "cronici/2026-11-16-stire-becali-angajeaza-rusescu-szukala-lutu-birou.json",
     "cronici/2026-11-03-poveste-gheorghe-hagi-regele.json",
@@ -212,7 +213,6 @@
     "cronici/2026-11-12-poveste-rapid-1999.json",
     "cronici/2026-11-04-poveste-anul-1999.json",
     "cronici/2026-11-04-poveste-anul-1998.json",
-    "cronici/2026-11-14-stire-calcule-grupa-zenica-gyokeres-record.json",
     "cronici/2026-11-04-poveste-anul-1993.json",
     "cronici/2026-11-03-poveste-craiova-1979-80.json",
     "cronici/2026-11-03-poveste-craiova-1980-81.json",
