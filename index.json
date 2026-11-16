@@ -1,5 +1,8 @@
 {
   "cronici": [
+    "cronici/2026-11-16-stire-ivanovici-stoichita-imn-tenori.json",
+    "cronici/2026-11-16-stire-romania-urna-a-treia-euro-2028-sase-calificari.json",
+    "cronici/2026-11-16-stire-tapia-di-carlo-river-superclasico-arbitraj.json",
     "cronici/2026-11-16-poveste-steaua-1997-98.json",
     "cronici/2026-11-16-stire-victor-becali-szukala-ce-il-recomanda.json",
     "cronici/2026-11-16-poveste-astra-2016.json",
@@ -196,10 +199,7 @@
     "cronici/2026-11-14-poveste-steaua-1993-94.json",
     "cronici/2026-11-14-poveste-u-cluj-cupa-1965.json",
     "cronici/2026-11-13-stire-capatina-ordabasy-nationala-visul-meu.json",
-    "cronici/2026-11-13-stire-romania-polonia-coman-titular-dupa-doi-ani.json",
-    "cronici/2026-11-14-stire-prodan-mm-stoica-cea-mai-scurta-pauza.json",
-    "cronici/2026-11-13-stire-digi-best-elisor-transferul-turului.json",
-    "cronici/2026-11-13-stire-pochettino-lacrimi-despartire-sua.json"
+    "cronici/2026-11-13-stire-romania-polonia-coman-titular-dupa-doi-ani.json"
   ],
   "actualizate": [
     "cronici/2026-11-04-poveste-anul-1998.json",
