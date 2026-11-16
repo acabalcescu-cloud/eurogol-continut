@@ -1,5 +1,11 @@
 {
   "cronici": [
+    "cronici/2026-11-16-stire-gardos-ion-alexandru-dennis-man-atalanta.json",
+    "cronici/2026-11-16-stire-lukic-bosnia-favorita-romania-zenica.json",
+    "cronici/2026-11-16-stire-uefa-diallo-candidat-fifa-infantino-burleanu.json",
+    "cronici/2026-11-16-stire-iftime-ultimatum-croitoru-voluntari.json",
+    "cronici/2026-11-16-stire-becali-octavian-popescu-caracter-biserica.json",
+    "cronici/2026-11-16-stire-dennis-man-psv-lazio-negocieri-iarna.json",
     "cronici/2026-11-16-video-franta-turcia.json",
     "cronici/2026-11-16-stire-arena-nationala-inchisa-dinamo-petrolul-slobozia.json",
     "cronici/2026-11-16-stire-victor-becali-stanciu-radu-cu-piturca-nu-mai-veneau.json",
@@ -193,13 +199,7 @@
     "cronici/2026-11-14-stire-rotariu-dragus-prea-individualist-lacatus.json",
     "cronici/2026-11-14-poveste-steaua-1994-95.json",
     "cronici/2026-11-14-stire-varga-cordea-yunnan-am-semnat-actele.json",
-    "cronici/2026-11-14-stire-benzar-ianis-hagi-presiune-padurariu.json",
-    "cronici/2026-11-14-stire-onofri-dragusin-beckenbauer-greseli.json",
-    "cronici/2026-11-14-stire-margarido-strata-urmatorul-mare-transfer.json",
-    "cronici/2026-11-14-stire-rapid-fc-arges-1-0-amical-stojilkovic.json",
-    "cronici/2026-11-14-stire-ronaldinho-ravenna-forli-mandorlini-titular.json",
-    "cronici/2026-11-14-stire-romania-u19-israel-1-2-ucraina-liga-a.json",
-    "cronici/2026-11-14-stire-stoichita-gazon-arena-polonezi-u17-qatar.json"
+    "cronici/2026-11-14-stire-benzar-ianis-hagi-presiune-padurariu.json"
   ],
   "actualizate": [
     "cronici/2026-11-16-stire-franta-turcia-2-1-kroupi-sferturi.json",
