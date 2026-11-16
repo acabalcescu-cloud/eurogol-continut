@@ -1,5 +1,9 @@
 {
   "cronici": [
+    "cronici/2026-11-16-stire-mitran-hagi-iubit-birligea-barbatie.json",
+    "cronici/2026-11-16-stire-hagi-sase-titulari-generatia-u21-2019.json",
+    "cronici/2026-11-16-stire-stoichita-ilie-sumudica-hagi-posesie-vis.json",
+    "cronici/2026-11-16-stire-zece-ani-fara-didi-prodan.json",
     "cronici/2026-11-16-stire-ivanovici-stoichita-imn-tenori.json",
     "cronici/2026-11-16-stire-romania-urna-a-treia-euro-2028-sase-calificari.json",
     "cronici/2026-11-16-stire-tapia-di-carlo-river-superclasico-arbitraj.json",
@@ -195,11 +199,7 @@
     "cronici/2026-11-14-stire-hagi-70-la-suta-posesie-wembley-lucescu.json",
     "cronici/2026-11-14-stire-costel-orac-nationala-atasament-polonia.json",
     "cronici/2026-11-14-stire-superliga-61000-spectatori-mai-putin-15-etape.json",
-    "cronici/2026-11-13-stire-uruguay-bombonera-argentina-prima-infrangere-fara-messi.json",
-    "cronici/2026-11-14-poveste-steaua-1993-94.json",
-    "cronici/2026-11-14-poveste-u-cluj-cupa-1965.json",
-    "cronici/2026-11-13-stire-capatina-ordabasy-nationala-visul-meu.json",
-    "cronici/2026-11-13-stire-romania-polonia-coman-titular-dupa-doi-ani.json"
+    "cronici/2026-11-13-stire-uruguay-bombonera-argentina-prima-infrangere-fara-messi.json"
   ],
   "actualizate": [
     "cronici/2026-11-04-poveste-anul-1998.json",
