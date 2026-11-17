@@ -1,5 +1,7 @@
 {
   "cronici": [
+    "cronici/2026-11-17-stire-ianis-stoica-tribuna-zenica-rares-ilie-lot.json",
+    "cronici/2026-11-17-stire-jardim-50-meciuri-flamengo-neincredere.json",
     "cronici/2026-11-17-poveste-dinamo-2000-01.json",
     "cronici/2026-11-17-stire-raul-isfan-treaba-excelenta-merita-golul.json",
     "cronici/2026-11-17-stire-mitran-copiii-autocar-arena-nationala-hai-copii.json",
@@ -197,11 +199,10 @@
     "cronici/2026-11-14-stire-mm-stoica-dragusin-capitan-van-dijk.json",
     "cronici/2026-11-14-stire-agron-memedi-shkendija-doliu-fcsb.json",
     "cronici/2026-11-14-stire-panduru-man-ianis-titulari-fara-minute.json",
-    "cronici/2026-11-14-stire-balint-prunea-bancu-birligea-rezerve-polonia.json",
-    "cronici/2026-11-14-stire-belodedici-romania-polonia-nu-prea-gasim-jucatori.json",
-    "cronici/2026-11-14-stire-szukala-lewandowski-revedere-romania-polonia.json"
+    "cronici/2026-11-14-stire-balint-prunea-bancu-birligea-rezerve-polonia.json"
   ],
   "actualizate": [
+    "cronici/2026-11-16-stire-hagi-nu-mai-promit-12-din-12-generatia-de-aur.json",
     "cronici/2026-11-04-poveste-anul-2001.json",
     "cronici/2026-11-04-poveste-anul-2000.json",
     "cronici/2026-11-16-poveste-dinamo-1999-00.json",
