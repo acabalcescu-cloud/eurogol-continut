@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-17-poveste-ripensia-anii-30.json",
     "cronici/2026-11-17-stire-rusescu-academie-fcsb-impotriva-regulii-u21.json",
     "cronici/2026-11-17-stire-szukala-director-sportiv-fcsb-stim-situatia-becali.json",
     "cronici/2026-11-17-stire-reghecampf-nu-pot-obliga-patronul-5-milioane.json",
@@ -198,8 +199,7 @@
     "cronici/2026-11-15-stire-cornel-dinu-fotbal-flipper-birligea.json",
     "cronici/2026-11-15-stire-mm-stoica-eissat-coubis-dragusin-tamas-goian.json",
     "cronici/2026-11-15-poveste-unirea-urziceni-2009.json",
-    "cronici/2026-11-15-stire-dragusin-capitan-revansa-polonia.json",
-    "cronici/2026-11-15-stire-hagi-ianis-exigent-nu-la-infinit.json"
+    "cronici/2026-11-15-stire-dragusin-capitan-revansa-polonia.json"
   ],
   "actualizate": [
     "cronici/2026-11-16-stire-arena-nationala-inchisa-dinamo-petrolul-slobozia.json",
