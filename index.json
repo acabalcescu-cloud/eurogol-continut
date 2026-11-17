@@ -1,5 +1,7 @@
 {
   "cronici": [
+    "cronici/2026-11-16-stire-gardos-gaspar-bancu-pe-dreapta-fcsb.json",
+    "cronici/2026-11-16-stire-kompany-primul-antrenament-dupa-meningita.json",
     "cronici/2026-11-16-stire-thomas-frank-preia-crystal-palace.json",
     "cronici/2026-11-17-poveste-farul-2023.json",
     "cronici/2026-11-17-stire-boca-atletico-mineiro-finala-barranquilla-supravietuitorii.json",
@@ -197,9 +199,7 @@
     "cronici/2026-11-14-stire-zidane-mbappe-prostii-franta-turcia.json",
     "cronici/2026-11-14-stire-lato-lewandowski-nu-e-lider.json",
     "cronici/2026-11-14-video-turcia-belgia.json",
-    "cronici/2026-11-14-video-anglia-croatia.json",
-    "cronici/2026-11-14-video-italia-franta.json",
-    "cronici/2026-11-14-poveste-dinamo-1995-96.json"
+    "cronici/2026-11-14-video-anglia-croatia.json"
   ],
   "actualizate": [
     "cronici/2026-11-03-poveste-gheorghe-hagi-regele.json",
