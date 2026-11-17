@@ -1,5 +1,10 @@
 {
   "cronici": [
+    "cronici/2026-11-17-stire-rusescu-academie-fcsb-impotriva-regulii-u21.json",
+    "cronici/2026-11-17-stire-szukala-director-sportiv-fcsb-stim-situatia-becali.json",
+    "cronici/2026-11-17-stire-reghecampf-nu-pot-obliga-patronul-5-milioane.json",
+    "cronici/2026-11-17-stire-dragomir-posesie-hagi-nu-avem-jucatori.json",
+    "cronici/2026-11-17-stire-cassano-chivu-panchina-d-oro-misiunea-cea-mai-grea.json",
     "cronici/2026-11-17-stire-rotariu-ianis-hagi-unul-dintre-cei-mai-importanti.json",
     "cronici/2026-11-17-stire-dica-nu-vreau-director-sportiv-fcsb-tunari.json",
     "cronici/2026-11-17-stire-ioanitoaia-zenica-singura-varianta-victoria.json",
@@ -194,12 +199,7 @@
     "cronici/2026-11-15-stire-mm-stoica-eissat-coubis-dragusin-tamas-goian.json",
     "cronici/2026-11-15-poveste-unirea-urziceni-2009.json",
     "cronici/2026-11-15-stire-dragusin-capitan-revansa-polonia.json",
-    "cronici/2026-11-15-stire-hagi-ianis-exigent-nu-la-infinit.json",
-    "cronici/2026-11-15-stire-corbu-debut-nationala-seara-de-vis.json",
-    "cronici/2026-11-15-stire-coman-a-cazut-cerul-pe-mine.json",
-    "cronici/2026-11-15-stire-lewandowski-haos-romania-polonia.json",
-    "cronici/2026-11-15-stire-urban-presa-poloneza-fara-viitor.json",
-    "cronici/2026-11-15-stire-szymanski-gol-stupid-urban-polonia.json"
+    "cronici/2026-11-15-stire-hagi-ianis-exigent-nu-la-infinit.json"
   ],
   "actualizate": [
     "cronici/2026-11-16-stire-arena-nationala-inchisa-dinamo-petrolul-slobozia.json",
