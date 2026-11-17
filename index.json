@@ -1,5 +1,7 @@
 {
   "cronici": [
+    "cronici/2026-11-17-stire-nationala-sarajevo-militari-eufor-razvan-marin.json",
+    "cronici/2026-11-17-stire-tanase-pintilii-curelea-cfr-2018-varga.json",
     "cronici/2026-11-17-video-austria-irlanda.json",
     "cronici/2026-11-17-video-spania-anglia.json",
     "cronici/2026-11-17-video-romania-polonia.json",
@@ -197,11 +199,10 @@
     "cronici/2026-11-14-stire-coman-gol-anulat-var-ratiu-szymanski.json",
     "cronici/2026-11-14-stire-mm-stoica-nici-dinamo-nici-rapid-borcea.json",
     "cronici/2026-11-14-poveste-jucator-nicolae-lupescu.json",
-    "cronici/2026-11-14-stire-romania-polonia-torte-peluza-amenda-uefa.json",
-    "cronici/2026-11-14-stire-gica-popescu-sperante-foarte-putine-polonia.json",
-    "cronici/2026-11-14-stire-raducioiu-clasament-rusinos-san-marino.json"
+    "cronici/2026-11-14-stire-romania-polonia-torte-peluza-amenda-uefa.json"
   ],
   "actualizate": [
+    "cronici/2026-11-16-stire-florentin-petre-doua-oferte-kopic-dinamo.json",
     "cronici/2026-11-16-stire-spania-anglia-2-3-madrid-anderson-trafford.json",
     "cronici/2026-11-15-stire-lewandowski-haos-romania-polonia.json",
     "cronici/2026-11-15-stire-romania-polonia-cifrele-victoriei-21-la-6.json",
