@@ -1,5 +1,7 @@
 {
   "cronici": [
+    "cronici/2026-11-17-stire-romania-baraj-liga-c-belarus-cipru-feroe-estonia.json",
+    "cronici/2026-11-17-stire-bosnia-romania-intrerupt-scandari-rasiste-zenica.json",
     "cronici/2026-11-17-poveste-jucator-nicolae-dobrin.json",
     "cronici/2026-11-17-stire-florin-tene-portarii-nationalei-in-cautare.json",
     "cronici/2026-11-17-stire-dulcea-andrei-sucu-slatina-pancone-bilasco.json",
@@ -197,9 +199,7 @@
     "cronici/2026-11-15-stire-scaloni-tinerii-nu-decid-meciuri.json",
     "cronici/2026-11-15-stire-sumudica-mesaj-mm-stoica-nu-ne-vom-mai-certa.json",
     "cronici/2026-11-15-stire-ronaldinho-ravenna-forli-2-0-o-repriza.json",
-    "cronici/2026-11-15-stire-bosnia-tabakovic-accidentat-zenica.json",
-    "cronici/2026-11-15-stire-becali-mm-stoica-asa-este-revenire.json",
-    "cronici/2026-11-15-stire-clasament-fifa-romania-locul-56.json"
+    "cronici/2026-11-15-stire-bosnia-tabakovic-accidentat-zenica.json"
   ],
   "actualizate": [
     "cronici/2026-11-04-poveste-anul-2002.json",
