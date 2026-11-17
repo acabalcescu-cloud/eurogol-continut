@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-17-poveste-jucator-augustin-deleanu.json",
     "cronici/2026-11-17-stire-nationala-sarajevo-militari-eufor-razvan-marin.json",
     "cronici/2026-11-17-stire-tanase-pintilii-curelea-cfr-2018-varga.json",
     "cronici/2026-11-17-video-austria-irlanda.json",
@@ -198,8 +199,7 @@
     "cronici/2026-11-14-stire-birligea-pasa-gol-man-romania-polonia.json",
     "cronici/2026-11-14-stire-coman-gol-anulat-var-ratiu-szymanski.json",
     "cronici/2026-11-14-stire-mm-stoica-nici-dinamo-nici-rapid-borcea.json",
-    "cronici/2026-11-14-poveste-jucator-nicolae-lupescu.json",
-    "cronici/2026-11-14-stire-romania-polonia-torte-peluza-amenda-uefa.json"
+    "cronici/2026-11-14-poveste-jucator-nicolae-lupescu.json"
   ],
   "actualizate": [
     "cronici/2026-11-16-stire-florentin-petre-doua-oferte-kopic-dinamo.json",
