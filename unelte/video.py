@@ -23,7 +23,7 @@ import urllib.request
 OFICIALE = {
     # România
     'digi sport', 'digisport', 'digi sport romania', 'prima sport', 'primasport', 'orange sport',
-    'liga profesionista de fotbal', 'lpf', 'frf', 'echipa nationala de fotbal a romaniei',
+    'liga profesionista de fotbal', 'lpf', 'frf', 'frf tv', 'echipa nationala de fotbal a romaniei',
     'fcsb', 'fc fcsb', 'cfr 1907 cluj', 'cfr cluj', 'universitatea craiova', 'fc universitatea craiova', 'fc rapid 1923',
     'rapid bucuresti', 'fc dinamo bucuresti', 'dinamo bucuresti', 'fc u craiova 1948', 'farul constanta', 'fc farul constanta',
     'u cluj', 'universitatea cluj', 'petrolul ploiesti', 'sepsi osk', 'fc botosani', 'uta arad', 'otelul galati',
@@ -34,7 +34,7 @@ OFICIALE = {
     'ligue 1 mcdonalds', 'ligue 1 uber eats', 'conmebol', 'conmebol libertadores', 'conmebol sudamericana',
     # Federații naționale (Europa)
     'federation francaise de football', 'england', 'figc azzurri e azzurre', 'royal belgian football association',
-    'turkiye futbol federasyonu', 'scotland national team', 'dfb-team', 'dfb', 'onsoranje', 'knvb', 'seleccion espanola de futbol (sefutbol)',
+    'turkiye futbol federasyonu', 'scotland national team', 'ofb', 'öfb', 'dfb-team', 'dfb', 'onsoranje', 'knvb', 'seleccion espanola de futbol (sefutbol)',
     'sefutbol', 'fpf', 'portugal', 'hns', 'hrvatski nogometni savez', 'faw', 'cymru football', 'fa of ireland', 'laczy nas pilka', 'fudbalski savez srbije',
     'brasileirao', 'liga profesional de futbol', 'liga portugal', 'eredivisie', 'super lig', 'trendyol super lig',
     # Televiziuni cu drepturi
