@@ -1,5 +1,7 @@
 {
   "cronici": [
+    "cronici/2026-11-16-stire-birligea-scuze-cash-lovitura-nu-a-fost-voluntara.json",
+    "cronici/2026-11-16-stire-andone-dragus-fortat-fcsb-vrea-varf-si-fundas-dreapta.json",
     "cronici/2026-11-17-poveste-steaua-1999-00.json",
     "cronici/2026-11-16-stire-gardos-gaspar-bancu-pe-dreapta-fcsb.json",
     "cronici/2026-11-16-stire-kompany-primul-antrenament-dupa-meningita.json",
@@ -197,9 +199,7 @@
     "cronici/2026-11-14-stire-romario-ancelotti-pleaca-brazilia-japonia.json",
     "cronici/2026-11-14-stire-sumudica-otelul-cel-mai-important-meci-depunctare.json",
     "cronici/2026-11-14-stire-weszlo-hagi-portret-presa-poloneza.json",
-    "cronici/2026-11-14-stire-zidane-mbappe-prostii-franta-turcia.json",
-    "cronici/2026-11-14-stire-lato-lewandowski-nu-e-lider.json",
-    "cronici/2026-11-14-video-turcia-belgia.json"
+    "cronici/2026-11-14-stire-zidane-mbappe-prostii-franta-turcia.json"
   ],
   "actualizate": [
     "cronici/2026-11-03-poveste-gheorghe-hagi-regele.json",
