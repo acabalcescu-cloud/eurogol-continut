@@ -1,5 +1,8 @@
 {
   "cronici": [
+    "cronici/2026-11-17-video-austria-irlanda.json",
+    "cronici/2026-11-17-video-spania-anglia.json",
+    "cronici/2026-11-17-video-romania-polonia.json",
     "cronici/2026-11-17-stire-dragomir-coubis-peste-dragusin-10-milioane.json",
     "cronici/2026-11-17-stire-suedia-stureplan-potter-nu-ridicam-piciorul.json",
     "cronici/2026-11-17-stire-ianis-stoica-tribuna-zenica-rares-ilie-lot.json",
@@ -196,10 +199,7 @@
     "cronici/2026-11-14-poveste-jucator-nicolae-lupescu.json",
     "cronici/2026-11-14-stire-romania-polonia-torte-peluza-amenda-uefa.json",
     "cronici/2026-11-14-stire-gica-popescu-sperante-foarte-putine-polonia.json",
-    "cronici/2026-11-14-stire-raducioiu-clasament-rusinos-san-marino.json",
-    "cronici/2026-11-14-stire-hagi-antena-1-coman-varf-prospetime.json",
-    "cronici/2026-11-14-stire-mm-stoica-dragusin-capitan-van-dijk.json",
-    "cronici/2026-11-14-stire-agron-memedi-shkendija-doliu-fcsb.json"
+    "cronici/2026-11-14-stire-raducioiu-clasament-rusinos-san-marino.json"
   ],
   "actualizate": [
     "cronici/2026-11-16-stire-spania-anglia-2-3-madrid-anderson-trafford.json",
