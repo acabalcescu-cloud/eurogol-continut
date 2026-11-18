@@ -1,5 +1,10 @@
 {
   "cronici": [
+    "cronici/2026-11-18-stire-comisia-disciplina-u-cluj-fcsb-farul-amenzi.json",
+    "cronici/2026-11-18-stire-piturca-mm-stoica-slujitor-becali-face-echipa.json",
+    "cronici/2026-11-18-stire-piturca-mutu-tineret-i-s-a-promis-altceva.json",
+    "cronici/2026-11-18-stire-lacatus-piturca-corbu-titular-nationala.json",
+    "cronici/2026-11-18-stire-becali-contracte-un-an-optiune-trei-ani.json",
     "cronici/2026-11-18-stire-torje-david-matei-bajraktarevic-de-romania.json",
     "cronici/2026-11-18-stire-cartu-muharemovic-scos-din-armata.json",
     "cronici/2026-11-18-stire-piturca-campanie-slaba-ianis-balast.json",
@@ -194,12 +199,7 @@
     "cronici/2026-11-16-stire-germania-olanda-5-0-klopp-xavi-berlin.json",
     "cronici/2026-11-16-stire-mm-stoica-antrenor-norvegia-becali-nu-vreau.json",
     "cronici/2026-11-17-stire-mm-stoica-corbu-vibe-pozitiv-razvan-marin-2026.json",
-    "cronici/2026-11-16-stire-hagi-nu-mai-promit-12-din-12-generatia-de-aur.json",
-    "cronici/2026-11-16-stire-stanciu-u-cluj-mi-am-dat-cuvantul.json",
-    "cronici/2026-11-16-stire-marica-coman-noua-fals-atac-pozitional.json",
-    "cronici/2026-11-16-stire-andone-gnahore-lucescu-bani-aruncati.json",
-    "cronici/2026-11-16-poveste-jucator-mihai-ivancescu.json",
-    "cronici/2026-11-16-stire-andone-craiova-dinamo-favorite-titlu.json"
+    "cronici/2026-11-16-stire-hagi-nu-mai-promit-12-din-12-generatia-de-aur.json"
   ],
   "actualizate": [
     "cronici/2026-11-18-poveste-dinamo-2002-03.json",
