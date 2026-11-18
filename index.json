@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-18-poveste-jucator-vasile-gergely.json",
     "cronici/2026-11-18-stire-negrila-hagi-demisia-ianis.json",
     "cronici/2026-11-18-stire-coras-generatia-de-aur-birligea-baile-felix.json",
     "cronici/2026-11-18-stire-piturca-steaua-investitor-arab-socios.json",
@@ -198,8 +199,7 @@
     "cronici/2026-11-16-stire-gardos-gaspar-bancu-pe-dreapta-fcsb.json",
     "cronici/2026-11-16-stire-kompany-primul-antrenament-dupa-meningita.json",
     "cronici/2026-11-16-stire-thomas-frank-preia-crystal-palace.json",
-    "cronici/2026-11-17-poveste-farul-2023.json",
-    "cronici/2026-11-17-stire-boca-atletico-mineiro-finala-barranquilla-supravietuitorii.json"
+    "cronici/2026-11-17-poveste-farul-2023.json"
   ],
   "actualizate": [
     "cronici/2026-11-18-poveste-dinamo-2002-03.json",
