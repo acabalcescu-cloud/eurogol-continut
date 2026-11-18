@@ -1,5 +1,9 @@
 {
   "cronici": [
+    "cronici/2026-11-18-stire-torje-david-matei-bajraktarevic-de-romania.json",
+    "cronici/2026-11-18-stire-cartu-muharemovic-scos-din-armata.json",
+    "cronici/2026-11-18-stire-piturca-campanie-slaba-ianis-balast.json",
+    "cronici/2026-11-18-stire-cassano-ronaldinho-mascarada-ravenna.json",
     "cronici/2026-11-18-poveste-dinamo-2003-04.json",
     "cronici/2026-11-18-stire-nicolescu-mm-stoica-dinamo-ghencea-absurd.json",
     "cronici/2026-11-18-stire-herea-mitran-grupa-grea-usoara-euro-2028.json",
@@ -195,11 +199,7 @@
     "cronici/2026-11-16-stire-marica-coman-noua-fals-atac-pozitional.json",
     "cronici/2026-11-16-stire-andone-gnahore-lucescu-bani-aruncati.json",
     "cronici/2026-11-16-poveste-jucator-mihai-ivancescu.json",
-    "cronici/2026-11-16-stire-andone-craiova-dinamo-favorite-titlu.json",
-    "cronici/2026-11-16-stire-victor-becali-hagi-a-gresit-ca-a-venit.json",
-    "cronici/2026-11-16-stire-hagi-zenica-birligea-titular-nascut-sub-presiune.json",
-    "cronici/2026-11-16-stire-mm-stoica-becali-dialog-in-direct-carpa.json",
-    "cronici/2026-11-16-stire-jan-urban-ce-vrei-sa-auzi-golul-lui-man.json"
+    "cronici/2026-11-16-stire-andone-craiova-dinamo-favorite-titlu.json"
   ],
   "actualizate": [
     "cronici/2026-11-18-poveste-dinamo-2002-03.json",
