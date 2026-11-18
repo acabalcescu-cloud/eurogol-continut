@@ -1,5 +1,10 @@
 {
   "cronici": [
+    "cronici/2026-11-18-stire-coubis-cirjan-suspendati-turul-barajului.json",
+    "cronici/2026-11-18-stire-razvan-marin-arbitrul-mi-a-transmis-zenica.json",
+    "cronici/2026-11-18-stire-polonia-suedia-1-1-abramowicz-wroclaw.json",
+    "cronici/2026-11-18-stire-bancu-56-selectii-nae-ungureanu.json",
+    "cronici/2026-11-18-stire-cfr-cluj-denunta-contractul-kresic.json",
     "cronici/2026-11-18-stire-barbarez-romania-nu-era-de-neglijat.json",
     "cronici/2026-11-18-stire-nistor-editorial-raman-cu-hagi.json",
     "cronici/2026-11-18-stire-presa-bosnia-polonia-zlomislic-ratiu.json",
@@ -194,12 +199,7 @@
     "cronici/2026-11-16-poveste-steaua-1997-98.json",
     "cronici/2026-11-16-stire-victor-becali-szukala-ce-il-recomanda.json",
     "cronici/2026-11-16-poveste-astra-2016.json",
-    "cronici/2026-11-16-stire-romania-14-goluri-primite-a-treia-cea-mai-slaba-aparare.json",
-    "cronici/2026-11-16-stire-franta-turcia-2-1-kroupi-sferturi.json",
-    "cronici/2026-11-16-stire-luca-mihai-radnik-bijeljina-restart-bosnia.json",
-    "cronici/2026-11-16-stire-bogdan-mara-fcsb-cauta-jucatori-apostu.json",
-    "cronici/2026-11-16-stire-mironica-fcsb-nu-mai-au-proportia-lucrurilor.json",
-    "cronici/2026-11-16-stire-andone-mm-stoica-revine-la-vara-apostu.json"
+    "cronici/2026-11-16-stire-romania-14-goluri-primite-a-treia-cea-mai-slaba-aparare.json"
   ],
   "actualizate": [
     "cronici/2026-11-17-stire-romania-baraj-liga-c-belarus-cipru-feroe-estonia.json",
