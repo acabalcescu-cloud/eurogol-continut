@@ -1,5 +1,10 @@
 {
   "cronici": [
+    "cronici/2026-11-18-stire-barbarez-romania-nu-era-de-neglijat.json",
+    "cronici/2026-11-18-stire-nistor-editorial-raman-cu-hagi.json",
+    "cronici/2026-11-18-stire-presa-bosnia-polonia-zlomislic-ratiu.json",
+    "cronici/2026-11-18-stire-panduru-birligea-nu-l-as-fi-schimbat.json",
+    "cronici/2026-11-18-stire-barbu-zece-concluzii-zenica.json",
     "cronici/2026-11-18-poveste-venus-bucuresti.json",
     "cronici/2026-11-18-stire-florinel-coman-fcsb-am-vorbit-cu-nea-gigi.json",
     "cronici/2026-11-18-stire-corbu-zenica-se-putea-mult-mai-mult.json",
@@ -194,12 +199,7 @@
     "cronici/2026-11-16-stire-luca-mihai-radnik-bijeljina-restart-bosnia.json",
     "cronici/2026-11-16-stire-bogdan-mara-fcsb-cauta-jucatori-apostu.json",
     "cronici/2026-11-16-stire-mironica-fcsb-nu-mai-au-proportia-lucrurilor.json",
-    "cronici/2026-11-16-stire-andone-mm-stoica-revine-la-vara-apostu.json",
-    "cronici/2026-11-16-stire-spania-anglia-2-3-madrid-anderson-trafford.json",
-    "cronici/2026-11-16-stire-belgia-italia-4-1-pio-esposito-mancini.json",
-    "cronici/2026-11-15-stire-birligea-tatuaj-mama-palermo-calcio-totale.json",
-    "cronici/2026-11-15-stire-dan-petrescu-curelea-fcsb-nu-am-vorbit.json",
-    "cronici/2026-11-15-poveste-jucator-cornel-dinu.json"
+    "cronici/2026-11-16-stire-andone-mm-stoica-revine-la-vara-apostu.json"
   ],
   "actualizate": [
     "cronici/2026-11-17-stire-romania-baraj-liga-c-belarus-cipru-feroe-estonia.json",
