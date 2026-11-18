@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-18-poveste-chinezul-timisoara.json",
     "cronici/2026-11-18-video-elvetia-scotia.json",
     "cronici/2026-11-18-stire-fcsb-petru-popescu-petrocub-250000.json",
     "cronici/2026-11-18-stire-becali-ianis-hagi-fcsb-vorbesc-cu-gica.json",
@@ -198,8 +199,7 @@
     "cronici/2026-11-16-stire-gardos-fcsb-wingeri-lenti-boutoutaou.json",
     "cronici/2026-11-16-stire-becali-cretu-fara-el-praf-radunovic-rodri.json",
     "cronici/2026-11-16-stire-apostu-colaborare-punctuala-fcsb-numar-10.json",
-    "cronici/2026-11-16-stire-barbarez-lukic-trebuie-sa-mi-aleg-cuvintele.json",
-    "cronici/2026-11-16-stire-stefan-iovan-1985-lipsa-de-fair-play.json"
+    "cronici/2026-11-16-stire-barbarez-lukic-trebuie-sa-mi-aleg-cuvintele.json"
   ],
   "actualizate": [
     "cronici/2026-11-18-poveste-jucator-radu-nunweiller.json",
