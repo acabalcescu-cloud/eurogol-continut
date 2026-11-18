@@ -1,5 +1,11 @@
 {
   "cronici": [
+    "cronici/2026-11-18-stire-ivanovici-atitudine-de-echipa-mica-zenica.json",
+    "cronici/2026-11-18-stire-stanciu-trei-cluburi-craiova-decizia-saptamana-viitoare.json",
+    "cronici/2026-11-18-stire-gafiuc-editorial-zece-intrebari-hagi-burleanu.json",
+    "cronici/2026-11-18-stire-dorinel-munteanu-ratiu-pericol-public.json",
+    "cronici/2026-11-18-stire-bebe-alexe-sef-delegatie-mondial-u17.json",
+    "cronici/2026-11-18-stire-nicolescu-soro-varianta-de-compromis.json",
     "cronici/2026-11-18-stire-becali-impresari-ramadan-350000-comision.json",
     "cronici/2026-11-18-stire-lilian-popescu-petru-popescu-calitate-toate-capitolele.json",
     "cronici/2026-11-18-stire-becali-radoi-u-cluj-nu-iese-fum-fara-foc.json",
@@ -193,15 +199,10 @@
     "cronici/2026-11-16-stire-gazzetta-dragusin-fiorentina-adevaratul-dragusin.json",
     "cronici/2026-11-16-stire-marica-corbu-pana-atunci-nu-i-ati-vazut-1-1-zenica.json",
     "cronici/2026-11-16-stire-gardos-ion-alexandru-dennis-man-atalanta.json",
-    "cronici/2026-11-16-stire-lukic-bosnia-favorita-romania-zenica.json",
-    "cronici/2026-11-16-stire-uefa-diallo-candidat-fifa-infantino-burleanu.json",
-    "cronici/2026-11-16-stire-iftime-ultimatum-croitoru-voluntari.json",
-    "cronici/2026-11-16-stire-becali-octavian-popescu-caracter-biserica.json",
-    "cronici/2026-11-16-stire-dennis-man-psv-lazio-negocieri-iarna.json",
-    "cronici/2026-11-16-video-franta-turcia.json",
-    "cronici/2026-11-16-stire-arena-nationala-inchisa-dinamo-petrolul-slobozia.json"
+    "cronici/2026-11-16-stire-lukic-bosnia-favorita-romania-zenica.json"
   ],
   "actualizate": [
+    "cronici/2026-11-14-stire-stanciu-semnat-u-cluj-ianuarie.json",
     "cronici/2026-11-18-poveste-jucator-radu-nunweiller.json",
     "cronici/2026-11-16-stire-germania-olanda-5-0-klopp-xavi-berlin.json",
     "cronici/2026-11-13-poveste-rapid-2003.json",
