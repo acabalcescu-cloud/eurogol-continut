@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-18-poveste-venus-bucuresti.json",
     "cronici/2026-11-18-stire-florinel-coman-fcsb-am-vorbit-cu-nea-gigi.json",
     "cronici/2026-11-18-stire-corbu-zenica-se-putea-mult-mai-mult.json",
     "cronici/2026-11-18-stire-mironica-stefanescu-ianis-hagi-titular-euro.json",
@@ -198,8 +199,7 @@
     "cronici/2026-11-16-stire-belgia-italia-4-1-pio-esposito-mancini.json",
     "cronici/2026-11-15-stire-birligea-tatuaj-mama-palermo-calcio-totale.json",
     "cronici/2026-11-15-stire-dan-petrescu-curelea-fcsb-nu-am-vorbit.json",
-    "cronici/2026-11-15-poveste-jucator-cornel-dinu.json",
-    "cronici/2026-11-15-stire-kulesza-urban-nu-decid-la-cald.json"
+    "cronici/2026-11-15-poveste-jucator-cornel-dinu.json"
   ],
   "actualizate": [
     "cronici/2026-11-17-stire-romania-baraj-liga-c-belarus-cipru-feroe-estonia.json",
