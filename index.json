@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-18-poveste-steaua-2001-02.json",
     "cronici/2026-11-18-stire-coubis-cirjan-suspendati-turul-barajului.json",
     "cronici/2026-11-18-stire-razvan-marin-arbitrul-mi-a-transmis-zenica.json",
     "cronici/2026-11-18-stire-polonia-suedia-1-1-abramowicz-wroclaw.json",
@@ -198,8 +199,7 @@
     "cronici/2026-11-16-stire-tapia-di-carlo-river-superclasico-arbitraj.json",
     "cronici/2026-11-16-poveste-steaua-1997-98.json",
     "cronici/2026-11-16-stire-victor-becali-szukala-ce-il-recomanda.json",
-    "cronici/2026-11-16-poveste-astra-2016.json",
-    "cronici/2026-11-16-stire-romania-14-goluri-primite-a-treia-cea-mai-slaba-aparare.json"
+    "cronici/2026-11-16-poveste-astra-2016.json"
   ],
   "actualizate": [
     "cronici/2026-11-17-stire-romania-baraj-liga-c-belarus-cipru-feroe-estonia.json",
