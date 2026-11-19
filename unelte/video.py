@@ -35,7 +35,7 @@ OFICIALE = {
     # Federații naționale (Europa)
     'federation francaise de football', 'england', 'figc azzurri e azzurre', 'royal belgian football association',
     'turkiye futbol federasyonu', 'scotland national team', 'ofb', 'öfb', 'dfb-team', 'dfb', 'onsoranje', 'knvb', 'seleccion espanola de futbol (sefutbol)',
-    'sefutbol', 'fpf', 'portugal', 'hns', 'hrvatski nogometni savez', 'faw', 'cymru football', 'fa of ireland', 'laczy nas pilka', 'fudbalski savez srbije',
+    'sefutbol', 'fpf', 'portugal', 'hns', 'hrvatski nogometni savez', 'faw', 'cymru football', 'fa of ireland', 'laczy nas pilka', 'laczy nas pilka tv', 'fudbalski savez srbije',
     'brasileirao', 'liga profesional de futbol', 'liga portugal', 'eredivisie', 'super lig', 'trendyol super lig',
     # Televiziuni cu drepturi
     'dazn', 'dazn football', 'dazn italia', 'dazn espana', 'sky sports', 'sky sport', 'bt sport', 'tnt sports', 'cbs sports golazo',
