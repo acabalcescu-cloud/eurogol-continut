@@ -1,5 +1,10 @@
 {
   "cronici": [
+    "cronici/2026-11-19-stire-mm-stoica-superliga-12-echipe-prea-multe-meciuri.json",
+    "cronici/2026-11-19-stire-angelescu-panduru-hagi-pleaca-daca-nu-califica-euro-2028.json",
+    "cronici/2026-11-19-stire-piturca-generatia-de-aur-posesie-hagi-dueluri.json",
+    "cronici/2026-11-19-stire-conte-manchester-united-nu-le-era-frica-de-metodele-mele.json",
+    "cronici/2026-11-19-stire-meret-fractura-vertebra-napoli-torino.json",
     "cronici/2026-11-19-stire-musi-petrolul-mereu-in-inima-slobozia.json",
     "cronici/2026-11-19-stire-scarlatache-gabi-iancu-terrassa-povara-cv.json",
     "cronici/2026-11-19-stire-vochin-ratiu-diferenta-culturala-diaspora.json",
@@ -194,12 +199,7 @@
     "cronici/2026-11-18-stire-corbu-zenica-se-putea-mult-mai-mult.json",
     "cronici/2026-11-18-stire-mironica-stefanescu-ianis-hagi-titular-euro.json",
     "cronici/2026-11-18-stire-dennis-man-psv-lucrurile-nu-merg-bine.json",
-    "cronici/2026-11-18-stire-torje-rezervele-nu-au-intrat-cum-trebuie.json",
-    "cronici/2026-11-17-stire-mutu-birligea-cel-mai-bun-man-trebuia-schimbat.json",
-    "cronici/2026-11-18-stire-macicasan-editorial-de-la-zenica-la-zenica.json",
-    "cronici/2026-11-18-stire-hagi-meritam-mai-mult-barajul-trebuie-castigat.json",
-    "cronici/2026-11-18-stire-ratiu-am-ajuns-fortat-ghinionul-zenica.json",
-    "cronici/2026-11-18-stire-birligea-ne-am-relaxat-meritam-unde-suntem.json"
+    "cronici/2026-11-18-stire-torje-rezervele-nu-au-intrat-cum-trebuie.json"
   ],
   "actualizate": [
     "cronici/2026-11-15-stire-edi-iordanescu-birligea-corbu-meritul-lui-hagi.json",
@@ -219,6 +219,7 @@
     "cronici/2026-11-15-stire-andone-coman-nu-e-varf-fara-birligea.json",
     "cronici/2026-11-15-stire-cornel-dinu-fotbal-flipper-birligea.json",
     "cronici/2026-11-18-stire-polonia-suedia-1-1-abramowicz-wroclaw.json",
+    "cronici/2026-11-06-stire-craiova-bani-uefa-dupa-egnatia.json",
     "cronici/2026-11-05-poveste-anul-2005.json",
     "cronici/2026-11-19-stire-flamengo-titlu-la-un-egal-palmeiras.json",
     "cronici/2026-11-19-stire-rossi-gol-63-metri-milisecunde.json",
