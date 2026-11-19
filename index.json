@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-19-video-polonia-suedia.json",
     "cronici/2026-11-19-stire-mm-stoica-superliga-12-echipe-prea-multe-meciuri.json",
     "cronici/2026-11-19-stire-angelescu-panduru-hagi-pleaca-daca-nu-califica-euro-2028.json",
     "cronici/2026-11-19-stire-piturca-generatia-de-aur-posesie-hagi-dueluri.json",
@@ -198,8 +199,7 @@
     "cronici/2026-11-18-stire-florinel-coman-fcsb-am-vorbit-cu-nea-gigi.json",
     "cronici/2026-11-18-stire-corbu-zenica-se-putea-mult-mai-mult.json",
     "cronici/2026-11-18-stire-mironica-stefanescu-ianis-hagi-titular-euro.json",
-    "cronici/2026-11-18-stire-dennis-man-psv-lucrurile-nu-merg-bine.json",
-    "cronici/2026-11-18-stire-torje-rezervele-nu-au-intrat-cum-trebuie.json"
+    "cronici/2026-11-18-stire-dennis-man-psv-lucrurile-nu-merg-bine.json"
   ],
   "actualizate": [
     "cronici/2026-11-15-stire-edi-iordanescu-birligea-corbu-meritul-lui-hagi.json",
