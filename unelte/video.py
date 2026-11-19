@@ -40,7 +40,7 @@ OFICIALE = {
     # Televiziuni cu drepturi
     'dazn', 'dazn football', 'dazn italia', 'dazn espana', 'sky sports', 'sky sport', 'bt sport', 'tnt sports', 'cbs sports golazo',
     'espn', 'espn fc', 'nbc sports', 'beinsports', 'bein sports', 'canal+ sport', 'movistar plus+', 'sport tv',
-    'eleven sports', 'ge tv', 'globo esporte', 'tyc sports', 'espn brasil', 'cazetv',
+    'eleven sports', 'ge tv', 'globo esporte', 'corinthians tv', 'flamengo tv', 'tv cruzeiro | cruzeiro esporte clube', 'tyc sports', 'espn brasil', 'cazetv',
 }
 
 
