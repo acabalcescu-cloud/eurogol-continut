@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-19-poveste-dinamo-2005-06.json",
     "cronici/2026-11-19-stire-prodan-armani-ilie-hercules-alicante-nationala.json",
     "cronici/2026-11-19-stire-marica-ianis-presiune-ori-10-un-gol.json",
     "cronici/2026-11-19-stire-lilian-popescu-petru-popescu-masini-moldova.json",
@@ -198,10 +199,10 @@
     "cronici/2026-11-18-stire-gica-popescu-mm-stoica-ratiu-nu-are-tragere.json",
     "cronici/2026-11-18-stire-marica-cam-astia-suntem-ratiu-nu-se-simte-la-nationala.json",
     "cronici/2026-11-17-stire-romania-baraj-liga-c-belarus-cipru-feroe-estonia.json",
-    "cronici/2026-11-17-stire-bosnia-romania-intrerupt-scandari-rasiste-zenica.json",
-    "cronici/2026-11-17-poveste-jucator-nicolae-dobrin.json"
+    "cronici/2026-11-17-stire-bosnia-romania-intrerupt-scandari-rasiste-zenica.json"
   ],
   "actualizate": [
+    "cronici/2026-11-05-poveste-anul-2005.json",
     "cronici/2026-11-19-stire-flamengo-titlu-la-un-egal-palmeiras.json",
     "cronici/2026-11-19-stire-rossi-gol-63-metri-milisecunde.json",
     "cronici/2026-11-19-stire-tite-botafogo-obiectivul-ramanerea-in-serie-a.json",
