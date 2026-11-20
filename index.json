@@ -1,5 +1,10 @@
 {
   "cronici": [
+    "cronici/2026-11-20-stire-stoinov-maccabi-haifa-ben-shimon-dinamo.json",
+    "cronici/2026-11-20-stire-justin-stefan-play-off-mecanism-anti-blat.json",
+    "cronici/2026-11-20-stire-xavi-espart-barcelona-contract-2030.json",
+    "cronici/2026-11-20-stire-razvan-lucescu-al-sadd-lusail-meciuri-periculoase.json",
+    "cronici/2026-11-20-stire-mihalcea-craiova-protectie-generatie-fara-valoare.json",
     "cronici/2026-11-20-stire-stanciu-adio-dalian-nu-este-un-adio.json",
     "cronici/2026-11-20-stire-jurgen-henn-estonia-romania-nu-e-premiu.json",
     "cronici/2026-11-20-stire-lepistu-mioveni-estonia-cel-mai-greu-adversar.json",
@@ -194,12 +199,7 @@
     "cronici/2026-11-18-stire-bumbescu-hagi-euro-sau-vine-altul.json",
     "cronici/2026-11-18-stire-chivu-nominalizat-globe-soccer-awards.json",
     "cronici/2026-11-18-poveste-steaua-2002-03.json",
-    "cronici/2026-11-18-stire-ivanovici-atitudine-de-echipa-mica-zenica.json",
-    "cronici/2026-11-18-stire-stanciu-trei-cluburi-craiova-decizia-saptamana-viitoare.json",
-    "cronici/2026-11-18-stire-gafiuc-editorial-zece-intrebari-hagi-burleanu.json",
-    "cronici/2026-11-18-stire-dorinel-munteanu-ratiu-pericol-public.json",
-    "cronici/2026-11-18-stire-bebe-alexe-sef-delegatie-mondial-u17.json",
-    "cronici/2026-11-18-stire-nicolescu-soro-varianta-de-compromis.json"
+    "cronici/2026-11-18-stire-ivanovici-atitudine-de-echipa-mica-zenica.json"
   ],
   "actualizate": [
     "cronici/2026-11-17-stire-romania-baraj-liga-c-belarus-cipru-feroe-estonia.json",
