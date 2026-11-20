@@ -1,5 +1,10 @@
 {
   "cronici": [
+    "cronici/2026-11-20-stire-stanciu-adio-dalian-nu-este-un-adio.json",
+    "cronici/2026-11-20-stire-jurgen-henn-estonia-romania-nu-e-premiu.json",
+    "cronici/2026-11-20-stire-lepistu-mioveni-estonia-cel-mai-greu-adversar.json",
+    "cronici/2026-11-20-stire-stoichita-estonia-abordabila-decidem-din-tur.json",
+    "cronici/2026-11-20-stire-goian-estonia-2013-nu-mai-suntem-la-nivelul.json",
     "cronici/2026-11-20-stire-lupescu-hagi-analiza-serioasa-jucatori-in-ritm.json",
     "cronici/2026-11-20-stire-danciulescu-estonia-nu-are-cum-peste-romania.json",
     "cronici/2026-11-20-stire-ganea-estonia-rolul-chibitului.json",
@@ -194,12 +199,7 @@
     "cronici/2026-11-18-stire-gafiuc-editorial-zece-intrebari-hagi-burleanu.json",
     "cronici/2026-11-18-stire-dorinel-munteanu-ratiu-pericol-public.json",
     "cronici/2026-11-18-stire-bebe-alexe-sef-delegatie-mondial-u17.json",
-    "cronici/2026-11-18-stire-nicolescu-soro-varianta-de-compromis.json",
-    "cronici/2026-11-18-stire-becali-impresari-ramadan-350000-comision.json",
-    "cronici/2026-11-18-stire-lilian-popescu-petru-popescu-calitate-toate-capitolele.json",
-    "cronici/2026-11-18-stire-becali-radoi-u-cluj-nu-iese-fum-fara-foc.json",
-    "cronici/2026-11-18-stire-rusescu-gsp-live-scouting-academie-fcsb.json",
-    "cronici/2026-11-18-stire-adrian-ilie-ianis-stoica-koln-4-milioane.json"
+    "cronici/2026-11-18-stire-nicolescu-soro-varianta-de-compromis.json"
   ],
   "actualizate": [
     "cronici/2026-11-17-stire-romania-baraj-liga-c-belarus-cipru-feroe-estonia.json",
