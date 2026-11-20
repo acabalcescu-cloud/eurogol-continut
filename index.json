@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-20-poveste-steaua-2005-06.json",
     "cronici/2026-11-20-poveste-jiul-cupa-1974.json",
     "cronici/2026-11-19-stire-mm-stoica-padurariu-am-rezolvat-problema-u21.json",
     "cronici/2026-11-19-stire-leila-pereira-palmeiras-nada-mais-interessa.json",
@@ -198,8 +199,7 @@
     "cronici/2026-11-18-stire-remus-dinu-editorial-balcanisme-zenica.json",
     "cronici/2026-11-18-stire-zenica-incidente-peluza-romaniei-politie.json",
     "cronici/2026-11-18-stire-danemarca-norvegia-2-3-haaland-penalty-sferturi.json",
-    "cronici/2026-11-18-poveste-steaua-2001-02.json",
-    "cronici/2026-11-18-stire-coubis-cirjan-suspendati-turul-barajului.json"
+    "cronici/2026-11-18-poveste-steaua-2001-02.json"
   ],
   "actualizate": [
     "cronici/2026-11-18-stire-polonia-suedia-1-1-abramowicz-wroclaw.json",
