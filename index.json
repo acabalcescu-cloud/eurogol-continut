@@ -1,5 +1,11 @@
 {
   "cronici": [
+    "cronici/2026-11-20-stire-romania-estonia-baraj-liga-b-retur-acasa.json",
+    "cronici/2026-11-20-stire-lita-dumitru-fcsb-trebuie-oameni-capabili.json",
+    "cronici/2026-11-20-stire-nuno-campos-cirjan-hagi-petrolul-revansa.json",
+    "cronici/2026-11-20-stire-mourinho-vinicius-nimeni-nu-joaca-prin-decret.json",
+    "cronici/2026-11-20-stire-courtois-real-madrid-prelungire-2028.json",
+    "cronici/2026-11-20-stire-arteta-saka-craciun-zubimendi-fantasy.json",
     "cronici/2026-11-20-stire-pancaro-chivu-panchina-d-oro-premiu-pentru-castigator.json",
     "cronici/2026-11-20-stire-justin-stefan-lpf-mm-stoica-de-ce-nu.json",
     "cronici/2026-11-20-stire-uefa-romania-stadion-partial-inchis-baraj.json",
@@ -193,15 +199,10 @@
     "cronici/2026-11-18-poveste-chinezul-timisoara.json",
     "cronici/2026-11-18-video-elvetia-scotia.json",
     "cronici/2026-11-18-stire-fcsb-petru-popescu-petrocub-250000.json",
-    "cronici/2026-11-18-stire-becali-ianis-hagi-fcsb-vorbesc-cu-gica.json",
-    "cronici/2026-11-18-stire-becali-nationala-dacia-rolls-royce.json",
-    "cronici/2026-11-18-stire-goian-gata-liga-natiunilor-euro-2028.json",
-    "cronici/2026-11-18-stire-juan-mata-se-retrage-gol-steaua-2013.json",
-    "cronici/2026-11-18-stire-arda-guler-real-madrid-2032.json",
-    "cronici/2026-11-18-stire-ioanitoaia-hagi-nota-corigenta-zenica.json",
-    "cronici/2026-11-18-stire-vochin-ratiu-nimeni-nu-l-a-imbarbatat.json"
+    "cronici/2026-11-18-stire-becali-ianis-hagi-fcsb-vorbesc-cu-gica.json"
   ],
   "actualizate": [
+    "cronici/2026-11-17-stire-romania-baraj-liga-c-belarus-cipru-feroe-estonia.json",
     "cronici/2026-11-20-stire-sao-paulo-huiduieli-ole-morumbis-dorival.json",
     "cronici/2026-11-20-stire-pedro-emanuel-vasco-gazon-nu-vand-iluzii.json",
     "cronici/2026-11-20-stire-fluminense-libertadores-2027-fica-thiago-silva.json",
@@ -251,7 +252,6 @@
     "cronici/2026-11-18-poveste-jucator-radu-nunweiller.json",
     "cronici/2026-11-16-stire-germania-olanda-5-0-klopp-xavi-berlin.json",
     "cronici/2026-11-04-poveste-anul-2002.json",
-    "cronici/2026-11-17-stire-romania-baraj-liga-c-belarus-cipru-feroe-estonia.json",
     "cronici/2026-11-18-stire-birligea-ne-am-relaxat-meritam-unde-suntem.json",
     "cronici/2026-11-18-stire-hagi-meritam-mai-mult-barajul-trebuie-castigat.json",
     "cronici/2026-11-04-poveste-anul-2001.json",
