@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-20-poveste-gloria-bistrita-cupa-1994.json",
     "cronici/2026-11-20-stire-romania-estonia-baraj-liga-b-retur-acasa.json",
     "cronici/2026-11-20-stire-lita-dumitru-fcsb-trebuie-oameni-capabili.json",
     "cronici/2026-11-20-stire-nuno-campos-cirjan-hagi-petrolul-revansa.json",
@@ -198,8 +199,7 @@
     "cronici/2026-11-18-stire-mironica-editorial-cutremur-dar-nu-la-nationala.json",
     "cronici/2026-11-18-poveste-chinezul-timisoara.json",
     "cronici/2026-11-18-video-elvetia-scotia.json",
-    "cronici/2026-11-18-stire-fcsb-petru-popescu-petrocub-250000.json",
-    "cronici/2026-11-18-stire-becali-ianis-hagi-fcsb-vorbesc-cu-gica.json"
+    "cronici/2026-11-18-stire-fcsb-petru-popescu-petrocub-250000.json"
   ],
   "actualizate": [
     "cronici/2026-11-17-stire-romania-baraj-liga-c-belarus-cipru-feroe-estonia.json",
