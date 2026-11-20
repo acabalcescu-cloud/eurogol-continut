@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-20-poveste-dinamo-2007-08.json",
     "cronici/2026-11-20-stire-bergodi-hagi-drumul-bun-rabdare.json",
     "cronici/2026-11-20-stire-joonas-tamm-estonia-sansa-buna-romania.json",
     "cronici/2026-11-20-stire-conte-chelsea-arsenal-3-4-3-kante.json",
@@ -198,8 +199,7 @@
     "cronici/2026-11-18-stire-becali-contracte-un-an-optiune-trei-ani.json",
     "cronici/2026-11-18-stire-torje-david-matei-bajraktarevic-de-romania.json",
     "cronici/2026-11-18-stire-cartu-muharemovic-scos-din-armata.json",
-    "cronici/2026-11-18-stire-piturca-campanie-slaba-ianis-balast.json",
-    "cronici/2026-11-18-stire-cassano-ronaldinho-mascarada-ravenna.json"
+    "cronici/2026-11-18-stire-piturca-campanie-slaba-ianis-balast.json"
   ],
   "actualizate": [
     "cronici/2026-11-05-poveste-anul-2007.json",
