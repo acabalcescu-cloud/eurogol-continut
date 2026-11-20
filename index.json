@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-20-poveste-steaua-2006-07.json",
     "cronici/2026-11-20-stire-stoinov-maccabi-haifa-ben-shimon-dinamo.json",
     "cronici/2026-11-20-stire-justin-stefan-play-off-mecanism-anti-blat.json",
     "cronici/2026-11-20-stire-xavi-espart-barcelona-contract-2030.json",
@@ -198,10 +199,10 @@
     "cronici/2026-11-18-stire-andone-45000-oameni-trebuie-sa-dai-ceva.json",
     "cronici/2026-11-18-stire-bumbescu-hagi-euro-sau-vine-altul.json",
     "cronici/2026-11-18-stire-chivu-nominalizat-globe-soccer-awards.json",
-    "cronici/2026-11-18-poveste-steaua-2002-03.json",
-    "cronici/2026-11-18-stire-ivanovici-atitudine-de-echipa-mica-zenica.json"
+    "cronici/2026-11-18-poveste-steaua-2002-03.json"
   ],
   "actualizate": [
+    "cronici/2026-11-05-poveste-anul-2007.json",
     "cronici/2026-11-17-stire-romania-baraj-liga-c-belarus-cipru-feroe-estonia.json",
     "cronici/2026-11-20-stire-sao-paulo-huiduieli-ole-morumbis-dorival.json",
     "cronici/2026-11-20-stire-pedro-emanuel-vasco-gazon-nu-vand-iluzii.json",
