@@ -1,5 +1,9 @@
 {
   "cronici": [
+    "cronici/2026-11-20-stire-camora-fcsb-radoi-euro-2024-90-la-suta.json",
+    "cronici/2026-11-20-stire-conmebol-fifa-gate-fonduri-sindicate-fotbalisti.json",
+    "cronici/2026-11-20-stire-xabi-alonso-chelsea-leeds-fara-joao-pedro.json",
+    "cronici/2026-11-19-stire-banega-retragere-nici-daca-ma-suna-messi.json",
     "cronici/2026-11-20-video-fc-bihor-gloria-bistrita.json",
     "cronici/2026-11-20-video-fc-botosani-fc-voluntari.json",
     "cronici/2026-11-20-stire-iftime-despartire-croitoru-botosani.json",
@@ -195,11 +199,7 @@
     "cronici/2026-11-19-stire-vochin-birligea-blestemat-zenica-4-3-3.json",
     "cronici/2026-11-19-stire-becali-pret-dennis-politic-500000.json",
     "cronici/2026-11-19-stire-thiago-silva-fluminense-cadou-de-craciun.json",
-    "cronici/2026-11-19-stire-kompany-revine-pe-banca-bayern-koln.json",
-    "cronici/2026-11-18-stire-balaj-clasamentul-reflecta-realitatea-birligea.json",
-    "cronici/2026-11-18-poveste-jucator-vasile-gergely.json",
-    "cronici/2026-11-18-stire-negrila-hagi-demisia-ianis.json",
-    "cronici/2026-11-18-stire-coras-generatia-de-aur-birligea-baile-felix.json"
+    "cronici/2026-11-19-stire-kompany-revine-pe-banca-bayern-koln.json"
   ],
   "actualizate": [
     "cronici/2026-11-20-stire-croitoru-botosani-voluntari-nu-ai-voie.json",
