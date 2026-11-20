@@ -1,5 +1,8 @@
 {
   "cronici": [
+    "cronici/2026-11-20-video-vasco-internacional.json",
+    "cronici/2026-11-20-video-sao-paulo-fluminense.json",
+    "cronici/2026-11-20-video-coritiba-santos.json",
     "cronici/2026-11-20-stire-panduru-angelescu-stoica-banderola-ianis-hagi.json",
     "cronici/2026-11-20-stire-camora-40-de-ani-somnul-jorge-costa.json",
     "cronici/2026-11-20-stire-boloni-ingrasamant-vorbe-goale-burleanu.json",
@@ -196,17 +199,14 @@
     "cronici/2026-11-18-stire-porumboiu-burleanu-poate-tu-esti-ghinionul.json",
     "cronici/2026-11-18-stire-bosnia-patru-victorii-romania-20-de-luni.json",
     "cronici/2026-11-18-stire-adi-popa-craiova-favorita-titlu.json",
-    "cronici/2026-11-18-stire-wyscout-zenica-41-la-suta-posesie.json",
-    "cronici/2026-11-18-video-germania-olanda.json",
-    "cronici/2026-11-18-stire-puscas-editorial-hagi-realist-sau-visator.json",
-    "cronici/2026-11-18-stire-mitran-editorial-front-rana-deschisa.json"
+    "cronici/2026-11-18-stire-wyscout-zenica-41-la-suta-posesie.json"
   ],
   "actualizate": [
-    "cronici/2026-11-20-stire-pedro-emanuel-vasco-gazon-nu-vand-iluzii.json",
     "cronici/2026-11-20-stire-sao-paulo-huiduieli-ole-morumbis-dorival.json",
+    "cronici/2026-11-20-stire-pedro-emanuel-vasco-gazon-nu-vand-iluzii.json",
     "cronici/2026-11-20-stire-fluminense-libertadores-2027-fica-thiago-silva.json",
-    "cronici/2026-11-20-stire-dorival-junior-sao-paulo-algemados-fluminense.json",
     "cronici/2026-11-19-stire-neymar-coritiba-suporteri-santos-gabigol.json",
+    "cronici/2026-11-20-stire-dorival-junior-sao-paulo-algemados-fluminense.json",
     "cronici/2026-11-19-stire-jardim-nu-exista-avantaje-exista-realitatea.json",
     "cronici/2026-11-19-stire-mendoza-athletico-cbf-flamengo-nu-trebuie-ajutat.json",
     "cronici/2026-11-19-stire-leila-pereira-palmeiras-nada-mais-interessa.json",
