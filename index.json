@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-21-poveste-steaua-2008-09.json",
     "cronici/2026-11-21-stire-impresar-petru-popescu-prepelita-trei-zile.json",
     "cronici/2026-11-21-stire-dani-coman-fcsb-nu-vad-o-echipa.json",
     "cronici/2026-11-21-stire-nuno-campos-ricardo-sousa-semifinala-cupa-portugaliei.json",
@@ -198,8 +199,7 @@
     "cronici/2026-11-19-stire-mihalcea-uta-nu-a-mai-venit-nimeni.json",
     "cronici/2026-11-19-stire-lucho-acosta-fluminense-suspiciune-manipulare.json",
     "cronici/2026-11-19-video-cruzeiro-palmeiras.json",
-    "cronici/2026-11-19-video-flamengo-athletico-pr.json",
-    "cronici/2026-11-19-video-corinthians-botafogo.json"
+    "cronici/2026-11-19-video-flamengo-athletico-pr.json"
   ],
   "actualizate": [
     "cronici/2026-11-18-poveste-jucator-radu-nunweiller.json",
