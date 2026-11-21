@@ -1,5 +1,11 @@
 {
   "cronici": [
+    "cronici/2026-11-21-stire-dinamo-petrolul-monitor-var-avram-balaj.json",
+    "cronici/2026-11-21-stire-cosmescu-kovacs-nu-mai-scapam.json",
+    "cronici/2026-11-21-stire-prandelli-pio-esposito-paradoxal-chivu.json",
+    "cronici/2026-11-21-stire-parma-roma-1-5-malen-patru-goluri.json",
+    "cronici/2026-11-21-stire-maresca-anxietate-gol-anulat-fulham.json",
+    "cronici/2026-11-21-stire-newcastle-arsenal-2-2-raya-accidentat.json",
     "cronici/2026-11-21-video-gladbach-dortmund.json",
     "cronici/2026-11-21-video-mexic-romania-u17.json",
     "cronici/2026-11-21-video-cfr-cluj-otelul.json",
@@ -193,13 +199,7 @@
     "cronici/2026-11-20-poveste-steaua-2005-06.json",
     "cronici/2026-11-20-poveste-jiul-cupa-1974.json",
     "cronici/2026-11-19-stire-mm-stoica-padurariu-am-rezolvat-problema-u21.json",
-    "cronici/2026-11-19-stire-leila-pereira-palmeiras-nada-mais-interessa.json",
-    "cronici/2026-11-20-stire-craioveanu-hagi-spania-nici-curacao.json",
-    "cronici/2026-11-19-stire-banciu-ianis-hagi-fcsb-acolo-ar-fi-locul-lui.json",
-    "cronici/2026-11-19-stire-uefa-bosnia-45000-euro-fara-bilete-deplasare.json",
-    "cronici/2026-11-19-stire-libertadores-finala-show-pauza-pedro-sampaio.json",
-    "cronici/2026-11-19-stire-nicolita-ianis-hagi-nu-vine-fcsb-presiunea-numelui.json",
-    "cronici/2026-11-19-stire-pochettino-drona-antrenament-carrington.json"
+    "cronici/2026-11-19-stire-leila-pereira-palmeiras-nada-mais-interessa.json"
   ],
   "actualizate": [
     "cronici/2026-11-21-stire-kovacs-cfr-otelul-balaj-penalty-eliminare.json",
