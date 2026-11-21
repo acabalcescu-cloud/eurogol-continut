@@ -1,5 +1,9 @@
 {
   "cronici": [
+    "cronici/2026-11-21-stire-stoichita-ionut-radu-maglavit-minune.json",
+    "cronici/2026-11-21-stire-porumboiu-stanciu-vaslui-peripetii.json",
+    "cronici/2026-11-21-stire-ilie-dumitrescu-pintilii-reghecampf-fcsb.json",
+    "cronici/2026-11-21-stire-flick-christensen-cubarsi-villarreal.json",
     "cronici/2026-11-21-poveste-steaua-2008-09.json",
     "cronici/2026-11-21-stire-impresar-petru-popescu-prepelita-trei-zile.json",
     "cronici/2026-11-21-stire-dani-coman-fcsb-nu-vad-o-echipa.json",
@@ -195,11 +199,7 @@
     "cronici/2026-11-19-stire-becali-birligea-nu-se-mai-intoarce-5-milioane.json",
     "cronici/2026-11-19-stire-sumudica-otelul-meci-pe-viata-si-pe-moarte.json",
     "cronici/2026-11-19-stire-al-hamlawi-real-madrid-frica-de-zbor.json",
-    "cronici/2026-11-19-stire-anamaria-prodan-becali-depasit-ianis-nu-vine.json",
-    "cronici/2026-11-19-stire-mihalcea-uta-nu-a-mai-venit-nimeni.json",
-    "cronici/2026-11-19-stire-lucho-acosta-fluminense-suspiciune-manipulare.json",
-    "cronici/2026-11-19-video-cruzeiro-palmeiras.json",
-    "cronici/2026-11-19-video-flamengo-athletico-pr.json"
+    "cronici/2026-11-19-stire-anamaria-prodan-becali-depasit-ianis-nu-vine.json"
   ],
   "actualizate": [
     "cronici/2026-11-18-poveste-jucator-radu-nunweiller.json",
