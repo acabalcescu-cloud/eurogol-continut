@@ -1,5 +1,10 @@
 {
   "cronici": [
+    "cronici/2026-11-22-stire-bap-flamengo-fara-fax-palmeiras.json",
+    "cronici/2026-11-22-stire-abel-ferreira-sapte-motive-vice-palmeiras.json",
+    "cronici/2026-11-21-stire-flamengo-campioana-egal-palmeiras-samuel-lino.json",
+    "cronici/2026-11-21-stire-puscas-editorial-slobozia-dinamo-petrolul.json",
+    "cronici/2026-11-21-stire-andre-matos-petrolul-familie-5-3-2.json",
     "cronici/2026-11-22-stire-ionut-radu-real-madrid-celta-bernabeu.json",
     "cronici/2026-11-21-stire-cirjan-petrolul-cea-mai-slaba-repriza.json",
     "cronici/2026-11-21-stire-marius-niculae-soro-nu-a-existat.json",
@@ -194,12 +199,7 @@
     "cronici/2026-11-20-stire-camora-40-de-ani-somnul-jorge-costa.json",
     "cronici/2026-11-20-stire-boloni-ingrasamant-vorbe-goale-burleanu.json",
     "cronici/2026-11-20-stire-niculae-lacatus-piturca-corbu-fcsb.json",
-    "cronici/2026-11-20-stire-premier-league-psihologi-arbitri-goodall.json",
-    "cronici/2026-11-20-stire-torres-nu-regret-liverpool-chelsea.json",
-    "cronici/2026-11-20-stire-napoli-fara-conferinta-allegri-torino.json",
-    "cronici/2026-11-20-stire-inter-oferta-calhanoglu-2029-chivu.json",
-    "cronici/2026-11-20-poveste-dinamo-2006-07.json",
-    "cronici/2026-11-20-stire-vochin-petru-popescu-250000-academia-fcsb.json"
+    "cronici/2026-11-20-stire-premier-league-psihologi-arbitri-goodall.json"
   ],
   "actualizate": [
     "cronici/2026-11-21-stire-kovacs-cfr-otelul-balaj-penalty-eliminare.json",
