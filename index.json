@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-21-poveste-jucator-mircea-lucescu.json",
     "cronici/2026-11-21-stire-dinamo-petrolul-monitor-var-avram-balaj.json",
     "cronici/2026-11-21-stire-cosmescu-kovacs-nu-mai-scapam.json",
     "cronici/2026-11-21-stire-prandelli-pio-esposito-paradoxal-chivu.json",
@@ -198,8 +199,7 @@
     "cronici/2026-11-20-stire-pedro-emanuel-vasco-gazon-nu-vand-iluzii.json",
     "cronici/2026-11-20-poveste-steaua-2005-06.json",
     "cronici/2026-11-20-poveste-jiul-cupa-1974.json",
-    "cronici/2026-11-19-stire-mm-stoica-padurariu-am-rezolvat-problema-u21.json",
-    "cronici/2026-11-19-stire-leila-pereira-palmeiras-nada-mais-interessa.json"
+    "cronici/2026-11-19-stire-mm-stoica-padurariu-am-rezolvat-problema-u21.json"
   ],
   "actualizate": [
     "cronici/2026-11-21-stire-kovacs-cfr-otelul-balaj-penalty-eliminare.json",
