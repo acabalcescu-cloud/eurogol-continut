@@ -1,5 +1,9 @@
 {
   "cronici": [
+    "cronici/2026-11-21-stire-birligea-titular-san-siro-milan-frosinone.json",
+    "cronici/2026-11-21-stire-conte-legea-pirlo-buffon-juventus.json",
+    "cronici/2026-11-21-stire-guardian-pochettino-omul-conexiunilor.json",
+    "cronici/2026-11-21-stire-barba-dominguez-paredes-unic-finala-sudamericana.json",
     "cronici/2026-11-21-poveste-sepsi-cupa-2022.json",
     "cronici/2026-11-21-stire-frattesi-gattuso-mi-a-salvat-viata-chivu.json",
     "cronici/2026-11-21-stire-alibec-chipciu-corvinul-doua-zile-pe-drum.json",
@@ -195,11 +199,7 @@
     "cronici/2026-11-19-stire-dreesen-musiala-contract-vom-discuta.json",
     "cronici/2026-11-19-stire-mutu-euro-2028-30-la-suta.json",
     "cronici/2026-11-19-stire-becali-atacant-1-92-mai-valoros-decat-lukic.json",
-    "cronici/2026-11-19-stire-sabau-tricolori-unora-le-e-rusine.json",
-    "cronici/2026-11-19-stire-edi-iordanescu-ianis-decizie-capitala-iarna.json",
-    "cronici/2026-11-19-poveste-dinamo-2004-05.json",
-    "cronici/2026-11-19-stire-vochin-becali-butonul-compare-rabdare.json",
-    "cronici/2026-11-19-stire-fanatik-wyscout-ianis-hagi-cel-mai-slab-tricolor.json"
+    "cronici/2026-11-19-stire-sabau-tricolori-unora-le-e-rusine.json"
   ],
   "actualizate": [
     "cronici/2026-11-20-stire-croitoru-botosani-voluntari-nu-ai-voie.json",
