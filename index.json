@@ -1,5 +1,11 @@
 {
   "cronici": [
+    "cronici/2026-11-21-stire-impresar-petru-popescu-prepelita-trei-zile.json",
+    "cronici/2026-11-21-stire-dani-coman-fcsb-nu-vad-o-echipa.json",
+    "cronici/2026-11-21-stire-nuno-campos-ricardo-sousa-semifinala-cupa-portugaliei.json",
+    "cronici/2026-11-21-stire-amorim-frosinone-birligea-logica-in-haos.json",
+    "cronici/2026-11-21-stire-man-city-fulham-haaland-gol-anulat-leno.json",
+    "cronici/2026-11-21-stire-boca-barranquilla-invazie-finala-sudamericana.json",
     "cronici/2026-11-21-stire-iftime-otger-canals-tip-foarte-simpatic.json",
     "cronici/2026-11-21-stire-vulturar-sepsi-rapid-mister-atitudine.json",
     "cronici/2026-11-21-stire-cartu-ratiu-se-crede-superior-spania.json",
@@ -193,13 +199,7 @@
     "cronici/2026-11-19-stire-lucho-acosta-fluminense-suspiciune-manipulare.json",
     "cronici/2026-11-19-video-cruzeiro-palmeiras.json",
     "cronici/2026-11-19-video-flamengo-athletico-pr.json",
-    "cronici/2026-11-19-video-corinthians-botafogo.json",
-    "cronici/2026-11-19-stire-balaj-ianis-hagi-meciul-oficial-cel-mai-bun-antrenament.json",
-    "cronici/2026-11-19-stire-golazo-edi-iordanescu-singurul-care-a-ridicat-nationala.json",
-    "cronici/2026-11-19-stire-dragomir-boutoutaou-craiova-dinamo-nu-sunt-prosti.json",
-    "cronici/2026-11-19-stire-anthony-da-silva-mali-calificata-can-2027.json",
-    "cronici/2026-11-19-stire-mendoza-athletico-cbf-flamengo-nu-trebuie-ajutat.json",
-    "cronici/2026-11-19-poveste-steaua-2004-05.json"
+    "cronici/2026-11-19-video-corinthians-botafogo.json"
   ],
   "actualizate": [
     "cronici/2026-11-18-poveste-jucator-radu-nunweiller.json",
