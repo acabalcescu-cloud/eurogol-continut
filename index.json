@@ -1,5 +1,8 @@
 {
   "cronici": [
+    "cronici/2026-11-21-video-gladbach-dortmund.json",
+    "cronici/2026-11-21-video-mexic-romania-u17.json",
+    "cronici/2026-11-21-video-cfr-cluj-otelul.json",
     "cronici/2026-11-21-stire-diaconescu-dupa-mexic-copii-de-17-ani.json",
     "cronici/2026-11-21-stire-stanciu-final-de-decembrie-va-afla-lumea.json",
     "cronici/2026-11-21-stire-doue-accidentare-nice-psg-ligamente.json",
@@ -196,17 +199,14 @@
     "cronici/2026-11-19-stire-uefa-bosnia-45000-euro-fara-bilete-deplasare.json",
     "cronici/2026-11-19-stire-libertadores-finala-show-pauza-pedro-sampaio.json",
     "cronici/2026-11-19-stire-nicolita-ianis-hagi-nu-vine-fcsb-presiunea-numelui.json",
-    "cronici/2026-11-19-stire-pochettino-drona-antrenament-carrington.json",
-    "cronici/2026-11-19-stire-kompany-conferinta-dupa-meningita-pasul-urmator.json",
-    "cronici/2026-11-19-poveste-jucator-gheorghe-tataru.json",
-    "cronici/2026-11-19-stire-mm-stoica-angelescu-petru-popescu-nu-ne-a-atras-atentia.json"
+    "cronici/2026-11-19-stire-pochettino-drona-antrenament-carrington.json"
   ],
   "actualizate": [
+    "cronici/2026-11-21-stire-kovacs-cfr-otelul-balaj-penalty-eliminare.json",
+    "cronici/2026-11-21-stire-sumudica-cfr-decizie-intr-o-zi-doua.json",
     "cronici/2026-11-21-stire-mexic-romania-u17-0-1-debut-mondial.json",
     "cronici/2026-11-21-stire-varga-sumudica-nu-mai-pot-crede-pe-cuvant.json",
-    "cronici/2026-11-21-stire-sumudica-cfr-decizie-intr-o-zi-doua.json",
     "cronici/2026-11-21-stire-sirghi-kovacs-dont-be-a-bad-guy.json",
-    "cronici/2026-11-21-stire-kovacs-cfr-otelul-balaj-penalty-eliminare.json",
     "cronici/2026-11-18-poveste-jucator-radu-nunweiller.json",
     "cronici/2026-11-21-stire-radaslavescu-scuze-suporteri-farul.json",
     "cronici/2026-11-21-stire-sabau-scandari-u-cluj-au-inteles-gresit.json",
