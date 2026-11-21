@@ -1,5 +1,8 @@
 {
   "cronici": [
+    "cronici/2026-11-22-stire-ionut-radu-real-madrid-celta-bernabeu.json",
+    "cronici/2026-11-21-stire-cirjan-petrolul-cea-mai-slaba-repriza.json",
+    "cronici/2026-11-21-stire-marius-niculae-soro-nu-a-existat.json",
     "cronici/2026-11-21-stire-nicolescu-palma-fotbalului-arena-otelul.json",
     "cronici/2026-11-21-stire-hanca-monitor-var-ricardo-sousa.json",
     "cronici/2026-11-21-stire-nuno-campos-meritam-macar-un-punct.json",
@@ -196,10 +199,7 @@
     "cronici/2026-11-20-stire-napoli-fara-conferinta-allegri-torino.json",
     "cronici/2026-11-20-stire-inter-oferta-calhanoglu-2029-chivu.json",
     "cronici/2026-11-20-poveste-dinamo-2006-07.json",
-    "cronici/2026-11-20-stire-vochin-petru-popescu-250000-academia-fcsb.json",
-    "cronici/2026-11-20-stire-panduru-ianis-hagi-fcsb-nu-e-pas-inapoi.json",
-    "cronici/2026-11-20-stire-dorival-junior-sao-paulo-algemados-fluminense.json",
-    "cronici/2026-11-20-stire-sao-paulo-huiduieli-ole-morumbis-dorival.json"
+    "cronici/2026-11-20-stire-vochin-petru-popescu-250000-academia-fcsb.json"
   ],
   "actualizate": [
     "cronici/2026-11-21-stire-kovacs-cfr-otelul-balaj-penalty-eliminare.json",
