@@ -1,5 +1,8 @@
 {
   "cronici": [
+    "cronici/2026-11-21-stire-chivorchian-ianis-hagi-baiatul-lui-gica.json",
+    "cronici/2026-11-21-stire-bogdan-andone-fcsb-joc-extrem-de-periculos.json",
+    "cronici/2026-11-21-stire-costin-lazar-boloni-antrenament-doar-cu-mine-paok.json",
     "cronici/2026-11-21-poveste-jucator-florea-dumitrache.json",
     "cronici/2026-11-21-stire-corduneanu-fiorentina-niciodata-alta-nationala.json",
     "cronici/2026-11-21-stire-panduru-ticleanu-radaslavescu-faza-defensiva.json",
@@ -196,10 +199,7 @@
     "cronici/2026-11-19-stire-dibu-martinez-nico-paz-poate-purta-10.json",
     "cronici/2026-11-19-poveste-victoria-uefa-1989.json",
     "cronici/2026-11-19-video-liga-natiunilor-golurile-etapelor-5-6.json",
-    "cronici/2026-11-19-video-argentina-costa-rica.json",
-    "cronici/2026-11-19-stire-camataru-craiova-favorita-cicaldau-cel-mai-bun.json",
-    "cronici/2026-11-19-stire-lita-dumitru-ianis-jucator-de-pluton.json",
-    "cronici/2026-11-19-stire-edi-iordanescu-mm-stoica-se-va-intoarce-fcsb.json"
+    "cronici/2026-11-19-video-argentina-costa-rica.json"
   ],
   "actualizate": [
     "cronici/2026-11-18-poveste-jucator-radu-nunweiller.json",
