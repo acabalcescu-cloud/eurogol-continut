@@ -1,5 +1,10 @@
 {
   "cronici": [
+    "cronici/2026-11-21-stire-nicolescu-palma-fotbalului-arena-otelul.json",
+    "cronici/2026-11-21-stire-hanca-monitor-var-ricardo-sousa.json",
+    "cronici/2026-11-21-stire-nuno-campos-meritam-macar-un-punct.json",
+    "cronici/2026-11-21-stire-paul-papp-lumea-a-treia-dinamo-petrolul.json",
+    "cronici/2026-11-21-stire-cosmescu-dinamo-primaria-in-judecata.json",
     "cronici/2026-11-21-poveste-jucator-mircea-lucescu.json",
     "cronici/2026-11-21-stire-dinamo-petrolul-monitor-var-avram-balaj.json",
     "cronici/2026-11-21-stire-cosmescu-kovacs-nu-mai-scapam.json",
@@ -194,12 +199,7 @@
     "cronici/2026-11-20-stire-vochin-petru-popescu-250000-academia-fcsb.json",
     "cronici/2026-11-20-stire-panduru-ianis-hagi-fcsb-nu-e-pas-inapoi.json",
     "cronici/2026-11-20-stire-dorival-junior-sao-paulo-algemados-fluminense.json",
-    "cronici/2026-11-20-stire-sao-paulo-huiduieli-ole-morumbis-dorival.json",
-    "cronici/2026-11-20-stire-fluminense-libertadores-2027-fica-thiago-silva.json",
-    "cronici/2026-11-20-stire-pedro-emanuel-vasco-gazon-nu-vand-iluzii.json",
-    "cronici/2026-11-20-poveste-steaua-2005-06.json",
-    "cronici/2026-11-20-poveste-jiul-cupa-1974.json",
-    "cronici/2026-11-19-stire-mm-stoica-padurariu-am-rezolvat-problema-u21.json"
+    "cronici/2026-11-20-stire-sao-paulo-huiduieli-ole-morumbis-dorival.json"
   ],
   "actualizate": [
     "cronici/2026-11-21-stire-kovacs-cfr-otelul-balaj-penalty-eliminare.json",
