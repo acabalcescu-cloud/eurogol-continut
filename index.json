@@ -1,5 +1,10 @@
 {
   "cronici": [
+    "cronici/2026-11-22-stire-becali-boutoutaou-nu-e-fotbalist-arges.json",
+    "cronici/2026-11-22-stire-dragus-presiune-cot-oancea-arges.json",
+    "cronici/2026-11-22-stire-ianis-stoica-gol-cupa-portugaliei-portimonense.json",
+    "cronici/2026-11-22-stire-cornel-dinu-dinamo-slobozia-targoviste.json",
+    "cronici/2026-11-22-stire-pochettino-yoro-situatie-nedreapta-jacquet.json",
     "cronici/2026-11-22-video-barcelona-villarreal.json",
     "cronici/2026-11-22-video-uta-craiova.json",
     "cronici/2026-11-22-stire-fosa-petru-popescu-speranta-copiii-moldova.json",
@@ -194,14 +199,7 @@
     "cronici/2026-11-21-stire-dinamo-petrolul-7-din-7-faze-fixe.json",
     "cronici/2026-11-21-poveste-dinamo-2008-09.json",
     "cronici/2026-11-21-stire-coste-cicaldau-scos-dimineata-zenica.json",
-    "cronici/2026-11-21-poveste-steaua-2007-08.json",
-    "cronici/2026-11-21-stire-grecu-editorial-psihoza-ianis-hagi.json",
-    "cronici/2026-11-21-stire-birligea-titular-san-siro-milan-frosinone.json",
-    "cronici/2026-11-21-stire-conte-legea-pirlo-buffon-juventus.json",
-    "cronici/2026-11-21-stire-guardian-pochettino-omul-conexiunilor.json",
-    "cronici/2026-11-21-stire-barba-dominguez-paredes-unic-finala-sudamericana.json",
-    "cronici/2026-11-21-poveste-sepsi-cupa-2022.json",
-    "cronici/2026-11-21-stire-frattesi-gattuso-mi-a-salvat-viata-chivu.json"
+    "cronici/2026-11-21-poveste-steaua-2007-08.json"
   ],
   "actualizate": [
     "cronici/2026-11-22-stire-ianis-hagi-titular-ucar-alanyaspor-kasimpasa.json",
