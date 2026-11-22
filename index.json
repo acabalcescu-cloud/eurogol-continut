@@ -1,5 +1,11 @@
 {
   "cronici": [
+    "cronici/2026-11-22-stire-kovacs-manchester-city-napoli-etihad.json",
+    "cronici/2026-11-22-stire-andone-mihuleac-20-de-minute-var.json",
+    "cronici/2026-11-22-stire-camataru-fcsb-vorbim-dupa-play-off.json",
+    "cronici/2026-11-22-stire-jandarmerie-rucsac-pirotehnic-slobozia.json",
+    "cronici/2026-11-22-stire-nicolescu-dinamo-repatriere-dudu-georgescu.json",
+    "cronici/2026-11-22-stire-dudu-georgescu-casa-evacuare-2014.json",
     "cronici/2026-11-22-stire-sumudica-ramane-cfr-zece-jucatori-in-birou.json",
     "cronici/2026-11-22-stire-corvinul-farul-arad-gazon-petrosani.json",
     "cronici/2026-11-22-stire-nicolescu-linia-var-offside-n-am-pierdut-pe-decizia-asta.json",
@@ -193,13 +199,7 @@
     "cronici/2026-11-20-stire-andone-hagi-euro-2028-de-ce-nu.json",
     "cronici/2026-11-20-stire-ricardo-sousa-suspendare-doua-etape-asa-e-normal.json",
     "cronici/2026-11-20-stire-marius-niculae-birligea-atacant-pe-stilul-meu.json",
-    "cronici/2026-11-20-stire-marius-niculae-dinamo-dubluri-play-off.json",
-    "cronici/2026-11-20-stire-pantilimon-bani-publici-competitie-proasta.json",
-    "cronici/2026-11-20-stire-neacsu-stadion-dinamo-nu-promit-termene.json",
-    "cronici/2026-11-20-stire-falemi-plecarea-mm-stoica-gol-greu-de-acoperit.json",
-    "cronici/2026-11-20-stire-presa-maghiara-corbu-pierdut-szondi-rezidenta.json",
-    "cronici/2026-11-20-stire-andone-dinamo-titlu-doi-titulari-iarna.json",
-    "cronici/2026-11-20-stire-pochettino-prima-conferinta-griffa-bruno-capitan.json"
+    "cronici/2026-11-20-stire-marius-niculae-dinamo-dubluri-play-off.json"
   ],
   "actualizate": [
     "cronici/2026-11-22-stire-dudu-georgescu-a-murit-252-de-goluri.json",
