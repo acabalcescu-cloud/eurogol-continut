@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-22-poveste-dinamo-2011-12.json",
     "cronici/2026-11-22-stire-balanescu-voluntari-tineret-cupa-bacau.json",
     "cronici/2026-11-22-stire-baiaram-dubla-uta-mesaj-tatal.json",
     "cronici/2026-11-22-stire-ricardo-sousa-dinozaurii-papp-hanca-zima.json",
@@ -198,10 +199,10 @@
     "cronici/2026-11-21-stire-radaslavescu-scuze-suporteri-farul.json",
     "cronici/2026-11-21-stire-sabau-scandari-u-cluj-au-inteles-gresit.json",
     "cronici/2026-11-21-stire-cristi-ganea-targa-farul-u-cluj.json",
-    "cronici/2026-11-21-stire-stoichita-hagi-foarte-optimist-dupa-bosnia.json",
-    "cronici/2026-11-21-stire-iftime-mm-stoica-botosani-nivelul-3.json"
+    "cronici/2026-11-21-stire-stoichita-hagi-foarte-optimist-dupa-bosnia.json"
   ],
   "actualizate": [
+    "cronici/2026-11-05-poveste-anul-2011.json",
     "cronici/2026-11-22-stire-jandarmerie-rucsac-pirotehnic-slobozia.json",
     "cronici/2026-11-22-stire-dudu-georgescu-a-murit-252-de-goluri.json",
     "cronici/2026-11-19-poveste-jucator-ion-dumitru.json",
@@ -338,7 +339,6 @@
     "cronici/2026-11-04-poveste-anul-1995.json",
     "cronici/2026-11-04-poveste-anul-1997.json",
     "cronici/2026-11-04-poveste-anul-1996.json",
-    "cronici/2026-11-05-poveste-anul-2011.json",
     "cronici/2026-11-14-stire-portugalia-danemarca-1-4-prima-seara-fara-ronaldo.json",
     "cronici/2026-11-12-stire-kovacs-doua-penalty-uri-italia-franta.json",
     "cronici/2026-11-12-stire-craioveanu-al-hamlawi-getafe-bordalas.json",
