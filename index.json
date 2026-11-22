@@ -1,5 +1,8 @@
 {
   "cronici": [
+    "cronici/2026-11-22-stire-balanescu-voluntari-tineret-cupa-bacau.json",
+    "cronici/2026-11-22-stire-baiaram-dubla-uta-mesaj-tatal.json",
+    "cronici/2026-11-22-stire-ricardo-sousa-dinozaurii-papp-hanca-zima.json",
     "cronici/2026-11-22-stire-cca-comunicat-var-slobozia-telefon.json",
     "cronici/2026-11-22-stire-brighton-hull-mcburnie-inaintea-craiovei.json",
     "cronici/2026-11-22-stire-piturca-noii-veniti-fcsb-muhar-dragus.json",
@@ -196,10 +199,7 @@
     "cronici/2026-11-21-stire-sabau-scandari-u-cluj-au-inteles-gresit.json",
     "cronici/2026-11-21-stire-cristi-ganea-targa-farul-u-cluj.json",
     "cronici/2026-11-21-stire-stoichita-hagi-foarte-optimist-dupa-bosnia.json",
-    "cronici/2026-11-21-stire-iftime-mm-stoica-botosani-nivelul-3.json",
-    "cronici/2026-11-20-stire-sabau-dupa-farul-u-cluj-greu-de-acceptat.json",
-    "cronici/2026-11-20-stire-bergodi-nu-sunt-ipocrit-farul-u-cluj.json",
-    "cronici/2026-11-20-stire-macalou-scandari-rasiste-farul-u-cluj.json"
+    "cronici/2026-11-21-stire-iftime-mm-stoica-botosani-nivelul-3.json"
   ],
   "actualizate": [
     "cronici/2026-11-22-stire-jandarmerie-rucsac-pirotehnic-slobozia.json",
