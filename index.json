@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-22-poveste-jucator-marin-tufan.json",
     "cronici/2026-11-22-stire-becali-boutoutaou-nu-e-fotbalist-arges.json",
     "cronici/2026-11-22-stire-dragus-presiune-cot-oancea-arges.json",
     "cronici/2026-11-22-stire-ianis-stoica-gol-cupa-portugaliei-portimonense.json",
@@ -198,8 +199,7 @@
     "cronici/2026-11-21-stire-camataru-dinamo-nu-o-vad-capabila-meciuri-cu-miza.json",
     "cronici/2026-11-21-stire-dinamo-petrolul-7-din-7-faze-fixe.json",
     "cronici/2026-11-21-poveste-dinamo-2008-09.json",
-    "cronici/2026-11-21-stire-coste-cicaldau-scos-dimineata-zenica.json",
-    "cronici/2026-11-21-poveste-steaua-2007-08.json"
+    "cronici/2026-11-21-stire-coste-cicaldau-scos-dimineata-zenica.json"
   ],
   "actualizate": [
     "cronici/2026-11-22-stire-ianis-hagi-titular-ucar-alanyaspor-kasimpasa.json",
