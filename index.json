@@ -1,5 +1,8 @@
 {
   "cronici": [
+    "cronici/2026-11-22-stire-paredes-lesin-interviu-barranquilla.json",
+    "cronici/2026-11-22-stire-dominguez-scuze-mineiro-tensiune-finala.json",
+    "cronici/2026-11-22-stire-jardim-flamengo-titlu-filipe-luis-suporterii.json",
     "cronici/2026-11-22-stire-mihalcea-elisor-craiova-fara-al-hamlawi-arad.json",
     "cronici/2026-11-22-stire-allegri-napoli-zambet-mctominay-vergara.json",
     "cronici/2026-11-22-stire-de-zerbi-williams-barnett-yamal.json",
@@ -196,10 +199,7 @@
     "cronici/2026-11-20-stire-sabau-farul-u-cluj-culeg-roadele.json",
     "cronici/2026-11-20-stire-martinovic-restaurante-belgrad-70-de-probleme.json",
     "cronici/2026-11-20-stire-gataiantu-dinamo-venituri-25-milioane.json",
-    "cronici/2026-11-20-stire-nicolescu-armstrong-rangers-vara-europa.json",
-    "cronici/2026-11-20-poveste-jucator-nicolae-pescaru.json",
-    "cronici/2026-11-20-stire-pedro-martins-coman-evaluat-al-arabi-contra.json",
-    "cronici/2026-11-20-stire-cartu-ratiu-vinicius-coubis-pe-dreapta.json"
+    "cronici/2026-11-20-stire-nicolescu-armstrong-rangers-vara-europa.json"
   ],
   "actualizate": [
     "cronici/2026-11-21-stire-kovacs-cfr-otelul-balaj-penalty-eliminare.json",
