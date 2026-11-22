@@ -1,5 +1,11 @@
 {
   "cronici": [
+    "cronici/2026-11-23-stire-chivu-am-picat-testul-maturitatii-bergamo.json",
+    "cronici/2026-11-23-stire-presa-italiana-note-chivu-atalanta-inter.json",
+    "cronici/2026-11-23-stire-mutu-fcsb-fara-atacant-de-10-goluri.json",
+    "cronici/2026-11-22-stire-becali-fac-eu-echipa-stoian-joao-paulo.json",
+    "cronici/2026-11-22-stire-pio-esposito-hat-trick-bergamo.json",
+    "cronici/2026-11-22-stire-dani-coman-voi-da-nume-pitesti.json",
     "cronici/2026-11-22-stire-dani-coman-tarnovanu-copii-de-mingi.json",
     "cronici/2026-11-22-stire-becali-locul-cinci-miracol-ma-las-de-fotbal.json",
     "cronici/2026-11-22-stire-bogdan-andone-nikic-patru-puncte-dinamo-fcsb.json",
@@ -193,13 +199,7 @@
     "cronici/2026-11-21-video-bayern-koln.json",
     "cronici/2026-11-21-video-farul-u-cluj.json",
     "cronici/2026-11-21-stire-hurzeler-presing-ca-sa-marcam-craiova.json",
-    "cronici/2026-11-21-stire-dani-coman-nationala-haine-cercei.json",
-    "cronici/2026-11-21-stire-falemi-becali-il-suna-pe-mm-stoica.json",
-    "cronici/2026-11-21-stire-guardian-brighton-modelul-adversara-craiovei.json",
-    "cronici/2026-11-21-stire-lucho-acosta-tine-cu-boca-finala-sudamericana.json",
-    "cronici/2026-11-21-stire-alin-dinca-beiranvand-fotbalistul-anului-asia.json",
-    "cronici/2026-11-21-stire-coubis-bbc-lincolnshire-hagi-ca-un-tata.json",
-    "cronici/2026-11-21-stire-iftime-antrenor-strain-anestis-dormea.json"
+    "cronici/2026-11-21-stire-dani-coman-nationala-haine-cercei.json"
   ],
   "actualizate": [
     "cronici/2026-11-22-stire-ianis-hagi-titular-ucar-alanyaspor-kasimpasa.json",
