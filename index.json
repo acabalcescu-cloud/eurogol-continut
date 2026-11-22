@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-22-poveste-progresul-cupa.json",
     "cronici/2026-11-22-stire-bap-flamengo-fara-fax-palmeiras.json",
     "cronici/2026-11-22-stire-abel-ferreira-sapte-motive-vice-palmeiras.json",
     "cronici/2026-11-21-stire-flamengo-campioana-egal-palmeiras-samuel-lino.json",
@@ -198,8 +199,7 @@
     "cronici/2026-11-20-stire-panduru-angelescu-stoica-banderola-ianis-hagi.json",
     "cronici/2026-11-20-stire-camora-40-de-ani-somnul-jorge-costa.json",
     "cronici/2026-11-20-stire-boloni-ingrasamant-vorbe-goale-burleanu.json",
-    "cronici/2026-11-20-stire-niculae-lacatus-piturca-corbu-fcsb.json",
-    "cronici/2026-11-20-stire-premier-league-psihologi-arbitri-goodall.json"
+    "cronici/2026-11-20-stire-niculae-lacatus-piturca-corbu-fcsb.json"
   ],
   "actualizate": [
     "cronici/2026-11-21-stire-kovacs-cfr-otelul-balaj-penalty-eliminare.json",
