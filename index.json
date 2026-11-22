@@ -1,5 +1,9 @@
 {
   "cronici": [
+    "cronici/2026-11-22-stire-cosmin-matei-ruptura-musculara-mondial-u17.json",
+    "cronici/2026-11-22-stire-agent-al-hamlawi-informatii-neoficiale.json",
+    "cronici/2026-11-22-stire-borcea-dinamo-slobozia-chiar-si-in-ghencea.json",
+    "cronici/2026-11-22-stire-stoichita-miloiu-lot-mondial-u17.json",
     "cronici/2026-11-22-stire-nicolescu-puscas-gazonul-saftica.json",
     "cronici/2026-11-22-stire-chirila-karamoko-cel-mai-bun-jucator-din-romania.json",
     "cronici/2026-11-22-stire-mario-nicolae-provstgaard-inter-chivu.json",
@@ -195,11 +199,7 @@
     "cronici/2026-11-20-video-fc-bihor-gloria-bistrita.json",
     "cronici/2026-11-20-video-fc-botosani-fc-voluntari.json",
     "cronici/2026-11-20-stire-iftime-despartire-croitoru-botosani.json",
-    "cronici/2026-11-20-stire-vochin-rusescu-regula-u21-academie.json",
-    "cronici/2026-11-20-stire-flamengo-aerofla-bepe-boto-danilo-scuze.json",
-    "cronici/2026-11-20-stire-florinel-coman-gol-al-gharafa-al-arabi-contra.json",
-    "cronici/2026-11-20-stire-croitoru-botosani-voluntari-nu-ai-voie.json",
-    "cronici/2026-11-20-stire-mailat-botosani-ne-e-rusine-sa-ne-privim-in-ochi.json"
+    "cronici/2026-11-20-stire-vochin-rusescu-regula-u21-academie.json"
   ],
   "actualizate": [
     "cronici/2026-11-22-stire-dudu-georgescu-a-murit-252-de-goluri.json",
