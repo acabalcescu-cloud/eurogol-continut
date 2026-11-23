@@ -1,5 +1,7 @@
 {
   "cronici": [
+    "cronici/2026-11-23-video-getafe-atletico.json",
+    "cronici/2026-11-23-video-steaua-chindia.json",
     "cronici/2026-11-23-stire-baciu-tanase-se-astepta-prea-mult.json",
     "cronici/2026-11-23-stire-cosmescu-stanciu-cel-mai-bun-jucator-din-romania.json",
     "cronici/2026-11-23-stire-eduard-florescu-aproape-de-revenire.json",
@@ -197,9 +199,7 @@
     "cronici/2026-11-22-stire-stanciu-dalian-greu-sa-ies-din-casa.json",
     "cronici/2026-11-22-stire-pedro-daniel-atletico-mineiro-nu-am-atins-ce-ne-am-propus.json",
     "cronici/2026-11-22-stire-rossi-flamengo-cine-critica-nu-stie-portar.json",
-    "cronici/2026-11-22-poveste-steaua-2009-10.json",
-    "cronici/2026-11-22-stire-paredes-lesin-interviu-barranquilla.json",
-    "cronici/2026-11-22-stire-dominguez-scuze-mineiro-tensiune-finala.json"
+    "cronici/2026-11-22-poveste-steaua-2009-10.json"
   ],
   "actualizate": [
     "2026-11-23-poveste-dinamo-2013-14",
