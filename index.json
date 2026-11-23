@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-23-poveste-dinamo-2014-15.json",
     "cronici/2026-11-23-stire-burca-diferenta-de-valoare-sepsi-rapid.json",
     "cronici/2026-11-23-stire-pancu-geaca-sepsi-rapid-avem-din-nou-probleme.json",
     "cronici/2026-11-23-stire-dobre-gol-sepsi-contract-confidential.json",
@@ -198,8 +199,7 @@
     "cronici/2026-11-22-stire-raducioiu-dinamo-trei-intariri.json",
     "cronici/2026-11-22-stire-florin-manea-dragusin-clauza-obligatorie.json",
     "cronici/2026-11-22-stire-teja-antrenori-romani-mercedes.json",
-    "cronici/2026-11-22-stire-mourinho-courtois-lunin-espi.json",
-    "cronici/2026-11-22-stire-deivid-andreas-estonia-romania-acasa.json"
+    "cronici/2026-11-22-stire-mourinho-courtois-lunin-espi.json"
   ],
   "actualizate": [
     "cronici/2026-11-23-stire-oprita-steaua-chindia-0-3-ce-alt-obiectiv.json",
