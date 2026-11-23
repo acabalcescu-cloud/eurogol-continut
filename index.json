@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-23-poveste-steaua-2012-13.json",
     "cronici/2026-11-23-stire-cordea-colegii-au-primit-salariile-eu-nu.json",
     "cronici/2026-11-23-stire-raducioiu-nici-vorba-asociere-cs-dinamo.json",
     "cronici/2026-11-23-stire-sichitiu-ianis-hagi-repriza-a-doua-posesie.json",
@@ -198,8 +199,7 @@
     "cronici/2026-11-21-stire-andrei-cristea-petrolul-surpriza-fcsb.json",
     "cronici/2026-11-21-stire-carlos-sanchez-boca-castiga-river-nu.json",
     "cronici/2026-11-21-video-cetatea-suceava-poli-timisoara.json",
-    "cronici/2026-11-21-video-csikszereda-corvinul.json",
-    "cronici/2026-11-21-stire-stoichita-ionut-radu-maglavit-minune.json"
+    "cronici/2026-11-21-video-csikszereda-corvinul.json"
   ],
   "actualizate": [
     "cronici/2026-11-22-stire-becali-boutoutaou-nu-e-fotbalist-arges.json",
