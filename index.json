@@ -1,5 +1,8 @@
 {
   "cronici": [
+    "cronici/2026-11-23-video-napoli-torino.json",
+    "cronici/2026-11-23-video-juventus-venezia.json",
+    "cronici/2026-11-23-video-real-madrid-celta.json",
     "cronici/2026-11-23-video-getafe-atletico.json",
     "cronici/2026-11-23-video-steaua-chindia.json",
     "cronici/2026-11-23-stire-politeanu-petrolul-afacere-100-la-suta-penala.json",
@@ -196,14 +199,12 @@
     "cronici/2026-11-22-stire-sendre-editorial-nuno-campos-pauza-petrolul.json",
     "cronici/2026-11-22-stire-mihalcea-uta-clubul-poate-rezilia-oricand.json",
     "cronici/2026-11-22-stire-vaiscovici-dinamo-toti-o-apa-si-un-pamant.json",
-    "cronici/2026-11-22-poveste-dinamo-2010-11.json",
-    "cronici/2026-11-22-stire-ciubotaru-pasa-gol-hibernian-dundee-united-0-4.json",
-    "cronici/2026-11-22-stire-beldie-editorial-var-slobozia-necivilizat-nu-grav.json",
-    "cronici/2026-11-22-stire-mourinho-vinicius-titular-psv-baiat-rau.json",
-    "cronici/2026-11-22-stire-evanilson-bournemouth-noua-victorii-celta-radu.json",
-    "cronici/2026-11-22-stire-mantog-cinci-motive-corvinul-peste-fcsb.json"
+    "cronici/2026-11-22-poveste-dinamo-2010-11.json"
   ],
   "actualizate": [
+    "cronici/2026-11-23-stire-oprita-steaua-chindia-0-3-ce-alt-obiectiv.json",
+    "cronici/2026-11-22-stire-ionut-radu-real-madrid-celta-bernabeu.json",
+    "cronici/2026-11-22-stire-allegri-napoli-zambet-mctominay-vergara.json",
     "cronici/2026-11-23-poveste-dinamo-2013-14.json",
     "cronici/2026-11-05-poveste-anul-2014.json",
     "cronici/2026-11-23-stire-ilie-dumitrescu-nikic-senzational-arges-fcsb.json",
@@ -216,7 +217,6 @@
     "cronici/2026-11-23-stire-riquelme-felipe-fluminense-mirassol-xerem.json",
     "cronici/2026-11-23-stire-pedro-emanuel-vasco-bragantino-lumea-cade.json",
     "cronici/2026-11-23-stire-simeone-345-victorii-record-laliga-aragones.json",
-    "cronici/2026-11-22-stire-ionut-radu-real-madrid-celta-bernabeu.json",
     "cronici/2026-11-23-stire-presa-italiana-note-chivu-atalanta-inter.json",
     "cronici/2026-11-23-stire-chivu-am-picat-testul-maturitatii-bergamo.json",
     "cronici/2026-11-23-stire-bergomi-spence-mkhitaryan-atalanta-inter.json",
@@ -264,7 +264,6 @@
     "cronici/2026-11-22-stire-pedro-daniel-atletico-mineiro-nu-am-atins-ce-ne-am-propus.json",
     "cronici/2026-11-22-stire-dominguez-scuze-mineiro-tensiune-finala.json",
     "cronici/2026-11-22-stire-boca-tricampioana-sudamericana-mineiro.json",
-    "cronici/2026-11-22-stire-allegri-napoli-zambet-mctominay-vergara.json",
     "cronici/2026-11-21-stire-parma-roma-1-5-malen-patru-goluri.json",
     "cronici/2026-11-22-stire-sendre-editorial-nuno-campos-pauza-petrolul.json",
     "cronici/2026-11-21-stire-puscas-editorial-slobozia-dinamo-petrolul.json",
