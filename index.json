@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-23-poveste-jucator-flavius-domide.json",
     "cronici/2026-11-23-stire-nepotul-dudu-georgescu-lucescu-centra-la-cap.json",
     "cronici/2026-11-23-stire-becali-fcsb-locurile-5-6-craiova-dinamo-rapid.json",
     "cronici/2026-11-23-stire-arena-nationala-gazon-lampi-dinamo-otelul.json",
@@ -198,10 +199,10 @@
     "cronici/2026-11-21-stire-craioveanu-craiova-decembrie-mental-se-consuma.json",
     "cronici/2026-11-21-stire-cartu-estonia-ce-sa-cauti-la-europene.json",
     "cronici/2026-11-21-stire-perez-negreira-nu-ma-opresc-nadal-consiliu.json",
-    "cronici/2026-11-21-stire-hagi-regulament-amenzi-nationala.json",
-    "cronici/2026-11-21-poveste-corvinul-uefa-1982.json"
+    "cronici/2026-11-21-stire-hagi-regulament-amenzi-nationala.json"
   ],
   "actualizate": [
+    "cronici/2026-11-13-poveste-jucator-gheorghe-gornea.json",
     "cronici/2026-11-21-stire-doue-accidentare-nice-psg-ligamente.json",
     "cronici/2026-11-22-stire-ianis-hagi-titular-ucar-alanyaspor-kasimpasa.json",
     "cronici/2026-11-22-stire-barcelona-villarreal-3-2-remontada.json",
