@@ -1,5 +1,10 @@
 {
   "cronici": [
+    "cronici/2026-11-23-stire-iordanescu-watford-acte-la-avocati.json",
+    "cronici/2026-11-23-stire-impresar-tanase-zolo-nu-am-vorbit-cu-fcsb.json",
+    "cronici/2026-11-23-stire-lemnaru-slobozia-nuno-campos-alibi.json",
+    "cronici/2026-11-23-stire-mironica-editorial-dosarele-x-fcsb.json",
+    "cronici/2026-11-23-stire-cca-augustus-constantin-suspendat-examene.json",
     "cronici/2026-11-23-poveste-dinamo-2013-14.json",
     "cronici/2026-11-23-stire-cartu-brighton-nu-au-cu-ce-sa-ne-surprinda.json",
     "cronici/2026-11-23-stire-becali-tanase-poate-sa-vina-oricand.json",
@@ -194,12 +199,7 @@
     "cronici/2026-11-21-stire-cosmescu-kovacs-nu-mai-scapam.json",
     "cronici/2026-11-21-stire-prandelli-pio-esposito-paradoxal-chivu.json",
     "cronici/2026-11-21-stire-parma-roma-1-5-malen-patru-goluri.json",
-    "cronici/2026-11-21-stire-maresca-anxietate-gol-anulat-fulham.json",
-    "cronici/2026-11-21-stire-newcastle-arsenal-2-2-raya-accidentat.json",
-    "cronici/2026-11-21-video-gladbach-dortmund.json",
-    "cronici/2026-11-21-video-mexic-romania-u17.json",
-    "cronici/2026-11-21-video-cfr-cluj-otelul.json",
-    "cronici/2026-11-21-stire-diaconescu-dupa-mexic-copii-de-17-ani.json"
+    "cronici/2026-11-21-stire-maresca-anxietate-gol-anulat-fulham.json"
   ],
   "actualizate": [
     "cronici/2026-11-23-stire-ilie-dumitrescu-nikic-senzational-arges-fcsb.json",
