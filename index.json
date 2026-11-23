@@ -1,5 +1,8 @@
 {
   "cronici": [
+    "cronici/2026-11-22-stire-marian-iancu-becali-vindeti-iluzii.json",
+    "cronici/2026-11-22-stire-cardinale-milan-scudetto-frosinone.json",
+    "cronici/2026-11-22-stire-marseille-le-mans-2-3-vercruysse.json",
     "cronici/2026-11-23-poveste-steaua-2011-12.json",
     "cronici/2026-11-23-stire-becali-stanciu-sa-fie-sanatos-am-gresit-cu-tanase.json",
     "cronici/2026-11-23-stire-reghecampf-perfect-altceva-cisotti-garita.json",
@@ -196,12 +199,10 @@
     "cronici/2026-11-21-stire-claudiu-tudor-petrolul-nu-am-primit-nimic-depunctare.json",
     "cronici/2026-11-21-stire-chivorchian-ianis-hagi-baiatul-lui-gica.json",
     "cronici/2026-11-21-stire-bogdan-andone-fcsb-joc-extrem-de-periculos.json",
-    "cronici/2026-11-21-stire-costin-lazar-boloni-antrenament-doar-cu-mine-paok.json",
-    "cronici/2026-11-21-poveste-jucator-florea-dumitrache.json",
-    "cronici/2026-11-21-stire-corduneanu-fiorentina-niciodata-alta-nationala.json",
-    "cronici/2026-11-21-stire-panduru-ticleanu-radaslavescu-faza-defensiva.json"
+    "cronici/2026-11-21-stire-costin-lazar-boloni-antrenament-doar-cu-mine-paok.json"
   ],
   "actualizate": [
+    "cronici/2026-11-21-stire-doue-accidentare-nice-psg-ligamente.json",
     "cronici/2026-11-22-stire-ianis-hagi-titular-ucar-alanyaspor-kasimpasa.json",
     "cronici/2026-11-22-stire-barcelona-villarreal-3-2-remontada.json",
     "cronici/2026-11-22-stire-mihalcea-aplauze-arad-imi-venea-sa-plang.json",
