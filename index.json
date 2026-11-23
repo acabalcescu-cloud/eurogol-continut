@@ -1,5 +1,8 @@
 {
   "cronici": [
+    "cronici/2026-11-23-stire-panduru-gnahore-radunovic-fcsb-salarii.json",
+    "cronici/2026-11-23-stire-bergomi-spence-mkhitaryan-atalanta-inter.json",
+    "cronici/2026-11-23-stire-andre-duarte-astept-revenirea-mm-stoica.json",
     "cronici/2026-11-23-poveste-jucator-flavius-domide.json",
     "cronici/2026-11-23-stire-nepotul-dudu-georgescu-lucescu-centra-la-cap.json",
     "cronici/2026-11-23-stire-becali-fcsb-locurile-5-6-craiova-dinamo-rapid.json",
@@ -196,10 +199,7 @@
     "cronici/2026-11-21-stire-iftime-otger-canals-tip-foarte-simpatic.json",
     "cronici/2026-11-21-stire-vulturar-sepsi-rapid-mister-atitudine.json",
     "cronici/2026-11-21-stire-cartu-ratiu-se-crede-superior-spania.json",
-    "cronici/2026-11-21-stire-craioveanu-craiova-decembrie-mental-se-consuma.json",
-    "cronici/2026-11-21-stire-cartu-estonia-ce-sa-cauti-la-europene.json",
-    "cronici/2026-11-21-stire-perez-negreira-nu-ma-opresc-nadal-consiliu.json",
-    "cronici/2026-11-21-stire-hagi-regulament-amenzi-nationala.json"
+    "cronici/2026-11-21-stire-craioveanu-craiova-decembrie-mental-se-consuma.json"
   ],
   "actualizate": [
     "cronici/2026-11-13-poveste-jucator-gheorghe-gornea.json",
