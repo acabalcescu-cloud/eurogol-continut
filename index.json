@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-23-poveste-dinamo-2013-14.json",
     "cronici/2026-11-23-stire-cartu-brighton-nu-au-cu-ce-sa-ne-surprinda.json",
     "cronici/2026-11-23-stire-becali-tanase-poate-sa-vina-oricand.json",
     "cronici/2026-11-23-stire-baiaram-jucatorul-sezonului-2025-2026.json",
@@ -198,8 +199,7 @@
     "cronici/2026-11-21-video-gladbach-dortmund.json",
     "cronici/2026-11-21-video-mexic-romania-u17.json",
     "cronici/2026-11-21-video-cfr-cluj-otelul.json",
-    "cronici/2026-11-21-stire-diaconescu-dupa-mexic-copii-de-17-ani.json",
-    "cronici/2026-11-21-stire-stanciu-final-de-decembrie-va-afla-lumea.json"
+    "cronici/2026-11-21-stire-diaconescu-dupa-mexic-copii-de-17-ani.json"
   ],
   "actualizate": [
     "cronici/2026-11-23-stire-ilie-dumitrescu-nikic-senzational-arges-fcsb.json",
