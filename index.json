@@ -1,5 +1,9 @@
 {
   "cronici": [
+    "cronici/2026-11-24-stire-florin-maxim-antrenorii-straini-jucatorul-roman-scump.json",
+    "cronici/2026-11-24-stire-florin-maxim-dinamo-mai-atractiv-fcsb-lukic.json",
+    "cronici/2026-11-24-stire-edu-corlat-tatal-a-ales-romania-nu-spania.json",
+    "cronici/2026-11-24-stire-becali-mihai-toma-garita-pleaca-iarna.json",
     "cronici/2026-11-24-poveste-steaua-2015-16.json",
     "cronici/2026-11-24-stire-yalcouye-brighton-craiova-indisponibil.json",
     "cronici/2026-11-24-stire-prunea-puscas-l-au-fortat-pana-l-au-distrus.json",
@@ -195,13 +199,10 @@
     "cronici/2026-11-22-stire-ianis-stoica-gol-cupa-portugaliei-portimonense.json",
     "cronici/2026-11-22-stire-cornel-dinu-dinamo-slobozia-targoviste.json",
     "cronici/2026-11-22-stire-pochettino-yoro-situatie-nedreapta-jacquet.json",
-    "cronici/2026-11-22-video-barcelona-villarreal.json",
-    "cronici/2026-11-22-video-uta-craiova.json",
-    "cronici/2026-11-22-stire-fosa-petru-popescu-speranta-copiii-moldova.json",
-    "cronici/2026-11-22-stire-birligea-accidentat-san-siro-frosinone-in-zece.json",
-    "cronici/2026-11-22-stire-liverpool-manchester-united-4-0-debut-pochettino.json"
+    "cronici/2026-11-22-video-barcelona-villarreal.json"
   ],
   "actualizate": [
+    "cronici/2026-11-23-stire-endrick-accidentat-real-madrid-psv-dennis-man.json",
     "cronici/2026-11-21-stire-reghecampf-fc-arges-politic-menisc-petru-popescu.json",
     "cronici/2026-11-23-stire-dragusin-nota-5-monza-fiorentina-varela.json",
     "cronici/2026-11-23-stire-dobre-gol-sepsi-contract-confidential.json",
