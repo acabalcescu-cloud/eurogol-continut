@@ -1,5 +1,10 @@
 {
   "cronici": [
+    "cronici/2026-11-24-stire-yalcouye-brighton-craiova-indisponibil.json",
+    "cronici/2026-11-24-stire-prunea-puscas-l-au-fortat-pana-l-au-distrus.json",
+    "cronici/2026-11-24-stire-chivu-italia-dezbatere-benitez-cassano.json",
+    "cronici/2026-11-24-stire-petru-popescu-primele-declaratii-fcsb.json",
+    "cronici/2026-11-24-stire-eberl-olise-real-madrid-ne-a-sunat-de-doua-ori.json",
     "cronici/2026-11-24-stire-baciu-franta-maroc-superliga-sa-merite.json",
     "cronici/2026-11-24-stire-chivulete-apel-repatriere-dudu-georgescu.json",
     "cronici/2026-11-24-stire-radu-negru-nu-m-am-retras-futsal.json",
@@ -194,14 +199,10 @@
     "cronici/2026-11-22-stire-fosa-petru-popescu-speranta-copiii-moldova.json",
     "cronici/2026-11-22-stire-birligea-accidentat-san-siro-frosinone-in-zece.json",
     "cronici/2026-11-22-stire-liverpool-manchester-united-4-0-debut-pochettino.json",
-    "cronici/2026-11-22-stire-reghecampf-autocar-mioveni-nu-este-loc.json",
-    "cronici/2026-11-22-stire-mihalcea-aplauze-arad-imi-venea-sa-plang.json",
-    "cronici/2026-11-22-stire-coelho-nu-imi-place-cand-suferim-assad-brighton.json",
-    "cronici/2026-11-22-stire-bancu-scorul-putea-fi-mai-mare-recordul-stefanescu.json",
-    "cronici/2026-11-22-stire-cicaldau-doar-trei-puncte-tendon-brighton.json",
-    "cronici/2026-11-22-stire-mutu-nsimba-oferta-700000-refuzata.json"
+    "cronici/2026-11-22-stire-reghecampf-autocar-mioveni-nu-este-loc.json"
   ],
   "actualizate": [
+    "cronici/2026-11-21-stire-reghecampf-fc-arges-politic-menisc-petru-popescu.json",
     "cronici/2026-11-23-stire-dragusin-nota-5-monza-fiorentina-varela.json",
     "cronici/2026-11-23-stire-dobre-gol-sepsi-contract-confidential.json",
     "cronici/2026-11-23-stire-burca-diferenta-de-valoare-sepsi-rapid.json",
