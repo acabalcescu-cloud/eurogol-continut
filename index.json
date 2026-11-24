@@ -1,5 +1,11 @@
 {
   "cronici": [
+    "cronici/2026-11-24-stire-iordanescu-watford-negocieri-blocate.json",
+    "cronici/2026-11-24-stire-manea-chivu-dragusin-nu-mai-citi-ziarele.json",
+    "cronici/2026-11-24-stire-presa-chineza-stanciu-salariu-tanase-dalian.json",
+    "cronici/2026-11-24-stire-nicolescu-soro-prelungire-lucho-vega.json",
+    "cronici/2026-11-24-stire-ianis-hagi-11-km-kasimpasa.json",
+    "cronici/2026-11-23-stire-becali-doi-straini-liberi-mai-buni-decat-lukic.json",
     "cronici/2026-11-24-poveste-jucator-gheorghe-liliac.json",
     "cronici/2026-11-24-stire-petrolul-comunicat-primar-politeanu-postul-craciunului.json",
     "cronici/2026-11-24-stire-cimpanu-china-craiova-m-as-intoarce.json",
@@ -193,13 +199,7 @@
     "cronici/2026-11-22-stire-baiaram-dubla-uta-mesaj-tatal.json",
     "cronici/2026-11-22-stire-ricardo-sousa-dinozaurii-papp-hanca-zima.json",
     "cronici/2026-11-22-stire-cca-comunicat-var-slobozia-telefon.json",
-    "cronici/2026-11-22-stire-brighton-hull-mcburnie-inaintea-craiovei.json",
-    "cronici/2026-11-22-stire-piturca-noii-veniti-fcsb-muhar-dragus.json",
-    "cronici/2026-11-22-stire-bayern-500000-membri-988-milioane.json",
-    "cronici/2026-11-22-video-scm-valcea-metalul-buzau.json",
-    "cronici/2026-11-22-stire-meia-encarnada-flamengo-munchen-tropice.json",
-    "cronici/2026-11-22-stire-fosa-petru-popescu-rostov-kazahstan.json",
-    "cronici/2026-11-22-stire-becali-ai-informatie-nu-sfat.json"
+    "cronici/2026-11-22-stire-brighton-hull-mcburnie-inaintea-craiovei.json"
   ],
   "actualizate": [
     "cronici/2026-11-23-stire-dragusin-nota-5-monza-fiorentina-varela.json",
