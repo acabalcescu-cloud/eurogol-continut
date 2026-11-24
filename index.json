@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-24-poveste-steaua-2015-16.json",
     "cronici/2026-11-24-stire-yalcouye-brighton-craiova-indisponibil.json",
     "cronici/2026-11-24-stire-prunea-puscas-l-au-fortat-pana-l-au-distrus.json",
     "cronici/2026-11-24-stire-chivu-italia-dezbatere-benitez-cassano.json",
@@ -198,8 +199,7 @@
     "cronici/2026-11-22-video-uta-craiova.json",
     "cronici/2026-11-22-stire-fosa-petru-popescu-speranta-copiii-moldova.json",
     "cronici/2026-11-22-stire-birligea-accidentat-san-siro-frosinone-in-zece.json",
-    "cronici/2026-11-22-stire-liverpool-manchester-united-4-0-debut-pochettino.json",
-    "cronici/2026-11-22-stire-reghecampf-autocar-mioveni-nu-este-loc.json"
+    "cronici/2026-11-22-stire-liverpool-manchester-united-4-0-debut-pochettino.json"
   ],
   "actualizate": [
     "cronici/2026-11-21-stire-reghecampf-fc-arges-politic-menisc-petru-popescu.json",
