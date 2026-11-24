@@ -1,5 +1,9 @@
 {
   "cronici": [
+    "cronici/2026-11-24-stire-vedetele-etapei-16-superliga.json",
+    "cronici/2026-11-24-stire-petru-popescu-petrocub-pana-la-final-de-an.json",
+    "cronici/2026-11-24-stire-sepsi-burca-sedinta-maldarasanu.json",
+    "cronici/2026-11-24-stire-vanoli-fiorentina-cantonament-dragusin.json",
     "cronici/2026-11-24-stire-hagi-vatican-papa-leon-estonia.json",
     "cronici/2026-11-24-stire-baratky-editorial-rapid-pancu-schimbarile.json",
     "cronici/2026-11-24-stire-becali-zece-puncte-craiova-final-de-an.json",
@@ -195,11 +199,7 @@
     "cronici/2026-11-22-stire-borcea-dinamo-slobozia-chiar-si-in-ghencea.json",
     "cronici/2026-11-22-stire-stoichita-miloiu-lot-mondial-u17.json",
     "cronici/2026-11-22-stire-nicolescu-puscas-gazonul-saftica.json",
-    "cronici/2026-11-22-stire-chirila-karamoko-cel-mai-bun-jucator-din-romania.json",
-    "cronici/2026-11-22-stire-mario-nicolae-provstgaard-inter-chivu.json",
-    "cronici/2026-11-22-stire-rica-raducanu-pele-dinamo-pasapoarte.json",
-    "cronici/2026-11-22-stire-victor-becali-craiova-favorita-lot-echilibrat.json",
-    "cronici/2026-11-22-stire-beldie-editorial-fcsb-fara-mm-stoica-reghecampf-manager.json"
+    "cronici/2026-11-22-stire-chirila-karamoko-cel-mai-bun-jucator-din-romania.json"
   ],
   "actualizate": [
     "cronici/2026-11-23-stire-dragusin-nota-5-monza-fiorentina-varela.json",
