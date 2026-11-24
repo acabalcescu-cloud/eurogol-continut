@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-24-poveste-dinamo-2015-16.json",
     "cronici/2026-11-24-stire-birligea-leziune-biceps-femural-frosinone.json",
     "cronici/2026-11-24-stire-panduru-stanciu-sa-traga-echipa-u-cluj-burca.json",
     "cronici/2026-11-24-stire-ucar-hagi-este-tatal-meu-soldatul-rus.json",
@@ -198,10 +199,10 @@
     "cronici/2026-11-22-stire-burca-sepsi-rapid-energia-echipei-pancu.json",
     "cronici/2026-11-22-stire-deket-craiova-salzburg-steaua-rosie.json",
     "cronici/2026-11-22-stire-capello-chivu-bergamo-nu-e-plimbare.json",
-    "cronici/2026-11-22-stire-bruno-fernandes-contract-united-pus-deoparte.json",
-    "cronici/2026-11-22-poveste-csu-craiova-cupa-2021.json"
+    "cronici/2026-11-22-stire-bruno-fernandes-contract-united-pus-deoparte.json"
   ],
   "actualizate": [
+    "cronici/2026-11-06-poveste-anul-2016.json",
     "cronici/2026-11-22-stire-birligea-accidentat-san-siro-frosinone-in-zece.json",
     "cronici/2026-11-23-stire-oprita-steaua-chindia-0-3-ce-alt-obiectiv.json",
     "cronici/2026-11-22-stire-ionut-radu-real-madrid-celta-bernabeu.json",
@@ -369,7 +370,6 @@
     "cronici/2026-11-04-poveste-anul-1991.json",
     "cronici/2026-11-03-poveste-craiova-1990-91.json",
     "cronici/2026-11-03-stire-becali-lucescu-a-vrut-la-fcsb.json",
-    "cronici/2026-11-06-poveste-anul-2016.json",
     "cronici/2026-11-06-poveste-anul-2015.json",
     "cronici/2026-11-04-poveste-anul-1995.json",
     "cronici/2026-11-04-poveste-anul-1997.json",
