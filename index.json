@@ -1,5 +1,11 @@
 {
   "cronici": [
+    "cronici/2026-11-24-stire-reghecampf-mc-alger-favorit-balint.json",
+    "cronici/2026-11-24-stire-panduru-petrila-jucator-de-nationala.json",
+    "cronici/2026-11-24-stire-angelescu-stanciu-rapid-alta-strategie.json",
+    "cronici/2026-11-24-stire-kalanyos-atentie-s-a-intors-stanciu.json",
+    "cronici/2026-11-24-stire-fa-anuleaza-rosu-yoro-brentford.json",
+    "cronici/2026-11-24-stire-flick-sabah-suntem-barcelona-arbitri.json",
     "cronici/2026-11-24-poveste-jucator-mircea-rednic.json",
     "cronici/2026-11-24-stire-cassano-spence-baseball-schimbarile-lui-chivu.json",
     "cronici/2026-11-24-stire-luis-enrique-psg-fara-transferuri-doue-kvaratskhelia-roma.json",
@@ -193,13 +199,7 @@
     "cronici/2026-11-23-stire-atletico-mineiro-kombi-gloriosa-suporteri.json",
     "cronici/2026-11-23-poveste-dinamo-2012-13.json",
     "cronici/2026-11-23-stire-pedro-emanuel-vasco-bragantino-lumea-cade.json",
-    "cronici/2026-11-23-stire-riquelme-felipe-fluminense-mirassol-xerem.json",
-    "cronici/2026-11-22-stire-marian-iancu-becali-vindeti-iluzii.json",
-    "cronici/2026-11-22-stire-cardinale-milan-scudetto-frosinone.json",
-    "cronici/2026-11-22-stire-marseille-le-mans-2-3-vercruysse.json",
-    "cronici/2026-11-23-poveste-steaua-2011-12.json",
-    "cronici/2026-11-23-stire-becali-stanciu-sa-fie-sanatos-am-gresit-cu-tanase.json",
-    "cronici/2026-11-23-stire-reghecampf-perfect-altceva-cisotti-garita.json"
+    "cronici/2026-11-23-stire-riquelme-felipe-fluminense-mirassol-xerem.json"
   ],
   "actualizate": [
     "cronici/2026-11-23-stire-calhanoglu-rateaza-stuttgart-genoa-chivu.json",
