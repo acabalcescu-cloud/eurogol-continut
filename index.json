@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-25-poveste-steaua-2018-19.json",
     "cronici/2026-11-25-stire-hurzeler-cel-mai-important-meci-craiova.json",
     "cronici/2026-11-25-stire-ancelotti-generatia-neymar-nu-a-profitat-de-talent.json",
     "cronici/2026-11-25-stire-marinica-watford-iordanescu-tipicar-alin-stoica.json",
@@ -198,8 +199,7 @@
     "cronici/2026-11-23-stire-burca-diferenta-de-valoare-sepsi-rapid.json",
     "cronici/2026-11-23-stire-pancu-geaca-sepsi-rapid-avem-din-nou-probleme.json",
     "cronici/2026-11-23-stire-dobre-gol-sepsi-contract-confidential.json",
-    "cronici/2026-11-23-stire-morutan-petrila-play-off-sepsi-rapid.json",
-    "cronici/2026-11-23-stire-adrian-ilie-fcsb-foarte-ciudat-nu-marcheaza.json"
+    "cronici/2026-11-23-stire-morutan-petrila-play-off-sepsi-rapid.json"
   ],
   "actualizate": [
     "cronici/2026-11-25-stire-mbappe-75-goluri-champions-messi-vinicius.json",
