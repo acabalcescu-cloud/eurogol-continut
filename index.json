@@ -1,5 +1,10 @@
 {
   "cronici": [
+    "cronici/2026-11-25-stire-kovacs-presa-engleza-ceasul-etihad.json",
+    "cronici/2026-11-25-stire-iordanescu-a-plecat-watford-sunt-primul.json",
+    "cronici/2026-11-24-stire-mike-arana-idolii-neymar-yamal.json",
+    "cronici/2026-11-25-stire-teja-numai-echipe-insolventa-proiect-serios.json",
+    "cronici/2026-11-25-stire-jardim-flamengo-contracte-de-un-an.json",
     "cronici/2026-11-25-poveste-steaua-2017-18.json",
     "cronici/2026-11-25-stire-vulturar-scouting-nasu-becali-fcsb-iarna.json",
     "cronici/2026-11-25-stire-mourinho-bellingham-scandal-balonul-de-aur.json",
@@ -194,12 +199,7 @@
     "cronici/2026-11-23-stire-becali-ianis-hagi-imprumut-cel-mai-tare-scouter.json",
     "cronici/2026-11-23-stire-endrick-accidentat-real-madrid-psv-dennis-man.json",
     "cronici/2026-11-23-stire-iordanescu-watford-acte-la-avocati.json",
-    "cronici/2026-11-23-stire-impresar-tanase-zolo-nu-am-vorbit-cu-fcsb.json",
-    "cronici/2026-11-23-stire-lemnaru-slobozia-nuno-campos-alibi.json",
-    "cronici/2026-11-23-stire-mironica-editorial-dosarele-x-fcsb.json",
-    "cronici/2026-11-23-stire-cca-augustus-constantin-suspendat-examene.json",
-    "cronici/2026-11-23-poveste-dinamo-2013-14.json",
-    "cronici/2026-11-23-stire-cartu-brighton-nu-au-cu-ce-sa-ne-surprinda.json"
+    "cronici/2026-11-23-stire-impresar-tanase-zolo-nu-am-vorbit-cu-fcsb.json"
   ],
   "actualizate": [
     "cronici/2026-11-25-stire-mbappe-75-goluri-champions-messi-vinicius.json",
