@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-25-poveste-jucator-gheorghe-popescu.json",
     "cronici/2026-11-25-stire-nicolescu-suporter-monitor-var-targoviste.json",
     "cronici/2026-11-25-stire-costea-petru-popescu-fcsb-nu-te-asteapta-nimeni.json",
     "cronici/2026-11-25-stire-ryan-rusu-primul-contract-milan.json",
@@ -198,8 +199,7 @@
     "cronici/2026-11-24-stire-baratky-editorial-rapid-pancu-schimbarile.json",
     "cronici/2026-11-24-stire-becali-zece-puncte-craiova-final-de-an.json",
     "cronici/2026-11-24-stire-hurzeler-ultimele-20-de-minute-hull-craiova.json",
-    "cronici/2026-11-24-stire-tebas-real-madrid-tv-presiune-arbitri-florentino.json",
-    "cronici/2026-11-24-stire-atletico-mineiro-cinci-motive-cadere.json"
+    "cronici/2026-11-24-stire-tebas-real-madrid-tv-presiune-arbitri-florentino.json"
   ],
   "actualizate": [
     "cronici/2026-11-25-stire-mbappe-75-goluri-champions-messi-vinicius.json",
