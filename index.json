@@ -1,5 +1,10 @@
 {
   "cronici": [
+    "cronici/2026-11-25-stire-maldarasanu-nicio-discutie-sepsi.json",
+    "cronici/2026-11-25-stire-ilie-stan-iordanescu-watford-deschizator-de-drumuri.json",
+    "cronici/2026-11-25-stire-iorgulescu-lpf-repatriere-dudu-georgescu.json",
+    "cronici/2026-11-25-stire-falemi-hagi-super-subiectiv-dobrin.json",
+    "cronici/2026-11-25-stire-feyenoord-porto-ceasul-arbitrului-gol-fantoma.json",
     "cronici/2026-11-25-poveste-jucator-ioan-andone.json",
     "cronici/2026-11-25-stire-scarlatache-gurbanov-qarabag-jucatori-romani.json",
     "cronici/2026-11-25-stire-neagoe-kopic-ce-mare-realizare-dinamo.json",
@@ -194,12 +199,7 @@
     "cronici/2026-11-23-stire-constantea-bergodi-ramane-radoi-nu-s-a-pus-problema.json",
     "cronici/2026-11-23-stire-oprita-steaua-chindia-0-3-ce-alt-obiectiv.json",
     "cronici/2026-11-23-stire-caramavrov-editorial-dudu-georgescu-sigla-dinamo.json",
-    "cronici/2026-11-23-stire-courtois-balonul-de-aur-portar-psv.json",
-    "cronici/2026-11-23-stire-baciu-tanase-se-astepta-prea-mult.json",
-    "cronici/2026-11-23-stire-cosmescu-stanciu-cel-mai-bun-jucator-din-romania.json",
-    "cronici/2026-11-23-stire-eduard-florescu-aproape-de-revenire.json",
-    "cronici/2026-11-23-stire-arteta-raya-rateaza-dortmund.json",
-    "cronici/2026-11-23-stire-cuiaba-dresch-corinthians-santos-datornici.json"
+    "cronici/2026-11-23-stire-courtois-balonul-de-aur-portar-psv.json"
   ],
   "actualizate": [
     "cronici/2026-11-25-stire-mbappe-75-goluri-champions-messi-vinicius.json",
