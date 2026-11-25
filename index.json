@@ -1,5 +1,11 @@
 {
   "cronici": [
+    "cronici/2026-11-26-stire-presa-italiana-chivu-nota-7-capello-stuttgart.json",
+    "cronici/2026-11-26-stire-watford-blackburn-iordanescu-tribuna.json",
+    "cronici/2026-11-26-stire-programul-brighton-hagi-farul-craiova.json",
+    "cronici/2026-11-26-stire-ngezana-capitol-prost-fcsb.json",
+    "cronici/2026-11-26-stire-hermoso-roma-psg-identitatea-gasperini.json",
+    "cronici/2026-11-26-stire-estudiantes-despedida-montevideo-libertadores.json",
     "cronici/2026-11-25-stire-victor-becali-nu-mai-suntem-atractivi.json",
     "cronici/2026-11-25-stire-nicolescu-greseala-mea-drumul-slobozia-campos.json",
     "cronici/2026-11-25-stire-polverosi-dragusin-ceai-fiorentina.json",
@@ -193,13 +199,7 @@
     "cronici/2026-11-24-stire-trevisani-dragusin-dezastru-fiorentina-fundas.json",
     "cronici/2026-11-24-stire-mustata-stanciu-nu-a-tradat-u-cluj.json",
     "cronici/2026-11-24-stire-razvan-lucescu-24-noiembrie-al-hilal-al-nassr.json",
-    "cronici/2026-11-24-stire-neymar-arbitru-santos-gremio-0-2.json",
-    "cronici/2026-11-24-video-levante-elche.json",
-    "cronici/2026-11-24-video-monza-fiorentina.json",
-    "cronici/2026-11-24-video-sepsi-rapid.json",
-    "cronici/2026-11-24-stire-vedetele-etapei-16-superliga.json",
-    "cronici/2026-11-24-stire-petru-popescu-petrocub-pana-la-final-de-an.json",
-    "cronici/2026-11-24-stire-sepsi-burca-sedinta-maldarasanu.json"
+    "cronici/2026-11-24-stire-neymar-arbitru-santos-gremio-0-2.json"
   ],
   "actualizate": [
     "cronici/2026-11-25-stire-mbappe-75-goluri-champions-messi-vinicius.json",
