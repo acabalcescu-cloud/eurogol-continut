@@ -1,5 +1,10 @@
 {
   "cronici": [
+    "cronici/2026-11-25-stire-ianis-stoica-koln-nu-il-urmareste.json",
+    "cronici/2026-11-25-stire-angelescu-stojilkovic-cel-mai-bun-la-demarcare.json",
+    "cronici/2026-11-25-stire-plesan-arana-cluburi-din-top-5.json",
+    "cronici/2026-11-25-stire-analiza-fanatik-craiova-jamestown-lista-nu-decide.json",
+    "cronici/2026-11-25-stire-perisic-cel-mai-varstnic-penalty-champions-league.json",
     "cronici/2026-11-25-stire-kovacs-presa-engleza-ceasul-etihad.json",
     "cronici/2026-11-25-stire-iordanescu-a-plecat-watford-sunt-primul.json",
     "cronici/2026-11-24-stire-mike-arana-idolii-neymar-yamal.json",
@@ -194,12 +199,7 @@
     "cronici/2026-11-23-stire-becali-piturca-ma-uit-la-el-si-rad.json",
     "cronici/2026-11-23-stire-croitoru-reziliere-botosani-nu-as-fi-renuntat.json",
     "cronici/2026-11-23-stire-daniel-stanciu-tarnovanu-copiii-se-jucau.json",
-    "cronici/2026-11-23-stire-rusescu-academia-fcsb-scoala-anul-viitor.json",
-    "cronici/2026-11-23-stire-maresca-city-napoli-echilibru-defensiv-salernitana.json",
-    "cronici/2026-11-23-stire-becali-ianis-hagi-imprumut-cel-mai-tare-scouter.json",
-    "cronici/2026-11-23-stire-endrick-accidentat-real-madrid-psv-dennis-man.json",
-    "cronici/2026-11-23-stire-iordanescu-watford-acte-la-avocati.json",
-    "cronici/2026-11-23-stire-impresar-tanase-zolo-nu-am-vorbit-cu-fcsb.json"
+    "cronici/2026-11-23-stire-rusescu-academia-fcsb-scoala-anul-viitor.json"
   ],
   "actualizate": [
     "cronici/2026-11-25-stire-mbappe-75-goluri-champions-messi-vinicius.json",
