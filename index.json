@@ -1,5 +1,9 @@
 {
   "cronici": [
+    "cronici/2026-11-26-stire-moldovan-exclus-lot-eyupspor.json",
+    "cronici/2026-11-26-stire-cfr-cluj-insolventa-cjue-gherdan-micai.json",
+    "cronici/2026-11-26-stire-analiza-prosport-watford-incubator-pozzo-iordanescu.json",
+    "cronici/2026-11-26-stire-pochettino-sporting-pedepsiti-lammens.json",
     "cronici/2026-11-26-stire-capello-dimarco-de-ce-il-foloseste-chivu-atat-de-rar.json",
     "cronici/2026-11-26-stire-mike-arana-frigidere-aragaze-copilaria-san-pedro-sula.json",
     "cronici/2026-11-26-stire-dragomir-brighton-craiova-divizia-c-a-europei.json",
@@ -195,11 +199,7 @@
     "cronici/2026-11-24-stire-analiza-fanatik-romania-u17-mai-bine-in-zece.json",
     "cronici/2026-11-24-stire-dragusin-flop-11-tuttomercatoweb-serie-a.json",
     "cronici/2026-11-24-stire-rossi-flamengo-prelungire-vreau-sa-raman.json",
-    "cronici/2026-11-24-poveste-dinamo-2016-17.json",
-    "cronici/2026-11-24-stire-venezuela-romania-u17-0-1-silitra-eliminat.json",
-    "cronici/2026-11-24-stire-chivu-stuttgart-nu-zece-minute-zielinski.json",
-    "cronici/2026-11-24-stire-vulturar-octavian-popescu-club-grecia-primele-sase.json",
-    "cronici/2026-11-24-stire-vulturar-tabara-fundatia-real-madrid-romania-2027.json"
+    "cronici/2026-11-24-poveste-dinamo-2016-17.json"
   ],
   "actualizate": [
     "cronici/2026-11-04-poveste-anul-1991.json",
