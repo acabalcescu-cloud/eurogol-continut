@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-26-poveste-jucator-adrian-popescu.json",
     "cronici/2026-11-26-stire-analiza-fanatik-craiova-fara-al-hamlawi-europa.json",
     "cronici/2026-11-26-stire-cappellini-vanoli-pana-la-craciun-dragusin.json",
     "cronici/2026-11-26-stire-chivu-al-cincilea-atacant-lautaro.json",
@@ -198,10 +199,10 @@
     "cronici/2026-11-24-stire-edu-corlat-tatal-a-ales-romania-nu-spania.json",
     "cronici/2026-11-24-stire-becali-mihai-toma-garita-pleaca-iarna.json",
     "cronici/2026-11-24-poveste-steaua-2015-16.json",
-    "cronici/2026-11-24-stire-yalcouye-brighton-craiova-indisponibil.json",
-    "cronici/2026-11-24-stire-prunea-puscas-l-au-fortat-pana-l-au-distrus.json"
+    "cronici/2026-11-24-stire-yalcouye-brighton-craiova-indisponibil.json"
   ],
   "actualizate": [
+    "cronici/2026-11-04-poveste-anul-1991.json",
     "cronici/2026-11-23-stire-dennis-man-psv-vanzare-sau-imprumut-ianuarie.json",
     "cronici/2026-11-25-stire-mbappe-75-goluri-champions-messi-vinicius.json",
     "cronici/2026-11-15-stire-stoichita-lupu-ilie-eissat-ca-misa-klein.json",
@@ -382,7 +383,6 @@
     "cronici/2026-11-04-poveste-anul-1993.json",
     "cronici/2026-11-03-poveste-craiova-1979-80.json",
     "cronici/2026-11-03-poveste-craiova-1980-81.json",
-    "cronici/2026-11-04-poveste-anul-1991.json",
     "cronici/2026-11-03-poveste-craiova-1990-91.json",
     "cronici/2026-11-03-stire-becali-lucescu-a-vrut-la-fcsb.json",
     "cronici/2026-11-06-poveste-anul-2015.json",
