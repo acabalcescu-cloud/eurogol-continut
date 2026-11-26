@@ -1,0 +1,20 @@
+{
+ "id": "2026-11-26-stire-analiza-sport-ro-fcsb-monte-carlo-play-off",
+ "titlu": "Analiza Sport.ro: FCSB, sub 10% șanse să termine anul pe un loc de play-off",
+ "rezumat": "O simulare statistică a ultimelor patru etape din 2026 o vede pe FCSB cel mai probabil pe locul 8 la pauza de iarnă, cu aproximativ 28 de puncte. Meciul de la Constanța, din 4 decembrie, e considerat cel mai greu.",
+ "continut": "<p>Cu patru etape rămase până la pauza de iarnă, FCSB are 22 de puncte după 16 meciuri și nicio victorie în ultimele trei etape de campionat. Sport.ro a încercat să afle unde ar putea ajunge echipa lui Laurențiu Reghecampf până la Crăciun și a pus întrebarea unui model statistic. Răspunsul nu e încurajator pentru roș-albaștri: o șansă de aproximativ 9,9% să încheie anul pe unul dintre primele șase locuri, cele care duc în play-off.</p><h3>Cum a fost făcută simularea</h3><p>Publicația a folosit o simulare de tip Monte Carlo, construită cu ajutorul inteligenței artificiale. Modelul a pornit de la golurile marcate și primite de fiecare echipă în primele 16 etape, raportate la media campionatului, cu un avantaj pentru gazde. Golurile din fiecare meci au fost estimate cu distribuția Poisson, iar toate cele 32 de partide din etapele 17–20 au fost jucate de zeci de mii de ori. După fiecare rulare, clasamentul a fost refăcut după puncte, golaveraj și goluri marcate.</p><p>Metoda are limitele ei. Nu ține cont de accidentări, suspendări sau de o schimbare de atitudine într-un vestiar. Rămâne însă un mod util de a citi forma unei echipe în cifre.</p><h3>Ce spun cifrele despre FCSB</h3><p>Bilanțul de până acum e de șase victorii, patru egaluri și șase înfrângeri, cu golaveraj 20-21. Diferența dintre acasă și deplasare e mare: 14 puncte din opt meciuri pe teren propriu, doar opt în deplasare.</p><p>Programul rămas: Csikszereda acasă, sâmbătă, 28 noiembrie, apoi Farul la Constanța, vineri, 4 decembrie, Sepsi acasă, pe 12 decembrie, și FC Botoșani în deplasare, pe 19 decembrie. Potrivit modelului, cel mai greu test e cel de pe litoral, unde Farul pornește favorită. Cea mai mare șansă la trei puncte e meciul cu Csikszereda, ultima clasată, cu șase puncte.</p><p>În medie, FCSB ar lua aproximativ 6,3 puncte din 12 și ar ajunge la circa 28 de puncte. Locul 8 e cel mai frecvent rezultat (32,6% din scenarii), urmat de locul 9 (26,4%) și de locul 7 (21,5%). Împreună, cele trei poziții adună 80,6% dintre simulări. Scenariul unei căderi pe locul 10 apare în 6,8% dintre cazuri.</p><h3>Rivalele directe</h3><p>Principala problemă pentru FCSB, în această socoteală, este Corvinul. Echipa din Hunedoara are deja 25 de puncte, iar modelul o vede trecând de 31 până la sfârșitul anului. Farul are două puncte în plus față de FCSB, iar meciul direct de la Constanța poate schimba ordinea. Simularea îi dă FCSB-ului 30,1% șanse să termine anul peste Farul.</p><p>CFR Cluj are același număr de puncte, dar un program mai greu: Voluntari, Rapid, U Cluj și Corvinul. Modelul o proiectează sub FCSB, la 27,3 puncte, iar șansa ca echipa lui Reghecampf să încheie anul peste CFR e de 59,2%. Față de UTA Arad, avantajul e clar: 94,8%.</p><p>Simularea nu decide nimic. Patru meciuri înseamnă 12 puncte, iar o serie de victorii ar schimba orice calcul. Primul răspuns vine sâmbătă, cu Csikszereda. Pentru FCSB, fiecare punct pierdut de acum înainte face play-off-ul tot mai greu de atins.</p><p><em>Surse:</em> <a href=\"https://www.sport.ro/liga-1/pe-ce-loc-va-termina-fcsb-anul-2026-sport-ro-a-realizat-o-simulare-monte-carlo-cu-20-000-de-rulari-ce-ne-spun-datele.html\">Sport.ro</a>, <a href=\"https://www.digisport.ro/fotbal/liga-1/lovitura-dupa-lovitura-pentru-cfr-cluj-4626521\">Digi Sport</a></p>",
+ "categorie": "SuperLiga",
+ "etichete": [
+  "SuperLiga",
+  "FCSB",
+  "Laurențiu Reghecampf",
+  "Farul",
+  "Corvinul",
+  "CFR Cluj",
+  "2026/2027"
+ ],
+ "imagine": "2026-11-26-stire-analiza-sport-ro-fcsb-monte-carlo-play-off.jpg",
+ "data_publicare": "2026-11-26 17:02",
+ "anunt": false,
+ "fundal": "stadion-noaptea"
+}
