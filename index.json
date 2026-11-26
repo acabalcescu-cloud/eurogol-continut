@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-26-poveste-steaua-2019-20.json",
     "cronici/2026-11-26-stire-chivu-stuttgart-meci-murdar-bastoni.json",
     "cronici/2026-11-26-stire-slavia-record-negativ-steaua-2007-villarreal.json",
     "cronici/2026-11-26-stire-gasperini-psg-roma-fericit-mandru-soule.json",
@@ -198,8 +199,7 @@
     "cronici/2026-11-24-stire-ianis-hagi-11-km-kasimpasa.json",
     "cronici/2026-11-23-stire-becali-doi-straini-liberi-mai-buni-decat-lukic.json",
     "cronici/2026-11-24-poveste-jucator-gheorghe-liliac.json",
-    "cronici/2026-11-24-stire-petrolul-comunicat-primar-politeanu-postul-craciunului.json",
-    "cronici/2026-11-24-stire-cimpanu-china-craiova-m-as-intoarce.json"
+    "cronici/2026-11-24-stire-petrolul-comunicat-primar-politeanu-postul-craciunului.json"
   ],
   "actualizate": [
     "cronici/2026-11-25-stire-mbappe-75-goluri-champions-messi-vinicius.json",
