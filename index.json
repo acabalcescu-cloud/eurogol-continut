@@ -1,5 +1,10 @@
 {
   "cronici": [
+    "cronici/2026-11-27-stire-mantog-editorial-peluza-craiova-brighton.json",
+    "cronici/2026-11-26-stire-craioveanu-brighton-nsimba-gross-imperial.json",
+    "cronici/2026-11-26-stire-plzen-benfica-4-0-milan-revine-pireu.json",
+    "cronici/2026-11-26-stire-marseille-levski-violente-velodrome.json",
+    "cronici/2026-11-26-stire-leila-pereira-abel-ramane-2027-oricum-finala.json",
     "cronici/2026-11-26-stire-escaldes-copenhaga-2-0-ortiz-adio.json",
     "cronici/2026-11-26-stire-tanase-omonia-juventus-scos-la-pauza.json",
     "cronici/2026-11-26-stire-florucz-union-lech-penalty-ratat-gol.json",
@@ -194,14 +199,10 @@
     "cronici/2026-11-25-stire-panduru-petru-popescu-nu-vii-la-atletism.json",
     "cronici/2026-11-25-stire-presa-turca-dragus-sub-asteptari-fcsb.json",
     "cronici/2026-11-25-poveste-dinamo-2018-19.json",
-    "cronici/2026-11-25-stire-stevanovic-cea-mai-buna-perioada-alibec-getafe.json",
-    "cronici/2026-11-25-stire-talnar-orac-schema-cruzeiro-dinamo-inter-45-ani.json",
-    "cronici/2026-11-25-stire-razvan-lucescu-frustrat-al-nassr-meci-decisiv.json",
-    "cronici/2026-11-25-stire-corriere-dello-sport-kovacs-mereu-in-control.json",
-    "cronici/2026-11-25-stire-baluta-the-argus-brighton-as-fi-vrut-altfel.json",
-    "cronici/2026-11-25-stire-ianis-stoica-koln-nu-il-urmareste.json"
+    "cronici/2026-11-25-stire-stevanovic-cea-mai-buna-perioada-alibec-getafe.json"
   ],
   "actualizate": [
+    "cronici/2026-11-26-stire-hurzeler-laurentiu-popescu-portar-grozav.json",
     "cronici/2026-11-26-stire-sumudica-sorescu-burca-l-as-lua-maine.json",
     "cronici/2026-11-25-stire-al-hamlawi-contuzie-nu-a-plecat-brighton.json",
     "cronici/2026-11-26-poveste-dinamo-2020-21.json",
