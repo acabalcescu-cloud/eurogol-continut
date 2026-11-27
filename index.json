@@ -1,5 +1,10 @@
 {
   "cronici": [
+    "cronici/2026-11-27-stire-ilie-dumitrescu-bancu-watford-iordanescu.json",
+    "cronici/2026-11-27-stire-becali-mm-stoica-boutoutaou-500000.json",
+    "cronici/2026-11-27-stire-mironica-tanase-fcsb-revolutie-comedie.json",
+    "cronici/2026-11-27-stire-emil-boc-u-cluj-sepsi-romania-irlanda.json",
+    "cronici/2026-11-27-stire-doru-andrei-sepsi-primul-instinct-u-cluj.json",
     "cronici/2026-11-27-stire-andone-arges-nu-jucam-cu-floricele.json",
     "cronici/2026-11-27-stire-ricardo-sousa-petrolul-singurul-vinovat-sunt-eu.json",
     "cronici/2026-11-27-stire-dani-coman-luvambo-amenda-tudose.json",
@@ -194,12 +199,7 @@
     "cronici/2026-11-26-stire-marica-tanase-intoarcerea-fcsb-regres.json",
     "cronici/2026-11-26-stire-luis-enrique-roma-sper-sa-nu-i-mai-intalnim.json",
     "cronici/2026-11-26-stire-becali-craiova-mult-mai-buna-decat-mine.json",
-    "cronici/2026-11-26-stire-raul-vancea-watford-singurul-roman-iordanescu.json",
-    "cronici/2026-11-26-stire-mariappa-watford-abia-astept-sa-vorbesc-cu-edward.json",
-    "cronici/2026-11-26-stire-kimmich-musiala-inacceptabil-conducerea-bayern.json",
-    "cronici/2026-11-26-stire-kompany-lille-psg-masina-trebuie-repornita.json",
-    "cronici/2026-11-26-poveste-jucator-adrian-popescu.json",
-    "cronici/2026-11-26-stire-analiza-fanatik-craiova-fara-al-hamlawi-europa.json"
+    "cronici/2026-11-26-stire-raul-vancea-watford-singurul-roman-iordanescu.json"
   ],
   "actualizate": [
     "cronici/2026-11-06-poveste-anul-2025.json",
