@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-27-poveste-jucator-gheorghe-hagi.json",
     "cronici/2026-11-27-stire-mititelu-fcsb-play-off-100-reghecampf.json",
     "cronici/2026-11-27-stire-stoinov-dinamo-craiova-nu-au-fost-slabi-in-tur.json",
     "cronici/2026-11-27-stire-reghecampf-becali-nu-e-frumos-ce-faceti.json",
@@ -198,10 +199,11 @@
     "cronici/2026-11-26-stire-gasperini-psg-roma-fericit-mandru-soule.json",
     "cronici/2026-11-26-stire-isak-liverpool-brugge-sase-deplasari-iraola.json",
     "cronici/2026-11-26-stire-presa-italiana-chivu-nota-7-capello-stuttgart.json",
-    "cronici/2026-11-26-stire-watford-blackburn-iordanescu-tribuna.json",
-    "cronici/2026-11-26-stire-programul-brighton-hagi-farul-craiova.json"
+    "cronici/2026-11-26-stire-watford-blackburn-iordanescu-tribuna.json"
   ],
   "actualizate": [
+    "cronici/2026-11-03-poveste-gheorghe-hagi-regele.json",
+    "cronici/2026-11-04-poveste-anul-2000.json",
     "cronici/2026-11-06-poveste-anul-2024.json",
     "cronici/2026-11-11-poveste-dinamo-1989-90.json",
     "cronici/2026-11-04-poveste-anul-1990.json",
@@ -374,9 +376,7 @@
     "cronici/2026-11-15-stire-romania-polonia-cifrele-victoriei-21-la-6.json",
     "cronici/2026-11-14-stire-birligea-pasa-gol-man-romania-polonia.json",
     "cronici/2026-11-16-stire-hagi-nu-mai-promit-12-din-12-generatia-de-aur.json",
-    "cronici/2026-11-04-poveste-anul-2000.json",
     "cronici/2026-11-16-poveste-dinamo-1999-00.json",
-    "cronici/2026-11-03-poveste-gheorghe-hagi-regele.json",
     "cronici/2026-11-06-poveste-anul-2023.json",
     "cronici/2026-11-16-stire-apostu-colaborare-punctuala-fcsb-numar-10.json",
     "cronici/2026-11-16-stire-franta-turcia-2-1-kroupi-sferturi.json",
