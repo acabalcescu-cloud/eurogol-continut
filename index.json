@@ -1,5 +1,10 @@
 {
   "cronici": [
+    "cronici/2026-11-27-stire-romania-u17-camerun-3-1-eliminata.json",
+    "cronici/2026-11-27-stire-nazare-u17-calificarea-nu-s-a-jucat-vineri.json",
+    "cronici/2026-11-27-stire-bergodi-sepsi-dus-rece-vina-mea.json",
+    "cronici/2026-11-27-stire-burca-multumeste-dioszegi-dupa-u-cluj.json",
+    "cronici/2026-11-27-stire-leila-pereira-flamengo-nu-e-rival-palmeiras.json",
     "cronici/2026-11-27-poveste-jucator-gheorghe-hagi.json",
     "cronici/2026-11-27-stire-mititelu-fcsb-play-off-100-reghecampf.json",
     "cronici/2026-11-27-stire-stoinov-dinamo-craiova-nu-au-fost-slabi-in-tur.json",
@@ -194,12 +199,7 @@
     "cronici/2026-11-26-stire-marciniak-sporting-united-gol-anulat-diallo.json",
     "cronici/2026-11-26-stire-palmeiras-montevideo-1968-estudiantes.json",
     "cronici/2026-11-26-poveste-steaua-2019-20.json",
-    "cronici/2026-11-26-stire-chivu-stuttgart-meci-murdar-bastoni.json",
-    "cronici/2026-11-26-stire-slavia-record-negativ-steaua-2007-villarreal.json",
-    "cronici/2026-11-26-stire-gasperini-psg-roma-fericit-mandru-soule.json",
-    "cronici/2026-11-26-stire-isak-liverpool-brugge-sase-deplasari-iraola.json",
-    "cronici/2026-11-26-stire-presa-italiana-chivu-nota-7-capello-stuttgart.json",
-    "cronici/2026-11-26-stire-watford-blackburn-iordanescu-tribuna.json"
+    "cronici/2026-11-26-stire-chivu-stuttgart-meci-murdar-bastoni.json"
   ],
   "actualizate": [
     "cronici/2026-11-03-poveste-gheorghe-hagi-regele.json",
