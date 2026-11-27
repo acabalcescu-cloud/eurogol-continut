@@ -1,5 +1,11 @@
 {
   "cronici": [
+    "cronici/2026-11-27-stire-raducioiu-mercenar-bari-nu-ma-justific.json",
+    "cronici/2026-11-27-stire-panduru-ricardo-sousa-va-pleca-petrolul.json",
+    "cronici/2026-11-27-stire-grigore-copos-varza-cartofi-salariu.json",
+    "cronici/2026-11-27-stire-reghecampf-junior-kroos-crevedia-fcsb.json",
+    "cronici/2026-11-27-stire-neville-haaland-real-madrid-18-luni.json",
+    "cronici/2026-11-27-stire-libertadores-premiu-record-25-milioane.json",
     "cronici/2026-11-27-poveste-jucator-ioan-sabau.json",
     "cronici/2026-11-27-stire-iftime-ortiz-ma-bucur-daca-bate-rapidul.json",
     "cronici/2026-11-27-stire-hurzeler-oriley-glezna-osman-craiova.json",
@@ -193,13 +199,7 @@
     "cronici/2026-11-25-stire-pantilimon-iordanescu-watford-oricand-il-pot-ajuta.json",
     "cronici/2026-11-25-stire-victor-becali-iordanescu-watford-premier-league.json",
     "cronici/2026-11-25-stire-bogdan-marian-watford-iordanescu-totul-pe-farfurie.json",
-    "cronici/2026-11-25-stire-koljic-craiova-primele-opt-conference.json",
-    "cronici/2026-11-25-stire-rat-chivu-inter-genoa-condamnat-sa-castige.json",
-    "cronici/2026-11-25-stire-musiala-examinat-22-aprilie-2025-bayern.json",
-    "cronici/2026-11-25-poveste-steaua-2018-19.json",
-    "cronici/2026-11-25-stire-hurzeler-cel-mai-important-meci-craiova.json",
-    "cronici/2026-11-25-stire-ancelotti-generatia-neymar-nu-a-profitat-de-talent.json",
-    "cronici/2026-11-25-stire-marinica-watford-iordanescu-tipicar-alin-stoica.json"
+    "cronici/2026-11-25-stire-koljic-craiova-primele-opt-conference.json"
   ],
   "actualizate": [
     "cronici/2026-11-11-poveste-dinamo-1989-90.json",
