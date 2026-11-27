@@ -1,5 +1,11 @@
 {
   "cronici": [
+    "cronici/2026-11-27-stire-rotaru-nsimba-fcsb-medii-turbulente.json",
+    "cronici/2026-11-27-stire-lovin-mm-stoica-fcsb-saturatie.json",
+    "cronici/2026-11-27-stire-becali-nu-a-vazut-brighton-craiova.json",
+    "cronici/2026-11-27-stire-golazo-coeficient-romania-sub-andorra.json",
+    "cronici/2026-11-27-stire-gsp-analiza-tactica-brighton-craiova.json",
+    "cronici/2026-11-27-stire-iftime-ortiz-doru-popa-escaldes.json",
     "cronici/2026-11-27-poveste-steaua-2023-24.json",
     "cronici/2026-11-27-stire-reghecampf-cisotti-garita-revin-csikszereda.json",
     "cronici/2026-11-27-stire-becali-decar-fcsb-3-milioane.json",
@@ -193,13 +199,7 @@
     "cronici/2026-11-25-stire-prunea-frf-iordanescu-watford-sume-infime.json",
     "cronici/2026-11-25-stire-contra-poli-timisoara-cupele-europene.json",
     "cronici/2026-11-25-stire-rutter-brighton-craiova-ca-un-meci-de-cupa.json",
-    "cronici/2026-11-25-stire-nico-paz-messi-cand-joc-uit-de-afara.json",
-    "cronici/2026-11-25-stire-montella-milan-haos-scuze-capello.json",
-    "cronici/2026-11-25-poveste-dinamo-2019-20.json",
-    "cronici/2026-11-25-stire-frf-dinamo-demersuri-repatriere-dudu-georgescu.json",
-    "cronici/2026-11-25-stire-nita-petru-popescu-fcsb-se-minte-singur.json",
-    "cronici/2026-11-25-stire-sabin-ilie-matei-bancu-premier-league-brighton.json",
-    "cronici/2026-11-25-stire-hurzeler-al-hamlawi-baiaram-digi-sport.json"
+    "cronici/2026-11-25-stire-nico-paz-messi-cand-joc-uit-de-afara.json"
   ],
   "actualizate": [
     "cronici/2026-11-06-poveste-anul-2024.json",
