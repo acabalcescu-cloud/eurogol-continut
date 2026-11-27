@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-27-poveste-jucator-iosif-rotariu.json",
     "cronici/2026-11-27-stire-mantog-editorial-peluza-craiova-brighton.json",
     "cronici/2026-11-26-stire-craioveanu-brighton-nsimba-gross-imperial.json",
     "cronici/2026-11-26-stire-plzen-benfica-4-0-milan-revine-pireu.json",
@@ -198,8 +199,7 @@
     "cronici/2026-11-25-stire-becali-atacant-liga-doua-olanda.json",
     "cronici/2026-11-25-stire-panduru-petru-popescu-nu-vii-la-atletism.json",
     "cronici/2026-11-25-stire-presa-turca-dragus-sub-asteptari-fcsb.json",
-    "cronici/2026-11-25-poveste-dinamo-2018-19.json",
-    "cronici/2026-11-25-stire-stevanovic-cea-mai-buna-perioada-alibec-getafe.json"
+    "cronici/2026-11-25-poveste-dinamo-2018-19.json"
   ],
   "actualizate": [
     "cronici/2026-11-26-stire-hurzeler-laurentiu-popescu-portar-grozav.json",
