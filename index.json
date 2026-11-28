@@ -1,5 +1,7 @@
 {
   "cronici": [
+    "cronici/2026-11-28-video-venezia-bologna.json",
+    "cronici/2026-11-28-video-petrolul-arges.json",
     "cronici/2026-11-28-stire-presa-turca-ianis-hagi-pe-urmele-tatalui.json",
     "cronici/2026-11-28-stire-mm-stoica-m-am-nascut-a-doua-oara.json",
     "cronici/2026-11-28-stire-dragomir-estonia-pentru-ce-mai-jucam.json",
@@ -197,9 +199,7 @@
     "cronici/2026-11-26-stire-analiza-fanatik-transferroom-superliga-invizibila.json",
     "cronici/2026-11-26-stire-bergodi-stanciu-lovitura-nistor-basta.json",
     "cronici/2026-11-26-stire-gsp-cornerele-reghecampf-fcsb.json",
-    "cronici/2026-11-26-stire-camataru-craiova-nu-pierde-brighton.json",
-    "cronici/2026-11-26-poveste-dinamo-2021-22.json",
-    "cronici/2026-11-26-stire-marius-niculae-frf-lista-lunga-diaspora.json"
+    "cronici/2026-11-26-stire-camataru-craiova-nu-pierde-brighton.json"
   ],
   "actualizate": [
     "cronici/2026-11-27-stire-panduru-ricardo-sousa-va-pleca-petrolul.json",
