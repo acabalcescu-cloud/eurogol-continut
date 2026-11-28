@@ -1,5 +1,11 @@
 {
   "cronici": [
+    "cronici/2026-11-28-stire-filia-respect-pe-teren-superliga-onu.json",
+    "cronici/2026-11-28-stire-pancu-dor-meci-european-giulesti.json",
+    "cronici/2026-11-28-stire-pancu-contracte-expira-un-loz.json",
+    "cronici/2026-11-28-stire-veron-libertadores-jucator-presedinte.json",
+    "cronici/2026-11-28-stire-moldovan-imprumut-reziliat-revine-atletico.json",
+    "cronici/2026-11-28-stire-hamroun-retras-antrenor-licenta-b.json",
     "cronici/2026-11-28-poveste-jucator-daniel-timofte.json",
     "cronici/2026-11-28-video-werder-gladbach.json",
     "cronici/2026-11-28-stire-becali-mitrita-prea-oltean.json",
@@ -193,13 +199,7 @@
     "cronici/2026-11-26-stire-mm-stoica-iordanescu-watford-nu-are-handicap.json",
     "cronici/2026-11-26-stire-balaj-screciu-rosu-brighton-atac-cu-talpa.json",
     "cronici/2026-11-26-stire-badea-craiova-brighton-lupta-de-supravietuire.json",
-    "cronici/2026-11-26-stire-carlos-augusto-prelungire-inter-2031.json",
-    "cronici/2026-11-26-stire-psg-roma-acuzatii-rasism-parc-des-princes.json",
-    "cronici/2026-11-26-poveste-steaua-2021-22.json",
-    "cronici/2026-11-26-stire-mm-stoica-panduru-david-matei-rezerva-brighton.json",
-    "cronici/2026-11-26-stire-dragomir-burleanu-la-papa-hagi.json",
-    "cronici/2026-11-26-stire-rat-ianis-hagi-fcsb-prima-optiune-afara.json",
-    "cronici/2026-11-26-stire-andone-dinamo-castiga-campionatul.json"
+    "cronici/2026-11-26-stire-carlos-augusto-prelungire-inter-2031.json"
   ],
   "actualizate": [
     "cronici/2026-11-27-stire-werder-gladbach-3-3-fullkrug-honorat.json",
