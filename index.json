@@ -1,5 +1,6 @@
 {
   "cronici": [
+    "cronici/2026-11-28-poveste-jucator-daniel-timofte.json",
     "cronici/2026-11-28-video-werder-gladbach.json",
     "cronici/2026-11-28-stire-becali-mitrita-prea-oltean.json",
     "cronici/2026-11-28-stire-apostu-refuzat-presedinte-fcsb-demnitate.json",
@@ -198,9 +199,7 @@
     "cronici/2026-11-26-stire-mm-stoica-panduru-david-matei-rezerva-brighton.json",
     "cronici/2026-11-26-stire-dragomir-burleanu-la-papa-hagi.json",
     "cronici/2026-11-26-stire-rat-ianis-hagi-fcsb-prima-optiune-afara.json",
-    "cronici/2026-11-26-stire-andone-dinamo-castiga-campionatul.json",
-    "cronici/2026-11-26-stire-pilder-bbc-craiova-velodrome.json",
-    "cronici/2026-11-26-stire-nistor-acord-poli-timisoara-alexa.json"
+    "cronici/2026-11-26-stire-andone-dinamo-castiga-campionatul.json"
   ],
   "actualizate": [
     "cronici/2026-11-27-stire-werder-gladbach-3-3-fullkrug-honorat.json",
